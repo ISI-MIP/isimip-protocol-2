@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2a/OutputData/agriculture.json",
+  "type": "object",
+  "properties": {
+    "identifiers": {
+      "required": [
+        "modelname",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "harmonization",
+        "variable",
+        "crop",
+        "irrigation",
+        "region",
+        "timestep"
+      ],
+      "properties": {
+        "modelname": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "gfdl-esm2m",
+            "hadgem2-es",
+            "ipsl-cm5a-lr",
+            "miroc5"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "nobc",
+            "ewembi"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "picontrol",
+            "historical",
+            "rcp26",
+            "rcp60",
+            "rcp85",
+            "2005co2"
+          ]
+        },
+        "harmonization": {
+          "type": "string"
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "pirrww",
+            "yield",
+            "aet",
+            "initr",
+            "plantday",
+            "anthday",
+            "matyday",
+            "harvday",
+            "biom",
+            "sco2",
+            "sn2o",
+            "tnup",
+            "tnin",
+            "tnloss",
+            "leach",
+            "gsprcp",
+            "gsrsds",
+            "sumt",
+            "matyyear",
+            "plantyear"
+          ]
+        },
+        "crop": {
+          "type": "string",
+          "enum": [
+            "whe",
+            "mai",
+            "soy",
+            "ric",
+            "bar",
+            "ben",
+            "cas",
+            "cot",
+            "euc",
+            "mgr",
+            "mil",
+            "mis",
+            "nut",
+            "pea",
+            "pop",
+            "pot",
+            "rap",
+            "ri2",
+            "rye",
+            "sgb",
+            "sor",
+            "sug",
+            "sun"
+          ]
+        },
+        "irrigation": {
+          "type": "string",
+          "enum": [
+            "firr",
+            "noirr"
+          ]
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global"
+          ]
+        },
+        "timestep": {
+          "type": "string",
+          "enum": [
+            "annual"
+          ]
+        },
+        "start_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2300
+        },
+        "end_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2300
+        }
+      }
+    }
+  }
+}

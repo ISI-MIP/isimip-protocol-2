@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
+  "type": "object",
+  "properties": {
+    "identifiers": {
+      "required": [
+        "modelname",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "variable",
+        "region",
+        "timestep"
+      ],
+      "properties": {
+        "modelname": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "gfdl-reanalysis"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "nobc"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "hist"
+          ]
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "tsb",
+            "tcb",
+            "b10cm",
+            "b30cm",
+            "tc",
+            "tla",
+            "bcom",
+            "blarge",
+            "bmed",
+            "bsmall",
+            "b",
+            "clarge",
+            "cmed",
+            "csmall",
+            "c",
+            "tc10cm",
+            "tc30cm"
+          ]
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global"
+          ]
+        },
+        "timestep": {
+          "type": "string",
+          "enum": [
+            "3hr",
+            "daily",
+            "monthly",
+            "annual"
+          ]
+        },
+        "start_year": {
+          "type": "number",
+          "minimum": 1600,
+          "maximum": 2100
+        },
+        "end_year": {
+          "type": "number",
+          "minimum": 1600,
+          "maximum": 2100
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2b/OutputData/water_global.json",
+  "type": "object",
+  "properties": {
+    "identifiers": {
+      "required": [
+        "modelname",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "soc_scenario",
+        "sens_scenario",
+        "variable",
+        "region",
+        "timestep"
+      ],
+      "properties": {
+        "modelname": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "gfdl-esm2m",
+            "hadgem2-es",
+            "ipsl-cm5a-lr",
+            "miroc5"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "nobc",
+            "ewembi"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "picontrol",
+            "historical",
+            "rcp26",
+            "rcp60",
+            "rcp85"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string"
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "qtot",
+            "qs",
+            "qsb",
+            "qr",
+            "qg",
+            "dis",
+            "maxdis",
+            "mindis",
+            "evap",
+            "potevap",
+            "soilmoist",
+            "rootmoist",
+            "soilmoistfroz",
+            "tsl",
+            "snd",
+            "swe",
+            "tws",
+            "canopystor",
+            "glacierstor",
+            "groundwstor",
+            "lakestor",
+            "wetlandstor",
+            "reservoirstor",
+            "riverstor",
+            "thawdepth",
+            "triver",
+            "rainf",
+            "snowf",
+            "pirrww",
+            "airrww",
+            "pirruse",
+            "airruse",
+            "airrusegreen",
+            "pirrusegreen",
+            "arainfusegreen",
+            "adomww",
+            "adomuse",
+            "amanww",
+            "amanuse",
+            "aelecww",
+            "aelecuse",
+            "aliveww",
+            "aliveuse",
+            "atotww",
+            "atotuse",
+            "ptotww",
+            "ptotuse",
+            "soil",
+            "admeluse",
+            "pidmelww",
+            "pidmeluse",
+            "transp",
+            "ainduse",
+            "aindww",
+            "qbaseflow",
+            "pr",
+            "gwrecharge",
+            "yield",
+            "initr",
+            "plantday",
+            "anthday",
+            "matyday",
+            "biom",
+            "sco2",
+            "sn2o",
+            "lai",
+            "esoil",
+            "qrecharge","pdomuse","pmanuse","qint"
+          ]
+        },
+        "crop": {
+          "type": "string",
+          "enum": [
+            "whe",
+            "mai",
+            "soy",
+            "ric",
+            "bar",
+            "ben",
+            "cas",
+            "cot",
+            "euc",
+            "mgr",
+            "mil",
+            "mis",
+            "nut",
+            "pea",
+            "pop",
+            "pot",
+            "rap",
+            "ri2",
+            "rye",
+            "sgb",
+            "sor",
+            "sug",
+            "sun"
+          ]
+        },
+        "irrigation": {
+          "type": "string",
+          "enum": [
+            "firr",
+            "cirr",
+            "noirr"
+          ]
+        },
+        "pft": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global"
+          ]
+        },
+        "timestep": {
+          "type": "string",
+          "enum": [
+            "3hr",
+            "daily",
+            "monthly",
+            "annual"
+          ]
+        },
+        "start_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2300
+        },
+        "end_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2300
+        }
+      }
+    }
+  }
+}
