@@ -86,10 +86,10 @@
         "title": "Historical (1861-2005)"
       },
       "future": {
-        "title": "Future (2006 - 2099)"
+        "title": "Future (2006-2099)"
       },
       "future_extended": {
-        "title": "Future extended (2100 -)"
+        "title": "Future extended (2100-)"
       }
     }
   }
