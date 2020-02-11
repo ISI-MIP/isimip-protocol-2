@@ -91,6 +91,10 @@
       "future_extended": {
         "title": "Future extended (2100-)"
       }
+    },
+    "bias_adjustment": {
+      "nobc": "no bias adjustment",
+      "ewembi": "EWEMBI"
     }
   }
 }
