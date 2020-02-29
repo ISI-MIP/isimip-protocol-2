@@ -2,119 +2,117 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2b/OutputData/lakes_global.json",
   "type": "object",
+  "required": [
+    "modelname",
+    "climate_forcing",
+    "bias_adjustment",
+    "climate_scenario",
+    "soc_scenario",
+    "sens_scenario",
+    "variable",
+    "region",
+    "timestep"
+  ],
   "properties": {
-    "identifiers": {
-      "required": [
-        "modelname",
-        "climate_forcing",
-        "bias_adjustment",
-        "climate_scenario",
-        "soc_scenario",
-        "sens_scenario",
-        "variable",
-        "region",
-        "timestep"
-      ],
-      "properties": {
-        "modelname": {
-          "type": "string"
-        },
-        "climate_forcing": {
-          "type": "string",
-          "enum": [
-            "gfdl-esm2m",
-            "hadgem2-es",
-            "ipsl-cm5a-lr",
-            "miroc5"
-          ]
-        },
-        "bias_adjustment": {
-          "type": "string",
-          "enum": [
-            "nobc",
-            "ewembi"
-          ]
-        },
-        "climate_scenario": {
-          "type": "string",
-          "enum": [
-            "picontrol",
-            "historical",
-            "rcp26",
-            "rcp60",
-            "rcp85"
-          ]
-        },
-        "sens_scenario": {
-          "type": "string"
-        },
-        "variable": {
-          "type": "string",
-          "enum": [
-            "strat",
-            "thermodepth",
-            "watertemp",
-            "surftemp",
-            "bottemp",
-            "ice",
-            "lakeicefrac",
-            "icethick",
-            "snowthick",
-            "icetemp",
-            "snowtemp",
-            "sensheatf",
-            "latentheatf",
-            "momf",
-            "swup",
-            "lwup",
-            "lakeheatf",
-            "turbdiffheat",
-            "albedo",
-            "extcoeff",
-            "sedheatf",
-            "chl",
-            "phytobio",
-            "zoobio",
-            "tp",
-            "pp",
-            "tpd",
-            "tn",
-            "pn",
-            "tdn",
-            "do",
-            "doc",
-            "si",
-            "swdw",
-            "icestart","icedur","iceend"
-          ]
-        },
-        "region": {
-          "type": "string",
-          "enum": [
-            "global"
-          ]
-        },
-        "timestep": {
-          "type": "string",
-          "enum": [
-            "3hr",
-            "daily",
-            "monthly",
-            "annual",
-            "seasonal"
-          ]
-        },
-        "start_year": {
-          "type": "number",
-          "minimum": 1661,
-          "maximum": 2300
-        },
-        "end_year": {
-          "type": "number",
-          "minimum": 1661,
-          "maximum": 2300
-        }
-      }
+    "modelname": {
+      "type": "string"
+    },
+    "climate_forcing": {
+      "type": "string",
+      "enum": [
+        "gfdl-esm2m",
+        "hadgem2-es",
+        "ipsl-cm5a-lr",
+        "miroc5"
+      ]
+    },
+    "bias_adjustment": {
+      "type": "string",
+      "enum": [
+        "nobc",
+        "ewembi"
+      ]
+    },
+    "climate_scenario": {
+      "type": "string",
+      "enum": [
+        "picontrol",
+        "historical",
+        "rcp26",
+        "rcp60",
+        "rcp85"
+      ]
+    },
+    "sens_scenario": {
+      "type": "string"
+    },
+    "variable": {
+      "type": "string",
+      "enum": [
+        "strat",
+        "thermodepth",
+        "watertemp",
+        "surftemp",
+        "bottemp",
+        "ice",
+        "lakeicefrac",
+        "icethick",
+        "snowthick",
+        "icetemp",
+        "snowtemp",
+        "sensheatf",
+        "latentheatf",
+        "momf",
+        "swup",
+        "lwup",
+        "lakeheatf",
+        "turbdiffheat",
+        "albedo",
+        "extcoeff",
+        "sedheatf",
+        "chl",
+        "phytobio",
+        "zoobio",
+        "tp",
+        "pp",
+        "tpd",
+        "tn",
+        "pn",
+        "tdn",
+        "do",
+        "doc",
+        "si",
+        "swdw",
+        "icestart",
+        "icedur",
+        "iceend"
+      ]
+    },
+    "region": {
+      "type": "string",
+      "enum": [
+        "global"
+      ]
+    },
+    "timestep": {
+      "type": "string",
+      "enum": [
+        "3hr",
+        "daily",
+        "monthly",
+        "annual",
+        "seasonal"
+      ]
+    },
+    "start_year": {
+      "type": "number",
+      "minimum": 1661,
+      "maximum": 2300
+    },
+    "end_year": {
+      "type": "number",
+      "minimum": 1661,
+      "maximum": 2300
     }
   }
 }

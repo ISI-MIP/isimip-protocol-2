@@ -2,169 +2,165 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2a/OutputData/forestry.json",
   "type": "object",
+  "required": [
+    "modelname",
+    "climate_forcing",
+    "bias_adjustment",
+    "climate_scenario",
+    "soc_scenario",
+    "sens_scenario",
+    "variable",
+    "forest_stand",
+    "timestep"
+  ],
   "properties": {
-    "identifiers": {
-      "required": [
-        "modelname",
-        "climate_forcing",
-        "bias_adjustment",
-        "climate_scenario",
-        "soc_scenario",
-        "sens_scenario",
-        "variable",
-        "forest_stand",
-        "timestep"
-      ],
-      "properties": {
-        "modelname": {
-          "type": "string"
-        },
-        "climate_forcing": {
-          "type": "string",
-          "enum": [
-            "gswp3",
-            "princeton",
-            "watch",
-            "wfdei",
-            "localclim"
-          ]
-        },
-        "bias_adjustment": {
-          "type": "string",
-          "enum": [
-            "nobc"
-          ]
-        },
-        "climate_scenario": {
-          "type": "string",
-          "enum": [
-            "hist"
-          ]
-        },
-        "soc_scenario": {
-          "type": "string",
-          "enum": [
-            "nosoc",
-            "pressoc",
-            "varsoc",
-            "nat"
-          ]
-        },
-        "sens_scenario": {
-          "type": "string",
-          "enum": [
-            "co2"
-          ]
-        },
-        "variable": {
-          "type": "string",
-          "enum": [
-            "evap",
-            "soilmoist",
-            "tsl",
-            "cveg",
-            "cvegag",
-            "cvegbg",
-            "clitter",
-            "csoil",
-            "gpp",
-            "ra",
-            "npp",
-            "rh",
-            "rr",
-            "fapar",
-            "lai",
-            "intercep",
-            "esoil",
-            "trans",
-            "cleaf",
-            "cwood",
-            "croot",
-            "dbh",
-            "dbhdomhei",
-            "hei",
-            "domhei",
-            "density",
-            "ba",
-            "mort",
-            "harv",
-            "stemno",
-            "vol",
-            "age",
-            "nee",
-            "mai",
-            "species",
-            "mortstemno",
-            "harvstemno",
-            "dist",
-            "nlit",
-            "nsoil",
-            "nppleaf",
-            "npproot",
-            "nppagwood",
-            "nppbgwood"
-          ]
-        },
-        "species": {
-          "type": "string",
-          "enum": [
-            "fasy",
-            "quro",
-            "qupe",
-            "pisy",
-            "piab",
-            "pipi",
-            "lade",
-            "acpl",
-            "eugl",
-            "bepe",
-            "bepu",
-            "rops",
-            "frex",
-            "poni",
-            "soau",
-            "c3gr",
-            "hawo",
-            "fi",
-            "wi",
-            "ins",
-            "total"
-          ]
-        },
-        "forest_stand": {
-          "type": "string",
-          "enum": [
-            "hyytiala",
-            "peitz",
-            "solling-beech",
-            "solling-spruce",
-            "soro",
-            "kroof",
-            "le-bray",
-            "collelongo",
-            "bily-kriz"
-          ]
-        },
-        "timestep": {
-          "type": "string",
-          "enum": [
-            "3hr",
-            "daily",
-            "monthly",
-            "annual"
-          ]
-        },
-        "start_year": {
-          "type": "number",
-          "minimum": 1600,
-          "maximum": 2100
-        },
-        "end_year": {
-          "type": "number",
-          "minimum": 1600,
-          "maximum": 2100
-        }
-      }
+    "modelname": {
+      "type": "string"
+    },
+    "climate_forcing": {
+      "type": "string",
+      "enum": [
+        "gswp3",
+        "princeton",
+        "watch",
+        "wfdei",
+        "localclim"
+      ]
+    },
+    "bias_adjustment": {
+      "type": "string",
+      "enum": [
+        "nobc"
+      ]
+    },
+    "climate_scenario": {
+      "type": "string",
+      "enum": [
+        "hist"
+      ]
+    },
+    "soc_scenario": {
+      "type": "string",
+      "enum": [
+        "nosoc",
+        "pressoc",
+        "varsoc",
+        "nat"
+      ]
+    },
+    "sens_scenario": {
+      "type": "string",
+      "enum": [
+        "co2"
+      ]
+    },
+    "variable": {
+      "type": "string",
+      "enum": [
+        "evap",
+        "soilmoist",
+        "tsl",
+        "cveg",
+        "cvegag",
+        "cvegbg",
+        "clitter",
+        "csoil",
+        "gpp",
+        "ra",
+        "npp",
+        "rh",
+        "rr",
+        "fapar",
+        "lai",
+        "intercep",
+        "esoil",
+        "trans",
+        "cleaf",
+        "cwood",
+        "croot",
+        "dbh",
+        "dbhdomhei",
+        "hei",
+        "domhei",
+        "density",
+        "ba",
+        "mort",
+        "harv",
+        "stemno",
+        "vol",
+        "age",
+        "nee",
+        "mai",
+        "species",
+        "mortstemno",
+        "harvstemno",
+        "dist",
+        "nlit",
+        "nsoil",
+        "nppleaf",
+        "npproot",
+        "nppagwood",
+        "nppbgwood"
+      ]
+    },
+    "species": {
+      "type": "string",
+      "enum": [
+        "fasy",
+        "quro",
+        "qupe",
+        "pisy",
+        "piab",
+        "pipi",
+        "lade",
+        "acpl",
+        "eugl",
+        "bepe",
+        "bepu",
+        "rops",
+        "frex",
+        "poni",
+        "soau",
+        "c3gr",
+        "hawo",
+        "fi",
+        "wi",
+        "ins",
+        "total"
+      ]
+    },
+    "forest_stand": {
+      "type": "string",
+      "enum": [
+        "hyytiala",
+        "peitz",
+        "solling-beech",
+        "solling-spruce",
+        "soro",
+        "kroof",
+        "le-bray",
+        "collelongo",
+        "bily-kriz"
+      ]
+    },
+    "timestep": {
+      "type": "string",
+      "enum": [
+        "3hr",
+        "daily",
+        "monthly",
+        "annual"
+      ]
+    },
+    "start_year": {
+      "type": "number",
+      "minimum": 1600,
+      "maximum": 2100
+    },
+    "end_year": {
+      "type": "number",
+      "minimum": 1600,
+      "maximum": 2100
     }
   }
 }
