@@ -88,7 +88,8 @@
         "pft2storeys",
         "albedo",
         "somcfire",
-        "rainf"
+        "rainf",
+        "potevap"
       ]
     },
     "pft": {
