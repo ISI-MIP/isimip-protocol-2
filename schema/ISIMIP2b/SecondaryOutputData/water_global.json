@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2b/OutputData/permafrost.json",
+  "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2b/OutputData/water_global.json",
   "type": "object",
   "required": [
     "model",
@@ -40,7 +40,8 @@
         "historical",
         "rcp26",
         "rcp60",
-        "rcp85"
+        "rcp85",
+        "rcp45"
       ]
     },
     "sens_scenario": {
@@ -51,31 +52,75 @@
       "enum": [
         "qtot",
         "qs",
+        "qsb",
+        "qr",
+        "qg",
+        "dis",
+        "maxdis",
+        "mindis",
+        "evap",
+        "potevap",
         "soilmoist",
+        "rootmoist",
         "soilmoistfroz",
         "tsl",
         "snd",
         "swe",
+        "tws",
+        "canopystor",
+        "glacierstor",
+        "groundwstor",
+        "lakestor",
+        "wetlandstor",
+        "reservoirstor",
+        "riverstor",
         "thawdepth",
-        "cveg",
-        "cvegag",
-        "cvegbg",
-        "clitter",
-        "csoil",
-        "gpp",
-        "ra",
-        "npp",
-        "rh",
-        "fireint",
-        "firefrac",
-        "ecoatmflux",
-        "fapar",
+        "triver",
+        "rainf",
+        "snowf",
+        "pirrww",
+        "airrww",
+        "pirruse",
+        "airruse",
+        "airrusegreen",
+        "pirrusegreen",
+        "arainfusegreen",
+        "adomww",
+        "adomuse",
+        "amanww",
+        "amanuse",
+        "aelecww",
+        "aelecuse",
+        "aliveww",
+        "aliveuse",
+        "atotww",
+        "atotuse",
+        "ptotww",
+        "ptotuse",
+        "soil",
+        "admeluse",
+        "pidmelww",
+        "pidmeluse",
+        "transp",
+        "ainduse",
+        "aindww",
+        "qbaseflow",
+        "pr",
+        "gwrecharge",
+        "yield",
+        "initr",
+        "plantday",
+        "anthday",
+        "matyday",
+        "biom",
+        "sco2",
+        "sn2o",
         "lai",
-        "pft",
-        "cleaf",
-        "cwood",
-        "croot",
-        "burntarea"
+        "esoil",
+        "qrecharge",
+        "pdomuse",
+        "pmanuse",
+        "qint"
       ]
     },
     "crop": {
@@ -103,17 +148,15 @@
         "sgb",
         "sor",
         "sug",
-        "sun",
-        "others",
-        "biotree",
-        "biograss"
+        "sun"
       ]
     },
     "irrigation": {
       "type": "string",
       "enum": [
-        "rainfed",
-        "irrigated"
+        "firr",
+        "cirr",
+        "noirr"
       ]
     },
     "pft": {
@@ -131,8 +174,7 @@
         "3hr",
         "daily",
         "monthly",
-        "annual",
-        "constant"
+        "annual"
       ]
     },
     "start_year": {

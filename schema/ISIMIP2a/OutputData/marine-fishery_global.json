@@ -3,7 +3,7 @@
   "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
   "type": "object",
   "required": [
-    "modelname",
+    "model",
     "climate_forcing",
     "bias_adjustment",
     "climate_scenario",
@@ -12,7 +12,7 @@
     "timestep"
   ],
   "properties": {
-    "modelname": {
+    "model": {
       "type": "string"
     },
     "climate_forcing": {
