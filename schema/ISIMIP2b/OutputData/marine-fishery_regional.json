@@ -2,103 +2,194 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2b/OutputData/marine-fishery_regional.json",
   "type": "object",
-  "required": [
-    "model",
-    "climate_forcing",
-    "bias_adjustment",
-    "climate_scenario",
-    "variable",
-    "ocean_region",
-    "timestep"
-  ],
   "properties": {
-    "model": {
-      "type": "string"
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "lat",
+        "lon",
+        "time"
+      ],
+      "properties": {
+        "lat": {
+          "const": 360
+        },
+        "lon": {
+          "const": 720
+        }
+      }
     },
-    "climate_forcing": {
-      "type": "string",
-      "enum": [
-        "gfdl-esm2m",
-        "hadgem2-es",
-        "ipsl-cm5a-lr",
-        "miroc5",
-        "cesm1-bgc"
-      ]
+    "variables": {
+      "type": "object",
+      "required": [
+        "lat",
+        "lon",
+        "time"
+      ],
+      "properties": {
+        "lat": {
+          "type": "object",
+          "required": [
+            "axis",
+            "long_name",
+            "units"
+          ],
+          "properties": {
+            "axis": {
+              "const": "Y"
+            },
+            "units": {
+              "const": "degrees_north"
+            }
+          }
+        },
+        "lon": {
+          "type": "object",
+          "required": [
+            "axis",
+            "long_name",
+            "units"
+          ],
+          "properties": {
+            "axis": {
+              "const": "X"
+            },
+            "units": {
+              "const": "degrees_east"
+            }
+          }
+        },
+        "time": {
+          "type": "object",
+          "required": [
+            "long_name",
+            "units"
+          ],
+          "properties": {
+            "axis": {
+              "const": "T"
+            },
+            "units": {
+              "enum": [
+                "days since 1661-01-01",
+                "days since 1661-01-01 00:00:00",
+                "days since 1661-1-1",
+                "days since 1661-1-1 00:00:00",
+                "months since 1661-01-01",
+                "months since 1661-01-01 00:00:00",
+                "months since 1661-01-01",
+                "months since 1661-01-01 00:00:00",
+                "years since 1661-01-01",
+                "years since 1661-01-01 00:00:00",
+                "years since 1661-01-01",
+                "years since 1661-01-01 00:00:00"
+              ]
+            }
+          }
+        }
+      }
     },
-    "bias_adjustment": {
-      "type": "string",
-      "enum": [
-        "nobc",
-        "ewembi"
-      ]
-    },
-    "climate_scenario": {
-      "type": "string",
-      "enum": [
-        "hist",
-        "rcp2p6",
-        "rcp4p5",
-        "rcp6p0",
-        "rcp8p5"
-      ]
-    },
-    "sens_scenario": {
-      "type": "string"
-    },
-    "variable": {
-      "type": "string",
-      "enum": [
-        "tsb",
-        "tcb",
-        "b10cm",
-        "b30cm",
-        "tc",
-        "tla",
-        "bcom",
-        "blarge",
-        "bmed",
-        "bsmall",
-        "b",
-        "clarge",
-        "cmed",
-        "csmall",
-        "c",
-        "tc10cm",
-        "tc30cm"
-      ]
-    },
-    "ocean_region": {
-      "type": "string",
-      "enum": [
-        "north-sea",
-        "baltic-sea",
-        "nw-med-sea",
-        "adriatic-sea",
-        "med-glob",
-        "se-australia",
-        "east-bass-strait",
-        "cook-strait",
-        "humboldt-n"
-      ]
-    },
-    "timestep": {
-      "type": "string",
-      "enum": [
-        "3hr",
-        "daily",
-        "monthly",
-        "annual"
-      ]
-    },
-    "start_year": {
-      "type": "number",
-      "minimum": 1661,
-      "maximum": 2300
-    },
-    "end_year": {
-      "type": "number",
-      "minimum": 1661,
-      "maximum": 2300
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "model",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "variable",
+        "ocean_region",
+        "timestep"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "gfdl-esm2m",
+            "hadgem2-es",
+            "ipsl-cm5a-lr",
+            "miroc5",
+            "cesm1-bgc"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "nobc",
+            "ewembi"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "hist",
+            "rcp2p6",
+            "rcp4p5",
+            "rcp6p0",
+            "rcp8p5"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string"
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "tsb",
+            "tcb",
+            "b10cm",
+            "b30cm",
+            "tc",
+            "tla",
+            "bcom",
+            "blarge",
+            "bmed",
+            "bsmall",
+            "b",
+            "clarge",
+            "cmed",
+            "csmall",
+            "c",
+            "tc10cm",
+            "tc30cm"
+          ]
+        },
+        "ocean_region": {
+          "type": "string",
+          "enum": [
+            "north-sea",
+            "baltic-sea",
+            "nw-med-sea",
+            "adriatic-sea",
+            "med-glob",
+            "se-australia",
+            "east-bass-strait",
+            "cook-strait",
+            "humboldt-n"
+          ]
+        },
+        "timestep": {
+          "type": "string",
+          "enum": [
+            "3hr",
+            "daily",
+            "monthly",
+            "annual"
+          ]
+        },
+        "start_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2300
+        },
+        "end_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2300
+        }
+      }
     }
   }
 }

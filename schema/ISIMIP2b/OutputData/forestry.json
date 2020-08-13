@@ -2,157 +2,248 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2b/OutputData/forestry.json",
   "type": "object",
-  "required": [
-    "model",
-    "climate_forcing",
-    "bias_adjustment",
-    "climate_scenario",
-    "soc_scenario",
-    "sens_scenario",
-    "variable",
-    "forest_stand",
-    "timestep"
-  ],
   "properties": {
-    "model": {
-      "type": "string"
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "lat",
+        "lon",
+        "time"
+      ],
+      "properties": {
+        "lat": {
+          "const": 360
+        },
+        "lon": {
+          "const": 720
+        }
+      }
     },
-    "climate_forcing": {
-      "type": "string",
-      "enum": [
-        "gfdl-esm2m",
-        "hadgem2-es",
-        "ipsl-cm5a-lr",
-        "miroc5"
-      ]
+    "variables": {
+      "type": "object",
+      "required": [
+        "lat",
+        "lon",
+        "time"
+      ],
+      "properties": {
+        "lat": {
+          "type": "object",
+          "required": [
+            "axis",
+            "long_name",
+            "units"
+          ],
+          "properties": {
+            "axis": {
+              "const": "Y"
+            },
+            "units": {
+              "const": "degrees_north"
+            }
+          }
+        },
+        "lon": {
+          "type": "object",
+          "required": [
+            "axis",
+            "long_name",
+            "units"
+          ],
+          "properties": {
+            "axis": {
+              "const": "X"
+            },
+            "units": {
+              "const": "degrees_east"
+            }
+          }
+        },
+        "time": {
+          "type": "object",
+          "required": [
+            "long_name",
+            "units"
+          ],
+          "properties": {
+            "axis": {
+              "const": "T"
+            },
+            "units": {
+              "enum": [
+                "days since 1661-01-01",
+                "days since 1661-01-01 00:00:00",
+                "days since 1661-1-1",
+                "days since 1661-1-1 00:00:00",
+                "months since 1661-01-01",
+                "months since 1661-01-01 00:00:00",
+                "months since 1661-01-01",
+                "months since 1661-01-01 00:00:00",
+                "years since 1661-01-01",
+                "years since 1661-01-01 00:00:00",
+                "years since 1661-01-01",
+                "years since 1661-01-01 00:00:00"
+              ]
+            }
+          }
+        }
+      }
     },
-    "bias_adjustment": {
-      "type": "string",
-      "enum": [
-        "nobc",
-        "ewembi"
-      ]
-    },
-    "climate_scenario": {
-      "type": "string",
-      "enum": [
-        "picontrol",
-        "historical",
-        "rcp26",
-        "rcp60",
-        "rcp85"
-      ]
-    },
-    "sens_scenario": {
-      "type": "string"
-    },
-    "variable": {
-      "type": "string",
-      "enum": [
-        "evap",
-        "soilmoist",
-        "tsl",
-        "cveg",
-        "cvegag",
-        "cvegbg",
-        "clitter",
-        "csoil",
-        "gpp",
-        "ra",
-        "npp",
-        "rh",
-        "rr",
-        "fapar",
-        "lai",
-        "intercep",
-        "esoil",
-        "trans",
-        "cleaf",
-        "cwood",
-        "croot",
-        "dbh",
-        "dbhdomhei",
-        "hei",
-        "domhei",
-        "density",
-        "ba",
-        "mort",
-        "harv",
-        "stemno",
-        "vol",
-        "age",
-        "nee",
-        "mai",
-        "species",
-        "mortstemno",
-        "harvstemno",
-        "dist",
-        "nlit",
-        "nsoil",
-        "nppleaf",
-        "npproot",
-        "nppagwood",
-        "nppbgwood"
-      ]
-    },
-    "species": {
-      "type": "string",
-      "enum": [
-        "fasy",
-        "quro",
-        "qupe",
-        "pisy",
-        "piab",
-        "pipi",
-        "lade",
-        "acpl",
-        "eugl",
-        "bepe",
-        "bepu",
-        "rops",
-        "frex",
-        "poni",
-        "soau",
-        "c3gr",
-        "hawo",
-        "fi",
-        "wi",
-        "ins",
-        "total"
-      ]
-    },
-    "forest_stand": {
-      "type": "string",
-      "enum": [
-        "hyytiala",
-        "peitz",
-        "solling-beech",
-        "solling-spruce",
-        "soro",
-        "kroof",
-        "le-bray",
-        "collelongo",
-        "bily-kriz"
-      ]
-    },
-    "timestep": {
-      "type": "string",
-      "enum": [
-        "3hr",
-        "daily",
-        "monthly",
-        "annual"
-      ]
-    },
-    "start_year": {
-      "type": "number",
-      "minimum": 1661,
-      "maximum": 2300
-    },
-    "end_year": {
-      "type": "number",
-      "minimum": 1661,
-      "maximum": 2300
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "model",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "soc_scenario",
+        "sens_scenario",
+        "variable",
+        "forest_stand",
+        "timestep"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "gfdl-esm2m",
+            "hadgem2-es",
+            "ipsl-cm5a-lr",
+            "miroc5"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "nobc",
+            "ewembi"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "picontrol",
+            "historical",
+            "rcp26",
+            "rcp60",
+            "rcp85"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string"
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "evap",
+            "soilmoist",
+            "tsl",
+            "cveg",
+            "cvegag",
+            "cvegbg",
+            "clitter",
+            "csoil",
+            "gpp",
+            "ra",
+            "npp",
+            "rh",
+            "rr",
+            "fapar",
+            "lai",
+            "intercep",
+            "esoil",
+            "trans",
+            "cleaf",
+            "cwood",
+            "croot",
+            "dbh",
+            "dbhdomhei",
+            "hei",
+            "domhei",
+            "density",
+            "ba",
+            "mort",
+            "harv",
+            "stemno",
+            "vol",
+            "age",
+            "nee",
+            "mai",
+            "species",
+            "mortstemno",
+            "harvstemno",
+            "dist",
+            "nlit",
+            "nsoil",
+            "nppleaf",
+            "npproot",
+            "nppagwood",
+            "nppbgwood"
+          ]
+        },
+        "species": {
+          "type": "string",
+          "enum": [
+            "fasy",
+            "quro",
+            "qupe",
+            "pisy",
+            "piab",
+            "pipi",
+            "lade",
+            "acpl",
+            "eugl",
+            "bepe",
+            "bepu",
+            "rops",
+            "frex",
+            "poni",
+            "soau",
+            "c3gr",
+            "hawo",
+            "fi",
+            "wi",
+            "ins",
+            "total"
+          ]
+        },
+        "forest_stand": {
+          "type": "string",
+          "enum": [
+            "hyytiala",
+            "peitz",
+            "solling-beech",
+            "solling-spruce",
+            "soro",
+            "kroof",
+            "le-bray",
+            "collelongo",
+            "bily-kriz"
+          ]
+        },
+        "timestep": {
+          "type": "string",
+          "enum": [
+            "3hr",
+            "daily",
+            "monthly",
+            "annual"
+          ]
+        },
+        "start_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2300
+        },
+        "end_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2300
+        }
+      }
     }
   }
 }

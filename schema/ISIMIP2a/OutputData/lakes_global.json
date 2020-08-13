@@ -2,117 +2,208 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2a/OutputData/lakes_global.json",
   "type": "object",
-  "required": [
-    "model",
-    "climate_forcing",
-    "bias_adjustment",
-    "climate_scenario",
-    "soc_scenario",
-    "sens_scenario",
-    "variable",
-    "region",
-    "timestep"
-  ],
   "properties": {
-    "model": {
-      "type": "string"
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "lat",
+        "lon",
+        "time"
+      ],
+      "properties": {
+        "lat": {
+          "const": 360
+        },
+        "lon": {
+          "const": 720
+        }
+      }
     },
-    "climate_forcing": {
-      "type": "string",
-      "enum": [
-        "ewembi"
-      ]
+    "variables": {
+      "type": "object",
+      "required": [
+        "lat",
+        "lon",
+        "time"
+      ],
+      "properties": {
+        "lat": {
+          "type": "object",
+          "required": [
+            "axis",
+            "long_name",
+            "units"
+          ],
+          "properties": {
+            "axis": {
+              "const": "Y"
+            },
+            "units": {
+              "const": "degrees_north"
+            }
+          }
+        },
+        "lon": {
+          "type": "object",
+          "required": [
+            "axis",
+            "long_name",
+            "units"
+          ],
+          "properties": {
+            "axis": {
+              "const": "X"
+            },
+            "units": {
+              "const": "degrees_east"
+            }
+          }
+        },
+        "time": {
+          "type": "object",
+          "required": [
+            "long_name",
+            "units"
+          ],
+          "properties": {
+            "axis": {
+              "const": "T"
+            },
+            "units": {
+              "enum": [
+                "days since 1901-01-01",
+                "days since 1901-01-01 00:00:00",
+                "days since 1901-1-1",
+                "days since 1901-1-1 00:00:00",
+                "months since 1901-01-01",
+                "months since 1901-01-01 00:00:00",
+                "months since 1901-01-01",
+                "months since 1901-01-01 00:00:00",
+                "years since 1901-01-01",
+                "years since 1901-01-01 00:00:00",
+                "years since 1901-01-01",
+                "years since 1901-01-01 00:00:00"
+              ]
+            }
+          }
+        }
+      }
     },
-    "bias_adjustment": {
-      "type": "string",
-      "enum": [
-        "nobc"
-      ]
-    },
-    "climate_scenario": {
-      "type": "string",
-      "enum": [
-        "hist"
-      ]
-    },
-    "soc_scenario": {
-      "type": "string",
-      "enum": [
-        "nosoc",
-        "pressoc",
-        "varsoc",
-        "nat"
-      ]
-    },
-    "sens_scenario": {
-      "type": "string",
-      "enum": [
-        "co2"
-      ]
-    },
-    "variable": {
-      "type": "string",
-      "enum": [
-        "strat",
-        "thermodepth",
-        "watertemp",
-        "surftemp",
-        "bottemp",
-        "ice",
-        "lakeicefrac",
-        "icethick",
-        "snowthick",
-        "icetemp",
-        "snowtemp",
-        "sensheatf",
-        "latentheatf",
-        "momf",
-        "swup",
-        "lwup",
-        "lakeheatf",
-        "turbdiffheat",
-        "albedo",
-        "extcoeff",
-        "sedheatf",
-        "chl",
-        "phytobio",
-        "zoobio",
-        "tp",
-        "pp",
-        "tpd",
-        "tn",
-        "pn",
-        "tdn",
-        "do",
-        "doc",
-        "si",
-        "swdw"
-      ]
-    },
-    "region": {
-      "type": "string",
-      "enum": [
-        "global"
-      ]
-    },
-    "timestep": {
-      "type": "string",
-      "enum": [
-        "3hr",
-        "daily",
-        "monthly",
-        "annual"
-      ]
-    },
-    "start_year": {
-      "type": "number",
-      "minimum": 1600,
-      "maximum": 2100
-    },
-    "end_year": {
-      "type": "number",
-      "minimum": 1600,
-      "maximum": 2100
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "model",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "soc_scenario",
+        "sens_scenario",
+        "variable",
+        "region",
+        "timestep"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "ewembi"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "nobc"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "hist"
+          ]
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "nosoc",
+            "pressoc",
+            "varsoc",
+            "nat"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string",
+          "enum": [
+            "co2"
+          ]
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "strat",
+            "thermodepth",
+            "watertemp",
+            "surftemp",
+            "bottemp",
+            "ice",
+            "lakeicefrac",
+            "icethick",
+            "snowthick",
+            "icetemp",
+            "snowtemp",
+            "sensheatf",
+            "latentheatf",
+            "momf",
+            "swup",
+            "lwup",
+            "lakeheatf",
+            "turbdiffheat",
+            "albedo",
+            "extcoeff",
+            "sedheatf",
+            "chl",
+            "phytobio",
+            "zoobio",
+            "tp",
+            "pp",
+            "tpd",
+            "tn",
+            "pn",
+            "tdn",
+            "do",
+            "doc",
+            "si",
+            "swdw"
+          ]
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global"
+          ]
+        },
+        "timestep": {
+          "type": "string",
+          "enum": [
+            "3hr",
+            "daily",
+            "monthly",
+            "annual"
+          ]
+        },
+        "start_year": {
+          "type": "number",
+          "minimum": 1600,
+          "maximum": 2100
+        },
+        "end_year": {
+          "type": "number",
+          "minimum": 1600,
+          "maximum": 2100
+        }
+      }
     }
   }
 }
