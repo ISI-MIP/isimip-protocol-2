@@ -77,12 +77,12 @@
                 "days since 1661-1-1 00:00:00",
                 "months since 1661-01-01",
                 "months since 1661-01-01 00:00:00",
-                "months since 1661-01-01",
-                "months since 1661-01-01 00:00:00",
+                "months since 1661-1-1",
+                "months since 1661-1-1 00:00:00",
                 "years since 1661-01-01",
                 "years since 1661-01-01 00:00:00",
-                "years since 1661-01-01",
-                "years since 1661-01-01 00:00:00"
+                "years since 1661-1-1",
+                "years since 1661-1-1 00:00:00"
               ]
             }
           }
