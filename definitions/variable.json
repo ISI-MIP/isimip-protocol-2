@@ -1,0 +1,779 @@
+[
+  {
+    "specifier": "admeluse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "adomuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "adomww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "aet",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "ainduse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "aindww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "airruse",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "airrusegreen",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "airrww",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "albedo",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "aliveuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "aliveww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "amanuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "amanww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "amphibiansr",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "amphibiansumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "anthday",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "arainfusegreen",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "atotuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "b10cm",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ]
+  },
+  {
+    "specifier": "b30cm",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ]
+  },
+  {
+    "specifier": "bcom",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ]
+  },
+  {
+    "specifier": "biom",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "birdprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "birdsr",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "birdsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "blarge",
+    "sectors": [
+      "marine-fishery_global"
+    ]
+  },
+  {
+    "specifier": "bmed",
+    "sectors": [
+      "marine-fishery_global"
+    ]
+  },
+  {
+    "specifier": "bsmall",
+    "sectors": [
+      "marine-fishery_global"
+    ]
+  },
+  {
+    "specifier": "burntarea",
+    "sectors": [
+      "permafrost",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "canopystor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "clarge",
+    "sectors": [
+      "marine-fishery_global"
+    ]
+  },
+  {
+    "specifier": "cleaf",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "clitter",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "cmed",
+    "sectors": [
+      "marine-fishery_global"
+    ]
+  },
+  {
+    "specifier": "croot",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "csmall",
+    "sectors": [
+      "marine-fishery_global"
+    ]
+  },
+  {
+    "specifier": "csoil",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "cveg",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "cwood",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "dis",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "ecoatmflux",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "endamphibiansumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "endbirdsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "endmammalsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "esoil",
+    "sectors": [
+      "biomes",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "evap",
+    "sectors": [
+      "biomes",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "fapar",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "firefrac",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "fireint",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "gpp",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "groundwstor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "gsprcp",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "gsrsds",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "initr",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "intercep",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "lai",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "lakestor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "leach",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "mammalprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "mammalsr",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "mammalsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "matyday",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "matyyear",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "maxdis",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "mindis",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "npp",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "pdomuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pft",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "pft2storeys",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "pidmeluse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pidmelww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pirruse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pirrusegreen",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pirrww",
+    "sectors": [
+      "agriculture",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "plantday",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "plantyear",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "pmanuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "potevap",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "ptotuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "ptotww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "qbaseflow",
+    "sectors": [
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "qg",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "qint",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "qr",
+    "sectors": [
+      "water_regional",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "qrecharge",
+    "sectors": [
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "qs",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "qsb",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "qtot",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "ra",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "rainf",
+    "sectors": [
+      "water_global",
+      "water_regional",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "reservoirstor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "rh",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "riverstor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "rootmoist",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "rr",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "snd",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "snowf",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "soilmoist",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "soilmoistfroz",
+    "sectors": [
+      "permafrost",
+      "water_global",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "somcfire",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "sumt",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "swe",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "tc",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ]
+  },
+  {
+    "specifier": "tc10cm",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ]
+  },
+  {
+    "specifier": "tc30cm",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ]
+  },
+  {
+    "specifier": "tcb",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ]
+  },
+  {
+    "specifier": "thawdepth",
+    "sectors": [
+      "permafrost",
+      "water_global",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "thramphibiansumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "thrbirdsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "thrmammalsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "tla",
+    "sectors": [
+      "marine-fishery_regional"
+    ]
+  },
+  {
+    "specifier": "trans",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "transp",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "tsb",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ]
+  },
+  {
+    "specifier": "tsl",
+    "dimensions": [
+      "time",
+      "depth",
+      "lat",
+      "lon"
+    ],
+    "units": "K",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "tws",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "wetlandstor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "yield",
+    "sectors": [
+      "agriculture"
+    ]
+  }
+]

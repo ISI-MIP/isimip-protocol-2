@@ -1,4 +1,14 @@
+__pycache__/
+*.py[cod]
+
 *~
 *-
 *.swp
 .DS_Store
+.Rproj.user
+.pytest_cache
+
+/env
+/venv
+
+/output

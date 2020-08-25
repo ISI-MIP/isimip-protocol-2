@@ -1,0 +1,51 @@
+[
+  {
+    "specifier": "hist",
+    "description": "Observed climate and CO₂ forcing used for model evaluation and the detection and attribution task.",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
+    "specifier": "picontrol",
+    "description": "Pre-industrial climate as simulated by the GCMs.",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  },
+  {
+    "specifier": "historical",
+    "description": "Historical climate as simulated by the GCMs.",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  },
+  {
+    "specifier": "rcp26",
+    "description": "RCP2.6 climate as simulated by the GCMs.",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  },
+  {
+    "specifier": "rcp60",
+    "description": "RCP6.0 climate as simulated by the GCMs.",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  },
+  {
+    "specifier": "rcp85",
+    "description": "RCP8.5 climate as simulated by the GCMs.",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  },
+  {
+    "specifier": "2005co2",
+    "description": "RCP8.5 climate as simulated by the GCMs.",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  }
+]

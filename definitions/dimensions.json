@@ -1,0 +1,23 @@
+[
+    {
+        "specifier": "lon",
+        "shape": [720],
+        "axis": "X",
+        "units": "degrees_east"
+    },
+    {
+        "specifier": "lat",
+        "shape": [360],
+        "axis": "Y",
+        "units": "degrees_north"
+
+    },
+    {
+        "specifier": "time",
+        "axis": "X",
+        "units": ""
+    },
+    {
+        "specifier": "depth"
+    }
+]

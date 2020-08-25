@@ -1,0 +1,60 @@
+[
+  {
+    "specifier": "gswp3",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
+    "specifier": "ewembi",
+    "description": "",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ],
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "princeton",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
+    "specifier": "watch",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
+    "specifier": "wfdei",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
+    "specifier": "gfdl-esm2m",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  },
+  {
+    "specifier": "hadgem2-es",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  },
+  {
+    "specifier": "ipsl-cm5a-lr",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  },
+  {
+    "specifier": "miroc5",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
+  }
+]

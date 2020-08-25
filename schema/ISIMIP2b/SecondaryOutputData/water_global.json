@@ -1,94 +1,9 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://isi-mip.github.io/isimip-protocol-2/schema/ISIMIP2b/OutputData/water_global.json",
   "type": "object",
+  "required": [
+    "specifiers"
+  ],
   "properties": {
-    "dimensions": {
-      "type": "object",
-      "required": [
-        "lat",
-        "lon",
-        "time"
-      ],
-      "properties": {
-        "lat": {
-          "const": 360
-        },
-        "lon": {
-          "const": 720
-        }
-      }
-    },
-    "variables": {
-      "type": "object",
-      "required": [
-        "lat",
-        "lon",
-        "time"
-      ],
-      "properties": {
-        "lat": {
-          "type": "object",
-          "required": [
-            "axis",
-            "long_name",
-            "units"
-          ],
-          "properties": {
-            "axis": {
-              "const": "Y"
-            },
-            "units": {
-              "const": "degrees_north"
-            }
-          }
-        },
-        "lon": {
-          "type": "object",
-          "required": [
-            "axis",
-            "long_name",
-            "units"
-          ],
-          "properties": {
-            "axis": {
-              "const": "X"
-            },
-            "units": {
-              "const": "degrees_east"
-            }
-          }
-        },
-        "time": {
-          "type": "object",
-          "required": [
-            "long_name",
-            "units"
-          ],
-          "properties": {
-            "axis": {
-              "const": "T"
-            },
-            "units": {
-              "enum": [
-                "days since 1661-01-01",
-                "days since 1661-01-01 00:00:00",
-                "days since 1661-1-1",
-                "days since 1661-1-1 00:00:00",
-                "months since 1661-01-01",
-                "months since 1661-01-01 00:00:00",
-                "months since 1661-1-1",
-                "months since 1661-1-1 00:00:00",
-                "years since 1661-01-01",
-                "years since 1661-01-01 00:00:00",
-                "years since 1661-1-1",
-                "years since 1661-1-1 00:00:00"
-              ]
-            }
-          }
-        }
-      }
-    },
     "specifiers": {
       "type": "object",
       "required": [
@@ -100,181 +15,47 @@
         "sens_scenario",
         "variable",
         "region",
-        "timestep"
+        "time_step"
       ],
       "properties": {
         "model": {
           "type": "string"
         },
         "climate_forcing": {
-          "type": "string",
-          "enum": [
-            "gfdl-esm2m",
-            "hadgem2-es",
-            "ipsl-cm5a-lr",
-            "miroc5"
-          ]
+          "type": "string"
         },
         "bias_adjustment": {
-          "type": "string",
-          "enum": [
-            "nobc",
-            "ewembi"
-          ]
+          "type": "string"
         },
         "climate_scenario": {
-          "type": "string",
-          "enum": [
-            "picontrol",
-            "historical",
-            "rcp26",
-            "rcp60",
-            "rcp85",
-            "rcp45"
-          ]
+          "type": "string"
         },
         "sens_scenario": {
           "type": "string"
         },
         "variable": {
-          "type": "string",
-          "enum": [
-            "qtot",
-            "qs",
-            "qsb",
-            "qr",
-            "qg",
-            "dis",
-            "maxdis",
-            "mindis",
-            "evap",
-            "potevap",
-            "soilmoist",
-            "rootmoist",
-            "soilmoistfroz",
-            "tsl",
-            "snd",
-            "swe",
-            "tws",
-            "canopystor",
-            "glacierstor",
-            "groundwstor",
-            "lakestor",
-            "wetlandstor",
-            "reservoirstor",
-            "riverstor",
-            "thawdepth",
-            "triver",
-            "rainf",
-            "snowf",
-            "pirrww",
-            "airrww",
-            "pirruse",
-            "airruse",
-            "airrusegreen",
-            "pirrusegreen",
-            "arainfusegreen",
-            "adomww",
-            "adomuse",
-            "amanww",
-            "amanuse",
-            "aelecww",
-            "aelecuse",
-            "aliveww",
-            "aliveuse",
-            "atotww",
-            "atotuse",
-            "ptotww",
-            "ptotuse",
-            "soil",
-            "admeluse",
-            "pidmelww",
-            "pidmeluse",
-            "transp",
-            "ainduse",
-            "aindww",
-            "qbaseflow",
-            "pr",
-            "gwrecharge",
-            "yield",
-            "initr",
-            "plantday",
-            "anthday",
-            "matyday",
-            "biom",
-            "sco2",
-            "sn2o",
-            "lai",
-            "esoil",
-            "qrecharge",
-            "pdomuse",
-            "pmanuse",
-            "qint"
-          ]
+          "type": "string"
         },
         "crop": {
-          "type": "string",
-          "enum": [
-            "whe",
-            "mai",
-            "soy",
-            "ric",
-            "bar",
-            "ben",
-            "cas",
-            "cot",
-            "euc",
-            "mgr",
-            "mil",
-            "mis",
-            "nut",
-            "pea",
-            "pop",
-            "pot",
-            "rap",
-            "ri2",
-            "rye",
-            "sgb",
-            "sor",
-            "sug",
-            "sun"
-          ]
+          "type": "string"
         },
         "irrigation": {
-          "type": "string",
-          "enum": [
-            "firr",
-            "cirr",
-            "noirr"
-          ]
+          "type": "string"
         },
         "pft": {
           "type": "string"
         },
         "region": {
-          "type": "string",
-          "enum": [
-            "global"
-          ]
+          "type": "string"
         },
-        "timestep": {
-          "type": "string",
-          "enum": [
-            "3hr",
-            "daily",
-            "monthly",
-            "annual"
-          ]
+        "time_step": {
+          "type": "string"
         },
         "start_year": {
-          "type": "number",
-          "minimum": 1661,
-          "maximum": 2300
+          "type": "number"
         },
         "end_year": {
-          "type": "number",
-          "minimum": 1661,
-          "maximum": 2300
+          "type": "number"
         }
       }
     }
