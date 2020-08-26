@@ -4,7 +4,7 @@ import subprocess
 from collections import OrderedDict
 from pathlib import Path
 
-URL = 'https://protocol2.isimip.org/schema/'
+URL = 'https://protocol.isimip.org/schema/'
 
 
 def main():
@@ -26,10 +26,12 @@ def main():
 
             simulation_round = schema_path_components[1]
             product = schema_path_components[2]
-            if product in ['OutputData', 'SecondaryOutputData']:
-                sector = schema_path_components[3]
-            else:
+            if product.endswith('InputData'):
+                category = schema_path_components[3]
                 sector = None
+            else:
+                category = None
+                sector = schema_path_components[3]
 
             # step 1: read schema template
             with open(schema_path) as f:
@@ -42,31 +44,25 @@ def main():
 
             # step 4: loop over properties/specifiers/properties and add enums from definition files
             for identifier, properties in schema['properties']['specifiers']['properties'].items():
-                if identifier in ['start_year', 'end_year']:
-                    properties['minimum'] = definitions['time_span']['minimum']['value'][simulation_round]
-                    properties['maximum'] = definitions['time_span']['maximum']['value'][simulation_round]
-                else:
-                    if identifier in definitions:
-                        enum = []
-                        for row in filter(definitions[identifier].values(), simulation_round, product, sector):
-                            enum.append(row.get('specifier_file') or row.get('specifier'))
+                if identifier in definitions:
+                    enum = []
+                    for row in definitions[identifier].values():
+                        if 'simulation_rounds' not in row or simulation_round in row['simulation_rounds']:
+                            if 'products' not in row or product in row['products']:
+                                if product.endswith('InputData'):
 
-                        properties['enum'] = list(set(enum))
+                                    if 'categories' not in row or category in row['categories']:
+                                        enum.append(row.get('specifier_file') or row.get('specifier'))
+                                else:
+                                    sector = schema_path_components[3]
+                                    if 'sectors' not in row or sector in row['sectors']:
+                                        enum.append(row.get('specifier_file') or row.get('specifier'))
+
+                    properties['enum'] = list(set(enum))
 
             # step 5: write json schema
             output_path.parent.mkdir(parents=True, exist_ok=True)
             output_path.write_text(json.dumps(schema, indent=2))
-
-
-def filter(rows, simulation_round, product, sector=None):
-    for row in rows:
-        if 'simulation_rounds' not in row or simulation_round in row['simulation_rounds']:
-            if 'products' not in row or product in row['products']:
-                if sector is not None:
-                    if 'sectors' not in row or sector in row['sectors']:
-                        yield row
-                else:
-                    yield row
 
 
 if __name__ == "__main__":
