@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2b/OutputData/biodiversity.json",
-  "commit": "8b216d350f6019d0034291713231a37a31d69340",
+  "commit": "c5b6a0e20b2da715bfa81d3c3c2aeef46c2b72a2",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gfdl-esm2m",
             "miroc5",
+            "gfdl-esm2m",
             "hadgem2-es",
             "ipsl-cm5a-lr"
           ]
@@ -44,11 +44,11 @@
           "type": "string",
           "enum": [
             "rcp60",
-            "rcp26",
-            "picontrol",
             "2005co2",
+            "historical",
             "rcp85",
-            "historical"
+            "picontrol",
+            "rcp26"
           ]
         },
         "sens_scenario": {
@@ -61,20 +61,20 @@
         "variable": {
           "type": "string",
           "enum": [
-            "amphibiansumprob",
-            "mammalsr",
-            "endamphibiansumprob",
-            "mammalsumprob",
-            "birdsr",
-            "endbirdsumprob",
-            "mammalprob",
-            "amphibiansr",
-            "birdprob",
-            "endmammalsumprob",
             "thrbirdsumprob",
-            "thramphibiansumprob",
+            "amphibiansumprob",
+            "thrmammalsumprob",
+            "birdsr",
+            "amphibiansr",
             "birdsumprob",
-            "thrmammalsumprob"
+            "endmammalsumprob",
+            "mammalprob",
+            "mammalsumprob",
+            "thramphibiansumprob",
+            "endamphibiansumprob",
+            "mammalsr",
+            "birdprob",
+            "endbirdsumprob"
           ]
         },
         "region": {

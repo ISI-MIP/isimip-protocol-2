@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/OutputData/biomes.json",
-  "commit": "8b216d350f6019d0034291713231a37a31d69340",
+  "commit": "c5b6a0e20b2da715bfa81d3c3c2aeef46c2b72a2",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,9 +27,9 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "princeton",
-            "watch",
             "wfdei",
+            "watch",
+            "princeton",
             "gswp3"
           ]
         },
@@ -49,10 +49,10 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
-            "varsoc",
             "pressoc",
-            "nosoc"
+            "varsoc",
+            "nosoc",
+            "nat"
           ]
         },
         "sens_scenario": {
@@ -65,40 +65,40 @@
         "variable": {
           "type": "string",
           "enum": [
+            "albedo",
+            "firefrac",
+            "trans",
             "rainf",
-            "thawdepth",
-            "evap",
-            "somcfire",
-            "npp",
-            "soilmoist",
-            "csoil",
-            "soilmoistfroz",
-            "cwood",
-            "pft2storeys",
+            "fireint",
+            "rr",
             "tsl",
-            "swe",
-            "intercep",
-            "snd",
-            "qs",
-            "lai",
-            "croot",
+            "soilmoistfroz",
+            "somcfire",
             "clitter",
+            "evap",
+            "swe",
             "rh",
             "burntarea",
-            "cleaf",
-            "qtot",
-            "fireint",
-            "cveg",
-            "pft",
+            "pft2storeys",
+            "cwood",
+            "csoil",
+            "npp",
+            "lai",
             "gpp",
-            "trans",
-            "firefrac",
-            "ecoatmflux",
-            "fapar",
+            "soilmoist",
+            "croot",
+            "cleaf",
+            "cveg",
             "esoil",
-            "rr",
+            "fapar",
+            "thawdepth",
+            "snd",
             "ra",
-            "albedo"
+            "intercep",
+            "ecoatmflux",
+            "pft",
+            "qtot",
+            "qs"
           ]
         },
         "pft": {
@@ -113,9 +113,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "annual",
-            "monthly"
+            "monthly",
+            "daily"
           ]
         },
         "start_year": {
