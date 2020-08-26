@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/OutputData/marine-fishery_global.json",
-  "commit": "17765c11771b4b3aede7ebafbf0b03cd9471f82f",
+  "commit": "95bdb866e57f162f5a014d8a2134001f4a32776f",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,9 +26,9 @@
           "type": "string",
           "enum": [
             "watch",
-            "gswp3",
+            "princeton",
             "wfdei",
-            "princeton"
+            "gswp3"
           ]
         },
         "bias_adjustment": {
@@ -47,20 +47,20 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tsb",
-            "cmed",
-            "csmall",
-            "tcb",
+            "blarge",
+            "tc10cm",
             "tc",
             "b30cm",
-            "tc10cm",
-            "tc30cm",
-            "b10cm",
-            "bmed",
-            "bsmall",
             "clarge",
-            "blarge",
-            "bcom"
+            "bsmall",
+            "bcom",
+            "csmall",
+            "tcb",
+            "tc30cm",
+            "tsb",
+            "bmed",
+            "cmed",
+            "b10cm"
           ]
         },
         "region": {
