@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2b/OutputData/lakes_global.json",
-  "commit": "c5b6a0e20b2da715bfa81d3c3c2aeef46c2b72a2",
+  "commit": "0d212d086d6450095a965a65fc67d2ad9124ab7e",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,35 +27,35 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "miroc5",
             "gfdl-esm2m",
             "hadgem2-es",
+            "miroc5",
             "ipsl-cm5a-lr"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "nobc"
+            "nobc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp60",
-            "2005co2",
-            "historical",
             "rcp85",
-            "picontrol",
-            "rcp26"
+            "rcp60",
+            "historical",
+            "2005co2",
+            "rcp26",
+            "picontrol"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "co2",
-            "default"
+            "default",
+            "co2"
           ]
         },
         "variable": {
@@ -71,9 +71,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
+            "daily",
             "monthly",
-            "daily"
+            "annual"
           ]
         },
         "start_year": {
