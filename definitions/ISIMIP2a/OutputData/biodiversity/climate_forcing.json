@@ -1,0 +1,36 @@
+[
+  {
+    "specifier": "gswp3",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
+    "specifier": "ewembi",
+    "description": "",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ],
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "princeton",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
+    "specifier": "watch",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
+    "specifier": "wfdei",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  }
+]

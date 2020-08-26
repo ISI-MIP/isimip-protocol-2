@@ -1,0 +1,25 @@
+[
+  {
+    "specifier": "annual",
+    "increment": "years",
+    "sectors": [
+      "agriculture",
+      "biomes",
+      "forestry",
+      "lakes_global",
+      "lakes_local",
+      "marine-fishery_global",
+      "marine-fishery_regional",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "seasonal",
+    "sectors": [
+      "agriculture"
+    ],
+    "increment": "seasons"
+  }
+]

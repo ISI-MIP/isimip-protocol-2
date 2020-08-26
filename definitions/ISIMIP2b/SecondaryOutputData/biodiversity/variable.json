@@ -1,0 +1,86 @@
+[
+  {
+    "specifier": "amphibiansr",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "amphibiansumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "birdprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "birdsr",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "birdsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "endamphibiansumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "endbirdsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "endmammalsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "mammalprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "mammalsr",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "mammalsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "thramphibiansumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "thrbirdsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  },
+  {
+    "specifier": "thrmammalsumprob",
+    "sectors": [
+      "biodiversity"
+    ]
+  }
+]

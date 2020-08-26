@@ -1,0 +1,14 @@
+[
+  {
+    "specifier": "cirr",
+    "title": "Constrained irrigation",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "noirr",
+    "title": "No irrigation (rainfed land)"
+  }
+]

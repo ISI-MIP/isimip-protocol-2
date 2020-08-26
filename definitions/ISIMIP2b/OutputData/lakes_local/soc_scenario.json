@@ -1,0 +1,14 @@
+[
+  {
+    "specifier": "nosoc"
+  },
+  {
+    "specifier": "pressoc"
+  },
+  {
+    "specifier": "varsoc"
+  },
+  {
+    "specifier": "nat"
+  }
+]

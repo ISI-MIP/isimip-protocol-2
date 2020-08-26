@@ -1,0 +1,10 @@
+[
+  {
+    "specifier": "OutputData",
+    "title": "Output Data"
+  },
+  {
+    "specifier": "SecondaryOutputData",
+    "title": "Secondary Output Data"
+  }
+]

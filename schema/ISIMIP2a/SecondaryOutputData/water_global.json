@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/SecondaryOutputData/water_global.json",
+  "commit": "17765c11771b4b3aede7ebafbf0b03cd9471f82f",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "model",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "soc_scenario",
+        "sens_scenario",
+        "variable",
+        "region",
+        "time_step"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "watch",
+            "gswp3",
+            "wfdei",
+            "princeton"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "ewembi",
+            "nobc"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "hist"
+          ]
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "nosoc",
+            "varsoc",
+            "pressoc",
+            "nat"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string",
+          "enum": [
+            "co2",
+            "default"
+          ]
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "tsl",
+            "pdomuse",
+            "pirruse",
+            "qg",
+            "amanuse",
+            "amanww",
+            "maxdis",
+            "qint",
+            "riverstor",
+            "mindis",
+            "airruse",
+            "pmanuse",
+            "rootmoist",
+            "transp",
+            "esoil",
+            "aliveww",
+            "soilmoist",
+            "pirrusegreen",
+            "swe",
+            "ptotww",
+            "lakestor",
+            "tws",
+            "thawdepth",
+            "wetlandstor",
+            "snowf",
+            "potevap",
+            "lai",
+            "aindww",
+            "admeluse",
+            "qr",
+            "qs",
+            "adomww",
+            "pirrww",
+            "canopystor",
+            "ptotuse",
+            "rainf",
+            "aliveuse",
+            "airrww",
+            "qsb",
+            "reservoirstor",
+            "snd",
+            "groundwstor",
+            "pidmeluse",
+            "atotuse",
+            "ainduse",
+            "soilmoistfroz",
+            "pidmelww",
+            "qtot",
+            "adomuse",
+            "airrusegreen",
+            "evap",
+            "arainfusegreen",
+            "dis"
+          ]
+        },
+        "crop": {
+          "type": "string",
+          "enum": [
+            "sor",
+            "pot",
+            "nut",
+            "bar",
+            "soy",
+            "sun",
+            "mil",
+            "mai",
+            "euc",
+            "cas",
+            "whe",
+            "pop",
+            "ben",
+            "rap",
+            "sgb",
+            "pea",
+            "sug",
+            "ric",
+            "cot",
+            "mgr",
+            "mis",
+            "rye"
+          ]
+        },
+        "irrigation": {
+          "type": "string",
+          "enum": [
+            "noirr",
+            "cirr"
+          ]
+        },
+        "pft": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "daily",
+            "annual",
+            "monthly"
+          ]
+        },
+        "start_year": {
+          "type": "number",
+          "minimum": 1901,
+          "maximum": 2018
+        },
+        "end_year": {
+          "type": "number",
+          "minimum": 1901,
+          "maximum": 2018
+        }
+      }
+    }
+  }
+}

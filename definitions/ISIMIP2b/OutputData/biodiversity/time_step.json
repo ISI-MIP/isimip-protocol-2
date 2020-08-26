@@ -1,0 +1,9 @@
+[
+  {
+    "specifier": "30year-mean",
+    "sectors": [
+      "biodiversity"
+    ],
+    "increment": "years"
+  }
+]

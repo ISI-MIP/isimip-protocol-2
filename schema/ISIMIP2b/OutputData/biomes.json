@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2b/OutputData/biomes.json",
+  "commit": "17765c11771b4b3aede7ebafbf0b03cd9471f82f",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "model",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "soc_scenario",
+        "sens_scenario",
+        "variable",
+        "region",
+        "time_step"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "gfdl-esm2m",
+            "ipsl-cm5a-lr",
+            "miroc5",
+            "hadgem2-es"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "ewembi",
+            "nobc"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "historical",
+            "rcp60",
+            "picontrol",
+            "rcp85",
+            "2005co2",
+            "rcp26"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string",
+          "enum": [
+            "co2",
+            "default"
+          ]
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "csoil",
+            "tsl",
+            "fapar",
+            "cwood",
+            "fireint",
+            "pft",
+            "trans",
+            "burntarea",
+            "croot",
+            "albedo",
+            "rr",
+            "esoil",
+            "soilmoist",
+            "pft2storeys",
+            "swe",
+            "cleaf",
+            "npp",
+            "thawdepth",
+            "intercep",
+            "lai",
+            "cveg",
+            "qs",
+            "somcfire",
+            "clitter",
+            "gpp",
+            "rainf",
+            "firefrac",
+            "snd",
+            "soilmoistfroz",
+            "qtot",
+            "evap",
+            "ecoatmflux",
+            "rh",
+            "ra"
+          ]
+        },
+        "pft": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "daily",
+            "annual",
+            "monthly"
+          ]
+        },
+        "start_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2100
+        },
+        "end_year": {
+          "type": "number",
+          "minimum": 1661,
+          "maximum": 2100
+        }
+      }
+    }
+  }
+}

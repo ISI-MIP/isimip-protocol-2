@@ -1,0 +1,363 @@
+[
+  {
+    "specifier": "admeluse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "adomuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "adomww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "ainduse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "aindww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "airruse",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "airrusegreen",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "airrww",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "aliveuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "aliveww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "amanuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "amanww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "arainfusegreen",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "atotuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "canopystor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "dis",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "esoil",
+    "sectors": [
+      "biomes",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "evap",
+    "sectors": [
+      "biomes",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "groundwstor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "lai",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "lakestor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "maxdis",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "mindis",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pdomuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pidmeluse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pidmelww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pirruse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pirrusegreen",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pirrww",
+    "sectors": [
+      "agriculture",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "pmanuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "potevap",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "ptotuse",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "ptotww",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "qg",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "qint",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "qr",
+    "sectors": [
+      "water_regional",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "qs",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "qsb",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "qtot",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "rainf",
+    "sectors": [
+      "water_global",
+      "water_regional",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "reservoirstor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "riverstor",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "rootmoist",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "snd",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "snowf",
+    "sectors": [
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "soilmoist",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "soilmoistfroz",
+    "sectors": [
+      "permafrost",
+      "water_global",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "swe",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "thawdepth",
+    "sectors": [
+      "permafrost",
+      "water_global",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "transp",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "tsl",
+    "dimensions": [
+      "time",
+      "depth",
+      "lat",
+      "lon"
+    ],
+    "units": "K",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "tws",
+    "sectors": [
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "wetlandstor",
+    "sectors": [
+      "water_global"
+    ]
+  }
+]

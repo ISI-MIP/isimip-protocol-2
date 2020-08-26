@@ -1,0 +1,16 @@
+[
+  {
+    "specifier": "nobc",
+    "description": "Indicates that no bias correction was performed on the climate data."
+  },
+  {
+    "specifier": "localbc",
+    "description": "Refers to local data from weather stations used for the bias-correction in e.g. the forest sector.",
+    "sectors": [
+      "forestry"
+    ]
+  },
+  {
+    "specifier": "ewembi"
+  }
+]

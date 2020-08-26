@@ -1,0 +1,87 @@
+[
+  {
+    "specifier": "aet",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "anthday",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "biom",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "gsprcp",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "gsrsds",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "initr",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "leach",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "matyday",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "matyyear",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "pirrww",
+    "sectors": [
+      "agriculture",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "plantday",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "plantyear",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "sumt",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
+    "specifier": "yield",
+    "sectors": [
+      "agriculture"
+    ]
+  }
+]

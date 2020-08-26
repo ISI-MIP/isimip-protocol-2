@@ -1,0 +1,9 @@
+[
+  {
+    "specifier": "nobc",
+    "description": "Indicates that no bias correction was performed on the climate data."
+  },
+  {
+    "specifier": "ewembi"
+  }
+]

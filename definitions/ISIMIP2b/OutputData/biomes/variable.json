@@ -1,0 +1,252 @@
+[
+  {
+    "specifier": "albedo",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "burntarea",
+    "sectors": [
+      "permafrost",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "cleaf",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "clitter",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "croot",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "csoil",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "cveg",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "cwood",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "ecoatmflux",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "esoil",
+    "sectors": [
+      "biomes",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "evap",
+    "sectors": [
+      "biomes",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "fapar",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "firefrac",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "fireint",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "gpp",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "intercep",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "lai",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "npp",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "pft",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "pft2storeys",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "qs",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "qtot",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "ra",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "rainf",
+    "sectors": [
+      "water_global",
+      "water_regional",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "rh",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "specifier": "rr",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "snd",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global"
+    ]
+  },
+  {
+    "specifier": "soilmoist",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "soilmoistfroz",
+    "sectors": [
+      "permafrost",
+      "water_global",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "somcfire",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "swe",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global",
+      "water_regional"
+    ]
+  },
+  {
+    "specifier": "thawdepth",
+    "sectors": [
+      "permafrost",
+      "water_global",
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "trans",
+    "sectors": [
+      "biomes"
+    ]
+  },
+  {
+    "specifier": "tsl",
+    "dimensions": [
+      "time",
+      "depth",
+      "lat",
+      "lon"
+    ],
+    "units": "K",
+    "sectors": [
+      "biomes",
+      "permafrost",
+      "water_global"
+    ]
+  }
+]

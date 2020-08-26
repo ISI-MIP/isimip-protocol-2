@@ -1,0 +1,90 @@
+[
+  {
+    "specifier": "whe",
+    "title": "Wheat"
+  },
+  {
+    "specifier": "mai",
+    "title": "Maize"
+  },
+  {
+    "specifier": "soy",
+    "title": "Soy"
+  },
+  {
+    "specifier": "ric",
+    "title": "Rice"
+  },
+  {
+    "specifier": "bar",
+    "title": "Barley"
+  },
+  {
+    "specifier": "ben",
+    "title": "Bean"
+  },
+  {
+    "specifier": "cas",
+    "title": "Cassava"
+  },
+  {
+    "specifier": "cot",
+    "title": "Cotton"
+  },
+  {
+    "specifier": "euc",
+    "title": "Eucalyptus"
+  },
+  {
+    "specifier": "mgr",
+    "title": "Managed grass"
+  },
+  {
+    "specifier": "mil",
+    "title": "Millet"
+  },
+  {
+    "specifier": "mis",
+    "title": "Miscanthus"
+  },
+  {
+    "specifier": "nut",
+    "title": "Groundnuts"
+  },
+  {
+    "specifier": "pea",
+    "title": "Field peas"
+  },
+  {
+    "specifier": "pop",
+    "title": "Poplar"
+  },
+  {
+    "specifier": "pot",
+    "title": "Potato"
+  },
+  {
+    "specifier": "rap",
+    "title": "Rapeseed"
+  },
+  {
+    "specifier": "rye",
+    "title": "Rye"
+  },
+  {
+    "specifier": "sgb",
+    "title": "Sugar beet"
+  },
+  {
+    "specifier": "sor",
+    "title": "Sorghum"
+  },
+  {
+    "specifier": "sug",
+    "title": "Sugarcane"
+  },
+  {
+    "specifier": "sun",
+    "title": "Sunflower"
+  }
+]
