@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol2.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "245ecf15620382b496db48185ecb84d0980f9807",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
+  "commit": "89bf78ce04aa866ff6ae66e067b5e844b5e19738",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,9 +25,9 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
+            "gswp3",
             "wfdei",
             "princeton",
-            "gswp3",
             "watch"
           ]
         },
@@ -47,48 +47,44 @@
         "variable": {
           "type": "string",
           "enum": [
-            "bcom",
-            "b10cm",
-            "tc",
-            "tsb",
-            "b30cm",
-            "tc10cm",
+            "tc30cm",
             "tcb",
+            "tc10cm",
             "tla",
-            "tc30cm"
+            "bcom",
+            "tc",
+            "b30cm",
+            "b10cm",
+            "tsb"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "cook-strait",
-            "nw-med-sea",
-            "se-australia",
-            "adriatic-sea",
-            "baltic-sea",
-            "humboldt-n",
             "east-bass-strait",
+            "med-glob",
+            "baltic-sea",
+            "adriatic-sea",
+            "humboldt-n",
             "north-sea",
-            "med-glob"
+            "se-australia",
+            "cook-strait",
+            "nw-med-sea"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
+            "monthly",
             "daily",
-            "monthly"
+            "annual"
           ]
         },
         "start_year": {
-          "type": "number",
-          "minimum": 1901,
-          "maximum": 2018
+          "type": "number"
         },
         "end_year": {
-          "type": "number",
-          "minimum": 1901,
-          "maximum": 2018
+          "type": "number"
         }
       }
     }

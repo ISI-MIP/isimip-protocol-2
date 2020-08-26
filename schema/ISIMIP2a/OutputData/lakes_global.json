@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol2.isimip.org/schema/schema/ISIMIP2a/OutputData/lakes_global.json",
-  "commit": "245ecf15620382b496db48185ecb84d0980f9807",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/lakes_global.json",
+  "commit": "89bf78ce04aa866ff6ae66e067b5e844b5e19738",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,9 +27,9 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
+            "gswp3",
             "wfdei",
             "princeton",
-            "gswp3",
             "watch"
           ]
         },
@@ -51,8 +51,8 @@
           "enum": [
             "varsoc",
             "nosoc",
-            "nat",
-            "pressoc"
+            "pressoc",
+            "nat"
           ]
         },
         "sens_scenario": {
@@ -75,20 +75,16 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
+            "monthly",
             "daily",
-            "monthly"
+            "annual"
           ]
         },
         "start_year": {
-          "type": "number",
-          "minimum": 1901,
-          "maximum": 2018
+          "type": "number"
         },
         "end_year": {
-          "type": "number",
-          "minimum": 1901,
-          "maximum": 2018
+          "type": "number"
         }
       }
     }

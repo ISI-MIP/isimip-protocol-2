@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol2.isimip.org/schema/schema/ISIMIP2a/OutputData/agriculture.json",
-  "commit": "245ecf15620382b496db48185ecb84d0980f9807",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/agriculture.json",
+  "commit": "89bf78ce04aa866ff6ae66e067b5e844b5e19738",
   "type": "object",
   "required": [
     "specifiers"
@@ -28,9 +28,9 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
+            "gswp3",
             "wfdei",
             "princeton",
-            "gswp3",
             "watch"
           ]
         },
@@ -53,47 +53,47 @@
         "variable": {
           "type": "string",
           "enum": [
-            "yield",
-            "anthday",
-            "matyyear",
-            "aet",
-            "leach",
-            "plantday",
-            "matyday",
-            "initr",
-            "gsrsds",
-            "plantyear",
             "pirrww",
+            "anthday",
+            "plantday",
+            "aet",
             "gsprcp",
+            "plantyear",
+            "sumt",
+            "matyday",
+            "gsrsds",
             "biom",
-            "sumt"
+            "initr",
+            "yield",
+            "leach",
+            "matyyear"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "bar",
-            "ric",
             "mil",
-            "nut",
+            "whe",
+            "mis",
+            "ben",
+            "sun",
+            "cot",
+            "rap",
+            "bar",
+            "pop",
+            "ric",
+            "sor",
+            "sug",
+            "cas",
+            "pea",
+            "mai",
+            "pot",
+            "rye",
             "mgr",
             "euc",
-            "pop",
-            "sun",
-            "ben",
-            "pot",
-            "whe",
-            "pea",
-            "sug",
-            "rye",
             "soy",
-            "cot",
-            "cas",
-            "sor",
-            "sgb",
-            "mai",
-            "rap",
-            "mis"
+            "nut",
+            "sgb"
           ]
         },
         "irrigation": {
@@ -117,14 +117,10 @@
           ]
         },
         "start_year": {
-          "type": "number",
-          "minimum": 1901,
-          "maximum": 2018
+          "type": "number"
         },
         "end_year": {
-          "type": "number",
-          "minimum": 1901,
-          "maximum": 2018
+          "type": "number"
         }
       }
     }

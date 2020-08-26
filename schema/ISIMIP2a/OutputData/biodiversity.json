@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol2.isimip.org/schema/schema/ISIMIP2a/OutputData/biodiversity.json",
-  "commit": "245ecf15620382b496db48185ecb84d0980f9807",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/biodiversity.json",
+  "commit": "89bf78ce04aa866ff6ae66e067b5e844b5e19738",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,11 +26,11 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
-            "princeton",
             "ewembi",
+            "wfdei",
             "gswp3",
-            "wfdei"
+            "princeton",
+            "watch"
           ]
         },
         "bias_adjustment": {
@@ -51,8 +51,8 @@
           "enum": [
             "varsoc",
             "nosoc",
-            "nat",
-            "pressoc"
+            "pressoc",
+            "nat"
           ]
         },
         "sens_scenario": {
@@ -65,20 +65,20 @@
         "variable": {
           "type": "string",
           "enum": [
-            "thrmammalsumprob",
-            "endbirdsumprob",
-            "birdprob",
-            "thramphibiansumprob",
-            "mammalsr",
-            "mammalsumprob",
-            "amphibiansumprob",
-            "mammalprob",
-            "endamphibiansumprob",
-            "birdsumprob",
-            "thrbirdsumprob",
             "birdsr",
+            "mammalsumprob",
+            "endmammalsumprob",
+            "thramphibiansumprob",
+            "birdprob",
+            "thrmammalsumprob",
             "amphibiansr",
-            "endmammalsumprob"
+            "mammalsr",
+            "thrbirdsumprob",
+            "endamphibiansumprob",
+            "endbirdsumprob",
+            "amphibiansumprob",
+            "birdsumprob",
+            "mammalprob"
           ]
         },
         "region": {
@@ -94,14 +94,10 @@
           ]
         },
         "start_year": {
-          "type": "number",
-          "minimum": 1901,
-          "maximum": 2018
+          "type": "number"
         },
         "end_year": {
-          "type": "number",
-          "minimum": 1901,
-          "maximum": 2018
+          "type": "number"
         }
       }
     }
