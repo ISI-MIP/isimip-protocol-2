@@ -1,13 +1,5 @@
 [
   {
-    "specifier": "InputData",
-    "title": "Input Data"
-  },
-  {
-    "specifier": "SecondaryInputData",
-    "title": "Secondary Input Data"
-  },
-  {
     "specifier": "OutputData",
     "title": "Output Data"
   },
