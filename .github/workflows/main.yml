@@ -18,7 +18,7 @@ jobs:
 
     - name: Run make
       run: make
-    
+
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
