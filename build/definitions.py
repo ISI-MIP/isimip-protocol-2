@@ -5,6 +5,7 @@ from pathlib import Path
 
 def main():
     directory = Path('definitions')
+    definition_files = os.listdir(directory)
     definitions = {}
     for file_name in os.listdir(directory):
         file_path = directory / file_name
@@ -23,7 +24,7 @@ def main():
                 output_path.mkdir(parents=True, exist_ok=True)
 
                 with open(output_path / 'index.json', 'w') as f:
-                    f.write(json.dumps(list(definitions.keys()), indent=2))
+                    f.write(json.dumps(definition_files, indent=2))
 
                 for definition_name, rows in definitions.items():
                     # filter definitions for simulation_round, product, sector
