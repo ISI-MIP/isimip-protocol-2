@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - Checkout
+    - name: Checkout
     - uses: actions/checkout@v2
       with:
         persist-credentials: false
@@ -19,7 +19,7 @@ jobs:
     - name: Run make
       run: make
     
-    - name: Deploy 🚀
+    - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
