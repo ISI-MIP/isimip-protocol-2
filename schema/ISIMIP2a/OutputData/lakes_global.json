@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/OutputData/lakes_global.json",
-  "commit": "0d212d086d6450095a965a65fc67d2ad9124ab7e",
+  "commit": "ad74e5e1dd0a6c4277213e7a92cd0f344154425e",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "gswp3",
+            "watch",
             "wfdei",
             "princeton"
           ]
@@ -50,8 +50,8 @@
           "type": "string",
           "enum": [
             "nat",
-            "pressoc",
             "varsoc",
+            "pressoc",
             "nosoc"
           ]
         },
@@ -75,9 +75,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "monthly",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {

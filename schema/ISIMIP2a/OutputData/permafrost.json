@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/OutputData/permafrost.json",
-  "commit": "0d212d086d6450095a965a65fc67d2ad9124ab7e",
+  "commit": "ad74e5e1dd0a6c4277213e7a92cd0f344154425e",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "gswp3",
+            "watch",
             "wfdei",
             "princeton"
           ]
@@ -50,8 +50,8 @@
           "type": "string",
           "enum": [
             "nat",
-            "pressoc",
             "varsoc",
+            "pressoc",
             "nosoc"
           ]
         },
@@ -66,53 +66,53 @@
           "type": "string",
           "enum": [
             "pft",
-            "fireint",
-            "ecoatmflux",
-            "tsl",
-            "snd",
-            "gpp",
-            "clitter",
-            "npp",
             "rh",
+            "soilmoistfroz",
+            "clitter",
             "ra",
+            "thawdepth",
+            "qs",
+            "npp",
+            "snd",
+            "qtot",
+            "soilmoist",
+            "burntarea",
+            "fireint",
             "lai",
             "csoil",
-            "thawdepth",
-            "burntarea",
-            "fapar",
             "cveg",
-            "qs",
-            "soilmoist",
-            "soilmoistfroz",
+            "gpp",
             "swe",
-            "qtot"
+            "ecoatmflux",
+            "tsl",
+            "fapar"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "mis",
-            "rap",
-            "cas",
-            "pot",
-            "pea",
             "nut",
-            "sgb",
-            "pop",
             "cot",
-            "whe",
-            "bar",
-            "mai",
-            "euc",
-            "rye",
-            "mil",
-            "sun",
-            "sor",
             "soy",
-            "sug",
-            "ben",
+            "ric",
+            "sor",
+            "pop",
+            "rye",
             "mgr",
-            "ric"
+            "mai",
+            "sun",
+            "mis",
+            "sug",
+            "sgb",
+            "euc",
+            "pot",
+            "rap",
+            "whe",
+            "mil",
+            "bar",
+            "ben",
+            "cas",
+            "pea"
           ]
         },
         "irrigation": {
@@ -133,9 +133,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "monthly",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/OutputData/forestry.json",
-  "commit": "0d212d086d6450095a965a65fc67d2ad9124ab7e",
+  "commit": "ad74e5e1dd0a6c4277213e7a92cd0f344154425e",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "gswp3",
+            "watch",
             "wfdei",
             "princeton"
           ]
@@ -37,8 +37,8 @@
           "type": "string",
           "enum": [
             "nobc",
-            "ewembi",
-            "localbc"
+            "localbc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
@@ -51,8 +51,8 @@
           "type": "string",
           "enum": [
             "nat",
-            "pressoc",
             "varsoc",
+            "pressoc",
             "nosoc"
           ]
         },
@@ -70,48 +70,48 @@
         "species": {
           "type": "string",
           "enum": [
-            "acpl",
-            "fasy",
-            "wi",
-            "piab",
-            "c3gr",
-            "fi",
-            "eugl",
             "bepe",
-            "ins",
-            "pipi",
-            "qupe",
-            "rops",
+            "frex",
+            "pisy",
             "lade",
             "poni",
+            "qupe",
+            "pipi",
             "quro",
+            "wi",
             "soau",
-            "pisy",
+            "fasy",
+            "bepu",
+            "piab",
+            "acpl",
+            "rops",
             "hawo",
-            "frex",
-            "bepu"
+            "c3gr",
+            "eugl",
+            "fi",
+            "ins"
           ]
         },
         "forest_stand": {
           "type": "string",
           "enum": [
-            "collelongo",
-            "le-bray",
-            "solling-beech",
-            "kroof",
-            "solling-spruce",
             "peitz",
-            "soro",
+            "solling-spruce",
             "hyytiala",
-            "bily-kriz"
+            "bily-kriz",
+            "kroof",
+            "soro",
+            "solling-beech",
+            "collelongo",
+            "le-bray"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "monthly",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {

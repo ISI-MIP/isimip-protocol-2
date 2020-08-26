@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/SecondaryOutputData/biomes.json",
-  "commit": "0d212d086d6450095a965a65fc67d2ad9124ab7e",
+  "commit": "ad74e5e1dd0a6c4277213e7a92cd0f344154425e",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "gswp3",
+            "watch",
             "wfdei",
             "princeton"
           ]
@@ -50,8 +50,8 @@
           "type": "string",
           "enum": [
             "nat",
-            "pressoc",
             "varsoc",
+            "pressoc",
             "nosoc"
           ]
         },
@@ -66,38 +66,38 @@
           "type": "string",
           "enum": [
             "pft",
-            "trans",
-            "fireint",
-            "croot",
-            "albedo",
-            "ecoatmflux",
-            "esoil",
-            "tsl",
-            "cwood",
-            "snd",
-            "gpp",
-            "evap",
-            "clitter",
-            "npp",
             "rh",
-            "rainf",
-            "ra",
-            "lai",
-            "rr",
-            "csoil",
-            "intercep",
-            "somcfire",
-            "thawdepth",
-            "burntarea",
-            "fapar",
-            "cveg",
-            "qs",
-            "firefrac",
-            "soilmoist",
             "soilmoistfroz",
+            "clitter",
+            "rr",
+            "ra",
             "pft2storeys",
-            "swe",
+            "thawdepth",
+            "qs",
+            "npp",
+            "snd",
             "qtot",
+            "trans",
+            "soilmoist",
+            "burntarea",
+            "fireint",
+            "evap",
+            "albedo",
+            "esoil",
+            "rainf",
+            "lai",
+            "intercep",
+            "csoil",
+            "cveg",
+            "gpp",
+            "croot",
+            "somcfire",
+            "firefrac",
+            "cwood",
+            "swe",
+            "ecoatmflux",
+            "tsl",
+            "fapar",
             "cleaf"
           ]
         },
@@ -113,9 +113,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "monthly",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {
