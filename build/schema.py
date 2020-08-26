@@ -4,7 +4,7 @@ import subprocess
 from collections import OrderedDict
 from pathlib import Path
 
-URL = 'https://isi-mip.github.io/isimip-protocol-2'
+URL = 'https://protocol2.isimip.org/schema/'
 
 
 def main():
