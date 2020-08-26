@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2b/OutputData/marine-fishery_global.json",
-  "commit": "ad74e5e1dd0a6c4277213e7a92cd0f344154425e",
+  "$id": "https://protocol2.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_global.json",
+  "commit": "245ecf15620382b496db48185ecb84d0980f9807",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,10 +25,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ipsl-cm5a-lr",
-            "hadgem2-es",
             "miroc5",
-            "gfdl-esm2m"
+            "gfdl-esm2m",
+            "ipsl-cm5a-lr",
+            "hadgem2-es"
           ]
         },
         "bias_adjustment": {
@@ -41,38 +41,38 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "2005co2",
-            "rcp60",
             "rcp26",
+            "rcp85",
             "picontrol",
-            "historical",
-            "rcp85"
+            "rcp60",
+            "2005co2",
+            "historical"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
-            "co2"
+            "co2",
+            "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "tc10cm",
-            "b10cm",
-            "tsb",
-            "clarge",
-            "bsmall",
-            "cmed",
             "bcom",
-            "blarge",
-            "tc30cm",
-            "tcb",
+            "b10cm",
             "csmall",
-            "bmed",
+            "clarge",
+            "cmed",
             "tc",
-            "b30cm"
+            "bsmall",
+            "tsb",
+            "b30cm",
+            "tc10cm",
+            "tcb",
+            "bmed",
+            "blarge",
+            "tc30cm"
           ]
         },
         "region": {
@@ -84,9 +84,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
             "annual",
-            "daily"
+            "daily",
+            "monthly"
           ]
         },
         "start_year": {

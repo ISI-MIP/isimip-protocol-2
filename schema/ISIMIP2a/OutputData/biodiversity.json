@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/OutputData/biodiversity.json",
-  "commit": "ad74e5e1dd0a6c4277213e7a92cd0f344154425e",
+  "$id": "https://protocol2.isimip.org/schema/schema/ISIMIP2a/OutputData/biodiversity.json",
+  "commit": "245ecf15620382b496db48185ecb84d0980f9807",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,11 +26,11 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3",
             "watch",
-            "wfdei",
+            "princeton",
             "ewembi",
-            "princeton"
+            "gswp3",
+            "wfdei"
           ]
         },
         "bias_adjustment": {
@@ -49,36 +49,36 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
             "varsoc",
-            "pressoc",
-            "nosoc"
+            "nosoc",
+            "nat",
+            "pressoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
-            "co2"
+            "co2",
+            "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "endmammalsumprob",
+            "thrmammalsumprob",
+            "endbirdsumprob",
             "birdprob",
+            "thramphibiansumprob",
+            "mammalsr",
+            "mammalsumprob",
+            "amphibiansumprob",
+            "mammalprob",
+            "endamphibiansumprob",
             "birdsumprob",
             "thrbirdsumprob",
             "birdsr",
-            "amphibiansumprob",
-            "mammalsumprob",
-            "mammalsr",
-            "thrmammalsumprob",
-            "thramphibiansumprob",
-            "endamphibiansumprob",
-            "mammalprob",
             "amphibiansr",
-            "endbirdsumprob"
+            "endmammalsumprob"
           ]
         },
         "region": {
