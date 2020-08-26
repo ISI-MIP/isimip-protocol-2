@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/OutputData/permafrost.json",
-  "commit": "95bdb866e57f162f5a014d8a2134001f4a32776f",
+  "commit": "8b216d350f6019d0034291713231a37a31d69340",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "princeton",
+            "watch",
             "wfdei",
             "gswp3"
           ]
@@ -49,70 +49,70 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "pressoc",
-            "nosoc",
             "nat",
-            "varsoc"
+            "varsoc",
+            "pressoc",
+            "nosoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
-            "co2"
+            "co2",
+            "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "pft",
-            "tsl",
-            "soilmoist",
-            "qs",
-            "csoil",
-            "cveg",
-            "rh",
-            "soilmoistfroz",
-            "burntarea",
-            "clitter",
-            "ecoatmflux",
             "thawdepth",
-            "fapar",
-            "lai",
-            "gpp",
-            "qtot",
             "npp",
-            "fireint",
-            "ra",
+            "soilmoist",
+            "csoil",
+            "soilmoistfroz",
+            "tsl",
+            "swe",
             "snd",
-            "swe"
+            "qs",
+            "lai",
+            "clitter",
+            "rh",
+            "burntarea",
+            "qtot",
+            "fireint",
+            "cveg",
+            "pft",
+            "gpp",
+            "ecoatmflux",
+            "fapar",
+            "ra"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "mis",
-            "sun",
             "ben",
-            "pop",
-            "nut",
-            "bar",
-            "ric",
-            "mgr",
-            "soy",
-            "mil",
-            "rye",
-            "rap",
-            "sug",
-            "cot",
-            "pea",
             "pot",
-            "mai",
-            "sgb",
+            "bar",
+            "sug",
             "euc",
-            "cas",
+            "mai",
+            "ric",
+            "pop",
+            "rap",
+            "sgb",
+            "sor",
+            "soy",
+            "cot",
             "whe",
-            "sor"
+            "mis",
+            "mil",
+            "cas",
+            "mgr",
+            "nut",
+            "pea",
+            "rye",
+            "sun"
           ]
         },
         "irrigation": {

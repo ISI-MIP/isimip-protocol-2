@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "95bdb866e57f162f5a014d8a2134001f4a32776f",
+  "commit": "8b216d350f6019d0034291713231a37a31d69340",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,8 +25,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "princeton",
+            "watch",
             "wfdei",
             "gswp3"
           ]
@@ -47,28 +47,28 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tc10cm",
-            "tc",
             "b30cm",
-            "bcom",
-            "tcb",
+            "tc",
             "tc30cm",
             "tsb",
             "tla",
-            "b10cm"
+            "bcom",
+            "tcb",
+            "b10cm",
+            "tc10cm"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "se-australia",
-            "east-bass-strait",
-            "humboldt-n",
-            "baltic-sea",
-            "med-glob",
-            "cook-strait",
             "nw-med-sea",
+            "baltic-sea",
+            "humboldt-n",
+            "east-bass-strait",
+            "se-australia",
+            "med-glob",
             "north-sea",
+            "cook-strait",
             "adriatic-sea"
           ]
         },

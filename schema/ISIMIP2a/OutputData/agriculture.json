@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/OutputData/agriculture.json",
-  "commit": "95bdb866e57f162f5a014d8a2134001f4a32776f",
+  "commit": "8b216d350f6019d0034291713231a37a31d69340",
   "type": "object",
   "required": [
     "specifiers"
@@ -28,8 +28,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "princeton",
+            "watch",
             "wfdei",
             "gswp3"
           ]
@@ -53,47 +53,47 @@
         "variable": {
           "type": "string",
           "enum": [
-            "plantyear",
-            "anthday",
-            "gsrsds",
-            "biom",
-            "leach",
-            "gsprcp",
-            "matyyear",
-            "pirrww",
-            "sumt",
             "initr",
-            "aet",
+            "plantyear",
+            "gsrsds",
             "plantday",
+            "leach",
             "matyday",
-            "yield"
+            "anthday",
+            "aet",
+            "biom",
+            "yield",
+            "gsprcp",
+            "sumt",
+            "matyyear",
+            "pirrww"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "mis",
-            "sun",
             "ben",
-            "pop",
-            "nut",
-            "bar",
-            "ric",
-            "mgr",
-            "soy",
-            "mil",
-            "rye",
-            "rap",
-            "sug",
-            "cot",
-            "pea",
             "pot",
-            "mai",
-            "sgb",
+            "bar",
+            "sug",
             "euc",
-            "cas",
+            "mai",
+            "ric",
+            "pop",
+            "rap",
+            "sgb",
+            "sor",
+            "soy",
+            "cot",
             "whe",
-            "sor"
+            "mis",
+            "mil",
+            "cas",
+            "mgr",
+            "nut",
+            "pea",
+            "rye",
+            "sun"
           ]
         },
         "irrigation": {

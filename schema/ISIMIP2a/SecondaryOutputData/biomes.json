@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://isi-mip.github.io/isimip-protocol-2schema/ISIMIP2a/SecondaryOutputData/biomes.json",
-  "commit": "95bdb866e57f162f5a014d8a2134001f4a32776f",
+  "commit": "8b216d350f6019d0034291713231a37a31d69340",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "princeton",
+            "watch",
             "wfdei",
             "gswp3"
           ]
@@ -49,56 +49,56 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "pressoc",
-            "nosoc",
             "nat",
-            "varsoc"
+            "varsoc",
+            "pressoc",
+            "nosoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
-            "co2"
+            "co2",
+            "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "pft",
-            "tsl",
-            "soilmoist",
-            "somcfire",
-            "qs",
-            "trans",
-            "csoil",
-            "cwood",
-            "cveg",
-            "albedo",
-            "rh",
-            "soilmoistfroz",
-            "intercep",
-            "burntarea",
-            "clitter",
-            "ecoatmflux",
-            "thawdepth",
-            "fapar",
-            "croot",
-            "lai",
-            "gpp",
-            "pft2storeys",
-            "qtot",
-            "rr",
             "rainf",
+            "thawdepth",
+            "evap",
+            "somcfire",
             "npp",
-            "fireint",
-            "ra",
-            "firefrac",
-            "esoil",
-            "snd",
-            "cleaf",
+            "soilmoist",
+            "csoil",
+            "soilmoistfroz",
+            "cwood",
+            "pft2storeys",
+            "tsl",
             "swe",
-            "evap"
+            "intercep",
+            "snd",
+            "qs",
+            "lai",
+            "croot",
+            "clitter",
+            "rh",
+            "burntarea",
+            "cleaf",
+            "qtot",
+            "fireint",
+            "cveg",
+            "pft",
+            "gpp",
+            "trans",
+            "firefrac",
+            "ecoatmflux",
+            "fapar",
+            "esoil",
+            "rr",
+            "ra",
+            "albedo"
           ]
         },
         "pft": {
