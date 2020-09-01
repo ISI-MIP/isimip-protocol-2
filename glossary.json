@@ -1,5 +1,5 @@
 {
-  "commit": "4fc525edc5e29199554a434fb8061f779ba8b6cb",
+  "commit": "6362cb79a76719beaafefcb4d50c665582befcab",
   "terms": {
     "diazotroph_scenario": {
       "w-diaz": {},
@@ -1727,10 +1727,7 @@
         ]
       },
       "pirrww": {
-        "units": {
-          "water_global": "kg m-2 s-1",
-          "water_regional": "kg m-2 s-1"
-        },
+        "units": "kg m-2 s-1",
         "sectors": [
           "agriculture",
           "water_global"

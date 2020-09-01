@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/SecondaryOutputData/water_global.json",
-  "commit": "4fc525edc5e29199554a434fb8061f779ba8b6cb",
+  "commit": "6362cb79a76719beaafefcb4d50c665582befcab",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,17 +27,17 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "princeton",
-            "watch",
+            "wfdei",
             "gswp3",
-            "wfdei"
+            "watch",
+            "princeton"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
@@ -49,10 +49,10 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
-            "pressoc",
             "varsoc",
-            "nosoc"
+            "nosoc",
+            "nat",
+            "pressoc"
           ]
         },
         "sens_scenario": {
@@ -65,93 +65,93 @@
         "variable": {
           "type": "string",
           "enum": [
-            "canopystor",
-            "ptotww",
-            "pidmelww",
-            "groundwstor",
-            "qr",
-            "rainf",
-            "qtot",
-            "esoil",
-            "rootmoist",
-            "lai",
-            "arainfusegreen",
-            "tws",
-            "airruse",
-            "aliveww",
-            "aindww",
-            "soilmoist",
             "mindis",
-            "potevap",
-            "adomww",
             "pirrww",
-            "qs",
-            "maxdis",
-            "adomuse",
-            "lakestor",
-            "airrusegreen",
-            "qg",
             "soilmoistfroz",
-            "riverstor",
-            "swe",
-            "transp",
-            "thawdepth",
+            "snd",
             "qsb",
             "pdomuse",
-            "pirruse",
-            "ptotuse",
-            "snowf",
-            "dis",
-            "evap",
-            "snd",
-            "reservoirstor",
+            "canopystor",
+            "qg",
             "tsl",
+            "ptotww",
             "admeluse",
-            "pirrusegreen",
-            "amanww",
-            "amanuse",
-            "ainduse",
-            "qint",
+            "maxdis",
+            "qs",
+            "reservoirstor",
             "wetlandstor",
-            "atotuse",
-            "pmanuse",
+            "arainfusegreen",
+            "evap",
+            "amanuse",
+            "thawdepth",
+            "adomuse",
             "aliveuse",
+            "airruse",
+            "pirruse",
+            "pidmelww",
+            "ptotuse",
+            "airrusegreen",
+            "atotuse",
+            "rootmoist",
             "pidmeluse",
-            "airrww"
+            "qtot",
+            "dis",
+            "swe",
+            "rainf",
+            "aindww",
+            "adomww",
+            "lai",
+            "snowf",
+            "esoil",
+            "pirrusegreen",
+            "groundwstor",
+            "soilmoist",
+            "airrww",
+            "aliveww",
+            "pmanuse",
+            "potevap",
+            "qint",
+            "riverstor",
+            "qr",
+            "amanww",
+            "tws",
+            "lakestor",
+            "transp",
+            "ainduse"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "sgb",
-            "ben",
-            "mgr",
-            "rap",
             "sun",
-            "sor",
-            "whe",
-            "bar",
             "pea",
             "pot",
-            "sug",
+            "rap",
             "mai",
-            "mis",
-            "soy",
             "ric",
-            "mil",
-            "cot",
-            "nut",
-            "euc",
+            "sug",
             "pop",
+            "bar",
+            "sgb",
+            "soy",
+            "cas",
+            "cot",
             "rye",
-            "cas"
+            "sor",
+            "mis",
+            "mgr",
+            "euc",
+            "whe",
+            "ben",
+            "mil",
+            "nut"
           ]
         },
         "irrigation": {
           "type": "string",
           "enum": [
-            "cirr",
-            "noirr"
+            "noirr",
+            "cirr"
           ]
         },
         "pft": {
@@ -166,9 +166,9 @@
         "time_step": {
           "type": "string",
           "enum": [
+            "daily",
             "monthly",
-            "annual",
-            "daily"
+            "annual"
           ]
         },
         "start_year": {

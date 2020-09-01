@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_global.json",
-  "commit": "4fc525edc5e29199554a434fb8061f779ba8b6cb",
+  "commit": "6362cb79a76719beaafefcb4d50c665582befcab",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,28 +25,28 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "hadgem2-es",
+            "ipsl-cm5a-lr",
             "miroc5",
-            "gfdl-esm2m",
-            "ipsl-cm5a-lr"
+            "hadgem2-es",
+            "gfdl-esm2m"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp60",
             "historical",
-            "picontrol",
+            "2005co2",
             "rcp85",
+            "picontrol",
             "rcp26",
-            "2005co2"
+            "rcp60"
           ]
         },
         "sens_scenario": {
@@ -59,20 +59,20 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tc10cm",
-            "tcb",
-            "tc",
-            "b10cm",
+            "cmed",
+            "tsb",
+            "blarge",
+            "csmall",
             "bsmall",
-            "tc30cm",
+            "tc",
             "bcom",
             "bmed",
-            "csmall",
-            "tsb",
-            "cmed",
+            "tcb",
             "b30cm",
+            "b10cm",
             "clarge",
-            "blarge"
+            "tc10cm",
+            "tc30cm"
           ]
         },
         "region": {
@@ -84,9 +84,9 @@
         "time_step": {
           "type": "string",
           "enum": [
+            "daily",
             "monthly",
-            "annual",
-            "daily"
+            "annual"
           ]
         },
         "start_year": {
