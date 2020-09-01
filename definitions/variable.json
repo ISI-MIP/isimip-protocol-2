@@ -6,36 +6,42 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "adomuse",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "adomww",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "mm per growing season",
     "specifier": "aet",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "ainduse",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "aindww",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "airruse",
     "sectors": [
       "water_global",
@@ -43,12 +49,14 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "airrusegreen",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "airrww",
     "sectors": [
       "water_global",
@@ -62,60 +70,70 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "aliveuse",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "aliveww",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "amanuse",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "amanww",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "Estimated number of species (species richness) per cell",
     "specifier": "amphibiansr",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "Summed probability of occurrence per cell",
     "specifier": "amphibiansumprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "day of year of anthesis",
     "specifier": "anthday",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "arainfusegreen",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "atotuse",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "g C m-2",
     "specifier": "b10cm",
     "sectors": [
       "marine-fishery_global",
@@ -123,6 +141,7 @@
     ]
   },
   {
+    "units": "g C m-2",
     "specifier": "b30cm",
     "sectors": [
       "marine-fishery_global",
@@ -130,6 +149,7 @@
     ]
   },
   {
+    "units": "g C m-2",
     "specifier": "bcom",
     "sectors": [
       "marine-fishery_global",
@@ -137,48 +157,56 @@
     ]
   },
   {
+    "units": "t ha-1 per growing season",
     "specifier": "biom",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "Probability of occurrence per cell",
     "specifier": "birdprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "Estimated number of species (species richness) per cell",
     "specifier": "birdsr",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "Summed probability of occurrence per cell",
     "specifier": "birdsumprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "g C m-2",
     "specifier": "blarge",
     "sectors": [
       "marine-fishery_global"
     ]
   },
   {
+    "units": "g C m-2",
     "specifier": "bmed",
     "sectors": [
       "marine-fishery_global"
     ]
   },
   {
+    "units": "g C m-2",
     "specifier": "bsmall",
     "sectors": [
       "marine-fishery_global"
     ]
   },
   {
+    "units": "%",
     "specifier": "burntarea",
     "sectors": [
       "permafrost",
@@ -186,18 +214,21 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "canopystor",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "g m-2",
     "specifier": "clarge",
     "sectors": [
       "marine-fishery_global"
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "cleaf",
     "sectors": [
       "biomes"
@@ -211,31 +242,42 @@
     ]
   },
   {
+    "units": "g m-2",
     "specifier": "cmed",
     "sectors": [
       "marine-fishery_global"
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "croot",
     "sectors": [
       "biomes"
     ]
   },
   {
+    "units": "g m-2",
     "specifier": "csmall",
     "sectors": [
       "marine-fishery_global"
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "csoil",
+    "dimensions": [
+      "time",
+      "depth",
+      "lat",
+      "lon"
+    ],
     "sectors": [
       "biomes",
       "permafrost"
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "cveg",
     "sectors": [
       "biomes",
@@ -243,12 +285,14 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "cwood",
     "sectors": [
       "biomes"
     ]
   },
   {
+    "units": "m3 s-1",
     "specifier": "dis",
     "sectors": [
       "water_global",
@@ -263,24 +307,28 @@
     ]
   },
   {
+    "units": "Summed probability of occurrence per cell",
     "specifier": "endamphibiansumprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "Summed probability of occurrence per cell",
     "specifier": "endbirdsumprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "Summed probability of occurrence per cell",
     "specifier": "endmammalsumprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "esoil",
     "sectors": [
       "biomes",
@@ -288,6 +336,7 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "evap",
     "sectors": [
       "biomes",
@@ -296,6 +345,7 @@
     ]
   },
   {
+    "units": "%",
     "specifier": "fapar",
     "sectors": [
       "biomes",
@@ -316,6 +366,7 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "gpp",
     "sectors": [
       "biomes",
@@ -323,36 +374,42 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "groundwstor",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "mm ha-1 yr-1",
     "specifier": "gsprcp",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "w m-2 yr-1",
     "specifier": "gsrsds",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "kg ha-1 per growing season",
     "specifier": "initr",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "intercep",
     "sectors": [
       "biomes"
     ]
   },
   {
+    "units": "1",
     "specifier": "lai",
     "sectors": [
       "biomes",
@@ -361,42 +418,49 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "lakestor",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "",
     "specifier": "leach",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "Probability of occurrence per cell",
     "specifier": "mammalprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "Estimated number of species (species richness) per cell",
     "specifier": "mammalsr",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "Summed probability of occurrence per cell",
     "specifier": "mammalsumprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "day of year of maturity",
     "specifier": "matyday",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "year of maturity",
     "specifier": "matyyear",
     "sectors": [
       "agriculture"
@@ -415,6 +479,7 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "npp",
     "sectors": [
       "biomes",
@@ -422,12 +487,14 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "pdomuse",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "%",
     "specifier": "pft",
     "sectors": [
       "biomes",
@@ -453,18 +520,24 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "pirruse",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "pirrusegreen",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": {
+      "water_global": "kg m-2 s-1",
+      "water_regional": "kg m-2 s-1"
+    },
     "specifier": "pirrww",
     "sectors": [
       "agriculture",
@@ -472,24 +545,28 @@
     ]
   },
   {
+    "units": "day of year",
     "specifier": "plantday",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "year of planting",
     "specifier": "plantyear",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "pmanuse",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "potevap",
     "sectors": [
       "water_global",
@@ -497,12 +574,14 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "ptotuse",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "ptotww",
     "sectors": [
       "water_global"
@@ -515,6 +594,7 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "qg",
     "sectors": [
       "water_global",
@@ -528,6 +608,7 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "qr",
     "sectors": [
       "water_regional",
@@ -541,6 +622,7 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "qs",
     "sectors": [
       "biomes",
@@ -550,12 +632,14 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "qsb",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "qtot",
     "sectors": [
       "biomes",
@@ -565,6 +649,7 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "ra",
     "sectors": [
       "biomes",
@@ -580,12 +665,14 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "reservoirstor",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "rh",
     "sectors": [
       "biomes",
@@ -593,25 +680,35 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "riverstor",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "rootmoist",
+    "dimensions": [
+      "time",
+      "depth",
+      "lat",
+      "lon"
+    ],
     "sectors": [
       "water_global",
       "water_regional"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "rr",
     "sectors": [
       "biomes"
     ]
   },
   {
+    "units": "m",
     "specifier": "snd",
     "sectors": [
       "biomes",
@@ -627,7 +724,14 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "soilmoist",
+    "dimensions": [
+      "time",
+      "depth",
+      "lat",
+      "lon"
+    ],
     "sectors": [
       "biomes",
       "permafrost",
@@ -636,7 +740,14 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "soilmoistfroz",
+    "dimensions": [
+      "time",
+      "depth",
+      "lat",
+      "lon"
+    ],
     "sectors": [
       "permafrost",
       "water_global",
@@ -650,12 +761,14 @@
     ]
   },
   {
+    "units": "deg c-days yr-1",
     "specifier": "sumt",
     "sectors": [
       "agriculture"
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "swe",
     "sectors": [
       "biomes",
@@ -665,6 +778,7 @@
     ]
   },
   {
+    "units": "g m-2",
     "specifier": "tc",
     "sectors": [
       "marine-fishery_global",
@@ -672,6 +786,7 @@
     ]
   },
   {
+    "units": "g m-2",
     "specifier": "tc10cm",
     "sectors": [
       "marine-fishery_global",
@@ -679,6 +794,7 @@
     ]
   },
   {
+    "units": "g m-2",
     "specifier": "tc30cm",
     "sectors": [
       "marine-fishery_global",
@@ -686,6 +802,7 @@
     ]
   },
   {
+    "units": "g C m-2",
     "specifier": "tcb",
     "sectors": [
       "marine-fishery_global",
@@ -693,6 +810,7 @@
     ]
   },
   {
+    "units": "m",
     "specifier": "thawdepth",
     "sectors": [
       "permafrost",
@@ -701,30 +819,35 @@
     ]
   },
   {
+    "units": "Summed probability of occurrence per cell",
     "specifier": "thramphibiansumprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "Summed probability of occurrence per cell",
     "specifier": "thrbirdsumprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "Summed probability of occurrence per cell",
     "specifier": "thrmammalsumprob",
     "sectors": [
       "biodiversity"
     ]
   },
   {
+    "units": "g m-2",
     "specifier": "tla",
     "sectors": [
       "marine-fishery_regional"
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "trans",
     "sectors": [
       "biomes"
@@ -737,6 +860,7 @@
     ]
   },
   {
+    "units": "g C m-2",
     "specifier": "tsb",
     "sectors": [
       "marine-fishery_global",
@@ -744,6 +868,7 @@
     ]
   },
   {
+    "units": "K",
     "specifier": "tsl",
     "dimensions": [
       "time",
@@ -751,7 +876,6 @@
       "lat",
       "lon"
     ],
-    "units": "K",
     "sectors": [
       "biomes",
       "permafrost",
@@ -759,18 +883,21 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "tws",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "wetlandstor",
     "sectors": [
       "water_global"
     ]
   },
   {
+    "units": "dry matter (t ha-1 per growing season)",
     "specifier": "yield",
     "sectors": [
       "agriculture"
