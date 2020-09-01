@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/biodiversity.json",
-  "commit": "89bf78ce04aa866ff6ae66e067b5e844b5e19738",
+  "commit": "4fc525edc5e29199554a434fb8061f779ba8b6cb",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,10 +27,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gfdl-esm2m",
             "hadgem2-es",
-            "ipsl-cm5a-lr",
-            "miroc5"
+            "miroc5",
+            "gfdl-esm2m",
+            "ipsl-cm5a-lr"
           ]
         },
         "bias_adjustment": {
@@ -45,8 +45,8 @@
           "enum": [
             "rcp60",
             "historical",
-            "rcp85",
             "picontrol",
+            "rcp85",
             "rcp26",
             "2005co2"
           ]
@@ -54,27 +54,27 @@
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "co2",
-            "default"
+            "default",
+            "co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "birdsr",
-            "mammalsumprob",
-            "endmammalsumprob",
-            "thramphibiansumprob",
+            "endbirdsumprob",
             "birdprob",
+            "mammalprob",
+            "endamphibiansumprob",
+            "thrbirdsumprob",
             "thrmammalsumprob",
             "amphibiansr",
-            "mammalsr",
-            "thrbirdsumprob",
-            "endamphibiansumprob",
-            "endbirdsumprob",
-            "amphibiansumprob",
             "birdsumprob",
-            "mammalprob"
+            "birdsr",
+            "thramphibiansumprob",
+            "mammalsumprob",
+            "mammalsr",
+            "amphibiansumprob",
+            "endmammalsumprob"
           ]
         },
         "region": {
