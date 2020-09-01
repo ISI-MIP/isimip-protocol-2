@@ -534,10 +534,7 @@
     ]
   },
   {
-    "units": {
-      "water_global": "kg m-2 s-1",
-      "water_regional": "kg m-2 s-1"
-    },
+    "units": "kg m-2 s-1",
     "specifier": "pirrww",
     "sectors": [
       "agriculture",
