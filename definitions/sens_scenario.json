@@ -1,8 +1,11 @@
 [
   {
+    "specifier": "default"
+  },
+  {
     "specifier": "co2"
   },
   {
-    "specifier": "default"
+    "specifier": "2005co2"
   }
 ]

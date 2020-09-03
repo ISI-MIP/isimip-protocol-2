@@ -847,7 +847,8 @@
     "units": "kg m-2 s-1",
     "specifier": "trans",
     "sectors": [
-      "biomes"
+      "biomes",
+      "water_global"
     ]
   },
   {
