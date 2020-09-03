@@ -30,6 +30,9 @@
         "climate_scenario": {
           "type": "string"
         },
+        "soc_scenario": {
+          "type": "string"
+        },
         "sens_scenario": {
           "type": "string"
         },

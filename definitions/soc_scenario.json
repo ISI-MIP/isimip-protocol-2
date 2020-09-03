@@ -10,5 +10,23 @@
   },
   {
     "specifier": "nat"
+  },
+  {
+    "specifier": "2005soc"
+  },
+  {
+    "specifier": "1860soc"
+  },
+  {
+    "specifier": "histsoc"
+  },
+  {
+    "specifier": "rcp26soc"
+  },
+  {
+    "specifier": "rcp60soc"
+  },
+  {
+    "specifier": "2100rcp26soc"
   }
 ]

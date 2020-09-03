@@ -42,6 +42,12 @@
         "pft": {
           "type": "string"
         },
+        "crop": {
+          "type": "string"
+        },
+        "irrigation": {
+          "type": "string"
+        },
         "region": {
           "type": "string"
         },
