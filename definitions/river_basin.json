@@ -1,5 +1,8 @@
 [
   {
+    "specifier": "alton"
+  },
+  {
     "specifier": "sao-paulo-de-olivenca",
     "title": "São Paulo de Olivenca",
     "river": "Amazon",
@@ -36,6 +39,12 @@
     "area_upstream": 325000
   },
   {
+    "specifier": "roseiresdam",
+    "title": "Roseires Dam",
+    "river": "Blue Nile",
+    "river_specifier": "blue-nile"
+  },
+  {
     "specifier": "wien-nussdorf",
     "title": "Wien-Nußdorf",
     "river": "Danube",
@@ -58,6 +67,12 @@
     "availability_monthly": "1949-1973",
     "availability_daily": "",
     "area_upstream": 835000
+  },
+  {
+    "specifier": "chisapani",
+    "title": "Chisapani",
+    "river": "Ganges",
+    "river_specifier": "ganges"
   },
   {
     "specifier": "tekra",
@@ -132,6 +147,30 @@
     "area_upstream": 444185
   },
   {
+    "specifier": "clinton",
+    "title": "Clinton",
+    "river": "Mississippi",
+    "river_specifier": "mississippi"
+  },
+  {
+    "specifier": "st-paul",
+    "title": "St. Paul",
+    "river": "Mississippi",
+    "river_specifier": "mississippi"
+  },
+  {
+    "specifier": "valley-city",
+    "title": "Valley City",
+    "river": "Mississippi",
+    "river_specifier": "mississippi"
+  },
+  {
+    "specifier": "wisconsin-dells",
+    "title": "Wisconsin Dells",
+    "river": "Mississippi",
+    "river_specifier": "mississippi"
+  },
+  {
     "specifier": "louth",
     "title": "Louth",
     "river": "Darling",
@@ -192,6 +231,18 @@
     "area_upstream": 348000
   },
   {
+    "specifier": "ibi",
+    "title": "Ibi",
+    "river": "Niger",
+    "river_specifier": "niger"
+  },
+  {
+    "specifier": "niamey",
+    "title": "Niamey",
+    "river": "Niger",
+    "river_specifier": "niger"
+  },
+  {
     "specifier": "floresta",
     "title": "Floresta",
     "river": "Pajeu",
@@ -214,6 +265,30 @@
     "availability_monthly": "1901-1996",
     "availability_daily": "1901-2010",
     "area_upstream": 160800
+  },
+  {
+    "specifier": "frankfurt",
+    "title": "Frankfurt",
+    "river": "Rhine",
+    "river_specifier": "rhine"
+  },
+  {
+    "specifier": "rheinfelden",
+    "title": "Rheinfelden",
+    "river": "Rhine",
+    "river_specifier": "rhine"
+  },
+  {
+    "specifier": "rockenau",
+    "title": "Rockenau",
+    "river": "Rhine",
+    "river_specifier": "rhine"
+  },
+  {
+    "specifier": "trier",
+    "title": "Trier",
+    "river": "Rhine",
+    "river_specifier": "rhine"
   },
   {
     "specifier": "almourol",
@@ -262,5 +337,23 @@
     "availability_monthly": "1971-2002",
     "availability_daily": "1971-2002",
     "area_upstream": 121000
+  },
+  {
+    "specifier": "maqu",
+    "title": "Maqu",
+    "river": "Yellow, Huang He",
+    "river_specifier": "yellow"
+  },
+  {
+    "specifier": "jimai",
+    "title": "Jimai",
+    "river": "Yellow, Huang He",
+    "river_specifier": "yellow"
+  },
+  {
+    "specifier": "huangheyuan",
+    "title": "Huangheyuan",
+    "river": "Yellow, Huang He",
+    "river_specifier": "yellow"
   }
 ]
