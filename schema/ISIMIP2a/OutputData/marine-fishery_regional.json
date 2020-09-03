@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "6362cb79a76719beaafefcb4d50c665582befcab",
+  "commit": "d712242a0401722ae11703b3641be28af7b93ea3",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,10 +25,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "wfdei",
-            "gswp3",
             "watch",
-            "princeton"
+            "wfdei",
+            "princeton",
+            "gswp3"
           ]
         },
         "bias_adjustment": {
@@ -47,37 +47,37 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tsb",
-            "tc",
-            "bcom",
-            "tla",
             "tcb",
-            "b30cm",
             "b10cm",
             "tc10cm",
+            "tla",
+            "tc",
+            "tsb",
+            "bcom",
+            "b30cm",
             "tc30cm"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "east-bass-strait",
-            "med-glob",
-            "adriatic-sea",
             "se-australia",
-            "north-sea",
+            "med-glob",
             "humboldt-n",
-            "nw-med-sea",
+            "east-bass-strait",
+            "baltic-sea",
+            "adriatic-sea",
             "cook-strait",
-            "baltic-sea"
+            "nw-med-sea",
+            "north-sea"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
             "daily",
-            "monthly",
-            "annual"
+            "annual",
+            "monthly"
           ]
         },
         "start_year": {

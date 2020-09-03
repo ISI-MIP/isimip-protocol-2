@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/agriculture.json",
-  "commit": "6362cb79a76719beaafefcb4d50c665582befcab",
+  "commit": "d712242a0401722ae11703b3641be28af7b93ea3",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,7 +14,8 @@
         "climate_forcing",
         "bias_adjustment",
         "climate_scenario",
-        "harmonization",
+        "soc_scenario",
+        "sens_scenario",
         "variable",
         "crop",
         "irrigation",
@@ -28,10 +29,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ipsl-cm5a-lr",
             "miroc5",
-            "hadgem2-es",
-            "gfdl-esm2m"
+            "gfdl-esm2m",
+            "ipsl-cm5a-lr",
+            "hadgem2-es"
           ]
         },
         "bias_adjustment": {
@@ -44,61 +45,82 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "historical",
             "2005co2",
-            "rcp85",
-            "picontrol",
             "rcp26",
-            "rcp60"
+            "rcp60",
+            "historical",
+            "rcp45",
+            "picontrol",
+            "rcp85"
           ]
         },
-        "harmonization": {
-          "type": "string"
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "varsoc",
+            "rcp60soc",
+            "2005soc",
+            "nat",
+            "pressoc",
+            "2100rcp26soc",
+            "histsoc",
+            "1860soc",
+            "nosoc",
+            "rcp26soc"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string",
+          "enum": [
+            "co2",
+            "2005co2",
+            "default"
+          ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "pirrww",
-            "leach",
-            "plantday",
-            "sumt",
-            "matyday",
-            "yield",
-            "gsprcp",
-            "aet",
-            "biom",
-            "gsrsds",
             "anthday",
+            "gsprcp",
+            "matyday",
+            "biom",
             "initr",
+            "pirrww",
+            "aet",
+            "plantday",
+            "yield",
+            "plantyear",
             "matyyear",
-            "plantyear"
+            "sumt",
+            "gsrsds",
+            "leach"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "sun",
-            "pea",
-            "pot",
-            "rap",
-            "mai",
-            "ric",
-            "sug",
             "pop",
-            "bar",
+            "sun",
             "sgb",
-            "soy",
-            "cas",
-            "cot",
-            "rye",
-            "sor",
-            "mis",
             "mgr",
-            "euc",
-            "whe",
-            "ben",
+            "soy",
+            "sug",
+            "rap",
+            "rye",
+            "cas",
+            "mis",
+            "sor",
+            "nut",
+            "pea",
             "mil",
-            "nut"
+            "ric",
+            "ben",
+            "pot",
+            "euc",
+            "cot",
+            "whe",
+            "bar",
+            "mai"
           ]
         },
         "irrigation": {

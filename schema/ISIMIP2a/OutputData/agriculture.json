@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/agriculture.json",
-  "commit": "6362cb79a76719beaafefcb4d50c665582befcab",
+  "commit": "d712242a0401722ae11703b3641be28af7b93ea3",
   "type": "object",
   "required": [
     "specifiers"
@@ -28,10 +28,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "wfdei",
-            "gswp3",
             "watch",
-            "princeton"
+            "wfdei",
+            "princeton",
+            "gswp3"
           ]
         },
         "bias_adjustment": {
@@ -53,47 +53,47 @@
         "variable": {
           "type": "string",
           "enum": [
-            "pirrww",
-            "leach",
-            "plantday",
-            "sumt",
-            "matyday",
-            "yield",
-            "gsprcp",
-            "aet",
-            "biom",
-            "gsrsds",
             "anthday",
+            "gsprcp",
+            "matyday",
+            "biom",
             "initr",
+            "pirrww",
+            "aet",
+            "plantday",
+            "yield",
+            "plantyear",
             "matyyear",
-            "plantyear"
+            "sumt",
+            "gsrsds",
+            "leach"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "sun",
-            "pea",
-            "pot",
-            "rap",
-            "mai",
-            "ric",
-            "sug",
             "pop",
-            "bar",
+            "sun",
             "sgb",
-            "soy",
-            "cas",
-            "cot",
-            "rye",
-            "sor",
-            "mis",
             "mgr",
-            "euc",
-            "whe",
-            "ben",
+            "soy",
+            "sug",
+            "rap",
+            "rye",
+            "cas",
+            "mis",
+            "sor",
+            "nut",
+            "pea",
             "mil",
-            "nut"
+            "ric",
+            "ben",
+            "pot",
+            "euc",
+            "cot",
+            "whe",
+            "bar",
+            "mai"
           ]
         },
         "irrigation": {

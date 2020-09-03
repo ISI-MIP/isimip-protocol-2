@@ -1,5 +1,5 @@
 {
-  "commit": "6362cb79a76719beaafefcb4d50c665582befcab",
+  "commit": "d712242a0401722ae11703b3641be28af7b93ea3",
   "terms": {
     "diazotroph_scenario": {
       "w-diaz": {},
@@ -28,6 +28,15 @@
         "description": "RCP2.6 climate as simulated by the GCMs.",
         "simulation_rounds": [
           "ISIMIP2b"
+        ]
+      },
+      "rcp45": {
+        "description": "RCP4.5 climate as simulated by the GCMs.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ],
+        "periods": [
+          "SecondaryOutputData"
         ]
       },
       "rcp60": {
@@ -170,6 +179,17 @@
       }
     },
     "river_basin": {
+      "alton": {
+        "title": "Alton",
+        "river": "Mississippi",
+        "river_specifier": "mississippi",
+        "lat": 38.885,
+        "lon": -90.1809,
+        "grdc": 4119800,
+        "availability_monthly": "1928-1984",
+        "availability_daily": "1933-1987",
+        "area_upstream": 444185
+      },
       "sao-paulo-de-olivenca": {
         "title": "S\u00e3o Paulo de Olivenca",
         "river": "Amazon",
@@ -203,6 +223,11 @@
         "availability_daily": "1900-1982",
         "area_upstream": 325000
       },
+      "roseiresdam": {
+        "title": "Roseires Dam",
+        "river": "Blue Nile",
+        "river_specifier": "blue-nile"
+      },
       "wien-nussdorf": {
         "title": "Wien-Nu\u00dfdorf",
         "river": "Danube",
@@ -224,6 +249,11 @@
         "availability_monthly": "1949-1973",
         "availability_daily": "",
         "area_upstream": 835000
+      },
+      "chisapani": {
+        "title": "Chisapani",
+        "river": "Ganges",
+        "river_specifier": "ganges"
       },
       "tekra": {
         "title": "Tekra",
@@ -280,16 +310,25 @@
         "availability_daily": "1972-2015",
         "area_upstream": 1660000
       },
-      "alton": {
-        "title": "Alton",
+      "clinton": {
+        "title": "Clinton",
         "river": "Mississippi",
-        "river_specifier": "mississippi",
-        "lat": 38.885,
-        "lon": -90.1809,
-        "grdc": 4119800,
-        "availability_monthly": "1928-1984",
-        "availability_daily": "1933-1987",
-        "area_upstream": 444185
+        "river_specifier": "mississippi"
+      },
+      "st-paul": {
+        "title": "St. Paul",
+        "river": "Mississippi",
+        "river_specifier": "mississippi"
+      },
+      "valley-city": {
+        "title": "Valley City",
+        "river": "Mississippi",
+        "river_specifier": "mississippi"
+      },
+      "wisconsin-dells": {
+        "title": "Wisconsin Dells",
+        "river": "Mississippi",
+        "river_specifier": "mississippi"
       },
       "louth": {
         "title": "Louth",
@@ -346,6 +385,16 @@
         "availability_daily": "1954-1992",
         "area_upstream": 348000
       },
+      "ibi": {
+        "title": "Ibi",
+        "river": "Niger",
+        "river_specifier": "niger"
+      },
+      "niamey": {
+        "title": "Niamey",
+        "river": "Niger",
+        "river_specifier": "niger"
+      },
       "floresta": {
         "title": "Floresta",
         "river": "Pajeu",
@@ -367,6 +416,26 @@
         "availability_monthly": "1901-1996",
         "availability_daily": "1901-2010",
         "area_upstream": 160800
+      },
+      "frankfurt": {
+        "title": "Frankfurt",
+        "river": "Rhine",
+        "river_specifier": "rhine"
+      },
+      "rheinfelden": {
+        "title": "Rheinfelden",
+        "river": "Rhine",
+        "river_specifier": "rhine"
+      },
+      "rockenau": {
+        "title": "Rockenau",
+        "river": "Rhine",
+        "river_specifier": "rhine"
+      },
+      "trier": {
+        "title": "Trier",
+        "river": "Rhine",
+        "river_specifier": "rhine"
       },
       "almourol": {
         "title": "Almourol",
@@ -411,6 +480,21 @@
         "availability_monthly": "1971-2002",
         "availability_daily": "1971-2002",
         "area_upstream": 121000
+      },
+      "maqu": {
+        "title": "Maqu",
+        "river": "Yellow, Huang He",
+        "river_specifier": "yellow"
+      },
+      "jimai": {
+        "title": "Jimai",
+        "river": "Yellow, Huang He",
+        "river_specifier": "yellow"
+      },
+      "huangheyuan": {
+        "title": "Huangheyuan",
+        "river": "Yellow, Huang He",
+        "river_specifier": "yellow"
       }
     },
     "species": {
@@ -1009,8 +1093,9 @@
       }
     },
     "sens_scenario": {
+      "default": {},
       "co2": {},
-      "default": {}
+      "2005co2": {}
     },
     "river": {
       "amazon": {},
@@ -1156,6 +1241,11 @@
           "biodiversity"
         ],
         "increment": "years"
+      },
+      "constant": {
+        "sectors": [
+          "biomes"
+        ]
       }
     },
     "ocean_region": {
@@ -1754,6 +1844,7 @@
       "potevap": {
         "units": "kg m-2 s-1",
         "sectors": [
+          "biomes",
           "water_global",
           "water_regional"
         ]
@@ -2001,7 +2092,8 @@
       "trans": {
         "units": "kg m-2 s-1",
         "sectors": [
-          "biomes"
+          "biomes",
+          "water_global"
         ]
       },
       "transp": {
@@ -2053,7 +2145,13 @@
       "nosoc": {},
       "pressoc": {},
       "varsoc": {},
-      "nat": {}
+      "nat": {},
+      "2005soc": {},
+      "1860soc": {},
+      "histsoc": {},
+      "rcp26soc": {},
+      "rcp60soc": {},
+      "2100rcp26soc": {}
     },
     "crop": {
       "whe": {
