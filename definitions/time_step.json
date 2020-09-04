@@ -63,5 +63,11 @@
       "biodiversity"
     ],
     "increment": "years"
+  },
+  {
+    "specifier": "constant",
+    "sectors": [
+      "biomes"
+    ]
   }
 ]

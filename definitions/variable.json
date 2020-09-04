@@ -566,6 +566,7 @@
     "units": "kg m-2 s-1",
     "specifier": "potevap",
     "sectors": [
+      "biomes",
       "water_global",
       "water_regional"
     ]
@@ -849,7 +850,8 @@
     "units": "kg m-2 s-1",
     "specifier": "trans",
     "sectors": [
-      "biomes"
+      "biomes",
+      "water_global"
     ]
   },
   {

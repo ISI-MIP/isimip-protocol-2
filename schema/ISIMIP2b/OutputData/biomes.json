@@ -30,6 +30,9 @@
         "climate_scenario": {
           "type": "string"
         },
+        "soc_scenario": {
+          "type": "string"
+        },
         "sens_scenario": {
           "type": "string"
         },
@@ -37,6 +40,12 @@
           "type": "string"
         },
         "pft": {
+          "type": "string"
+        },
+        "crop": {
+          "type": "string"
+        },
+        "irrigation": {
           "type": "string"
         },
         "region": {

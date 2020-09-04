@@ -43,12 +43,7 @@
           "type": "string"
         },
         "irrigation": {
-          "type": "string",
-          "enum": [
-            "firr",
-            "cirr",
-            "noirr"
-          ]
+          "type": "string"
         },
         "pft": {
           "type": "string"

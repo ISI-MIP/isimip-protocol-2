@@ -28,6 +28,16 @@
     ]
   },
   {
+    "specifier": "rcp45",
+    "description": "RCP4.5 climate as simulated by the GCMs.",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ],
+    "periods": [
+      "SecondaryOutputData"
+    ]
+  },
+  {
     "specifier": "rcp60",
     "description": "RCP6.0 climate as simulated by the GCMs.",
     "simulation_rounds": [

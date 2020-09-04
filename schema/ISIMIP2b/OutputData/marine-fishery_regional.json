@@ -28,9 +28,6 @@
         "climate_scenario": {
           "type": "string"
         },
-        "sens_scenario": {
-          "type": "string"
-        },
         "variable": {
           "type": "string"
         },
