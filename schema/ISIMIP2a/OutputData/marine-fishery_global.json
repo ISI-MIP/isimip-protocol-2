@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
-  "commit": "d712242a0401722ae11703b3641be28af7b93ea3",
+  "commit": "c308b826467c90034f67a329b9ecd5147663bef8",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,17 +25,17 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
-            "wfdei",
             "princeton",
-            "gswp3"
+            "watch",
+            "gswp3",
+            "wfdei"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "nobc"
+            "nobc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
@@ -47,20 +47,20 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tcb",
+            "csmall",
             "b10cm",
+            "b30cm",
             "clarge",
+            "tc30cm",
             "tc10cm",
+            "tcb",
             "tc",
-            "bsmall",
-            "cmed",
             "tsb",
             "blarge",
+            "bsmall",
+            "bmed",
             "bcom",
-            "csmall",
-            "tc30cm",
-            "b30cm",
-            "bmed"
+            "cmed"
           ]
         },
         "region": {
@@ -72,9 +72,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
+            "monthly",
             "annual",
-            "monthly"
+            "daily"
           ]
         },
         "start_year": {

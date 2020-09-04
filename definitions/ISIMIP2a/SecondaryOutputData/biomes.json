@@ -1640,6 +1640,8 @@
     {
       "units": "kg m-2 s-1",
       "specifier": "qs",
+      "valid_min": 0.0,
+      "valid_max": 0.001,
       "sectors": [
         "biomes",
         "permafrost",
