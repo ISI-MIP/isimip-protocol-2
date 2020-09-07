@@ -1,9 +1,12 @@
 import json
 import os
+import subprocess
 from pathlib import Path
 
 
 def main():
+    commit = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode().strip()
+
     directory = Path('definitions')
     definitions = {}
     for file_name in os.listdir(directory):
@@ -24,7 +27,9 @@ def main():
                                             .with_suffix('.json')
                 output_path.parent.mkdir(parents=True, exist_ok=True)
 
-                output_definitions = {}
+                output_definitions = {
+                    'commit': commit,
+                }
                 for definition_name, rows in definitions.items():
                     # filter definitions for simulation_round, product, sector
                     output_definitions[definition_name] = []
