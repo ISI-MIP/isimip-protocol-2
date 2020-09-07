@@ -42,5 +42,8 @@
   },
   {
     "specifier": "depth"
+  },
+  {
+    "specifier": "bnds"
   }
 ]
