@@ -1,5 +1,5 @@
 {
-  "commit": "c308b826467c90034f67a329b9ecd5147663bef8",
+  "commit": "d85555d3890488891cbca5e855a3c2932896da3e",
   "terms": {
     "diazotroph_scenario": {
       "w-diaz": {},
@@ -1180,7 +1180,8 @@
           "365_day"
         ]
       },
-      "depth": {}
+      "depth": {},
+      "bnds": {}
     },
     "time_step": {
       "3hr": {

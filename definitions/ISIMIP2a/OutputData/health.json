@@ -1284,6 +1284,9 @@
     },
     {
       "specifier": "depth"
+    },
+    {
+      "specifier": "bnds"
     }
   ],
   "time_step": [],
