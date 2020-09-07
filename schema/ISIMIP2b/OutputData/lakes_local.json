@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/lakes_local.json",
-  "commit": "d85555d3890488891cbca5e855a3c2932896da3e",
+  "commit": "660dde3851c85f81bad3c07642c2938c0282b33e",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,27 +27,27 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "miroc5",
             "hadgem2-es",
             "ipsl-cm5a-lr",
-            "gfdl-esm2m"
+            "gfdl-esm2m",
+            "miroc5"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
+            "rcp45",
+            "picontrol",
             "historical",
             "rcp26",
-            "rcp45",
             "2005co2",
-            "picontrol",
             "rcp60",
             "rcp85"
           ]
@@ -55,24 +55,24 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2005soc",
-            "pressoc",
-            "rcp26soc",
-            "rcp60soc",
-            "nat",
-            "2100rcp26soc",
-            "histsoc",
-            "varsoc",
             "nosoc",
-            "1860soc"
+            "pressoc",
+            "histsoc",
+            "rcp60soc",
+            "2100rcp26soc",
+            "2005soc",
+            "nat",
+            "1860soc",
+            "rcp26soc",
+            "varsoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
             "2005co2",
-            "co2"
+            "co2",
+            "default"
           ]
         },
         "variable": {
@@ -82,79 +82,79 @@
         "lake_site": {
           "type": "string",
           "enum": [
-            "okauchee",
-            "annecy",
-            "toolik",
-            "tahoe",
-            "sunapee",
-            "rappbode",
-            "sparkling",
-            "langtjern",
-            "stechlin",
-            "crystal-bog",
-            "mt-bold",
-            "green",
-            "rimov",
-            "falling-creek",
-            "washington",
-            "sammamish",
-            "kuivajarvi",
             "ngoring ",
+            "burley-griffin",
             "mozhaysk",
-            "crystal-lake",
-            "vendyurskoe",
-            "big-muskellunge",
-            "eagle ",
+            "esthwaite-water",
             "mueggelsee",
-            "laramie",
-            "geneva",
-            "two-sisters",
-            "trout-bog",
-            "tarawera",
-            "windermere",
-            "monona",
-            "harp",
-            "bourget",
-            "biel",
-            "paajarvi",
-            "argyle",
+            "wingra",
+            "kinneret",
+            "crystal-bog",
+            "lower-zurich",
+            "kuivajarvi",
             "nohipalo-mustjaerv",
             "feeagh",
-            "waahi",
-            "kivu",
-            "annie",
-            "black-oak",
-            "sau",
-            "kinneret",
-            "fish",
-            "great",
-            "burley-griffin",
-            "trout-lake",
-            "ekoln ",
-            "nohipalo-valgejaerv",
+            "sparkling",
+            "sunapee",
             "mendota",
-            "taupo",
-            "kilpisjarvi",
-            "erken",
-            "zlutice",
-            "wingra",
-            "vortsjaerv",
-            "delavan",
-            "dickie",
-            "klicava",
-            "rotorua",
+            "trout-lake",
+            "sau",
+            "green",
+            "rappbode",
+            "washington",
+            "harp",
+            "nohipalo-valgejaerv",
+            "annie",
             "alqueva",
-            "esthwaite-water",
-            "lower-zurich",
-            "neuchatel"
+            "rotorua",
+            "fish",
+            "trout-bog",
+            "waahi",
+            "paajarvi",
+            "ekoln ",
+            "argyle",
+            "rimov",
+            "black-oak",
+            "kilpisjarvi",
+            "tarawera",
+            "mt-bold",
+            "vendyurskoe",
+            "eagle ",
+            "tahoe",
+            "two-sisters",
+            "vortsjaerv",
+            "langtjern",
+            "toolik",
+            "okauchee",
+            "neuchatel",
+            "monona",
+            "taupo",
+            "big-muskellunge",
+            "zlutice",
+            "great",
+            "geneva",
+            "annecy",
+            "dickie",
+            "kivu",
+            "delavan",
+            "falling-creek",
+            "erken",
+            "stechlin",
+            "sammamish",
+            "windermere",
+            "klicava",
+            "laramie",
+            "bourget",
+            "crystal-lake",
+            "biel"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "monthly",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {

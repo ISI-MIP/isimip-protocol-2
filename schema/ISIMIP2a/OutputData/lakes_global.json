@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/lakes_global.json",
-  "commit": "d85555d3890488891cbca5e855a3c2932896da3e",
+  "commit": "660dde3851c85f81bad3c07642c2938c0282b33e",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,17 +27,17 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3",
-            "watch",
             "princeton",
-            "wfdei"
+            "gswp3",
+            "wfdei",
+            "watch"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
@@ -49,24 +49,24 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2005soc",
-            "pressoc",
-            "rcp26soc",
-            "rcp60soc",
-            "nat",
-            "2100rcp26soc",
-            "histsoc",
-            "varsoc",
             "nosoc",
-            "1860soc"
+            "pressoc",
+            "histsoc",
+            "rcp60soc",
+            "2100rcp26soc",
+            "2005soc",
+            "nat",
+            "1860soc",
+            "rcp26soc",
+            "varsoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
             "2005co2",
-            "co2"
+            "co2",
+            "default"
           ]
         },
         "variable": {
@@ -82,9 +82,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "monthly",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {

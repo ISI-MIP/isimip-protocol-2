@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "d85555d3890488891cbca5e855a3c2932896da3e",
+  "commit": "660dde3851c85f81bad3c07642c2938c0282b33e",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,17 +25,17 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3",
-            "watch",
             "princeton",
-            "wfdei"
+            "gswp3",
+            "wfdei",
+            "watch"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
@@ -47,37 +47,37 @@
         "variable": {
           "type": "string",
           "enum": [
-            "bcom",
-            "tla",
             "b30cm",
-            "tc",
             "tc10cm",
-            "tcb",
-            "b10cm",
+            "tla",
             "tsb",
-            "tc30cm"
+            "tcb",
+            "tc",
+            "b10cm",
+            "tc30cm",
+            "bcom"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "north-sea",
-            "med-glob",
-            "east-bass-strait",
-            "se-australia",
             "humboldt-n",
             "adriatic-sea",
-            "baltic-sea",
+            "se-australia",
+            "north-sea",
             "nw-med-sea",
-            "cook-strait"
+            "baltic-sea",
+            "cook-strait",
+            "med-glob",
+            "east-bass-strait"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "monthly",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {

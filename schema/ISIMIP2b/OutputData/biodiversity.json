@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/biodiversity.json",
-  "commit": "d85555d3890488891cbca5e855a3c2932896da3e",
+  "commit": "660dde3851c85f81bad3c07642c2938c0282b33e",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,27 +27,27 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "miroc5",
             "hadgem2-es",
             "ipsl-cm5a-lr",
-            "gfdl-esm2m"
+            "gfdl-esm2m",
+            "miroc5"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
+            "rcp45",
+            "picontrol",
             "historical",
             "rcp26",
-            "rcp45",
             "2005co2",
-            "picontrol",
             "rcp60",
             "rcp85"
           ]
@@ -55,43 +55,43 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2005soc",
-            "pressoc",
-            "rcp26soc",
-            "rcp60soc",
-            "nat",
-            "2100rcp26soc",
-            "histsoc",
-            "varsoc",
             "nosoc",
-            "1860soc"
+            "pressoc",
+            "histsoc",
+            "rcp60soc",
+            "2100rcp26soc",
+            "2005soc",
+            "nat",
+            "1860soc",
+            "rcp26soc",
+            "varsoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
             "2005co2",
-            "co2"
+            "co2",
+            "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "birdsr",
-            "thrmammalsumprob",
-            "endmammalsumprob",
-            "thrbirdsumprob",
-            "mammalsumprob",
             "birdsumprob",
-            "amphibiansumprob",
+            "endamphibiansumprob",
+            "birdsr",
+            "mammalsumprob",
             "amphibiansr",
+            "thrbirdsumprob",
+            "endbirdsumprob",
             "birdprob",
             "mammalprob",
+            "amphibiansumprob",
+            "thrmammalsumprob",
             "thramphibiansumprob",
-            "endbirdsumprob",
-            "mammalsr",
-            "endamphibiansumprob"
+            "endmammalsumprob",
+            "mammalsr"
           ]
         },
         "region": {
