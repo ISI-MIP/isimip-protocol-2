@@ -1,5 +1,5 @@
 {
-  "commit": "660dde3851c85f81bad3c07642c2938c0282b33e",
+  "commit": "e2b5f9a92816e6cbd71cd8061452dc1685c11fb1",
   "diazotroph_scenario": [
     {
       "specifier": "w-diaz"
@@ -1337,7 +1337,12 @@
       ]
     },
     {
-      "specifier": "depth"
+      "specifier": "depth",
+      "axis": "Z",
+      "standard_name": "depth_below_land",
+      "long_name": "Depth of vertical layer center below land",
+      "positive": "down",
+      "units": "m"
     },
     {
       "specifier": "bnds"
