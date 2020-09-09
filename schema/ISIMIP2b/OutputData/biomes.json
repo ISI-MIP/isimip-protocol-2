@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/biomes.json",
-  "commit": "e2b5f9a92816e6cbd71cd8061452dc1685c11fb1",
+  "commit": "0062871748de6e56d3f697f3a50db37abafec318",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "miroc5",
             "gfdl-esm2m",
+            "miroc5",
             "ipsl-cm5a-lr",
             "hadgem2-es"
           ]
@@ -43,28 +43,28 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
+            "rcp60",
+            "rcp45",
             "rcp26",
-            "historical",
+            "2005co2",
             "picontrol",
             "rcp85",
-            "2005co2",
-            "rcp45",
-            "rcp60"
+            "historical"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "rcp26soc",
-            "rcp60soc",
-            "nat",
             "1860soc",
-            "2005soc",
-            "varsoc",
+            "rcp60soc",
+            "histsoc",
             "nosoc",
+            "varsoc",
+            "2100rcp26soc",
             "pressoc",
-            "2100rcp26soc"
+            "nat",
+            "rcp26soc",
+            "2005soc"
           ]
         },
         "sens_scenario": {
@@ -78,41 +78,41 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tsl",
-            "evap",
-            "qtot",
-            "lai",
-            "swe",
-            "fapar",
-            "rr",
             "somcfire",
-            "csoil",
-            "esoil",
-            "intercep",
-            "thawdepth",
-            "cleaf",
-            "trans",
-            "soilmoistfroz",
-            "potevap",
-            "cveg",
+            "evap",
             "cwood",
-            "soilmoist",
-            "ra",
-            "gpp",
-            "rainf",
-            "albedo",
-            "npp",
-            "ecoatmflux",
+            "potevap",
+            "rr",
             "rh",
-            "snd",
-            "burntarea",
-            "clitter",
-            "pft",
-            "qs",
-            "croot",
-            "firefrac",
+            "thawdepth",
             "fireint",
-            "pft2storeys"
+            "qs",
+            "snd",
+            "npp",
+            "albedo",
+            "fapar",
+            "clitter",
+            "esoil",
+            "rainf",
+            "tsl",
+            "intercep",
+            "croot",
+            "soilmoist",
+            "burntarea",
+            "gpp",
+            "cleaf",
+            "ra",
+            "swe",
+            "pft2storeys",
+            "trans",
+            "firefrac",
+            "ecoatmflux",
+            "lai",
+            "qtot",
+            "soilmoistfroz",
+            "pft",
+            "csoil",
+            "cveg"
           ]
         },
         "pft": {
@@ -121,28 +121,28 @@
         "crop": {
           "type": "string",
           "enum": [
+            "mgr",
             "pea",
-            "whe",
-            "mil",
+            "mis",
             "nut",
+            "bar",
+            "ben",
+            "sun",
+            "rye",
+            "pop",
             "cot",
             "pot",
-            "mai",
-            "ben",
-            "bar",
             "soy",
-            "mis",
             "ric",
-            "pop",
-            "cas",
-            "sun",
+            "mai",
             "sgb",
-            "mgr",
+            "cas",
+            "sor",
+            "mil",
             "sug",
-            "rye",
-            "euc",
             "rap",
-            "sor"
+            "euc",
+            "whe"
           ]
         },
         "irrigation": {
@@ -160,9 +160,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
-            "constant",
             "daily",
+            "constant",
+            "annual",
             "monthly"
           ]
         },

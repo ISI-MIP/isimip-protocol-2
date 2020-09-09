@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_regional.json",
-  "commit": "e2b5f9a92816e6cbd71cd8061452dc1685c11fb1",
+  "commit": "0062871748de6e56d3f697f3a50db37abafec318",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,8 +25,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "miroc5",
             "gfdl-esm2m",
+            "miroc5",
             "ipsl-cm5a-lr",
             "hadgem2-es"
           ]
@@ -41,48 +41,48 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
+            "rcp60",
+            "rcp45",
             "rcp26",
-            "historical",
+            "2005co2",
             "picontrol",
             "rcp85",
-            "2005co2",
-            "rcp45",
-            "rcp60"
+            "historical"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
+            "b10cm",
+            "tla",
             "tc30cm",
             "b30cm",
-            "bcom",
-            "tcb",
-            "b10cm",
             "tc",
+            "bcom",
             "tc10cm",
-            "tla",
+            "tcb",
             "tsb"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "cook-strait",
-            "north-sea",
-            "nw-med-sea",
             "baltic-sea",
-            "med-glob",
             "se-australia",
-            "humboldt-n",
             "adriatic-sea",
-            "east-bass-strait"
+            "north-sea",
+            "cook-strait",
+            "east-bass-strait",
+            "humboldt-n",
+            "med-glob",
+            "nw-med-sea"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
             "daily",
+            "annual",
             "monthly"
           ]
         },

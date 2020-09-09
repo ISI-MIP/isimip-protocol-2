@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/forestry.json",
-  "commit": "e2b5f9a92816e6cbd71cd8061452dc1685c11fb1",
+  "commit": "0062871748de6e56d3f697f3a50db37abafec318",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "miroc5",
             "gfdl-esm2m",
+            "miroc5",
             "ipsl-cm5a-lr",
             "hadgem2-es"
           ]
@@ -37,35 +37,35 @@
           "type": "string",
           "enum": [
             "ewembi",
-            "nobc",
-            "localbc"
+            "localbc",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
+            "rcp60",
+            "rcp45",
             "rcp26",
-            "historical",
+            "2005co2",
             "picontrol",
             "rcp85",
-            "2005co2",
-            "rcp45",
-            "rcp60"
+            "historical"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "rcp26soc",
-            "rcp60soc",
-            "nat",
             "1860soc",
-            "2005soc",
-            "varsoc",
+            "rcp60soc",
+            "histsoc",
             "nosoc",
+            "varsoc",
+            "2100rcp26soc",
             "pressoc",
-            "2100rcp26soc"
+            "nat",
+            "rcp26soc",
+            "2005soc"
           ]
         },
         "sens_scenario": {
@@ -83,47 +83,47 @@
         "species": {
           "type": "string",
           "enum": [
-            "acpl",
             "quro",
-            "bepu",
-            "pisy",
-            "poni",
-            "qupe",
-            "rops",
-            "pipi",
-            "eugl",
-            "soau",
-            "fi",
-            "wi",
             "piab",
-            "ins",
             "frex",
-            "hawo",
+            "pisy",
+            "eugl",
+            "poni",
+            "wi",
+            "soau",
             "lade",
+            "bepu",
+            "ins",
+            "fi",
+            "acpl",
             "fasy",
-            "c3gr",
-            "bepe"
+            "rops",
+            "bepe",
+            "hawo",
+            "qupe",
+            "pipi",
+            "c3gr"
           ]
         },
         "forest_stand": {
           "type": "string",
           "enum": [
-            "soro",
-            "collelongo",
-            "solling-beech",
+            "bily-kriz",
             "kroof",
             "peitz",
-            "bily-kriz",
+            "soro",
+            "solling-beech",
+            "hyytiala",
             "solling-spruce",
             "le-bray",
-            "hyytiala"
+            "collelongo"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
             "daily",
+            "annual",
             "monthly"
           ]
         },
