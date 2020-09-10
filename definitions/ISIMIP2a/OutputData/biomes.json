@@ -1,5 +1,5 @@
 {
-  "commit": "d3f00935507edb8e870eae1b9f4bba9c2cdaf7f1",
+  "commit": "465579bec5a0dd4fcd1c7b4baa380c86119eb135",
   "diazotroph_scenario": [
     {
       "specifier": "w-diaz"
@@ -1650,7 +1650,7 @@
       "units": "kg m-2 s-1",
       "specifier": "qs",
       "valid_min": 0.0,
-      "valid_max": 0.001,
+      "valid_max": 0.004,
       "sectors": [
         "biomes",
         "permafrost",

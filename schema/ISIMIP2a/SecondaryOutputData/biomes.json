@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/SecondaryOutputData/biomes.json",
-  "commit": "d3f00935507edb8e870eae1b9f4bba9c2cdaf7f1",
+  "commit": "465579bec5a0dd4fcd1c7b4baa380c86119eb135",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,10 +27,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3",
-            "princeton",
+            "watch",
             "wfdei",
-            "watch"
+            "princeton",
+            "gswp3"
           ]
         },
         "bias_adjustment": {
@@ -49,16 +49,16 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "varsoc",
-            "histsoc",
-            "nosoc",
+            "rcp60soc",
             "pressoc",
             "1860soc",
-            "rcp26soc",
-            "rcp60soc",
+            "2005soc",
             "2100rcp26soc",
+            "varsoc",
             "nat",
-            "2005soc"
+            "rcp26soc",
+            "nosoc",
+            "histsoc"
           ]
         },
         "sens_scenario": {
@@ -72,41 +72,41 @@
         "variable": {
           "type": "string",
           "enum": [
-            "npp",
-            "thawdepth",
-            "fapar",
-            "pft2storeys",
-            "cleaf",
-            "cwood",
-            "intercep",
-            "esoil",
-            "potevap",
-            "croot",
-            "rr",
-            "clitter",
-            "qtot",
-            "soilmoist",
-            "albedo",
-            "rh",
             "swe",
-            "trans",
-            "snd",
-            "tsl",
-            "burntarea",
-            "gpp",
-            "qs",
-            "lai",
-            "cveg",
-            "somcfire",
             "ecoatmflux",
-            "pft",
-            "ra",
-            "rainf",
-            "firefrac",
+            "rh",
+            "tsl",
+            "pft2storeys",
+            "cwood",
             "csoil",
-            "soilmoistfroz",
+            "qs",
+            "trans",
+            "npp",
+            "rr",
+            "fapar",
+            "cleaf",
+            "soilmoist",
+            "firefrac",
+            "ra",
+            "lai",
+            "esoil",
+            "burntarea",
+            "snd",
             "fireint",
-            "evap"
+            "clitter",
+            "soilmoistfroz",
+            "intercep",
+            "rainf",
+            "somcfire",
+            "croot",
+            "thawdepth",
+            "pft",
+            "albedo",
+            "cveg",
+            "evap",
+            "potevap",
+            "qtot",
+            "gpp"
           ]
         },
         "pft": {
@@ -122,9 +122,9 @@
           "type": "string",
           "enum": [
             "monthly",
-            "daily",
             "annual",
-            "constant"
+            "constant",
+            "daily"
           ]
         },
         "start_year": {

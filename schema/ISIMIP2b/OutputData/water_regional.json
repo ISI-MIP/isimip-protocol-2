@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/water_regional.json",
-  "commit": "d3f00935507edb8e870eae1b9f4bba9c2cdaf7f1",
+  "commit": "465579bec5a0dd4fcd1c7b4baa380c86119eb135",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,10 +27,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ipsl-cm5a-lr",
+            "gfdl-esm2m",
             "hadgem2-es",
             "miroc5",
-            "gfdl-esm2m"
+            "ipsl-cm5a-lr"
           ]
         },
         "bias_adjustment": {
@@ -43,28 +43,28 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "historical",
             "2005co2",
-            "rcp45",
+            "rcp26",
+            "historical",
             "rcp85",
             "picontrol",
             "rcp60",
-            "rcp26"
+            "rcp45"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "varsoc",
-            "histsoc",
-            "nosoc",
+            "rcp60soc",
             "pressoc",
             "1860soc",
-            "rcp26soc",
-            "rcp60soc",
+            "2005soc",
             "2100rcp26soc",
+            "varsoc",
             "nat",
-            "2005soc"
+            "rcp26soc",
+            "nosoc",
+            "histsoc"
           ]
         },
         "sens_scenario": {
@@ -78,49 +78,49 @@
         "variable": {
           "type": "string",
           "enum": [
-            "dis",
-            "rainf",
-            "soilmoist",
-            "qg",
-            "qbaseflow",
-            "potevap",
-            "rootmoist",
-            "qs",
-            "qr",
             "swe",
-            "qrecharge",
-            "snowf",
-            "airruse",
-            "qtot",
             "airrww",
-            "evap"
+            "qr",
+            "soilmoist",
+            "dis",
+            "qs",
+            "rootmoist",
+            "snowf",
+            "evap",
+            "qtot",
+            "airruse",
+            "potevap",
+            "rainf",
+            "qbaseflow",
+            "qg",
+            "qrecharge"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "bar",
-            "sug",
             "ben",
-            "ric",
-            "sun",
-            "whe",
-            "sgb",
-            "pea",
-            "rye",
-            "mgr",
-            "soy",
-            "sor",
-            "nut",
-            "pot",
-            "mil",
-            "pop",
             "rap",
-            "cas",
             "cot",
+            "cas",
+            "euc",
+            "pot",
+            "nut",
+            "soy",
+            "sgb",
+            "sug",
             "mis",
-            "mai",
-            "euc"
+            "sor",
+            "bar",
+            "pop",
+            "ric",
+            "mgr",
+            "mil",
+            "whe",
+            "pea",
+            "sun",
+            "rye",
+            "mai"
           ]
         },
         "irrigation": {
@@ -136,72 +136,72 @@
         "river": {
           "type": "string",
           "enum": [
-            "pajeu",
             "amazon",
-            "godavari",
-            "mackenzie",
-            "tagus",
-            "danube",
-            "darling",
-            "yellow",
-            "indus",
-            "mississippi",
-            "yangtze",
             "lena",
             "ganges",
-            "blue-nile",
+            "godavari",
+            "darling",
+            "tagus",
+            "pajeu",
+            "rhine",
+            "indus",
             "niger",
-            "rhine"
+            "yellow",
+            "danube",
+            "mississippi",
+            "mackenzie",
+            "yangtze",
+            "blue-nile"
           ]
         },
         "river_basin": {
           "type": "string",
           "enum": [
-            "jimai",
-            "floresta",
-            "maqu",
-            "trier",
-            "cuntan",
-            "rheinfelden",
-            "tarbela",
-            "dire",
-            "roseiresdam",
-            "sao-paulo-de-olivenca",
-            "krestovski",
-            "lokoja",
-            "ibi",
-            "trillo",
-            "khartoum",
-            "rockenau",
-            "chisapani",
-            "farakka",
-            "tangnaihai",
-            "alton",
-            "huangheyuan",
-            "valley-city",
-            "wien-nussdorf",
-            "almourol",
-            "el-diem",
-            "tekra",
-            "wisconsin-dells",
-            "lobith",
-            "frankfurt",
-            "louth",
             "niamey",
-            "stolb",
-            "st-paul",
-            "tossaye",
-            "arctic-red-river",
+            "rheinfelden",
             "clinton",
-            "koulikoro"
+            "jimai",
+            "dire",
+            "st-paul",
+            "wisconsin-dells",
+            "cuntan",
+            "trier",
+            "maqu",
+            "tossaye",
+            "farakka",
+            "arctic-red-river",
+            "wien-nussdorf",
+            "koulikoro",
+            "floresta",
+            "almourol",
+            "tarbela",
+            "stolb",
+            "ibi",
+            "lokoja",
+            "tekra",
+            "frankfurt",
+            "lobith",
+            "alton",
+            "trillo",
+            "sao-paulo-de-olivenca",
+            "huangheyuan",
+            "tangnaihai",
+            "krestovski",
+            "roseiresdam",
+            "valley-city",
+            "chisapani",
+            "louth",
+            "el-diem",
+            "khartoum",
+            "rockenau"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
             "monthly",
-            "daily",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {
