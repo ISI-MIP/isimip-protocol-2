@@ -1,5 +1,5 @@
 {
-  "commit": "465579bec5a0dd4fcd1c7b4baa380c86119eb135",
+  "commit": "7315fc876ef19ed3a03bca221bab6ba831efd96a",
   "diazotroph_scenario": [
     {
       "specifier": "w-diaz"
@@ -1288,9 +1288,15 @@
         "Time",
         "Time axis"
       ],
-      "calenders": [
+      "calenders_daily": [
+        "standard",
         "proleptic_gregorian",
-        "365_day"
+        "366_day",
+        "365_day",
+        "360_day"
+      ],
+      "calenders_other": [
+        "360_day"
       ]
     },
     {

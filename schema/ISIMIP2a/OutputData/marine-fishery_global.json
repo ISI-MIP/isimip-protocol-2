@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
-  "commit": "465579bec5a0dd4fcd1c7b4baa380c86119eb135",
+  "commit": "7315fc876ef19ed3a03bca221bab6ba831efd96a",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,8 +25,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "wfdei",
+            "watch",
             "princeton",
             "gswp3"
           ]
@@ -47,20 +47,20 @@
         "variable": {
           "type": "string",
           "enum": [
-            "csmall",
-            "bmed",
-            "bcom",
-            "tcb",
-            "blarge",
-            "clarge",
             "cmed",
+            "tcb",
+            "clarge",
             "tc",
-            "tc30cm",
-            "bsmall",
-            "b10cm",
             "tc10cm",
+            "b10cm",
+            "bsmall",
+            "tc30cm",
+            "tsb",
+            "csmall",
             "b30cm",
-            "tsb"
+            "bcom",
+            "bmed",
+            "blarge"
           ]
         },
         "region": {

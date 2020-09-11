@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/permafrost.json",
-  "commit": "465579bec5a0dd4fcd1c7b4baa380c86119eb135",
+  "commit": "7315fc876ef19ed3a03bca221bab6ba831efd96a",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
             "wfdei",
+            "watch",
             "princeton",
             "gswp3"
           ]
@@ -49,77 +49,77 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
+            "histsoc",
             "rcp60soc",
-            "pressoc",
-            "1860soc",
             "2005soc",
+            "nosoc",
+            "rcp26soc",
+            "1860soc",
+            "pressoc",
             "2100rcp26soc",
             "varsoc",
-            "nat",
-            "rcp26soc",
-            "nosoc",
-            "histsoc"
+            "nat"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "co2",
+            "default",
             "2005co2",
-            "default"
+            "co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "swe",
-            "ecoatmflux",
-            "rh",
-            "tsl",
-            "csoil",
-            "qs",
-            "npp",
-            "fapar",
-            "soilmoist",
-            "ra",
-            "snd",
-            "lai",
-            "burntarea",
-            "fireint",
-            "clitter",
-            "soilmoistfroz",
-            "thawdepth",
-            "pft",
             "cveg",
+            "fireint",
+            "qs",
+            "gpp",
+            "rh",
+            "swe",
+            "lai",
+            "npp",
             "qtot",
-            "gpp"
+            "burntarea",
+            "tsl",
+            "soilmoist",
+            "ecoatmflux",
+            "fapar",
+            "ra",
+            "clitter",
+            "pft",
+            "snd",
+            "thawdepth",
+            "csoil",
+            "soilmoistfroz"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "ben",
-            "rap",
+            "rye",
+            "mil",
+            "pea",
+            "pop",
+            "bar",
+            "nut",
             "cot",
             "cas",
-            "euc",
-            "pot",
-            "nut",
-            "soy",
-            "sgb",
-            "sug",
-            "mis",
+            "mai",
             "sor",
-            "bar",
-            "pop",
-            "ric",
-            "mgr",
-            "mil",
-            "whe",
-            "pea",
             "sun",
-            "rye",
-            "mai"
+            "whe",
+            "rap",
+            "sug",
+            "pot",
+            "mgr",
+            "euc",
+            "soy",
+            "mis",
+            "ric",
+            "sgb",
+            "ben"
           ]
         },
         "irrigation": {
