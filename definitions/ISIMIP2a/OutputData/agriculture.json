@@ -1,155 +1,5 @@
 {
-  "commit": "7315fc876ef19ed3a03bca221bab6ba831efd96a",
-  "diazotroph_scenario": [
-    {
-      "specifier": "w-diaz"
-    },
-    {
-      "specifier": "wo-diaz"
-    }
-  ],
-  "climate_scenario": [
-    {
-      "specifier": "hist",
-      "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    }
-  ],
-  "acidification_type": [
-    {
-      "specifier": "oa"
-    },
-    {
-      "specifier": "no-oa"
-    }
-  ],
-  "forest_stand": [
-    {
-      "specifier": "hyytiala",
-      "title": "Hyyti\u00e4l\u00e4",
-      "lat": 61.8475,
-      "lon": 24.295,
-      "country": "FI",
-      "type": "Even-aged conifer",
-      "species": [
-        "pisy",
-        "piab"
-      ],
-      "thinning": "below",
-      "comment": "Note that an experimental plot of pine contains a lot of data while footprint of flux tower is larger. Please note that the deciduous admixtures only appear in the data at a later stage and hence do not need to be simulated. Only simulate pine and spruce (no hard-woods) and regenerate as pure pine stand"
-    },
-    {
-      "specifier": "peitz",
-      "title": "Peitz",
-      "lat": 51.9166,
-      "lon": 14.35,
-      "country": "DE",
-      "type": "Even-aged conifer",
-      "species": [
-        "pisy"
-      ],
-      "thinning": "below",
-      "comment": "Managed using a weak thinning from below."
-    },
-    {
-      "specifier": "solling-beech",
-      "title": "Solling (beech)",
-      "lat": 51.77,
-      "lon": 9.57,
-      "country": "DE",
-      "type": "Even-aged deciduous",
-      "species": [
-        "fasy"
-      ],
-      "thinning": "above",
-      "comment": ""
-    },
-    {
-      "specifier": "solling-spruce",
-      "title": "Solling (spruce)",
-      "lat": 51.77,
-      "lon": 9.57,
-      "country": "DE",
-      "type": "Even-aged conifer",
-      "species": [
-        "piab "
-      ],
-      "thinning": "below",
-      "comment": ""
-    },
-    {
-      "specifier": "soro",
-      "title": "Sor\u00f8",
-      "lat": 55.485844,
-      "lon": 11.644616,
-      "country": "DK",
-      "type": "Even-aged deciduous",
-      "species": [
-        "fasy"
-      ],
-      "thinning": "above",
-      "comment": ""
-    },
-    {
-      "specifier": "kroof",
-      "title": "Kranzberg Roof Project",
-      "lat": 48.25,
-      "lon": 11.4,
-      "country": "DE",
-      "type": "Mixed deciduous and conifers",
-      "species": [
-        "fasy",
-        "piab",
-        "acpl",
-        "lade",
-        "pisy",
-        "quro"
-      ],
-      "thinning": "below",
-      "comment": "Unmanaged/ thinning from below in past 20 years for all species."
-    },
-    {
-      "specifier": "le-bray",
-      "title": "Le Bray",
-      "lat": 44.71711,
-      "lon": -0.7693,
-      "country": "FR",
-      "type": "Even-aged conifer",
-      "species": [
-        "pipi"
-      ],
-      "thinning": "below",
-      "comment": ""
-    },
-    {
-      "specifier": "collelongo",
-      "title": "Collelongo",
-      "lat": 41.8494,
-      "lon": 13.5881,
-      "country": "IT",
-      "type": "Even-aged deciduous",
-      "species": [
-        "fasy"
-      ],
-      "thinning": "above",
-      "comment": ""
-    },
-    {
-      "specifier": "bily-kriz",
-      "title": "B\u00edl\u00fd K\u0159\u00ed\u017e",
-      "lat": 49.3,
-      "lon": 18.32,
-      "country": "CZ",
-      "type": "Even-aged conifer",
-      "species": [
-        "piab"
-      ],
-      "thinning": "below",
-      "comment": ""
-    }
-  ],
+  "commit": "4cd363f945b71dda85cacac624ef7cbc934ce754",
   "river_basin": [
     {
       "specifier": "alton"
@@ -509,86 +359,724 @@
       "river_specifier": "yellow"
     }
   ],
-  "species": [
+  "acidification_type": [
     {
-      "title": "Fagus sylvatica",
-      "specifier": "fasy"
+      "specifier": "oa"
     },
     {
-      "title": "Quercus robur",
-      "specifier": "quro"
+      "specifier": "no-oa"
+    }
+  ],
+  "time_step": [
+    {
+      "specifier": "annual",
+      "increment": "years",
+      "sectors": [
+        "agriculture",
+        "biomes",
+        "forestry",
+        "lakes_global",
+        "lakes_local",
+        "marine-fishery_global",
+        "marine-fishery_regional",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ]
     },
     {
-      "title": "Quercus petraea",
-      "specifier": "qupe"
+      "specifier": "seasonal",
+      "sectors": [
+        "agriculture"
+      ],
+      "increment": "seasons"
+    }
+  ],
+  "forest_stand": [
+    {
+      "specifier": "hyytiala",
+      "title": "Hyyti\u00e4l\u00e4",
+      "lat": 61.8475,
+      "lon": 24.295,
+      "country": "FI",
+      "type": "Even-aged conifer",
+      "species": [
+        "pisy",
+        "piab"
+      ],
+      "thinning": "below",
+      "comment": "Note that an experimental plot of pine contains a lot of data while footprint of flux tower is larger. Please note that the deciduous admixtures only appear in the data at a later stage and hence do not need to be simulated. Only simulate pine and spruce (no hard-woods) and regenerate as pure pine stand"
     },
     {
-      "title": "Pinus sylvestris",
-      "specifier": "pisy"
+      "specifier": "peitz",
+      "title": "Peitz",
+      "lat": 51.9166,
+      "lon": 14.35,
+      "country": "DE",
+      "type": "Even-aged conifer",
+      "species": [
+        "pisy"
+      ],
+      "thinning": "below",
+      "comment": "Managed using a weak thinning from below."
     },
     {
-      "title": "Picea abies",
-      "specifier": "piab"
+      "specifier": "solling-beech",
+      "title": "Solling (beech)",
+      "lat": 51.77,
+      "lon": 9.57,
+      "country": "DE",
+      "type": "Even-aged deciduous",
+      "species": [
+        "fasy"
+      ],
+      "thinning": "above",
+      "comment": ""
     },
     {
-      "title": "Pinus pinaster",
-      "specifier": "pipi"
+      "specifier": "solling-spruce",
+      "title": "Solling (spruce)",
+      "lat": 51.77,
+      "lon": 9.57,
+      "country": "DE",
+      "type": "Even-aged conifer",
+      "species": [
+        "piab "
+      ],
+      "thinning": "below",
+      "comment": ""
     },
     {
-      "title": "Larix decidua",
-      "specifier": "lade"
+      "specifier": "soro",
+      "title": "Sor\u00f8",
+      "lat": 55.485844,
+      "lon": 11.644616,
+      "country": "DK",
+      "type": "Even-aged deciduous",
+      "species": [
+        "fasy"
+      ],
+      "thinning": "above",
+      "comment": ""
     },
     {
-      "title": "Acer platanoides",
-      "specifier": "acpl"
+      "specifier": "kroof",
+      "title": "Kranzberg Roof Project",
+      "lat": 48.25,
+      "lon": 11.4,
+      "country": "DE",
+      "type": "Mixed deciduous and conifers",
+      "species": [
+        "fasy",
+        "piab",
+        "acpl",
+        "lade",
+        "pisy",
+        "quro"
+      ],
+      "thinning": "below",
+      "comment": "Unmanaged/ thinning from below in past 20 years for all species."
     },
     {
-      "title": "Eucalyptus globulus",
-      "specifier": "eugl"
+      "specifier": "le-bray",
+      "title": "Le Bray",
+      "lat": 44.71711,
+      "lon": -0.7693,
+      "country": "FR",
+      "type": "Even-aged conifer",
+      "species": [
+        "pipi"
+      ],
+      "thinning": "below",
+      "comment": ""
     },
     {
-      "title": "Betula pendula",
-      "specifier": "bepe"
+      "specifier": "collelongo",
+      "title": "Collelongo",
+      "lat": 41.8494,
+      "lon": 13.5881,
+      "country": "IT",
+      "type": "Even-aged deciduous",
+      "species": [
+        "fasy"
+      ],
+      "thinning": "above",
+      "comment": ""
     },
     {
-      "title": "Betula pubescens",
-      "specifier": "bepu"
+      "specifier": "bily-kriz",
+      "title": "B\u00edl\u00fd K\u0159\u00ed\u017e",
+      "lat": 49.3,
+      "lon": 18.32,
+      "country": "CZ",
+      "type": "Even-aged conifer",
+      "species": [
+        "piab"
+      ],
+      "thinning": "below",
+      "comment": ""
+    }
+  ],
+  "soc_scenario": [
+    {
+      "specifier": "nosoc"
     },
     {
-      "title": "Robinia pseudoacacia",
-      "specifier": "rops"
+      "specifier": "pressoc"
     },
     {
-      "title": "Fraxinus excelsior",
-      "specifier": "frex"
+      "specifier": "varsoc"
     },
     {
-      "title": "Populus nigra",
-      "specifier": "poni"
+      "specifier": "nat"
     },
     {
-      "title": "Sorbus aucuparia",
-      "specifier": "soau"
+      "specifier": "2005soc"
     },
     {
-      "title": "C3 grass",
-      "specifier": "c3gr"
+      "specifier": "1860soc"
     },
     {
-      "title": "hard woods",
-      "specifier": "hawo"
+      "specifier": "histsoc"
     },
     {
-      "title": "fire",
-      "specifier": "fi"
+      "specifier": "rcp26soc"
     },
     {
-      "title": "wind",
-      "specifier": "wi"
+      "specifier": "rcp60soc"
     },
     {
-      "title": "Insects",
-      "specifier": "ins"
+      "specifier": "2100rcp26soc"
+    }
+  ],
+  "variable": [
+    {
+      "units": "mm per growing season",
+      "specifier": "aet",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "day of year of anthesis",
+      "specifier": "anthday",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "t ha-1 per growing season",
+      "specifier": "biom",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "mm ha-1 yr-1",
+      "specifier": "gsprcp",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "w m-2 yr-1",
+      "specifier": "gsrsds",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "kg ha-1 per growing season",
+      "specifier": "initr",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "",
+      "specifier": "leach",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "day of year of maturity",
+      "specifier": "matyday",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "year of maturity",
+      "specifier": "matyyear",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "pirrww",
+      "sectors": [
+        "agriculture",
+        "water_global"
+      ]
+    },
+    {
+      "units": "day of year",
+      "specifier": "plantday",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "year of planting",
+      "specifier": "plantyear",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "kg C ha-1",
+      "specifier": "sco2",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "kg N2O-N ha-1",
+      "specifier": "sn2o",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "deg c-days yr-1",
+      "specifier": "sumt",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "units": "dry matter (t ha-1 per growing season)",
+      "specifier": "yield",
+      "sectors": [
+        "agriculture"
+      ]
+    }
+  ],
+  "sens_scenario": [
+    {
+      "specifier": "default"
+    },
+    {
+      "specifier": "co2"
+    },
+    {
+      "specifier": "2005co2"
+    }
+  ],
+  "sector": [
+    {
+      "specifier": "agriculture",
+      "title": "Agriculture"
+    },
+    {
+      "specifier": "biodiversity",
+      "title": "Terrestrial biodiversity"
+    },
+    {
+      "specifier": "biomes",
+      "title": "Biomes"
+    },
+    {
+      "specifier": "forestry",
+      "title": "Regional forests"
+    },
+    {
+      "specifier": "health",
+      "title": "Temperature-related mortality"
+    },
+    {
+      "specifier": "lakes_global",
+      "title": "Lakes (global)"
+    },
+    {
+      "specifier": "lakes_local",
+      "title": "Lakes (local)"
+    },
+    {
+      "specifier": "marine-fishery_global",
+      "title": "Fisheries and Marine Ecosystems (global)"
+    },
+    {
+      "specifier": "marine-fishery_regional",
+      "title": "Fisheries and Marine Ecosystems (regional)"
+    },
+    {
+      "specifier": "permafrost",
+      "title": "Permafrost"
+    },
+    {
+      "specifier": "water_global",
+      "title": "Water (global)"
+    },
+    {
+      "specifier": "water_regional",
+      "title": "Water (regional)"
+    }
+  ],
+  "fishing_type": [
+    {
+      "specifier": "fishing"
+    },
+    {
+      "specifier": "no-fishing"
+    }
+  ],
+  "irrigation": [
+    {
+      "specifier": "firr",
+      "title": "Full irrigation",
+      "sectors": [
+        "agriculture"
+      ]
+    },
+    {
+      "specifier": "noirr",
+      "title": "No irrigation (rainfed land)"
+    }
+  ],
+  "region": [
+    {
+      "specifier": "global",
+      "title": "Global simulation"
+    }
+  ],
+  "product": [
+    {
+      "specifier": "OutputData",
+      "title": "Output Data"
+    },
+    {
+      "specifier": "SecondaryOutputData",
+      "title": "Secondary Output Data"
+    }
+  ],
+  "bias_adjustment": [
+    {
+      "specifier": "nobc",
+      "description": "Indicates that no bias correction was performed on the climate data."
+    },
+    {
+      "specifier": "ewembi"
+    }
+  ],
+  "diazotroph_scenario": [
+    {
+      "specifier": "w-diaz"
+    },
+    {
+      "specifier": "wo-diaz"
+    }
+  ],
+  "climate_forcing": [
+    {
+      "specifier": "gswp3",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "princeton",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "watch",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "wfdei",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    }
+  ],
+  "crop": [
+    {
+      "specifier": "whe",
+      "title": "Wheat"
+    },
+    {
+      "specifier": "mai",
+      "title": "Maize"
+    },
+    {
+      "specifier": "soy",
+      "title": "Soy"
+    },
+    {
+      "specifier": "ric",
+      "title": "Rice"
+    },
+    {
+      "specifier": "bar",
+      "title": "Barley"
+    },
+    {
+      "specifier": "ben",
+      "title": "Bean"
+    },
+    {
+      "specifier": "cas",
+      "title": "Cassava"
+    },
+    {
+      "specifier": "cot",
+      "title": "Cotton"
+    },
+    {
+      "specifier": "euc",
+      "title": "Eucalyptus"
+    },
+    {
+      "specifier": "mgr",
+      "title": "Managed grass"
+    },
+    {
+      "specifier": "mil",
+      "title": "Millet"
+    },
+    {
+      "specifier": "mis",
+      "title": "Miscanthus"
+    },
+    {
+      "specifier": "nut",
+      "title": "Groundnuts"
+    },
+    {
+      "specifier": "pea",
+      "title": "Field peas"
+    },
+    {
+      "specifier": "pop",
+      "title": "Poplar"
+    },
+    {
+      "specifier": "pot",
+      "title": "Potato"
+    },
+    {
+      "specifier": "rap",
+      "title": "Rapeseed"
+    },
+    {
+      "specifier": "rye",
+      "title": "Rye"
+    },
+    {
+      "specifier": "sgb",
+      "title": "Sugar beet"
+    },
+    {
+      "specifier": "sor",
+      "title": "Sorghum"
+    },
+    {
+      "specifier": "sug",
+      "title": "Sugarcane"
+    },
+    {
+      "specifier": "sun",
+      "title": "Sunflower"
+    }
+  ],
+  "dimensions": [
+    {
+      "specifier": "lon",
+      "size": 720,
+      "axis": "X",
+      "units": "degrees_east",
+      "minimum": -179.75,
+      "maximum": 179.75,
+      "standard_name": "longitude",
+      "long_names": [
+        "Longitude",
+        "longitude"
+      ]
+    },
+    {
+      "specifier": "lat",
+      "size": 360,
+      "axis": "Y",
+      "units": "degrees_north",
+      "minimum": -89.75,
+      "maximum": 89.75,
+      "standard_name": "latitude",
+      "long_names": [
+        "Latitude",
+        "latitude"
+      ]
+    },
+    {
+      "specifier": "time",
+      "axis": "T",
+      "standard_name": "time",
+      "long_names": [
+        "time",
+        "time axis",
+        "Time",
+        "Time axis"
+      ],
+      "calenders_daily": [
+        "standard",
+        "proleptic_gregorian",
+        "366_day",
+        "365_day",
+        "360_day"
+      ],
+      "calenders_other": [
+        "360_day"
+      ]
+    },
+    {
+      "specifier": "depth",
+      "axis": "Z",
+      "standard_name": "depth_below_land",
+      "long_name": "Depth of vertical layer center below land",
+      "positive": "down",
+      "units": "m"
+    },
+    {
+      "specifier": "bnds"
+    }
+  ],
+  "river": [
+    {
+      "specifier": "amazon"
+    },
+    {
+      "specifier": "blue-nile"
+    },
+    {
+      "specifier": "danube"
+    },
+    {
+      "specifier": "darling"
+    },
+    {
+      "specifier": "ganges"
+    },
+    {
+      "specifier": "godavari"
+    },
+    {
+      "specifier": "indus"
+    },
+    {
+      "specifier": "lena"
+    },
+    {
+      "specifier": "mackenzie"
+    },
+    {
+      "specifier": "mississippi"
+    },
+    {
+      "specifier": "niger"
+    },
+    {
+      "specifier": "pajeu"
+    },
+    {
+      "specifier": "rhine"
+    },
+    {
+      "specifier": "tagus"
+    },
+    {
+      "specifier": "yangtze"
+    },
+    {
+      "specifier": "yellow"
+    }
+  ],
+  "ocean_region": [
+    {
+      "specifier": "north-sea",
+      "title": "North Sea",
+      "north": 62.5,
+      "west": -4.5,
+      "south": 50.5,
+      "east": 9.5
+    },
+    {
+      "specifier": "baltic-sea",
+      "title": "Baltic Sea",
+      "north": 64.5,
+      "west": 15.5,
+      "south": 55.5,
+      "east": 23.5
+    },
+    {
+      "specifier": "nw-med-sea",
+      "title": "North-west Meditteranean",
+      "north": 43.5,
+      "west": -1.5,
+      "south": 36.5,
+      "east": 6.5
+    },
+    {
+      "specifier": "adriatic-sea",
+      "title": "Adriatic Sea",
+      "north": 45.5,
+      "west": 11.5,
+      "south": 39.5,
+      "east": 20.5
+    },
+    {
+      "specifier": "med-glob",
+      "title": "Mediterranean Sea",
+      "north": 45.5,
+      "west": -6.5,
+      "south": 29.5,
+      "east": 35.5
+    },
+    {
+      "specifier": "se-australia",
+      "title": "South-East Australia",
+      "north": -23.5,
+      "west": 120.5,
+      "south": -47.5,
+      "east": 170.5
+    },
+    {
+      "specifier": "east-bass-strait",
+      "title": "Eastern Bass Strait",
+      "north": -37.5,
+      "west": 145.5,
+      "south": -41.5,
+      "east": 151.5
+    },
+    {
+      "specifier": "cook-strait",
+      "title": "Cook Strait",
+      "north": -40.5,
+      "west": 174.5,
+      "south": -46.5,
+      "east": 179.5
+    },
+    {
+      "specifier": "humboldt-n",
+      "title": "North Humboldt Sea",
+      "north": 6.5,
+      "west": -93.5,
+      "south": -20.5,
+      "east": -69.5
     }
   ],
   "lake_site": [
@@ -1113,129 +1601,95 @@
       "type": "reservoir"
     }
   ],
-  "climate_forcing": [
+  "climate_scenario": [
     {
-      "specifier": "gswp3",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    },
-    {
-      "specifier": "princeton",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    },
-    {
-      "specifier": "watch",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    },
-    {
-      "specifier": "wfdei",
+      "specifier": "hist",
+      "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
     }
   ],
-  "region": [
+  "species": [
     {
-      "specifier": "global",
-      "title": "Global simulation"
-    }
-  ],
-  "bias_adjustment": [
-    {
-      "specifier": "nobc",
-      "description": "Indicates that no bias correction was performed on the climate data."
+      "title": "Fagus sylvatica",
+      "specifier": "fasy"
     },
     {
-      "specifier": "ewembi"
-    }
-  ],
-  "product": [
-    {
-      "specifier": "OutputData",
-      "title": "Output Data"
+      "title": "Quercus robur",
+      "specifier": "quro"
     },
     {
-      "specifier": "SecondaryOutputData",
-      "title": "Secondary Output Data"
-    }
-  ],
-  "sens_scenario": [
-    {
-      "specifier": "default"
+      "title": "Quercus petraea",
+      "specifier": "qupe"
     },
     {
-      "specifier": "co2"
+      "title": "Pinus sylvestris",
+      "specifier": "pisy"
     },
     {
-      "specifier": "2005co2"
-    }
-  ],
-  "river": [
-    {
-      "specifier": "amazon"
+      "title": "Picea abies",
+      "specifier": "piab"
     },
     {
-      "specifier": "blue-nile"
+      "title": "Pinus pinaster",
+      "specifier": "pipi"
     },
     {
-      "specifier": "danube"
+      "title": "Larix decidua",
+      "specifier": "lade"
     },
     {
-      "specifier": "darling"
+      "title": "Acer platanoides",
+      "specifier": "acpl"
     },
     {
-      "specifier": "ganges"
+      "title": "Eucalyptus globulus",
+      "specifier": "eugl"
     },
     {
-      "specifier": "godavari"
+      "title": "Betula pendula",
+      "specifier": "bepe"
     },
     {
-      "specifier": "indus"
+      "title": "Betula pubescens",
+      "specifier": "bepu"
     },
     {
-      "specifier": "lena"
+      "title": "Robinia pseudoacacia",
+      "specifier": "rops"
     },
     {
-      "specifier": "mackenzie"
+      "title": "Fraxinus excelsior",
+      "specifier": "frex"
     },
     {
-      "specifier": "mississippi"
+      "title": "Populus nigra",
+      "specifier": "poni"
     },
     {
-      "specifier": "niger"
+      "title": "Sorbus aucuparia",
+      "specifier": "soau"
     },
     {
-      "specifier": "pajeu"
+      "title": "C3 grass",
+      "specifier": "c3gr"
     },
     {
-      "specifier": "rhine"
+      "title": "hard woods",
+      "specifier": "hawo"
     },
     {
-      "specifier": "tagus"
+      "title": "fire",
+      "specifier": "fi"
     },
     {
-      "specifier": "yangtze"
+      "title": "wind",
+      "specifier": "wi"
     },
     {
-      "specifier": "yellow"
-    }
-  ],
-  "irrigation": [
-    {
-      "specifier": "firr",
-      "title": "Full irrigation",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "specifier": "noirr",
-      "title": "No irrigation (rainfed land)"
+      "title": "Insects",
+      "specifier": "ins"
     }
   ],
   "simulation_round": [
@@ -1246,446 +1700,6 @@
     {
       "specifier": "ISIMIP2b",
       "title": "ISIMIP2b simulation round"
-    }
-  ],
-  "dimensions": [
-    {
-      "specifier": "lon",
-      "size": 720,
-      "axis": "X",
-      "units": "degrees_east",
-      "minimum": -179.75,
-      "maximum": 179.75,
-      "standard_name": "longitude",
-      "long_names": [
-        "Longitude",
-        "longitude"
-      ]
-    },
-    {
-      "specifier": "lat",
-      "size": 360,
-      "axis": "Y",
-      "units": "degrees_north",
-      "minimum": -89.75,
-      "maximum": 89.75,
-      "standard_name": "latitude",
-      "long_names": [
-        "Latitude",
-        "latitude"
-      ]
-    },
-    {
-      "specifier": "time",
-      "axis": "T",
-      "standard_name": "time",
-      "long_names": [
-        "time",
-        "time axis",
-        "Time",
-        "Time axis"
-      ],
-      "calenders_daily": [
-        "standard",
-        "proleptic_gregorian",
-        "366_day",
-        "365_day",
-        "360_day"
-      ],
-      "calenders_other": [
-        "360_day"
-      ]
-    },
-    {
-      "specifier": "depth",
-      "axis": "Z",
-      "standard_name": "depth_below_land",
-      "long_name": "Depth of vertical layer center below land",
-      "positive": "down",
-      "units": "m"
-    },
-    {
-      "specifier": "bnds"
-    }
-  ],
-  "time_step": [
-    {
-      "specifier": "annual",
-      "increment": "years",
-      "sectors": [
-        "agriculture",
-        "biomes",
-        "forestry",
-        "lakes_global",
-        "lakes_local",
-        "marine-fishery_global",
-        "marine-fishery_regional",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ]
-    },
-    {
-      "specifier": "seasonal",
-      "sectors": [
-        "agriculture"
-      ],
-      "increment": "seasons"
-    }
-  ],
-  "ocean_region": [
-    {
-      "specifier": "north-sea",
-      "title": "North Sea",
-      "north": 62.5,
-      "west": -4.5,
-      "south": 50.5,
-      "east": 9.5
-    },
-    {
-      "specifier": "baltic-sea",
-      "title": "Baltic Sea",
-      "north": 64.5,
-      "west": 15.5,
-      "south": 55.5,
-      "east": 23.5
-    },
-    {
-      "specifier": "nw-med-sea",
-      "title": "North-west Meditteranean",
-      "north": 43.5,
-      "west": -1.5,
-      "south": 36.5,
-      "east": 6.5
-    },
-    {
-      "specifier": "adriatic-sea",
-      "title": "Adriatic Sea",
-      "north": 45.5,
-      "west": 11.5,
-      "south": 39.5,
-      "east": 20.5
-    },
-    {
-      "specifier": "med-glob",
-      "title": "Mediterranean Sea",
-      "north": 45.5,
-      "west": -6.5,
-      "south": 29.5,
-      "east": 35.5
-    },
-    {
-      "specifier": "se-australia",
-      "title": "South-East Australia",
-      "north": -23.5,
-      "west": 120.5,
-      "south": -47.5,
-      "east": 170.5
-    },
-    {
-      "specifier": "east-bass-strait",
-      "title": "Eastern Bass Strait",
-      "north": -37.5,
-      "west": 145.5,
-      "south": -41.5,
-      "east": 151.5
-    },
-    {
-      "specifier": "cook-strait",
-      "title": "Cook Strait",
-      "north": -40.5,
-      "west": 174.5,
-      "south": -46.5,
-      "east": 179.5
-    },
-    {
-      "specifier": "humboldt-n",
-      "title": "North Humboldt Sea",
-      "north": 6.5,
-      "west": -93.5,
-      "south": -20.5,
-      "east": -69.5
-    }
-  ],
-  "fishing_type": [
-    {
-      "specifier": "fishing"
-    },
-    {
-      "specifier": "no-fishing"
-    }
-  ],
-  "sector": [
-    {
-      "specifier": "agriculture",
-      "title": "Agriculture"
-    },
-    {
-      "specifier": "biodiversity",
-      "title": "Terrestrial biodiversity"
-    },
-    {
-      "specifier": "biomes",
-      "title": "Biomes"
-    },
-    {
-      "specifier": "forestry",
-      "title": "Regional forests"
-    },
-    {
-      "specifier": "health",
-      "title": "Temperature-related mortality"
-    },
-    {
-      "specifier": "lakes_global",
-      "title": "Lakes (global)"
-    },
-    {
-      "specifier": "lakes_local",
-      "title": "Lakes (local)"
-    },
-    {
-      "specifier": "marine-fishery_global",
-      "title": "Fisheries and Marine Ecosystems (global)"
-    },
-    {
-      "specifier": "marine-fishery_regional",
-      "title": "Fisheries and Marine Ecosystems (regional)"
-    },
-    {
-      "specifier": "permafrost",
-      "title": "Permafrost"
-    },
-    {
-      "specifier": "water_global",
-      "title": "Water (global)"
-    },
-    {
-      "specifier": "water_regional",
-      "title": "Water (regional)"
-    }
-  ],
-  "variable": [
-    {
-      "units": "mm per growing season",
-      "specifier": "aet",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "day of year of anthesis",
-      "specifier": "anthday",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "t ha-1 per growing season",
-      "specifier": "biom",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "mm ha-1 yr-1",
-      "specifier": "gsprcp",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "w m-2 yr-1",
-      "specifier": "gsrsds",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "kg ha-1 per growing season",
-      "specifier": "initr",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "",
-      "specifier": "leach",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "day of year of maturity",
-      "specifier": "matyday",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "year of maturity",
-      "specifier": "matyyear",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "pirrww",
-      "sectors": [
-        "agriculture",
-        "water_global"
-      ]
-    },
-    {
-      "units": "day of year",
-      "specifier": "plantday",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "year of planting",
-      "specifier": "plantyear",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "deg c-days yr-1",
-      "specifier": "sumt",
-      "sectors": [
-        "agriculture"
-      ]
-    },
-    {
-      "units": "dry matter (t ha-1 per growing season)",
-      "specifier": "yield",
-      "sectors": [
-        "agriculture"
-      ]
-    }
-  ],
-  "soc_scenario": [
-    {
-      "specifier": "nosoc"
-    },
-    {
-      "specifier": "pressoc"
-    },
-    {
-      "specifier": "varsoc"
-    },
-    {
-      "specifier": "nat"
-    },
-    {
-      "specifier": "2005soc"
-    },
-    {
-      "specifier": "1860soc"
-    },
-    {
-      "specifier": "histsoc"
-    },
-    {
-      "specifier": "rcp26soc"
-    },
-    {
-      "specifier": "rcp60soc"
-    },
-    {
-      "specifier": "2100rcp26soc"
-    }
-  ],
-  "crop": [
-    {
-      "specifier": "whe",
-      "title": "Wheat"
-    },
-    {
-      "specifier": "mai",
-      "title": "Maize"
-    },
-    {
-      "specifier": "soy",
-      "title": "Soy"
-    },
-    {
-      "specifier": "ric",
-      "title": "Rice"
-    },
-    {
-      "specifier": "bar",
-      "title": "Barley"
-    },
-    {
-      "specifier": "ben",
-      "title": "Bean"
-    },
-    {
-      "specifier": "cas",
-      "title": "Cassava"
-    },
-    {
-      "specifier": "cot",
-      "title": "Cotton"
-    },
-    {
-      "specifier": "euc",
-      "title": "Eucalyptus"
-    },
-    {
-      "specifier": "mgr",
-      "title": "Managed grass"
-    },
-    {
-      "specifier": "mil",
-      "title": "Millet"
-    },
-    {
-      "specifier": "mis",
-      "title": "Miscanthus"
-    },
-    {
-      "specifier": "nut",
-      "title": "Groundnuts"
-    },
-    {
-      "specifier": "pea",
-      "title": "Field peas"
-    },
-    {
-      "specifier": "pop",
-      "title": "Poplar"
-    },
-    {
-      "specifier": "pot",
-      "title": "Potato"
-    },
-    {
-      "specifier": "rap",
-      "title": "Rapeseed"
-    },
-    {
-      "specifier": "rye",
-      "title": "Rye"
-    },
-    {
-      "specifier": "sgb",
-      "title": "Sugar beet"
-    },
-    {
-      "specifier": "sor",
-      "title": "Sorghum"
-    },
-    {
-      "specifier": "sug",
-      "title": "Sugarcane"
-    },
-    {
-      "specifier": "sun",
-      "title": "Sunflower"
     }
   ],
   "time_span": [
