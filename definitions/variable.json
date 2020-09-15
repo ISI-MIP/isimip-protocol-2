@@ -623,7 +623,7 @@
     "units": "kg m-2 s-1",
     "specifier": "qs",
     "valid_min": 0.0,
-    "valid_max": 1.0E-03,
+    "valid_max": 0.0010,
     "sectors": [
       "biomes",
       "permafrost",
@@ -708,12 +708,26 @@
     ]
   },
   {
+    "units": "kg C ha-1",
+    "specifier": "sco2",
+    "sectors": [
+      "agriculture"
+    ]
+  },
+  {
     "units": "m",
     "specifier": "snd",
     "sectors": [
       "biomes",
       "permafrost",
       "water_global"
+    ]
+  },
+  {
+    "units": "kg N2O-N ha-1",
+    "specifier": "sn2o",
+    "sectors": [
+      "agriculture"
     ]
   },
   {
