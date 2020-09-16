@@ -68,7 +68,8 @@
   {
     "specifier": "constant",
     "sectors": [
-      "biomes"
+      "biomes",
+      "permafrost"
     ]
   }
 ]
