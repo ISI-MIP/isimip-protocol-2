@@ -567,6 +567,38 @@
   },
   {
     "units": "kg m-2 s-1",
+    "specifier": "npplandleaf",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "units": "kg m-2 s-1",
+    "specifier": "npplandroot",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "units": "kg m-2 s-1",
+    "specifier": "nppabovegroundwood",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "units": "kg m-2 s-1",
+    "specifier": "nppbelowgroundwood",
+    "sectors": [
+      "biomes",
+      "permafrost"
+    ]
+  },
+  {
+    "units": "kg m-2 s-1",
     "specifier": "pdomuse",
     "sectors": [
       "water_global"
