@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "4cd363f945b71dda85cacac624ef7cbc934ce754",
+  "commit": "1d0cf27e8c972cc30981056917e5049180ac7b85",
   "type": "object",
   "required": [
     "specifiers"
@@ -47,37 +47,38 @@
         "variable": {
           "type": "string",
           "enum": [
+            "bcom",
+            "lakeheatf",
+            "tsb",
+            "tcb",
             "tc30cm",
             "tc10cm",
-            "bcom",
+            "tc",
             "b30cm",
-            "tsb",
             "b10cm",
-            "tla",
-            "tcb",
-            "tc"
+            "tla"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "humboldt-n",
-            "adriatic-sea",
-            "baltic-sea",
-            "cook-strait",
             "north-sea",
-            "se-australia",
+            "cook-strait",
+            "med-glob",
             "nw-med-sea",
             "east-bass-strait",
-            "med-glob"
+            "se-australia",
+            "adriatic-sea",
+            "baltic-sea",
+            "humboldt-n"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
+            "annual",
             "monthly",
-            "daily",
-            "annual"
+            "daily"
           ]
         },
         "start_year": {

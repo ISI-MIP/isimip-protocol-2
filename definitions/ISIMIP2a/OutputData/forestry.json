@@ -1,5 +1,5 @@
 {
-  "commit": "4cd363f945b71dda85cacac624ef7cbc934ce754",
+  "commit": "1d0cf27e8c972cc30981056917e5049180ac7b85",
   "river_basin": [
     {
       "specifier": "alton"
@@ -572,7 +572,13 @@
       "specifier": "2100rcp26soc"
     }
   ],
-  "variable": [],
+  "variable": [
+    {
+      "specifier": "lakeheatf",
+      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
+      "units": "W m-2"
+    }
+  ],
   "sens_scenario": [
     {
       "specifier": "default"

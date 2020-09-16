@@ -1,5 +1,5 @@
 {
-  "commit": "4cd363f945b71dda85cacac624ef7cbc934ce754",
+  "commit": "1d0cf27e8c972cc30981056917e5049180ac7b85",
   "river_basin": [
     {
       "specifier": "alton"
@@ -413,6 +413,14 @@
         "water_global",
         "water_regional"
       ]
+    },
+    {
+      "specifier": "seasonal",
+      "sectors": [
+        "lakes_global",
+        "agriculture"
+      ],
+      "increment": "seasons"
     }
   ],
   "forest_stand": [
@@ -572,7 +580,174 @@
       "specifier": "2100rcp26soc"
     }
   ],
-  "variable": [],
+  "variable": [
+    {
+      "specifier": "albedo",
+      "sectors": [
+        "lakes_global",
+        "lakes_local",
+        "biomes"
+      ]
+    },
+    {
+      "specifier": "bottemp",
+      "long_name": "Temperature of Lake Bottom Water",
+      "units": "K",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "ice",
+      "long_name": "Lake Ice Cover",
+      "units": "1",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "icethick",
+      "long_name": "Ice Thickness",
+      "units": "m",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "icetemp",
+      "long_name": "Ice Temperature at Upper Surface",
+      "units": "K",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "lakeheatf",
+      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
+      "units": "W m-2"
+    },
+    {
+      "specifier": "latentheatf",
+      "long_name": "Latent Heat Flux at Lake-Atmosphere Interface",
+      "units": "W m-2",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "lakeicefrac",
+      "long_name": "Lake Layer Ice Mass Fraction",
+      "units": "1",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "lwup",
+      "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface",
+      "units": "W m-2",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "momf",
+      "long_name": "Momentum Flux at Lake-Atmosphere Interface",
+      "units": "kg m-1 s-2",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "sedheatf",
+      "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface",
+      "units": "W m-2",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "sensheatf",
+      "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface",
+      "units": "W m-2",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "snowtemp",
+      "long_name": "Snow Temperature at Upper Surface",
+      "units": "K",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "snowthick",
+      "long_name": "Snow Thickness",
+      "units": "m",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "strat",
+      "long_name": "Thermal Stratification",
+      "units": "1",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "surftemp",
+      "long_name": "Temperature of Lake Surface Water",
+      "units": "K",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "swup",
+      "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface",
+      "units": "W m-2",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "thermodepth",
+      "long_name": "Depth of Thermocline",
+      "units": "m",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    },
+    {
+      "specifier": "watertemp",
+      "long_name": "Temperature of Lake Water",
+      "units": "K",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ]
+    }
+  ],
   "sens_scenario": [
     {
       "specifier": "default"
@@ -686,6 +861,17 @@
       "specifier": "gswp3",
       "simulation_rounds": [
         "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "ewembi",
+      "description": "",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ],
+      "sectors": [
+        "biodiversity",
+        "lakes_global"
       ]
     },
     {

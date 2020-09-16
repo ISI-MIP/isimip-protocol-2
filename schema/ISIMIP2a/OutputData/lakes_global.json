@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/lakes_global.json",
-  "commit": "4cd363f945b71dda85cacac624ef7cbc934ce754",
+  "commit": "1d0cf27e8c972cc30981056917e5049180ac7b85",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,10 +27,11 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3",
             "watch",
+            "gswp3",
             "princeton",
-            "wfdei"
+            "wfdei",
+            "ewembi"
           ]
         },
         "bias_adjustment": {
@@ -49,29 +50,49 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2100rcp26soc",
-            "varsoc",
             "rcp26soc",
-            "1860soc",
             "nat",
+            "rcp60soc",
             "nosoc",
+            "2100rcp26soc",
             "2005soc",
-            "histsoc",
             "pressoc",
-            "rcp60soc"
+            "histsoc",
+            "1860soc",
+            "varsoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "co2",
             "default",
+            "co2",
             "2005co2"
           ]
         },
         "variable": {
           "type": "string",
-          "enum": []
+          "enum": [
+            "icetemp",
+            "icethick",
+            "lakeheatf",
+            "lakeicefrac",
+            "albedo",
+            "sensheatf",
+            "ice",
+            "snowthick",
+            "thermodepth",
+            "lwup",
+            "momf",
+            "snowtemp",
+            "latentheatf",
+            "surftemp",
+            "sedheatf",
+            "swup",
+            "strat",
+            "bottemp",
+            "watertemp"
+          ]
         },
         "region": {
           "type": "string",
@@ -82,9 +103,10 @@
         "time_step": {
           "type": "string",
           "enum": [
+            "annual",
             "monthly",
             "daily",
-            "annual"
+            "seasonal"
           ]
         },
         "start_year": {

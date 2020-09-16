@@ -1,5 +1,5 @@
 {
-  "commit": "4cd363f945b71dda85cacac624ef7cbc934ce754",
+  "commit": "1d0cf27e8c972cc30981056917e5049180ac7b85",
   "river_basin": [
     {
       "specifier": "alton"
@@ -591,6 +591,11 @@
       ]
     },
     {
+      "specifier": "lakeheatf",
+      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
+      "units": "W m-2"
+    },
+    {
       "units": "Probability of occurrence per cell",
       "specifier": "mammalprob",
       "sectors": [
@@ -755,7 +760,8 @@
         "ISIMIP2a"
       ],
       "sectors": [
-        "biodiversity"
+        "biodiversity",
+        "lakes_global"
       ]
     },
     {
