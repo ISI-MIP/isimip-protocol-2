@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/lakes_global.json",
-  "commit": "92e9e8f83eb8b7947c993d8e4b026bac8a99364b",
+  "commit": "b82bb5207909a7dd8374dda73ef76bfc7f8654ee",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,11 +27,11 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3",
-            "wfdei",
-            "ewembi",
             "princeton",
-            "watch"
+            "watch",
+            "ewembi",
+            "gswp3",
+            "wfdei"
           ]
         },
         "bias_adjustment": {
@@ -50,48 +50,48 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2100rcp26soc",
             "nat",
-            "nosoc",
-            "varsoc",
-            "1860soc",
             "2005soc",
-            "histsoc",
+            "2100rcp26soc",
+            "varsoc",
+            "nosoc",
+            "1860soc",
             "rcp60soc",
-            "rcp26soc",
-            "pressoc"
+            "histsoc",
+            "pressoc",
+            "rcp26soc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "co2",
             "default",
+            "co2",
             "2005co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "ice",
-            "lakeheatf",
-            "latentheatf",
-            "icethick",
-            "lwup",
-            "momf",
-            "snowthick",
-            "swup",
-            "snowtemp",
             "lakeicefrac",
-            "sedheatf",
-            "sensheatf",
-            "watertemp",
-            "strat",
             "icetemp",
             "albedo",
+            "snowtemp",
+            "ice",
+            "momf",
+            "swup",
+            "watertemp",
+            "lakeheatf",
+            "lwup",
             "thermodepth",
+            "strat",
+            "sensheatf",
+            "surftemp",
+            "icethick",
             "bottemp",
-            "surftemp"
+            "latentheatf",
+            "snowthick",
+            "sedheatf"
           ]
         },
         "region": {
@@ -103,10 +103,10 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
             "daily",
             "seasonal",
-            "annual"
+            "annual",
+            "monthly"
           ]
         },
         "start_year": {

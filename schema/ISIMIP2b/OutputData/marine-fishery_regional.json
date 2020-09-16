@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_regional.json",
-  "commit": "92e9e8f83eb8b7947c993d8e4b026bac8a99364b",
+  "commit": "b82bb5207909a7dd8374dda73ef76bfc7f8654ee",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,9 +26,9 @@
           "type": "string",
           "enum": [
             "ipsl-cm5a-lr",
+            "gfdl-esm2m",
             "hadgem2-es",
-            "miroc5",
-            "gfdl-esm2m"
+            "miroc5"
           ]
         },
         "bias_adjustment": {
@@ -41,50 +41,50 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp85",
-            "rcp60",
-            "2005co2",
-            "picontrol",
             "rcp45",
+            "rcp26",
+            "rcp60",
+            "picontrol",
+            "2005co2",
             "historical",
-            "rcp26"
+            "rcp85"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "b30cm",
-            "bcom",
-            "tc",
-            "tsb",
-            "lakeheatf",
-            "tc30cm",
-            "tla",
             "tcb",
+            "tla",
+            "b30cm",
+            "lakeheatf",
             "tc10cm",
-            "b10cm"
+            "b10cm",
+            "bcom",
+            "tc30cm",
+            "tc",
+            "tsb"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "cook-strait",
             "baltic-sea",
-            "humboldt-n",
-            "med-glob",
-            "east-bass-strait",
-            "nw-med-sea",
             "adriatic-sea",
+            "nw-med-sea",
+            "se-australia",
             "north-sea",
-            "se-australia"
+            "east-bass-strait",
+            "cook-strait",
+            "humboldt-n",
+            "med-glob"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
             "daily",
-            "annual"
+            "annual",
+            "monthly"
           ]
         },
         "start_year": {
