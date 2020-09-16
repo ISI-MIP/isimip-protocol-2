@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/biomes.json",
-  "commit": "1d0cf27e8c972cc30981056917e5049180ac7b85",
+  "commit": "92e9e8f83eb8b7947c993d8e4b026bac8a99364b",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,10 +27,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
+            "wfdei",
             "gswp3",
             "watch",
-            "princeton",
-            "wfdei"
+            "princeton"
           ]
         },
         "bias_adjustment": {
@@ -49,65 +49,69 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "rcp26soc",
-            "nat",
-            "rcp60soc",
-            "nosoc",
             "2100rcp26soc",
-            "2005soc",
-            "pressoc",
-            "histsoc",
+            "nat",
+            "nosoc",
+            "varsoc",
             "1860soc",
-            "varsoc"
+            "2005soc",
+            "histsoc",
+            "rcp60soc",
+            "rcp26soc",
+            "pressoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
             "co2",
+            "default",
             "2005co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "trans",
-            "croot",
-            "soilmoistfroz",
-            "qs",
             "csoil",
-            "fapar",
-            "swe",
-            "rainf",
-            "somcfire",
-            "intercep",
-            "evap",
-            "cleaf",
-            "soilmoist",
-            "gpp",
-            "lai",
-            "ecoatmflux",
-            "ra",
-            "rr",
-            "thawdepth",
-            "qtot",
-            "cveg",
-            "npp",
             "pft",
-            "rh",
-            "pft2storeys",
-            "fireint",
-            "albedo",
-            "snd",
-            "potevap",
+            "trans",
             "lakeheatf",
-            "cwood",
-            "esoil",
+            "rh",
+            "lai",
+            "cveg",
+            "nppabovegroundwood",
+            "fireint",
+            "npplandleaf",
+            "npp",
+            "firefrac",
+            "cleaf",
+            "snd",
+            "somcfire",
+            "soilmoist",
             "tsl",
+            "rainf",
+            "cwood",
+            "gpp",
+            "potevap",
             "clitter",
+            "albedo",
+            "npplandroot",
+            "qs",
+            "nppbelowgroundwood",
+            "evap",
+            "rr",
+            "soilmoistfroz",
+            "ra",
+            "qtot",
+            "pft2storeys",
+            "esoil",
+            "thawdepth",
+            "ecoatmflux",
+            "swe",
+            "fapar",
             "burntarea",
-            "firefrac"
+            "croot",
+            "intercep"
           ]
         },
         "pft": {
@@ -116,28 +120,28 @@
         "crop": {
           "type": "string",
           "enum": [
-            "mai",
-            "rye",
-            "sgb",
-            "whe",
-            "sug",
-            "pop",
-            "nut",
-            "sun",
-            "ben",
-            "bar",
-            "cas",
             "ric",
-            "pea",
-            "pot",
-            "sor",
-            "cot",
-            "soy",
-            "mis",
             "rap",
+            "rye",
+            "cas",
+            "bar",
+            "soy",
+            "pop",
+            "sun",
+            "sug",
+            "mis",
+            "pot",
             "euc",
+            "nut",
+            "ben",
+            "cot",
+            "mgr",
+            "sgb",
+            "pea",
+            "sor",
+            "whe",
             "mil",
-            "mgr"
+            "mai"
           ]
         },
         "irrigation": {
@@ -155,10 +159,10 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
             "constant",
             "monthly",
-            "daily"
+            "daily",
+            "annual"
           ]
         },
         "start_year": {
