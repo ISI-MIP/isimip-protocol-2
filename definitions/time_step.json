@@ -53,6 +53,7 @@
   {
     "specifier": "seasonal",
     "sectors": [
+      "lakes_global",
       "agriculture"
     ],
     "increment": "seasons"

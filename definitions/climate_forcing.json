@@ -12,7 +12,8 @@
       "ISIMIP2a"
     ],
     "sectors": [
-      "biodiversity"
+      "biodiversity",
+      "lakes_global"
     ]
   },
   {

@@ -66,6 +66,8 @@
   {
     "specifier": "albedo",
     "sectors": [
+      "lakes_global",
+      "lakes_local",
       "biomes"
     ]
   },
@@ -189,6 +191,15 @@
     "specifier": "blarge",
     "sectors": [
       "marine-fishery_global"
+    ]
+  },
+  {
+    "specifier": "bottemp",
+    "long_name": "Temperature of Lake Bottom Water",
+    "units": "K",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
     ]
   },
   {
@@ -395,6 +406,33 @@
     ]
   },
   {
+    "specifier": "ice",
+    "long_name": "Lake Ice Cover",
+    "units": "1",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ]
+  },
+  {
+    "specifier": "icethick",
+    "long_name": "Ice Thickness",
+    "units": "m",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ]
+  },
+  {
+    "specifier": "icetemp",
+    "long_name": "Ice Temperature at Upper Surface",
+    "units": "K",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ]
+  },
+  {
     "units": "kg ha-1 per growing season",
     "specifier": "initr",
     "sectors": [
@@ -418,6 +456,20 @@
     ]
   },
   {
+    "specifier": "lakeheatf",
+    "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
+    "units": "W m-2"
+  },
+  {
+    "specifier": "latentheatf",
+    "long_name": "Latent Heat Flux at Lake-Atmosphere Interface",
+    "units": "W m-2",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ]
+  },
+  {
     "units": "kg m-2",
     "specifier": "lakestor",
     "sectors": [
@@ -425,10 +477,28 @@
     ]
   },
   {
+    "specifier": "lakeicefrac",
+    "long_name": "Lake Layer Ice Mass Fraction",
+    "units": "1",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ]
+  },
+  {
     "units": "",
     "specifier": "leach",
     "sectors": [
       "agriculture"
+    ]
+  },
+  {
+    "specifier": "lwup",
+    "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface",
+    "units": "W m-2",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
     ]
   },
   {
@@ -476,6 +546,15 @@
     "specifier": "mindis",
     "sectors": [
       "water_global"
+    ]
+  },
+  {
+    "specifier": "momf",
+    "long_name": "Momentum Flux at Lake-Atmosphere Interface",
+    "units": "kg m-1 s-2",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
     ]
   },
   {
@@ -623,7 +702,7 @@
     "units": "kg m-2 s-1",
     "specifier": "qs",
     "valid_min": 0.0,
-    "valid_max": 4.0E-03,
+    "valid_max": 0.0040,
     "sectors": [
       "biomes",
       "permafrost",
@@ -715,12 +794,30 @@
     ]
   },
   {
+    "specifier": "sedheatf",
+    "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface",
+    "units": "W m-2",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ]
+  },
+  {
     "units": "m",
     "specifier": "snd",
     "sectors": [
       "biomes",
       "permafrost",
       "water_global"
+    ]
+  },
+  {
+    "specifier": "sensheatf",
+    "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface",
+    "units": "W m-2",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
     ]
   },
   {
@@ -735,6 +832,24 @@
     "sectors": [
       "water_global",
       "water_regional"
+    ]
+  },
+  {
+    "specifier": "snowtemp",
+    "long_name": "Snow Temperature at Upper Surface",
+    "units": "K",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ]
+  },
+  {
+    "specifier": "snowthick",
+    "long_name": "Snow Thickness",
+    "units": "m",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
     ]
   },
   {
@@ -769,6 +884,15 @@
     ]
   },
   {
+    "specifier": "strat",
+    "long_name": "Thermal Stratification",
+    "units": "1",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ]
+  },
+  {
     "specifier": "somcfire",
     "sectors": [
       "biomes"
@@ -782,6 +906,15 @@
     ]
   },
   {
+    "specifier": "surftemp",
+    "long_name": "Temperature of Lake Surface Water",
+    "units": "K",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ]
+  },
+  {
     "units": "kg m-2",
     "specifier": "swe",
     "sectors": [
@@ -789,6 +922,15 @@
       "permafrost",
       "water_global",
       "water_regional"
+    ]
+  },
+  {
+    "specifier": "swup",
+    "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface",
+    "units": "W m-2",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
     ]
   },
   {
@@ -830,6 +972,15 @@
       "permafrost",
       "water_global",
       "biomes"
+    ]
+  },
+  {
+    "specifier": "thermodepth",
+    "long_name": "Depth of Thermocline",
+    "units": "m",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
     ]
   },
   {
@@ -902,6 +1053,15 @@
     "specifier": "tws",
     "sectors": [
       "water_global"
+    ]
+  },
+  {
+    "specifier": "watertemp",
+    "long_name": "Temperature of Lake Water",
+    "units": "K",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
     ]
   },
   {
