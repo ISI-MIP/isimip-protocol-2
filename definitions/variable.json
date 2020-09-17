@@ -1,5 +1,6 @@
 [
   {
+    "units": "kg m-2 s-1",
     "specifier": "admeluse",
     "sectors": [
       "water_global"
@@ -64,6 +65,7 @@
     ]
   },
   {
+    "units": "1",
     "specifier": "albedo",
     "sectors": [
       "lakes_global",
@@ -246,6 +248,7 @@
     ]
   },
   {
+    "units": "kg m-2",
     "specifier": "clitter",
     "sectors": [
       "biomes",
@@ -311,6 +314,7 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "ecoatmflux",
     "sectors": [
       "biomes",
@@ -399,7 +403,7 @@
     ]
   },
   {
-    "units": "w m-2 yr-1",
+    "units": "W m-2 yr-1",
     "specifier": "gsrsds",
     "sectors": [
       "agriculture"
@@ -1104,7 +1108,7 @@
     ]
   },
   {
-    "units": "dry matter (t ha-1 per growing season)",
+    "units": "t ha-1 (dry matter per growing season)",
     "specifier": "yield",
     "sectors": [
       "agriculture"
