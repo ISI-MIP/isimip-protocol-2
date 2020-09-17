@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_regional.json",
-  "commit": "c5f53903ae71ffe9c250b55a7348bed92c7012eb",
+  "commit": "5234cffa80203b1574cd5019e13eee50b27435bf",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,56 +26,56 @@
           "type": "string",
           "enum": [
             "miroc5",
-            "hadgem2-es",
+            "ipsl-cm5a-lr",
             "gfdl-esm2m",
-            "ipsl-cm5a-lr"
+            "hadgem2-es"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "nobc"
+            "nobc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
             "historical",
+            "rcp26",
+            "rcp45",
             "picontrol",
             "rcp85",
-            "rcp45",
-            "rcp60",
             "2005co2",
-            "rcp26"
+            "rcp60"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "b10cm",
-            "tcb",
-            "tc",
-            "b30cm",
             "tla",
+            "tcb",
+            "b10cm",
+            "b30cm",
+            "tc10cm",
             "tsb",
             "bcom",
             "lakeheatf",
-            "tc10cm",
-            "tc30cm"
+            "tc30cm",
+            "tc"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "north-sea",
-            "med-glob",
-            "se-australia",
-            "east-bass-strait",
-            "humboldt-n",
-            "adriatic-sea",
-            "cook-strait",
             "nw-med-sea",
+            "north-sea",
+            "cook-strait",
+            "se-australia",
+            "med-glob",
+            "adriatic-sea",
+            "humboldt-n",
+            "east-bass-strait",
             "baltic-sea"
           ]
         },

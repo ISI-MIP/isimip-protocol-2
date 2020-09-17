@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/forestry.json",
-  "commit": "c5f53903ae71ffe9c250b55a7348bed92c7012eb",
+  "commit": "5234cffa80203b1574cd5019e13eee50b27435bf",
   "type": "object",
   "required": [
     "specifiers"
@@ -28,43 +28,43 @@
           "type": "string",
           "enum": [
             "miroc5",
-            "hadgem2-es",
+            "ipsl-cm5a-lr",
             "gfdl-esm2m",
-            "ipsl-cm5a-lr"
+            "hadgem2-es"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
+            "nobc",
             "localbc",
-            "ewembi",
-            "nobc"
+            "ewembi"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
             "historical",
+            "rcp26",
+            "rcp45",
             "picontrol",
             "rcp85",
-            "rcp45",
-            "rcp60",
             "2005co2",
-            "rcp26"
+            "rcp60"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
             "1860soc",
+            "varsoc",
+            "2100rcp26soc",
+            "rcp26soc",
             "nosoc",
             "histsoc",
-            "rcp60soc",
-            "2100rcp26soc",
-            "pressoc",
-            "rcp26soc",
             "nat",
-            "varsoc",
+            "pressoc",
+            "rcp60soc",
             "2005soc"
           ]
         },
@@ -72,8 +72,8 @@
           "type": "string",
           "enum": [
             "default",
-            "co2",
-            "2005co2"
+            "2005co2",
+            "co2"
           ]
         },
         "variable": {
@@ -85,40 +85,40 @@
         "species": {
           "type": "string",
           "enum": [
-            "ins",
-            "pisy",
-            "rops",
-            "poni",
-            "qupe",
-            "pipi",
-            "acpl",
             "eugl",
             "fasy",
-            "quro",
-            "bepe",
-            "frex",
-            "soau",
-            "c3gr",
-            "fi",
-            "wi",
-            "piab",
+            "poni",
             "lade",
+            "piab",
+            "fi",
+            "ins",
+            "pipi",
+            "wi",
+            "rops",
+            "qupe",
+            "quro",
+            "acpl",
+            "frex",
             "hawo",
-            "bepu"
+            "soau",
+            "bepu",
+            "pisy",
+            "bepe",
+            "c3gr"
           ]
         },
         "forest_stand": {
           "type": "string",
           "enum": [
-            "solling-beech",
-            "soro",
-            "le-bray",
-            "collelongo",
-            "peitz",
+            "bily-kriz",
             "hyytiala",
+            "soro",
+            "solling-beech",
+            "le-bray",
+            "peitz",
             "kroof",
-            "solling-spruce",
-            "bily-kriz"
+            "collelongo",
+            "solling-spruce"
           ]
         },
         "time_step": {
