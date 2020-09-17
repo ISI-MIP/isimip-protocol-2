@@ -1,5 +1,5 @@
 {
-  "commit": "b82bb5207909a7dd8374dda73ef76bfc7f8654ee",
+  "commit": "c5f53903ae71ffe9c250b55a7348bed92c7012eb",
   "terms": {
     "river_basin": {
       "alton": {
@@ -522,6 +522,7 @@
     },
     "variable": {
       "admeluse": {
+        "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
         ]
@@ -577,6 +578,7 @@
         ]
       },
       "albedo": {
+        "units": "1",
         "sectors": [
           "lakes_global",
           "lakes_local",
@@ -734,6 +736,7 @@
         ]
       },
       "clitter": {
+        "units": "kg m-2",
         "sectors": [
           "biomes",
           "permafrost"
@@ -791,6 +794,7 @@
         ]
       },
       "ecoatmflux": {
+        "units": "kg m-2 s-1",
         "sectors": [
           "biomes",
           "permafrost"
@@ -867,7 +871,7 @@
         ]
       },
       "gsrsds": {
-        "units": "w m-2 yr-1",
+        "units": "W m-2 yr-1",
         "sectors": [
           "agriculture"
         ]
@@ -1484,7 +1488,7 @@
         ]
       },
       "yield": {
-        "units": "dry matter (t ha-1 per growing season)",
+        "units": "t ha-1",
         "sectors": [
           "agriculture"
         ]

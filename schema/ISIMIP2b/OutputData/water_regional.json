@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/water_regional.json",
-  "commit": "b82bb5207909a7dd8374dda73ef76bfc7f8654ee",
+  "commit": "c5f53903ae71ffe9c250b55a7348bed92c7012eb",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,44 +27,44 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ipsl-cm5a-lr",
-            "gfdl-esm2m",
+            "miroc5",
             "hadgem2-es",
-            "miroc5"
+            "gfdl-esm2m",
+            "ipsl-cm5a-lr"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp45",
-            "rcp26",
-            "rcp60",
-            "picontrol",
-            "2005co2",
             "historical",
-            "rcp85"
+            "picontrol",
+            "rcp85",
+            "rcp45",
+            "rcp60",
+            "2005co2",
+            "rcp26"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
-            "2005soc",
-            "2100rcp26soc",
-            "varsoc",
-            "nosoc",
             "1860soc",
-            "rcp60soc",
+            "nosoc",
             "histsoc",
+            "rcp60soc",
+            "2100rcp26soc",
             "pressoc",
-            "rcp26soc"
+            "rcp26soc",
+            "nat",
+            "varsoc",
+            "2005soc"
           ]
         },
         "sens_scenario": {
@@ -78,57 +78,57 @@
         "variable": {
           "type": "string",
           "enum": [
-            "airruse",
-            "qbaseflow",
-            "airrww",
-            "dis",
-            "qs",
-            "qrecharge",
-            "rootmoist",
+            "qtot",
             "swe",
+            "qs",
             "rainf",
+            "qbaseflow",
             "soilmoist",
-            "lakeheatf",
+            "airrww",
             "qr",
-            "evap",
-            "qg",
             "potevap",
+            "evap",
+            "qrecharge",
+            "airruse",
+            "lakeheatf",
+            "dis",
             "snowf",
-            "qtot"
+            "rootmoist",
+            "qg"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "mis",
+            "pop",
             "bar",
+            "sun",
+            "mil",
+            "sug",
+            "sor",
+            "ben",
+            "mis",
+            "nut",
+            "cas",
+            "soy",
+            "sgb",
+            "rye",
+            "cot",
+            "mai",
+            "euc",
             "pot",
             "whe",
-            "nut",
-            "ric",
-            "sun",
-            "cot",
-            "rye",
-            "rap",
-            "sor",
-            "mai",
-            "sug",
-            "cas",
             "mgr",
-            "soy",
-            "euc",
-            "pea",
-            "mil",
-            "sgb",
-            "ben",
-            "pop"
+            "rap",
+            "ric",
+            "pea"
           ]
         },
         "irrigation": {
           "type": "string",
           "enum": [
-            "cirr",
-            "noirr"
+            "noirr",
+            "cirr"
           ]
         },
         "pft": {
@@ -137,72 +137,72 @@
         "river": {
           "type": "string",
           "enum": [
-            "mississippi",
-            "yangtze",
-            "indus",
-            "yellow",
+            "darling",
             "lena",
-            "mackenzie",
-            "ganges",
+            "indus",
+            "niger",
+            "yangtze",
+            "godavari",
             "danube",
             "rhine",
-            "godavari",
-            "darling",
-            "amazon",
-            "blue-nile",
+            "yellow",
+            "mississippi",
             "tagus",
+            "ganges",
+            "amazon",
             "pajeu",
-            "niger"
+            "mackenzie",
+            "blue-nile"
           ]
         },
         "river_basin": {
           "type": "string",
           "enum": [
-            "louth",
-            "chisapani",
-            "huangheyuan",
-            "wien-nussdorf",
-            "rheinfelden",
-            "cuntan",
-            "maqu",
-            "tarbela",
-            "tossaye",
-            "almourol",
-            "jimai",
-            "sao-paulo-de-olivenca",
+            "clinton",
             "roseiresdam",
+            "farakka",
             "el-diem",
-            "tekra",
+            "niamey",
+            "arctic-red-river",
+            "stolb",
+            "rockenau",
+            "jimai",
+            "louth",
+            "trillo",
+            "st-paul",
+            "almourol",
+            "khartoum",
+            "tangnaihai",
+            "tossaye",
+            "maqu",
+            "chisapani",
+            "tarbela",
+            "koulikoro",
+            "lobith",
+            "alton",
+            "trier",
+            "sao-paulo-de-olivenca",
+            "ibi",
+            "floresta",
+            "wien-nussdorf",
             "wisconsin-dells",
             "dire",
-            "koulikoro",
-            "arctic-red-river",
-            "frankfurt",
-            "tangnaihai",
-            "lokoja",
-            "alton",
             "krestovski",
-            "st-paul",
-            "floresta",
-            "trillo",
+            "lokoja",
             "valley-city",
-            "khartoum",
-            "rockenau",
-            "clinton",
-            "farakka",
-            "ibi",
-            "trier",
-            "lobith",
-            "niamey",
-            "stolb"
+            "huangheyuan",
+            "rheinfelden",
+            "tekra",
+            "cuntan",
+            "frankfurt"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
             "daily",
-            "annual",
-            "monthly"
+            "monthly",
+            "annual"
           ]
         },
         "start_year": {

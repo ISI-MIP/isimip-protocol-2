@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/permafrost.json",
-  "commit": "b82bb5207909a7dd8374dda73ef76bfc7f8654ee",
+  "commit": "c5f53903ae71ffe9c250b55a7348bed92c7012eb",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,44 +27,44 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ipsl-cm5a-lr",
-            "gfdl-esm2m",
+            "miroc5",
             "hadgem2-es",
-            "miroc5"
+            "gfdl-esm2m",
+            "ipsl-cm5a-lr"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp45",
-            "rcp26",
-            "rcp60",
-            "picontrol",
-            "2005co2",
             "historical",
-            "rcp85"
+            "picontrol",
+            "rcp85",
+            "rcp45",
+            "rcp60",
+            "2005co2",
+            "rcp26"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
-            "2005soc",
-            "2100rcp26soc",
-            "varsoc",
-            "nosoc",
             "1860soc",
-            "rcp60soc",
+            "nosoc",
             "histsoc",
+            "rcp60soc",
+            "2100rcp26soc",
             "pressoc",
-            "rcp26soc"
+            "rcp26soc",
+            "nat",
+            "varsoc",
+            "2005soc"
           ]
         },
         "sens_scenario": {
@@ -78,59 +78,59 @@
         "variable": {
           "type": "string",
           "enum": [
-            "fapar",
             "qs",
-            "csoil",
-            "lai",
-            "clitter",
-            "thawdepth",
-            "npp",
-            "ra",
-            "nppbelowgroundwood",
-            "swe",
+            "fireint",
             "burntarea",
+            "soilmoistfroz",
+            "snd",
+            "soilmoist",
+            "ra",
+            "cveg",
+            "nppabovegroundwood",
+            "gpp",
+            "swe",
+            "npplandleaf",
+            "ecoatmflux",
+            "tsl",
+            "lai",
+            "csoil",
+            "nppbelowgroundwood",
+            "qtot",
+            "npp",
+            "clitter",
+            "fapar",
+            "pft",
             "rh",
             "npplandroot",
-            "ecoatmflux",
-            "soilmoistfroz",
-            "soilmoist",
-            "gpp",
-            "nppabovegroundwood",
-            "snd",
-            "cveg",
             "lakeheatf",
-            "pft",
-            "tsl",
-            "fireint",
-            "npplandleaf",
-            "qtot"
+            "thawdepth"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "mis",
+            "pop",
             "bar",
+            "sun",
+            "mil",
+            "sug",
+            "sor",
+            "ben",
+            "mis",
+            "nut",
+            "cas",
+            "soy",
+            "sgb",
+            "rye",
+            "cot",
+            "mai",
+            "euc",
             "pot",
             "whe",
-            "nut",
-            "ric",
-            "sun",
-            "cot",
-            "rye",
-            "rap",
-            "sor",
-            "mai",
-            "sug",
-            "cas",
             "mgr",
-            "soy",
-            "euc",
-            "pea",
-            "mil",
-            "sgb",
-            "ben",
-            "pop"
+            "rap",
+            "ric",
+            "pea"
           ]
         },
         "irrigation": {
@@ -153,8 +153,8 @@
           "enum": [
             "daily",
             "constant",
-            "annual",
-            "monthly"
+            "monthly",
+            "annual"
           ]
         },
         "start_year": {

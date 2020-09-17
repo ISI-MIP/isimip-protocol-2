@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/biodiversity.json",
-  "commit": "b82bb5207909a7dd8374dda73ef76bfc7f8654ee",
+  "commit": "c5f53903ae71ffe9c250b55a7348bed92c7012eb",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,17 +27,17 @@
           "type": "string",
           "enum": [
             "princeton",
-            "watch",
-            "ewembi",
             "gswp3",
-            "wfdei"
+            "watch",
+            "wfdei",
+            "ewembi"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
@@ -49,16 +49,16 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
-            "2005soc",
-            "2100rcp26soc",
-            "varsoc",
-            "nosoc",
             "1860soc",
-            "rcp60soc",
+            "nosoc",
             "histsoc",
+            "rcp60soc",
+            "2100rcp26soc",
             "pressoc",
-            "rcp26soc"
+            "rcp26soc",
+            "nat",
+            "varsoc",
+            "2005soc"
           ]
         },
         "sens_scenario": {
@@ -73,20 +73,20 @@
           "type": "string",
           "enum": [
             "birdsr",
-            "amphibiansumprob",
             "endamphibiansumprob",
-            "birdsumprob",
+            "amphibiansumprob",
+            "mammalsumprob",
             "amphibiansr",
-            "mammalsr",
-            "birdprob",
-            "lakeheatf",
             "mammalprob",
-            "thrmammalsumprob",
             "thrbirdsumprob",
-            "endmammalsumprob",
             "endbirdsumprob",
             "thramphibiansumprob",
-            "mammalsumprob"
+            "thrmammalsumprob",
+            "lakeheatf",
+            "birdsumprob",
+            "birdprob",
+            "mammalsr",
+            "endmammalsumprob"
           ]
         },
         "region": {

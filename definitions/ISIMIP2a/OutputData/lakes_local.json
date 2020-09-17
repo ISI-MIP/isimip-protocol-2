@@ -1,5 +1,5 @@
 {
-  "commit": "b82bb5207909a7dd8374dda73ef76bfc7f8654ee",
+  "commit": "c5f53903ae71ffe9c250b55a7348bed92c7012eb",
   "river_basin": [
     {
       "specifier": "alton"
@@ -574,6 +574,7 @@
   ],
   "variable": [
     {
+      "units": "1",
       "specifier": "albedo",
       "sectors": [
         "lakes_global",
