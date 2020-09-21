@@ -3,9 +3,11 @@
     "specifier": "default"
   },
   {
-    "specifier": "co2"
+    "specifier": "co2",
+    "description": "Regular experiment."
   },
   {
-    "specifier": "2005co2"
+    "specifier": "2005co2",
+    "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
   }
 ]

@@ -1,32 +1,42 @@
 [
   {
-    "specifier": "nosoc"
+    "specifier": "nosoc",
+    "description": "Naturalized - without human impacts on river flow."
   },
   {
-    "specifier": "pressoc"
+    "specifier": "pressoc",
+    "description": "Constant human impacts - present-day (year-2000) dams and water use."
   },
   {
-    "specifier": "varsoc"
+    "specifier": "varsoc",
+    "description": "Time-varying human impacts - time-varying historical dam construction and water use."
   },
   {
-    "specifier": "nat"
+    "specifier": "nat",
+    "description": "Natural vegetation reference run."
   },
   {
-    "specifier": "2005soc"
+    "specifier": "2005soc",
+    "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
   },
   {
-    "specifier": "1860soc"
+    "specifier": "1860soc",
+    "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
   },
   {
-    "specifier": "histsoc"
+    "specifier": "histsoc",
+    "description": "Varying historical land use, nitrogen deposition and fertilizer input."
   },
   {
-    "specifier": "rcp26soc"
+    "specifier": "rcp26soc",
+    "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
   },
   {
-    "specifier": "rcp60soc"
+    "specifier": "rcp60soc",
+    "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
   },
   {
-    "specifier": "2100rcp26soc"
+    "specifier": "2100rcp26soc",
+    "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
   }
 ]

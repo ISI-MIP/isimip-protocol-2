@@ -1,0 +1,22 @@
+[
+  {
+    "specifier": "future",
+    "title": "Future",
+    "description": "Future simulation period."
+  },
+  {
+    "specifier": "historical",
+    "title": "Historical",
+    "description": "Historical simulation period."
+  },
+  {
+    "specifier": "pre-industrial",
+    "title": "Pre-industrial",
+    "description": "Pre-industrial simulation period."
+  },
+  {
+    "specifier": "future_extended",
+    "title": "Future (extended)",
+    "description": "Future (extended) simulation period."
+  }
+]

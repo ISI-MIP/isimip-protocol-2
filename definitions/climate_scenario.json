@@ -8,7 +8,7 @@
   },
   {
     "specifier": "picontrol",
-    "description": "Pre-industrial climate as simulated by the GCMs.",
+    "description": "Pre-industrial climate and 286ppm CO2 concentration.",
     "simulation_rounds": [
       "ISIMIP2b"
     ]
@@ -53,7 +53,7 @@
   },
   {
     "specifier": "2005co2",
-    "description": "RCP8.5 climate as simulated by the GCMs.",
+    "description": "CO2 concentration fixed at 2005 levels at 378.81ppm.",
     "simulation_rounds": [
       "ISIMIP2b"
     ]
