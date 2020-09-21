@@ -1,12 +1,14 @@
 [
   {
     "specifier": "gswp3",
+    "title": "GSWP3",
     "simulation_rounds": [
       "ISIMIP2a"
     ]
   },
   {
     "specifier": "ewembi",
+    "title": "GSWP3-EWEMBI",
     "description": "",
     "simulation_rounds": [
       "ISIMIP2a"
@@ -18,42 +20,49 @@
   },
   {
     "specifier": "princeton",
+    "title": "PGMFD v.2 (Princeton)",
     "simulation_rounds": [
       "ISIMIP2a"
     ]
   },
   {
     "specifier": "watch",
+    "title": "WATCH (WFD)",
     "simulation_rounds": [
       "ISIMIP2a"
     ]
   },
   {
     "specifier": "wfdei",
+    "title": "WATCH-WFDEI",
     "simulation_rounds": [
       "ISIMIP2a"
     ]
   },
   {
     "specifier": "gfdl-esm2m",
+    "title": "GFDL-ESM2M",
     "simulation_rounds": [
       "ISIMIP2b"
     ]
   },
   {
     "specifier": "hadgem2-es",
+    "title": "HadGEM2-ES",
     "simulation_rounds": [
       "ISIMIP2b"
     ]
   },
   {
     "specifier": "ipsl-cm5a-lr",
+    "title": "IPSL-CM5A-LR",
     "simulation_rounds": [
       "ISIMIP2b"
     ]
   },
   {
     "specifier": "miroc5",
+    "title": "MIROC5",
     "simulation_rounds": [
       "ISIMIP2b"
     ]
