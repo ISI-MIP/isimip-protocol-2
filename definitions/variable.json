@@ -11,35 +11,40 @@
     "specifier": "adomuse",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual Domestic Water Consumption"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "adomww",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual Domestic Water Withdrawal"
   },
   {
     "units": "mm per growing season",
     "specifier": "aet",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Actual Evapotranspiration"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "ainduse",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual Industrial Water Consumption"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "aindww",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual Industrial Water Withdrawal"
   },
   {
     "units": "kg m-2 s-1",
@@ -47,14 +52,16 @@
     "sectors": [
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Actual Irrigation Water Consumption"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "airrusegreen",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual Irrigation Green Water Consumption on Irrigated Cropland"
   },
   {
     "units": "kg m-2 s-1",
@@ -62,7 +69,8 @@
     "sectors": [
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Actual Irrigation Water Withdrawal"
   },
   {
     "units": "1",
@@ -78,63 +86,72 @@
     "specifier": "aliveuse",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual livestock Water Consumption"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "aliveww",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual Livestock Water Withdrawal"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "amanuse",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual Manufacturing Water Consumption"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "amanww",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual Manufacturing Water Withdrawal"
   },
   {
     "units": "Estimated number of species (species richness) per cell",
     "specifier": "amphibiansr",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Amphibian Species Richness"
   },
   {
     "units": "Summed probability of occurrence per cell",
     "specifier": "amphibiansumprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Amphibian Summed Probability of Occurrence"
   },
   {
     "units": "day of year of anthesis",
     "specifier": "anthday",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Anthesis Date"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "arainfusegreen",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Actual Green Water Consumption on Rainfed Cropland"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "atotuse",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Total Actual Water Consumption (all sectors)"
   },
   {
     "units": "g C m-2",
@@ -142,7 +159,8 @@
     "sectors": [
       "marine-fishery_global",
       "marine-fishery_regional"
-    ]
+    ],
+    "long_name": "Biomass Density of Consumers >10cm "
   },
   {
     "units": "g C m-2",
@@ -150,7 +168,8 @@
     "sectors": [
       "marine-fishery_global",
       "marine-fishery_regional"
-    ]
+    ],
+    "long_name": "Biomass Density of Consumers >30cm"
   },
   {
     "units": "g C m-2",
@@ -158,65 +177,73 @@
     "sectors": [
       "marine-fishery_global",
       "marine-fishery_regional"
-    ]
+    ],
+    "long_name": "Biomass Density of Commercial Species "
   },
   {
     "units": "t ha-1 per growing season",
     "specifier": "biom",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Total Above Ground Biomass Dry Matter Yields"
   },
   {
     "units": "Probability of occurrence per cell",
     "specifier": "birdprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Terrestrial Bird Species Probability of Occurrence"
   },
   {
     "units": "Estimated number of species (species richness) per cell",
     "specifier": "birdsr",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Terrestrial Bird Species Richness"
   },
   {
     "units": "Summed probability of occurrence per cell",
     "specifier": "birdsumprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Terrestrial Bird Summed Probability of Occurrence "
   },
   {
     "units": "g C m-2",
     "specifier": "blarge",
     "sectors": [
       "marine-fishery_global"
-    ]
+    ],
+    "long_name": "Biomass Density of Large Consumers >90cm and <100kg"
   },
   {
-    "specifier": "bottemp",
-    "long_name": "Temperature of Lake Bottom Water",
     "units": "K",
+    "specifier": "bottemp",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Temperature of Lake Bottom Water"
   },
   {
     "units": "g C m-2",
     "specifier": "bmed",
     "sectors": [
       "marine-fishery_global"
-    ]
+    ],
+    "long_name": "Biomass Density of Medium Consumers >30cm and <90cm"
   },
   {
     "units": "g C m-2",
     "specifier": "bsmall",
     "sectors": [
       "marine-fishery_global"
-    ]
+    ],
+    "long_name": "Biomass Density of Small Consumers <30cm"
   },
   {
     "units": "%",
@@ -224,28 +251,32 @@
     "sectors": [
       "permafrost",
       "biomes"
-    ]
+    ],
+    "long_name": "Burnt Area Fraction"
   },
   {
     "units": "kg m-2",
     "specifier": "canopystor",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Canopy Water Storage"
   },
   {
     "units": "g m-2",
     "specifier": "clarge",
     "sectors": [
       "marine-fishery_global"
-    ]
+    ],
+    "long_name": "Catch of Large Consumers >90cm and <100kg"
   },
   {
     "units": "kg m-2",
     "specifier": "cleaf",
     "sectors": [
       "biomes"
-    ]
+    ],
+    "long_name": "Carbon Mass in Leaves"
   },
   {
     "units": "kg m-2",
@@ -260,21 +291,24 @@
     "specifier": "cmed",
     "sectors": [
       "marine-fishery_global"
-    ]
+    ],
+    "long_name": "Catch of Medium Consumers >30cm and <90cm"
   },
   {
     "units": "kg m-2",
     "specifier": "croot",
     "sectors": [
       "biomes"
-    ]
+    ],
+    "long_name": "Carbon Mass in Roots"
   },
   {
     "units": "g m-2",
     "specifier": "csmall",
     "sectors": [
       "marine-fishery_global"
-    ]
+    ],
+    "long_name": "Catch of Small Consumers <30cm"
   },
   {
     "units": "kg m-2",
@@ -288,7 +322,8 @@
     "sectors": [
       "biomes",
       "permafrost"
-    ]
+    ],
+    "long_name": "Carbon Mass in Soil Pool"
   },
   {
     "units": "kg m-2",
@@ -296,14 +331,16 @@
     "sectors": [
       "biomes",
       "permafrost"
-    ]
+    ],
+    "long_name": "Carbon Mass in Vegetation"
   },
   {
     "units": "kg m-2",
     "specifier": "cwood",
     "sectors": [
       "biomes"
-    ]
+    ],
+    "long_name": "Carbon Mass in Wood"
   },
   {
     "units": "m3 s-1",
@@ -311,7 +348,8 @@
     "sectors": [
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Discharge"
   },
   {
     "units": "kg m-2 s-1",
@@ -326,21 +364,24 @@
     "specifier": "endamphibiansumprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Summed Probability of Endemic Amphibian Species"
   },
   {
     "units": "Summed probability of occurrence per cell",
     "specifier": "endbirdsumprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Summed Probability of Endemic Terrestrial Bird Species"
   },
   {
     "units": "Summed probability of occurrence per cell",
     "specifier": "endmammalsumprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Summed Probability of Endemic Terrestrial Mammal Species"
   },
   {
     "units": "kg m-2 s-1",
@@ -348,7 +389,8 @@
     "sectors": [
       "biomes",
       "water_global"
-    ]
+    ],
+    "long_name": "Water Evaporation from Soil"
   },
   {
     "units": "kg m-2 s-1",
@@ -357,7 +399,8 @@
       "biomes",
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Evapotranspiration"
   },
   {
     "units": "%",
@@ -365,7 +408,8 @@
     "sectors": [
       "biomes",
       "permafrost"
-    ]
+    ],
+    "long_name": "Fraction of Absorbed Photosynthetically Active Radiation"
   },
   {
     "specifier": "firefrac",
@@ -386,69 +430,75 @@
     "sectors": [
       "biomes",
       "permafrost"
-    ]
+    ],
+    "long_name": "Carbon Mass Flux out of Atmosphere due to Gross Primary Production on Land"
   },
   {
     "units": "kg m-2",
     "specifier": "groundwstor",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Groundwater Storage"
   },
   {
     "units": "mm ha-1 yr-1",
     "specifier": "gsprcp",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Accumulated Growing Season Precipitation"
   },
   {
     "units": "W m-2 yr-1",
     "specifier": "gsrsds",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Growing Season Incoming Solar Shortwave Radiation"
   },
   {
-    "specifier": "ice",
-    "long_name": "Lake Ice Cover",
     "units": "1",
+    "specifier": "ice",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Lake Ice Cover"
   },
   {
-    "specifier": "icethick",
-    "long_name": "Ice Thickness",
     "units": "m",
+    "specifier": "icethick",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Ice Thickness"
   },
   {
-    "specifier": "icetemp",
-    "long_name": "Ice Temperature at Upper Surface",
     "units": "K",
+    "specifier": "icetemp",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Ice Temperature at Upper Surface"
   },
   {
     "units": "kg ha-1 per growing season",
     "specifier": "initr",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Nitrogen Application Rate"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "intercep",
     "sectors": [
       "biomes"
-    ]
+    ],
+    "long_name": "Evaporation from Canopy (interception)"
   },
   {
     "units": "1",
@@ -457,88 +507,96 @@
       "biomes",
       "permafrost",
       "water_global"
-    ]
+    ],
+    "long_name": "Leaf Area Index"
   },
   {
-    "specifier": "lakeheatf",
-    "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
-    "units": "W m-2"
-  },
-  {
-    "specifier": "latentheatf",
-    "long_name": "Latent Heat Flux at Lake-Atmosphere Interface",
     "units": "W m-2",
+    "specifier": "lakeheatf",
+    "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
+  },
+  {
+    "units": "W m-2",
+    "specifier": "latentheatf",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Latent Heat Flux at Lake-Atmosphere Interface"
   },
   {
     "units": "kg m-2",
     "specifier": "lakestor",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Lake Water Storage"
   },
   {
-    "specifier": "lakeicefrac",
-    "long_name": "Lake Layer Ice Mass Fraction",
     "units": "1",
+    "specifier": "lakeicefrac",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Lake Layer Ice Mass Fraction"
   },
   {
     "units": "",
     "specifier": "leach",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Nitrogen Leached"
   },
   {
-    "specifier": "lwup",
-    "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface",
     "units": "W m-2",
+    "specifier": "lwup",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface"
   },
   {
     "units": "Probability of occurrence per cell",
     "specifier": "mammalprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Terrestrial Mammal Species Probability of Occurrence"
   },
   {
     "units": "Estimated number of species (species richness) per cell",
     "specifier": "mammalsr",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Terrestrial Mammal Species Richness"
   },
   {
     "units": "Summed probability of occurrence per cell",
     "specifier": "mammalsumprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Terrestrial Mammal Summed Probability of Occurrence"
   },
   {
     "units": "day of year of maturity",
     "specifier": "matyday",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Maturity Date"
   },
   {
     "units": "year of maturity",
     "specifier": "matyyear",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Year of Maturity"
   },
   {
     "specifier": "maxdis",
@@ -553,13 +611,13 @@
     ]
   },
   {
-    "specifier": "momf",
-    "long_name": "Momentum Flux at Lake-Atmosphere Interface",
     "units": "kg m-1 s-2",
+    "specifier": "momf",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Momentum Flux at Lake-Atmosphere Interface"
   },
   {
     "units": "kg m-2 s-1",
@@ -567,7 +625,8 @@
     "sectors": [
       "biomes",
       "permafrost"
-    ]
+    ],
+    "long_name": "Carbon Mass Flux out of Atmosphere due to Net Primary Production on Land"
   },
   {
     "units": "kg m-2 s-1",
@@ -606,7 +665,8 @@
     "specifier": "pdomuse",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Potential Domestic Water Consumption"
   },
   {
     "units": "%",
@@ -614,7 +674,8 @@
     "sectors": [
       "biomes",
       "permafrost"
-    ]
+    ],
+    "long_name": "Plant Functional Type Grid Fraction"
   },
   {
     "specifier": "pft2storeys",
@@ -639,14 +700,16 @@
     "specifier": "pirruse",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Potential Irrigation Water Consumption"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "pirrusegreen",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Potential Irrigation Green Water Consumption on Irrigated Cropland"
   },
   {
     "units": "kg m-2 s-1",
@@ -654,28 +717,32 @@
     "sectors": [
       "agriculture",
       "water_global"
-    ]
+    ],
+    "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)"
   },
   {
     "units": "day of year",
     "specifier": "plantday",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Actual Planting Date"
   },
   {
     "units": "year of planting",
     "specifier": "plantyear",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Actual Planting Year"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "pmanuse",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Potential manufacturing Water Consumption"
   },
   {
     "units": "kg m-2 s-1",
@@ -684,21 +751,24 @@
       "biomes",
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Potential Evapotranspiration"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "ptotuse",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Total Potential Water Consumption (all sectors)"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "ptotww",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Total Potential Water Withdrawal (all sectors)"
   },
   {
     "specifier": "qbaseflow",
@@ -712,7 +782,8 @@
     "sectors": [
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Groundwater Runoff"
   },
   {
     "specifier": "qint",
@@ -726,7 +797,8 @@
     "sectors": [
       "water_regional",
       "water_global"
-    ]
+    ],
+    "long_name": "Groundwater Recharge"
   },
   {
     "specifier": "qrecharge",
@@ -735,23 +807,25 @@
     ]
   },
   {
-    "units": "kg m-2 s-1",
     "specifier": "qs",
-    "valid_min": 0.0,
-    "valid_max": 0.0040,
     "sectors": [
       "biomes",
       "permafrost",
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Surface Runoff",
+    "valid_min": 0.0,
+    "units": "kg m-2 s-1",
+    "valid_max": 0.004
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "qsb",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Subsurface Runoff"
   },
   {
     "units": "kg m-2 s-1",
@@ -761,7 +835,8 @@
       "permafrost",
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Total Runoff"
   },
   {
     "units": "kg m-2 s-1",
@@ -769,7 +844,8 @@
     "sectors": [
       "biomes",
       "permafrost"
-    ]
+    ],
+    "long_name": "Carbon Mass Flux into Atmosphere due to Autotrophic (plant) Respiration on Land"
   },
   {
     "specifier": "rainf",
@@ -784,7 +860,8 @@
     "specifier": "reservoirstor",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Reservoir Water Storage"
   },
   {
     "units": "kg m-2 s-1",
@@ -792,14 +869,16 @@
     "sectors": [
       "biomes",
       "permafrost"
-    ]
+    ],
+    "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land"
   },
   {
     "units": "kg m-2",
     "specifier": "riverstor",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "River Water Storage"
   },
   {
     "units": "kg m-2",
@@ -813,30 +892,33 @@
     "sectors": [
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Soil Moisture Content at Root Zone"
   },
   {
     "units": "kg m-2 s-1",
     "specifier": "rr",
     "sectors": [
       "biomes"
-    ]
+    ],
+    "long_name": "Root autotrophic respiration"
   },
   {
     "units": "kg C ha-1",
     "specifier": "sco2",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Soil Carbon Emissions "
   },
   {
-    "specifier": "sedheatf",
-    "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface",
     "units": "W m-2",
+    "specifier": "sedheatf",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface"
   },
   {
     "units": "m",
@@ -845,23 +927,25 @@
       "biomes",
       "permafrost",
       "water_global"
-    ]
+    ],
+    "long_name": "Snow depth"
   },
   {
-    "specifier": "sensheatf",
-    "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface",
     "units": "W m-2",
+    "specifier": "sensheatf",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface"
   },
   {
     "units": "kg N2O-N ha-1",
     "specifier": "sn2o",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Nitrous Oxide Emissions"
   },
   {
     "specifier": "snowf",
@@ -871,22 +955,22 @@
     ]
   },
   {
-    "specifier": "snowtemp",
-    "long_name": "Snow Temperature at Upper Surface",
     "units": "K",
+    "specifier": "snowtemp",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Snow Temperature at Upper Surface"
   },
   {
-    "specifier": "snowthick",
-    "long_name": "Snow Thickness",
     "units": "m",
+    "specifier": "snowthick",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Snow Thickness"
   },
   {
     "units": "kg m-2",
@@ -902,7 +986,8 @@
       "permafrost",
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Total Soil Moisture Content"
   },
   {
     "units": "kg m-2",
@@ -917,16 +1002,17 @@
       "permafrost",
       "water_global",
       "biomes"
-    ]
+    ],
+    "long_name": "Frozen Soil Moisture Content"
   },
   {
-    "specifier": "strat",
-    "long_name": "Thermal Stratification",
     "units": "1",
+    "specifier": "strat",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Thermal Stratification"
   },
   {
     "specifier": "somcfire",
@@ -939,16 +1025,17 @@
     "specifier": "sumt",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Growing Season Temperature Sum"
   },
   {
-    "specifier": "surftemp",
-    "long_name": "Temperature of Lake Surface Water",
     "units": "K",
+    "specifier": "surftemp",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Temperature of Lake Surface Water"
   },
   {
     "units": "kg m-2",
@@ -958,16 +1045,17 @@
       "permafrost",
       "water_global",
       "water_regional"
-    ]
+    ],
+    "long_name": "Snow Water Equivalent"
   },
   {
-    "specifier": "swup",
-    "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface",
     "units": "W m-2",
+    "specifier": "swup",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface"
   },
   {
     "units": "g m-2",
@@ -975,7 +1063,8 @@
     "sectors": [
       "marine-fishery_global",
       "marine-fishery_regional"
-    ]
+    ],
+    "long_name": "Total Catch (all commercial functional groups / size classes)"
   },
   {
     "units": "g m-2",
@@ -983,7 +1072,8 @@
     "sectors": [
       "marine-fishery_global",
       "marine-fishery_regional"
-    ]
+    ],
+    "long_name": "Total Catch of Consumers >10cm"
   },
   {
     "units": "g m-2",
@@ -991,7 +1081,8 @@
     "sectors": [
       "marine-fishery_global",
       "marine-fishery_regional"
-    ]
+    ],
+    "long_name": "Total Catch of Consumers >30cm"
   },
   {
     "units": "g C m-2",
@@ -999,7 +1090,8 @@
     "sectors": [
       "marine-fishery_global",
       "marine-fishery_regional"
-    ]
+    ],
+    "long_name": "Total Consumer Biomass Density "
   },
   {
     "units": "m",
@@ -1008,44 +1100,49 @@
       "permafrost",
       "water_global",
       "biomes"
-    ]
+    ],
+    "long_name": "Annual Maximum Thaw Depth"
   },
   {
-    "specifier": "thermodepth",
-    "long_name": "Depth of Thermocline",
     "units": "m",
+    "specifier": "thermodepth",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Depth of Thermocline"
   },
   {
     "units": "Summed probability of occurrence per cell",
     "specifier": "thramphibiansumprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Summed Probability of Threatened Amphibian Species"
   },
   {
     "units": "Summed probability of occurrence per cell",
     "specifier": "thrbirdsumprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Summed Probability of Threatened Terrestrial Bird Species"
   },
   {
     "units": "Summed probability of occurrence per cell",
     "specifier": "thrmammalsumprob",
     "sectors": [
       "biodiversity"
-    ]
+    ],
+    "long_name": "Summed Probability of Threatened Terrestrial Mammal Species"
   },
   {
     "units": "g m-2",
     "specifier": "tla",
     "sectors": [
       "marine-fishery_regional"
-    ]
+    ],
+    "long_name": "Total Landings (all commercial functional groups / size classes)"
   },
   {
     "units": "kg m-2 s-1",
@@ -1053,7 +1150,8 @@
     "sectors": [
       "biomes",
       "water_global"
-    ]
+    ],
+    "long_name": "Transpiration"
   },
   {
     "specifier": "transp",
@@ -1067,7 +1165,8 @@
     "sectors": [
       "marine-fishery_global",
       "marine-fishery_regional"
-    ]
+    ],
+    "long_name": "Total System Biomass Density "
   },
   {
     "units": "K",
@@ -1082,36 +1181,40 @@
       "biomes",
       "permafrost",
       "water_global"
-    ]
+    ],
+    "long_name": "Temperature of Soil"
   },
   {
     "units": "kg m-2",
     "specifier": "tws",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Total Water Storage"
   },
   {
-    "specifier": "watertemp",
-    "long_name": "Temperature of Lake Water",
     "units": "K",
+    "specifier": "watertemp",
     "sectors": [
       "lakes_global",
       "lakes_local"
-    ]
+    ],
+    "long_name": "Temperature of Lake Water"
   },
   {
     "units": "kg m-2",
     "specifier": "wetlandstor",
     "sectors": [
       "water_global"
-    ]
+    ],
+    "long_name": "Wetland Water Storage"
   },
   {
     "units": "t ha-1 (dry matter per growing season)",
     "specifier": "yield",
     "sectors": [
       "agriculture"
-    ]
+    ],
+    "long_name": "Crop Yields"
   }
 ]
