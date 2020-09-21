@@ -1,5 +1,5 @@
 {
-  "commit": "5234cffa80203b1574cd5019e13eee50b27435bf",
+  "commit": "4c688ce1e9fc4b43b490209bc36c4c22fb048ac6",
   "river_basin": [
     {
       "specifier": "alton"
@@ -737,6 +737,388 @@
       "specifier": "2005co2"
     }
   ],
+  "model": [
+    {
+      "specifier": "3d-cmcc-cnr-bgc",
+      "title": "3D-CMCC-CNR-BGC"
+    },
+    {
+      "specifier": "3d-cmcc-fem",
+      "title": "3D-CMCC-FEM"
+    },
+    {
+      "specifier": "3pg",
+      "title": "3PG"
+    },
+    {
+      "specifier": "albm",
+      "title": "ALBM"
+    },
+    {
+      "specifier": "apecosm",
+      "title": "APECOSM"
+    },
+    {
+      "specifier": "atlantis_se-australia",
+      "title": "Atlantis_se-australia"
+    },
+    {
+      "specifier": "basfor",
+      "title": "BASFOR"
+    },
+    {
+      "specifier": "bioscen15-mem-gam",
+      "title": "BioScen15-MEM-GAM"
+    },
+    {
+      "specifier": "bioscen15-mem-gbm",
+      "title": "BioScen15-MEM-GBM"
+    },
+    {
+      "specifier": "bioscen15-sdm-gam",
+      "title": "BioScen15-SDM-GAM"
+    },
+    {
+      "specifier": "bioscen15-sdm-gbm",
+      "title": "BioScen15-SDM-GBM"
+    },
+    {
+      "specifier": "boats",
+      "title": "BOATS"
+    },
+    {
+      "specifier": "caraib",
+      "title": "CARAIB"
+    },
+    {
+      "specifier": "cgms-wofost",
+      "title": "CGMS-WOFOST"
+    },
+    {
+      "specifier": "clm-crop",
+      "title": "CLM-Crop"
+    },
+    {
+      "specifier": "clm40",
+      "title": "CLM40"
+    },
+    {
+      "specifier": "clm45",
+      "title": "CLM45"
+    },
+    {
+      "specifier": "clm50",
+      "title": "CLM50"
+    },
+    {
+      "specifier": "cwatm",
+      "title": "CWatM"
+    },
+    {
+      "specifier": "dbem",
+      "title": "DBEM"
+    },
+    {
+      "specifier": "dbh",
+      "title": "DBH"
+    },
+    {
+      "specifier": "dbpm",
+      "title": "DBPM"
+    },
+    {
+      "specifier": "dlem",
+      "title": "DLEM"
+    },
+    {
+      "specifier": "ecomag",
+      "title": "ECOMAG"
+    },
+    {
+      "specifier": "ecoocean",
+      "title": "EcoOcean"
+    },
+    {
+      "specifier": "epic-boku",
+      "title": "EPIC-BOKU"
+    },
+    {
+      "specifier": "epic-iiasa",
+      "title": "EPIC-IIASA"
+    },
+    {
+      "specifier": "epic-tamu",
+      "title": "EPIC-TAMU"
+    },
+    {
+      "specifier": "ewe_adriatic-sea",
+      "title": "EwE_adriatic-sea"
+    },
+    {
+      "specifier": "ewe_baltic-sea",
+      "title": "EwE_baltic-sea"
+    },
+    {
+      "specifier": "ewe_cook-strait",
+      "title": "EwE_cook-strait"
+    },
+    {
+      "specifier": "ewe_east-bass-strait",
+      "title": "EwE_east-bass-strait"
+    },
+    {
+      "specifier": "ewe_med-glob",
+      "title": "EwE_med-glob"
+    },
+    {
+      "specifier": "ewe_north-sea",
+      "title": "EwE_north-sea"
+    },
+    {
+      "specifier": "ewe_nw-med-sea",
+      "title": "EwE_nw-med-sea"
+    },
+    {
+      "specifier": "forclim",
+      "title": "ForClim"
+    },
+    {
+      "specifier": "gepic",
+      "title": "GEPIC"
+    },
+    {
+      "specifier": "glm",
+      "title": "GLM"
+    },
+    {
+      "specifier": "gotilwaplus",
+      "title": "GOTILWAplus"
+    },
+    {
+      "specifier": "gotm",
+      "title": "GOTM"
+    },
+    {
+      "specifier": "h08",
+      "title": "H08"
+    },
+    {
+      "specifier": "hbv-iww",
+      "title": "HBV-IWW"
+    },
+    {
+      "specifier": "hbv-jlu",
+      "title": "HBV-JLU"
+    },
+    {
+      "specifier": "hbv-pik",
+      "title": "HBV-PIK"
+    },
+    {
+      "specifier": "hymod-jlu",
+      "title": "HYMOD-JLU"
+    },
+    {
+      "specifier": "hymod-ufz",
+      "title": "HYMOD-UFZ"
+    },
+    {
+      "specifier": "hype",
+      "title": "HYPE"
+    },
+    {
+      "specifier": "iapras-dss",
+      "title": "IAPRAS-DSS"
+    },
+    {
+      "specifier": "jules-b1",
+      "title": "JULES-B1"
+    },
+    {
+      "specifier": "jules-w1",
+      "title": "JULES-W1"
+    },
+    {
+      "specifier": "lake",
+      "title": "LAKE"
+    },
+    {
+      "specifier": "landscape-dndc",
+      "title": "Landscape-DNDC"
+    },
+    {
+      "specifier": "lpj-guess",
+      "title": "LPJ-GUESS"
+    },
+    {
+      "specifier": "lpjml",
+      "title": "LPJmL"
+    },
+    {
+      "specifier": "macroecological",
+      "title": "MACROECOLOGICAL"
+    },
+    {
+      "specifier": "matsiro",
+      "title": "MATSIRO"
+    },
+    {
+      "specifier": "mhm",
+      "title": "mHM"
+    },
+    {
+      "specifier": "mpi-hm",
+      "title": "MPI-HM"
+    },
+    {
+      "specifier": "orchidee",
+      "title": "ORCHIDEE"
+    },
+    {
+      "specifier": "orchidee-crop",
+      "title": "ORCHIDEE-Crop"
+    },
+    {
+      "specifier": "orchidee-dgvm",
+      "title": "ORCHIDEE-DGVM"
+    },
+    {
+      "specifier": "osmose_humboldt-n",
+      "title": "OSMOSE_humboldt-n"
+    },
+    {
+      "specifier": "papsim",
+      "title": "pAPSIM"
+    },
+    {
+      "specifier": "pcr-globwb",
+      "title": "PCR-GLOBWB"
+    },
+    {
+      "specifier": "pdssat",
+      "title": "pDSSAT"
+    },
+    {
+      "specifier": "pegasus",
+      "title": "PEGASUS"
+    },
+    {
+      "specifier": "pepic",
+      "title": "PEPIC"
+    },
+    {
+      "specifier": "prebas",
+      "title": "PREBAS"
+    },
+    {
+      "specifier": "prysbi2",
+      "title": "PRYSBI2"
+    },
+    {
+      "specifier": "simstrat",
+      "title": "Simstrat"
+    },
+    {
+      "specifier": "simstrat-uog",
+      "title": "SIMSTRAT-UoG"
+    },
+    {
+      "specifier": "swap",
+      "title": "SWAP"
+    },
+    {
+      "specifier": "swat-cma",
+      "title": "SWAT-CMA"
+    },
+    {
+      "specifier": "swat-iitgn",
+      "title": "SWAT-IITGN"
+    },
+    {
+      "specifier": "swat-sggw",
+      "title": "SWAT-SGGW"
+    },
+    {
+      "specifier": "swat-tamu",
+      "title": "SWAT-TAMU"
+    },
+    {
+      "specifier": "swat-ufz",
+      "title": "SWAT-UFZ"
+    },
+    {
+      "specifier": "swat-vub",
+      "title": "SWAT-VUB"
+    },
+    {
+      "specifier": "swbm",
+      "title": "SWBM"
+    },
+    {
+      "specifier": "swim-cma",
+      "title": "SWIM-CMA"
+    },
+    {
+      "specifier": "swim-nve",
+      "title": "SWIM-NVE"
+    },
+    {
+      "specifier": "swim-pik",
+      "title": "SWIM-PIK"
+    },
+    {
+      "specifier": "swim-pik",
+      "title": "SWIM-PIK"
+    },
+    {
+      "specifier": "vegas",
+      "title": "VEGAS"
+    },
+    {
+      "specifier": "vic",
+      "title": "VIC"
+    },
+    {
+      "specifier": "vic-cma",
+      "title": "VIC-CMA"
+    },
+    {
+      "specifier": "vic-hhu",
+      "title": "VIC-HHU"
+    },
+    {
+      "specifier": "vic-iitgn",
+      "title": "VIC-IITGN"
+    },
+    {
+      "specifier": "vic-lake",
+      "title": "VIC-LAKE"
+    },
+    {
+      "specifier": "vic-nve",
+      "title": "VIC-NVE"
+    },
+    {
+      "specifier": "vip",
+      "title": "VIP"
+    },
+    {
+      "specifier": "visit",
+      "title": "VISIT"
+    },
+    {
+      "specifier": "watergap2",
+      "title": "WaterGAP2"
+    },
+    {
+      "specifier": "watergap3",
+      "title": "WaterGAP3"
+    },
+    {
+      "specifier": "ways",
+      "title": "WAYS"
+    }
+  ],
   "sector": [
     {
       "specifier": "agriculture",
@@ -845,24 +1227,28 @@
   "climate_forcing": [
     {
       "specifier": "gswp3",
+      "title": "GSWP3",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
     },
     {
       "specifier": "princeton",
+      "title": "PGMFD v.2 (Princeton)",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
     },
     {
       "specifier": "watch",
+      "title": "WATCH (WFD)",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
     },
     {
       "specifier": "wfdei",
+      "title": "WATCH-WFDEI",
       "simulation_rounds": [
         "ISIMIP2a"
       ]

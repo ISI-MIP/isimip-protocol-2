@@ -1,5 +1,5 @@
 {
-  "commit": "5234cffa80203b1574cd5019e13eee50b27435bf",
+  "commit": "4c688ce1e9fc4b43b490209bc36c4c22fb048ac6",
   "terms": {
     "river_basin": {
       "alton": {
@@ -1499,6 +1499,290 @@
       "co2": {},
       "2005co2": {}
     },
+    "model": {
+      "3d-cmcc-cnr-bgc": {
+        "title": "3D-CMCC-CNR-BGC"
+      },
+      "3d-cmcc-fem": {
+        "title": "3D-CMCC-FEM"
+      },
+      "3pg": {
+        "title": "3PG"
+      },
+      "albm": {
+        "title": "ALBM"
+      },
+      "apecosm": {
+        "title": "APECOSM"
+      },
+      "atlantis_se-australia": {
+        "title": "Atlantis_se-australia"
+      },
+      "basfor": {
+        "title": "BASFOR"
+      },
+      "bioscen15-mem-gam": {
+        "title": "BioScen15-MEM-GAM"
+      },
+      "bioscen15-mem-gbm": {
+        "title": "BioScen15-MEM-GBM"
+      },
+      "bioscen15-sdm-gam": {
+        "title": "BioScen15-SDM-GAM"
+      },
+      "bioscen15-sdm-gbm": {
+        "title": "BioScen15-SDM-GBM"
+      },
+      "boats": {
+        "title": "BOATS"
+      },
+      "caraib": {
+        "title": "CARAIB"
+      },
+      "cgms-wofost": {
+        "title": "CGMS-WOFOST"
+      },
+      "clm-crop": {
+        "title": "CLM-Crop"
+      },
+      "clm40": {
+        "title": "CLM40"
+      },
+      "clm45": {
+        "title": "CLM45"
+      },
+      "clm50": {
+        "title": "CLM50"
+      },
+      "cwatm": {
+        "title": "CWatM"
+      },
+      "dbem": {
+        "title": "DBEM"
+      },
+      "dbh": {
+        "title": "DBH"
+      },
+      "dbpm": {
+        "title": "DBPM"
+      },
+      "dlem": {
+        "title": "DLEM"
+      },
+      "ecomag": {
+        "title": "ECOMAG"
+      },
+      "ecoocean": {
+        "title": "EcoOcean"
+      },
+      "epic-boku": {
+        "title": "EPIC-BOKU"
+      },
+      "epic-iiasa": {
+        "title": "EPIC-IIASA"
+      },
+      "epic-tamu": {
+        "title": "EPIC-TAMU"
+      },
+      "ewe_adriatic-sea": {
+        "title": "EwE_adriatic-sea"
+      },
+      "ewe_baltic-sea": {
+        "title": "EwE_baltic-sea"
+      },
+      "ewe_cook-strait": {
+        "title": "EwE_cook-strait"
+      },
+      "ewe_east-bass-strait": {
+        "title": "EwE_east-bass-strait"
+      },
+      "ewe_med-glob": {
+        "title": "EwE_med-glob"
+      },
+      "ewe_north-sea": {
+        "title": "EwE_north-sea"
+      },
+      "ewe_nw-med-sea": {
+        "title": "EwE_nw-med-sea"
+      },
+      "forclim": {
+        "title": "ForClim"
+      },
+      "gepic": {
+        "title": "GEPIC"
+      },
+      "glm": {
+        "title": "GLM"
+      },
+      "gotilwaplus": {
+        "title": "GOTILWAplus"
+      },
+      "gotm": {
+        "title": "GOTM"
+      },
+      "h08": {
+        "title": "H08"
+      },
+      "hbv-iww": {
+        "title": "HBV-IWW"
+      },
+      "hbv-jlu": {
+        "title": "HBV-JLU"
+      },
+      "hbv-pik": {
+        "title": "HBV-PIK"
+      },
+      "hymod-jlu": {
+        "title": "HYMOD-JLU"
+      },
+      "hymod-ufz": {
+        "title": "HYMOD-UFZ"
+      },
+      "hype": {
+        "title": "HYPE"
+      },
+      "iapras-dss": {
+        "title": "IAPRAS-DSS"
+      },
+      "jules-b1": {
+        "title": "JULES-B1"
+      },
+      "jules-w1": {
+        "title": "JULES-W1"
+      },
+      "lake": {
+        "title": "LAKE"
+      },
+      "landscape-dndc": {
+        "title": "Landscape-DNDC"
+      },
+      "lpj-guess": {
+        "title": "LPJ-GUESS"
+      },
+      "lpjml": {
+        "title": "LPJmL"
+      },
+      "macroecological": {
+        "title": "MACROECOLOGICAL"
+      },
+      "matsiro": {
+        "title": "MATSIRO"
+      },
+      "mhm": {
+        "title": "mHM"
+      },
+      "mpi-hm": {
+        "title": "MPI-HM"
+      },
+      "orchidee": {
+        "title": "ORCHIDEE"
+      },
+      "orchidee-crop": {
+        "title": "ORCHIDEE-Crop"
+      },
+      "orchidee-dgvm": {
+        "title": "ORCHIDEE-DGVM"
+      },
+      "osmose_humboldt-n": {
+        "title": "OSMOSE_humboldt-n"
+      },
+      "papsim": {
+        "title": "pAPSIM"
+      },
+      "pcr-globwb": {
+        "title": "PCR-GLOBWB"
+      },
+      "pdssat": {
+        "title": "pDSSAT"
+      },
+      "pegasus": {
+        "title": "PEGASUS"
+      },
+      "pepic": {
+        "title": "PEPIC"
+      },
+      "prebas": {
+        "title": "PREBAS"
+      },
+      "prysbi2": {
+        "title": "PRYSBI2"
+      },
+      "simstrat": {
+        "title": "Simstrat"
+      },
+      "simstrat-uog": {
+        "title": "SIMSTRAT-UoG"
+      },
+      "swap": {
+        "title": "SWAP"
+      },
+      "swat-cma": {
+        "title": "SWAT-CMA"
+      },
+      "swat-iitgn": {
+        "title": "SWAT-IITGN"
+      },
+      "swat-sggw": {
+        "title": "SWAT-SGGW"
+      },
+      "swat-tamu": {
+        "title": "SWAT-TAMU"
+      },
+      "swat-ufz": {
+        "title": "SWAT-UFZ"
+      },
+      "swat-vub": {
+        "title": "SWAT-VUB"
+      },
+      "swbm": {
+        "title": "SWBM"
+      },
+      "swim-cma": {
+        "title": "SWIM-CMA"
+      },
+      "swim-nve": {
+        "title": "SWIM-NVE"
+      },
+      "swim-pik": {
+        "title": "SWIM-PIK"
+      },
+      "vegas": {
+        "title": "VEGAS"
+      },
+      "vic": {
+        "title": "VIC"
+      },
+      "vic-cma": {
+        "title": "VIC-CMA"
+      },
+      "vic-hhu": {
+        "title": "VIC-HHU"
+      },
+      "vic-iitgn": {
+        "title": "VIC-IITGN"
+      },
+      "vic-lake": {
+        "title": "VIC-LAKE"
+      },
+      "vic-nve": {
+        "title": "VIC-NVE"
+      },
+      "vip": {
+        "title": "VIP"
+      },
+      "visit": {
+        "title": "VISIT"
+      },
+      "watergap2": {
+        "title": "WaterGAP2"
+      },
+      "watergap3": {
+        "title": "WaterGAP3"
+      },
+      "ways": {
+        "title": "WAYS"
+      }
+    },
     "sector": {
       "agriculture": {
         "title": "Agriculture"
@@ -1590,11 +1874,13 @@
     },
     "climate_forcing": {
       "gswp3": {
+        "title": "GSWP3",
         "simulation_rounds": [
           "ISIMIP2a"
         ]
       },
       "ewembi": {
+        "title": "GSWP3-EWEMBI",
         "description": "",
         "simulation_rounds": [
           "ISIMIP2a"
@@ -1605,36 +1891,43 @@
         ]
       },
       "princeton": {
+        "title": "PGMFD v.2 (Princeton)",
         "simulation_rounds": [
           "ISIMIP2a"
         ]
       },
       "watch": {
+        "title": "WATCH (WFD)",
         "simulation_rounds": [
           "ISIMIP2a"
         ]
       },
       "wfdei": {
+        "title": "WATCH-WFDEI",
         "simulation_rounds": [
           "ISIMIP2a"
         ]
       },
       "gfdl-esm2m": {
+        "title": "GFDL-ESM2M",
         "simulation_rounds": [
           "ISIMIP2b"
         ]
       },
       "hadgem2-es": {
+        "title": "HadGEM2-ES",
         "simulation_rounds": [
           "ISIMIP2b"
         ]
       },
       "ipsl-cm5a-lr": {
+        "title": "IPSL-CM5A-LR",
         "simulation_rounds": [
           "ISIMIP2b"
         ]
       },
       "miroc5": {
+        "title": "MIROC5",
         "simulation_rounds": [
           "ISIMIP2b"
         ]
