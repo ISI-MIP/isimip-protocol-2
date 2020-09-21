@@ -1,5 +1,5 @@
 {
-  "commit": "4c688ce1e9fc4b43b490209bc36c4c22fb048ac6",
+  "commit": "a412e055ce96cd7ceb5b7c4c9cc9a937166e1e9c",
   "terms": {
     "river_basin": {
       "alton": {
@@ -508,17 +508,55 @@
         "comment": ""
       }
     },
+    "period": {
+      "future": {
+        "title": "Future",
+        "description": "Future simulation period."
+      },
+      "historical": {
+        "title": "Historical",
+        "description": "Historical simulation period."
+      },
+      "pre-industrial": {
+        "title": "Pre-industrial",
+        "description": "Pre-industrial simulation period."
+      },
+      "future_extended": {
+        "title": "Future (extended)",
+        "description": "Future (extended) simulation period."
+      }
+    },
     "soc_scenario": {
-      "nosoc": {},
-      "pressoc": {},
-      "varsoc": {},
-      "nat": {},
-      "2005soc": {},
-      "1860soc": {},
-      "histsoc": {},
-      "rcp26soc": {},
-      "rcp60soc": {},
-      "2100rcp26soc": {}
+      "nosoc": {
+        "description": "Naturalized - without human impacts on river flow."
+      },
+      "pressoc": {
+        "description": "Constant human impacts - present-day (year-2000) dams and water use."
+      },
+      "varsoc": {
+        "description": "Time-varying human impacts - time-varying historical dam construction and water use."
+      },
+      "nat": {
+        "description": "Natural vegetation reference run."
+      },
+      "2005soc": {
+        "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
+      },
+      "1860soc": {
+        "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
+      },
+      "histsoc": {
+        "description": "Varying historical land use, nitrogen deposition and fertilizer input."
+      },
+      "rcp26soc": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
+      },
+      "rcp60soc": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
+      },
+      "2100rcp26soc": {
+        "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
+      }
     },
     "variable": {
       "admeluse": {
@@ -531,51 +569,59 @@
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual Domestic Water Consumption"
       },
       "adomww": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual Domestic Water Withdrawal"
       },
       "aet": {
         "units": "mm per growing season",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Actual Evapotranspiration"
       },
       "ainduse": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual Industrial Water Consumption"
       },
       "aindww": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual Industrial Water Withdrawal"
       },
       "airruse": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Actual Irrigation Water Consumption"
       },
       "airrusegreen": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual Irrigation Green Water Consumption on Irrigated Cropland"
       },
       "airrww": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Actual Irrigation Water Withdrawal"
       },
       "albedo": {
         "units": "1",
@@ -589,151 +635,174 @@
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual livestock Water Consumption"
       },
       "aliveww": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual Livestock Water Withdrawal"
       },
       "amanuse": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual Manufacturing Water Consumption"
       },
       "amanww": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual Manufacturing Water Withdrawal"
       },
       "amphibiansr": {
         "units": "Estimated number of species (species richness) per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Amphibian Species Richness"
       },
       "amphibiansumprob": {
         "units": "Summed probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Amphibian Summed Probability of Occurrence"
       },
       "anthday": {
         "units": "day of year of anthesis",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Anthesis Date"
       },
       "arainfusegreen": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Actual Green Water Consumption on Rainfed Cropland"
       },
       "atotuse": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Total Actual Water Consumption (all sectors)"
       },
       "b10cm": {
         "units": "g C m-2",
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"
-        ]
+        ],
+        "long_name": "Biomass Density of Consumers >10cm "
       },
       "b30cm": {
         "units": "g C m-2",
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"
-        ]
+        ],
+        "long_name": "Biomass Density of Consumers >30cm"
       },
       "bcom": {
         "units": "g C m-2",
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"
-        ]
+        ],
+        "long_name": "Biomass Density of Commercial Species "
       },
       "biom": {
         "units": "t ha-1 per growing season",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Total Above Ground Biomass Dry Matter Yields"
       },
       "birdprob": {
         "units": "Probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Terrestrial Bird Species Probability of Occurrence"
       },
       "birdsr": {
         "units": "Estimated number of species (species richness) per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Terrestrial Bird Species Richness"
       },
       "birdsumprob": {
         "units": "Summed probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Terrestrial Bird Summed Probability of Occurrence "
       },
       "blarge": {
         "units": "g C m-2",
         "sectors": [
           "marine-fishery_global"
-        ]
+        ],
+        "long_name": "Biomass Density of Large Consumers >90cm and <100kg"
       },
       "bottemp": {
-        "long_name": "Temperature of Lake Bottom Water",
         "units": "K",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Temperature of Lake Bottom Water"
       },
       "bmed": {
         "units": "g C m-2",
         "sectors": [
           "marine-fishery_global"
-        ]
+        ],
+        "long_name": "Biomass Density of Medium Consumers >30cm and <90cm"
       },
       "bsmall": {
         "units": "g C m-2",
         "sectors": [
           "marine-fishery_global"
-        ]
+        ],
+        "long_name": "Biomass Density of Small Consumers <30cm"
       },
       "burntarea": {
         "units": "%",
         "sectors": [
           "permafrost",
           "biomes"
-        ]
+        ],
+        "long_name": "Burnt Area Fraction"
       },
       "canopystor": {
         "units": "kg m-2",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Canopy Water Storage"
       },
       "clarge": {
         "units": "g m-2",
         "sectors": [
           "marine-fishery_global"
-        ]
+        ],
+        "long_name": "Catch of Large Consumers >90cm and <100kg"
       },
       "cleaf": {
         "units": "kg m-2",
         "sectors": [
           "biomes"
-        ]
+        ],
+        "long_name": "Carbon Mass in Leaves"
       },
       "clitter": {
         "units": "kg m-2",
@@ -746,19 +815,22 @@
         "units": "g m-2",
         "sectors": [
           "marine-fishery_global"
-        ]
+        ],
+        "long_name": "Catch of Medium Consumers >30cm and <90cm"
       },
       "croot": {
         "units": "kg m-2",
         "sectors": [
           "biomes"
-        ]
+        ],
+        "long_name": "Carbon Mass in Roots"
       },
       "csmall": {
         "units": "g m-2",
         "sectors": [
           "marine-fishery_global"
-        ]
+        ],
+        "long_name": "Catch of Small Consumers <30cm"
       },
       "csoil": {
         "units": "kg m-2",
@@ -771,27 +843,31 @@
         "sectors": [
           "biomes",
           "permafrost"
-        ]
+        ],
+        "long_name": "Carbon Mass in Soil Pool"
       },
       "cveg": {
         "units": "kg m-2",
         "sectors": [
           "biomes",
           "permafrost"
-        ]
+        ],
+        "long_name": "Carbon Mass in Vegetation"
       },
       "cwood": {
         "units": "kg m-2",
         "sectors": [
           "biomes"
-        ]
+        ],
+        "long_name": "Carbon Mass in Wood"
       },
       "dis": {
         "units": "m3 s-1",
         "sectors": [
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Discharge"
       },
       "ecoatmflux": {
         "units": "kg m-2 s-1",
@@ -804,26 +880,30 @@
         "units": "Summed probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Summed Probability of Endemic Amphibian Species"
       },
       "endbirdsumprob": {
         "units": "Summed probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Summed Probability of Endemic Terrestrial Bird Species"
       },
       "endmammalsumprob": {
         "units": "Summed probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Summed Probability of Endemic Terrestrial Mammal Species"
       },
       "esoil": {
         "units": "kg m-2 s-1",
         "sectors": [
           "biomes",
           "water_global"
-        ]
+        ],
+        "long_name": "Water Evaporation from Soil"
       },
       "evap": {
         "units": "kg m-2 s-1",
@@ -831,14 +911,16 @@
           "biomes",
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Evapotranspiration"
       },
       "fapar": {
         "units": "%",
         "sectors": [
           "biomes",
           "permafrost"
-        ]
+        ],
+        "long_name": "Fraction of Absorbed Photosynthetically Active Radiation"
       },
       "firefrac": {
         "sectors": [
@@ -856,61 +938,67 @@
         "sectors": [
           "biomes",
           "permafrost"
-        ]
+        ],
+        "long_name": "Carbon Mass Flux out of Atmosphere due to Gross Primary Production on Land"
       },
       "groundwstor": {
         "units": "kg m-2",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Groundwater Storage"
       },
       "gsprcp": {
         "units": "mm ha-1 yr-1",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Accumulated Growing Season Precipitation"
       },
       "gsrsds": {
         "units": "W m-2 yr-1",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Growing Season Incoming Solar Shortwave Radiation"
       },
       "ice": {
-        "long_name": "Lake Ice Cover",
         "units": "1",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Lake Ice Cover"
       },
       "icethick": {
-        "long_name": "Ice Thickness",
         "units": "m",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Ice Thickness"
       },
       "icetemp": {
-        "long_name": "Ice Temperature at Upper Surface",
         "units": "K",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Ice Temperature at Upper Surface"
       },
       "initr": {
         "units": "kg ha-1 per growing season",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Nitrogen Application Rate"
       },
       "intercep": {
         "units": "kg m-2 s-1",
         "sectors": [
           "biomes"
-        ]
+        ],
+        "long_name": "Evaporation from Canopy (interception)"
       },
       "lai": {
         "units": "1",
@@ -918,77 +1006,85 @@
           "biomes",
           "permafrost",
           "water_global"
-        ]
+        ],
+        "long_name": "Leaf Area Index"
       },
       "lakeheatf": {
-        "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
-        "units": "W m-2"
+        "units": "W m-2",
+        "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
       },
       "latentheatf": {
-        "long_name": "Latent Heat Flux at Lake-Atmosphere Interface",
         "units": "W m-2",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Latent Heat Flux at Lake-Atmosphere Interface"
       },
       "lakestor": {
         "units": "kg m-2",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Lake Water Storage"
       },
       "lakeicefrac": {
-        "long_name": "Lake Layer Ice Mass Fraction",
         "units": "1",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Lake Layer Ice Mass Fraction"
       },
       "leach": {
         "units": "",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Nitrogen Leached"
       },
       "lwup": {
-        "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface",
         "units": "W m-2",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface"
       },
       "mammalprob": {
         "units": "Probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Terrestrial Mammal Species Probability of Occurrence"
       },
       "mammalsr": {
         "units": "Estimated number of species (species richness) per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Terrestrial Mammal Species Richness"
       },
       "mammalsumprob": {
         "units": "Summed probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Terrestrial Mammal Summed Probability of Occurrence"
       },
       "matyday": {
         "units": "day of year of maturity",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Maturity Date"
       },
       "matyyear": {
         "units": "year of maturity",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Year of Maturity"
       },
       "maxdis": {
         "sectors": [
@@ -1001,19 +1097,20 @@
         ]
       },
       "momf": {
-        "long_name": "Momentum Flux at Lake-Atmosphere Interface",
         "units": "kg m-1 s-2",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Momentum Flux at Lake-Atmosphere Interface"
       },
       "npp": {
         "units": "kg m-2 s-1",
         "sectors": [
           "biomes",
           "permafrost"
-        ]
+        ],
+        "long_name": "Carbon Mass Flux out of Atmosphere due to Net Primary Production on Land"
       },
       "npplandleaf": {
         "units": "kg m-2 s-1",
@@ -1047,14 +1144,16 @@
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Potential Domestic Water Consumption"
       },
       "pft": {
         "units": "%",
         "sectors": [
           "biomes",
           "permafrost"
-        ]
+        ],
+        "long_name": "Plant Functional Type Grid Fraction"
       },
       "pft2storeys": {
         "sectors": [
@@ -1075,38 +1174,44 @@
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Potential Irrigation Water Consumption"
       },
       "pirrusegreen": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Potential Irrigation Green Water Consumption on Irrigated Cropland"
       },
       "pirrww": {
         "units": "kg m-2 s-1",
         "sectors": [
           "agriculture",
           "water_global"
-        ]
+        ],
+        "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)"
       },
       "plantday": {
         "units": "day of year",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Actual Planting Date"
       },
       "plantyear": {
         "units": "year of planting",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Actual Planting Year"
       },
       "pmanuse": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Potential manufacturing Water Consumption"
       },
       "potevap": {
         "units": "kg m-2 s-1",
@@ -1114,19 +1219,22 @@
           "biomes",
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Potential Evapotranspiration"
       },
       "ptotuse": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Total Potential Water Consumption (all sectors)"
       },
       "ptotww": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Total Potential Water Withdrawal (all sectors)"
       },
       "qbaseflow": {
         "sectors": [
@@ -1138,7 +1246,8 @@
         "sectors": [
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Groundwater Runoff"
       },
       "qint": {
         "sectors": [
@@ -1150,7 +1259,8 @@
         "sectors": [
           "water_regional",
           "water_global"
-        ]
+        ],
+        "long_name": "Groundwater Recharge"
       },
       "qrecharge": {
         "sectors": [
@@ -1158,21 +1268,23 @@
         ]
       },
       "qs": {
-        "units": "kg m-2 s-1",
-        "valid_min": 0.0,
-        "valid_max": 0.004,
         "sectors": [
           "biomes",
           "permafrost",
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Surface Runoff",
+        "valid_min": 0.0,
+        "units": "kg m-2 s-1",
+        "valid_max": 0.004
       },
       "qsb": {
         "units": "kg m-2 s-1",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Subsurface Runoff"
       },
       "qtot": {
         "units": "kg m-2 s-1",
@@ -1181,14 +1293,16 @@
           "permafrost",
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Total Runoff"
       },
       "ra": {
         "units": "kg m-2 s-1",
         "sectors": [
           "biomes",
           "permafrost"
-        ]
+        ],
+        "long_name": "Carbon Mass Flux into Atmosphere due to Autotrophic (plant) Respiration on Land"
       },
       "rainf": {
         "sectors": [
@@ -1201,20 +1315,23 @@
         "units": "kg m-2",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Reservoir Water Storage"
       },
       "rh": {
         "units": "kg m-2 s-1",
         "sectors": [
           "biomes",
           "permafrost"
-        ]
+        ],
+        "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land"
       },
       "riverstor": {
         "units": "kg m-2",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "River Water Storage"
       },
       "rootmoist": {
         "units": "kg m-2",
@@ -1227,27 +1344,30 @@
         "sectors": [
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Soil Moisture Content at Root Zone"
       },
       "rr": {
         "units": "kg m-2 s-1",
         "sectors": [
           "biomes"
-        ]
+        ],
+        "long_name": "Root autotrophic respiration"
       },
       "sco2": {
         "units": "kg C ha-1",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Soil Carbon Emissions "
       },
       "sedheatf": {
-        "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface",
         "units": "W m-2",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface"
       },
       "snd": {
         "units": "m",
@@ -1255,21 +1375,23 @@
           "biomes",
           "permafrost",
           "water_global"
-        ]
+        ],
+        "long_name": "Snow depth"
       },
       "sensheatf": {
-        "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface",
         "units": "W m-2",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface"
       },
       "sn2o": {
         "units": "kg N2O-N ha-1",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Nitrous Oxide Emissions"
       },
       "snowf": {
         "sectors": [
@@ -1278,20 +1400,20 @@
         ]
       },
       "snowtemp": {
-        "long_name": "Snow Temperature at Upper Surface",
         "units": "K",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Snow Temperature at Upper Surface"
       },
       "snowthick": {
-        "long_name": "Snow Thickness",
         "units": "m",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Snow Thickness"
       },
       "soilmoist": {
         "units": "kg m-2",
@@ -1306,7 +1428,8 @@
           "permafrost",
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Total Soil Moisture Content"
       },
       "soilmoistfroz": {
         "units": "kg m-2",
@@ -1320,15 +1443,16 @@
           "permafrost",
           "water_global",
           "biomes"
-        ]
+        ],
+        "long_name": "Frozen Soil Moisture Content"
       },
       "strat": {
-        "long_name": "Thermal Stratification",
         "units": "1",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Thermal Stratification"
       },
       "somcfire": {
         "sectors": [
@@ -1339,15 +1463,16 @@
         "units": "deg c-days yr-1",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Growing Season Temperature Sum"
       },
       "surftemp": {
-        "long_name": "Temperature of Lake Surface Water",
         "units": "K",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Temperature of Lake Surface Water"
       },
       "swe": {
         "units": "kg m-2",
@@ -1356,43 +1481,48 @@
           "permafrost",
           "water_global",
           "water_regional"
-        ]
+        ],
+        "long_name": "Snow Water Equivalent"
       },
       "swup": {
-        "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface",
         "units": "W m-2",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface"
       },
       "tc": {
         "units": "g m-2",
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"
-        ]
+        ],
+        "long_name": "Total Catch (all commercial functional groups / size classes)"
       },
       "tc10cm": {
         "units": "g m-2",
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"
-        ]
+        ],
+        "long_name": "Total Catch of Consumers >10cm"
       },
       "tc30cm": {
         "units": "g m-2",
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"
-        ]
+        ],
+        "long_name": "Total Catch of Consumers >30cm"
       },
       "tcb": {
         "units": "g C m-2",
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"
-        ]
+        ],
+        "long_name": "Total Consumer Biomass Density "
       },
       "thawdepth": {
         "units": "m",
@@ -1400,46 +1530,52 @@
           "permafrost",
           "water_global",
           "biomes"
-        ]
+        ],
+        "long_name": "Annual Maximum Thaw Depth"
       },
       "thermodepth": {
-        "long_name": "Depth of Thermocline",
         "units": "m",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Depth of Thermocline"
       },
       "thramphibiansumprob": {
         "units": "Summed probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Summed Probability of Threatened Amphibian Species"
       },
       "thrbirdsumprob": {
         "units": "Summed probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Summed Probability of Threatened Terrestrial Bird Species"
       },
       "thrmammalsumprob": {
         "units": "Summed probability of occurrence per cell",
         "sectors": [
           "biodiversity"
-        ]
+        ],
+        "long_name": "Summed Probability of Threatened Terrestrial Mammal Species"
       },
       "tla": {
         "units": "g m-2",
         "sectors": [
           "marine-fishery_regional"
-        ]
+        ],
+        "long_name": "Total Landings (all commercial functional groups / size classes)"
       },
       "trans": {
         "units": "kg m-2 s-1",
         "sectors": [
           "biomes",
           "water_global"
-        ]
+        ],
+        "long_name": "Transpiration"
       },
       "transp": {
         "sectors": [
@@ -1451,7 +1587,8 @@
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"
-        ]
+        ],
+        "long_name": "Total System Biomass Density "
       },
       "tsl": {
         "units": "K",
@@ -1465,39 +1602,47 @@
           "biomes",
           "permafrost",
           "water_global"
-        ]
+        ],
+        "long_name": "Temperature of Soil"
       },
       "tws": {
         "units": "kg m-2",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Total Water Storage"
       },
       "watertemp": {
-        "long_name": "Temperature of Lake Water",
         "units": "K",
         "sectors": [
           "lakes_global",
           "lakes_local"
-        ]
+        ],
+        "long_name": "Temperature of Lake Water"
       },
       "wetlandstor": {
         "units": "kg m-2",
         "sectors": [
           "water_global"
-        ]
+        ],
+        "long_name": "Wetland Water Storage"
       },
       "yield": {
         "units": "t ha-1 (dry matter per growing season)",
         "sectors": [
           "agriculture"
-        ]
+        ],
+        "long_name": "Crop Yields"
       }
     },
     "sens_scenario": {
       "default": {},
-      "co2": {},
-      "2005co2": {}
+      "co2": {
+        "description": "Regular experiment."
+      },
+      "2005co2": {
+        "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
+      }
     },
     "model": {
       "3d-cmcc-cnr-bgc": {
@@ -1858,15 +2003,18 @@
     },
     "bias_adjustment": {
       "nobc": {
-        "description": "Indicates that no bias correction was performed on the climate data."
+        "description": "No bias correction was performed on the climate data."
       },
       "localbc": {
-        "description": "Refers to local data from weather stations used for the bias-correction in e.g. the forest sector.",
+        "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
         "sectors": [
           "forestry"
         ]
       },
-      "ewembi": {}
+      "ewembi": {
+        "title": "EWEMBI",
+        "description": "Bias-adjusted using the EWEMBI dataset."
+      }
     },
     "diazotroph_scenario": {
       "w-diaz": {},
@@ -2603,7 +2751,7 @@
         ]
       },
       "picontrol": {
-        "description": "Pre-industrial climate as simulated by the GCMs.",
+        "description": "Pre-industrial climate and 286ppm CO2 concentration.",
         "simulation_rounds": [
           "ISIMIP2b"
         ]
@@ -2642,7 +2790,7 @@
         ]
       },
       "2005co2": {
-        "description": "RCP8.5 climate as simulated by the GCMs.",
+        "description": "CO2 concentration fixed at 2005 levels at 378.81ppm.",
         "simulation_rounds": [
           "ISIMIP2b"
         ]

@@ -1,5 +1,5 @@
 {
-  "commit": "4c688ce1e9fc4b43b490209bc36c4c22fb048ac6",
+  "commit": "a412e055ce96cd7ceb5b7c4c9cc9a937166e1e9c",
   "river_basin": [
     {
       "specifier": "alton"
@@ -518,36 +518,68 @@
       "comment": ""
     }
   ],
+  "period": [
+    {
+      "specifier": "future",
+      "title": "Future",
+      "description": "Future simulation period."
+    },
+    {
+      "specifier": "historical",
+      "title": "Historical",
+      "description": "Historical simulation period."
+    },
+    {
+      "specifier": "pre-industrial",
+      "title": "Pre-industrial",
+      "description": "Pre-industrial simulation period."
+    },
+    {
+      "specifier": "future_extended",
+      "title": "Future (extended)",
+      "description": "Future (extended) simulation period."
+    }
+  ],
   "soc_scenario": [
     {
-      "specifier": "nosoc"
+      "specifier": "nosoc",
+      "description": "Naturalized - without human impacts on river flow."
     },
     {
-      "specifier": "pressoc"
+      "specifier": "pressoc",
+      "description": "Constant human impacts - present-day (year-2000) dams and water use."
     },
     {
-      "specifier": "varsoc"
+      "specifier": "varsoc",
+      "description": "Time-varying human impacts - time-varying historical dam construction and water use."
     },
     {
-      "specifier": "nat"
+      "specifier": "nat",
+      "description": "Natural vegetation reference run."
     },
     {
-      "specifier": "2005soc"
+      "specifier": "2005soc",
+      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
     },
     {
-      "specifier": "1860soc"
+      "specifier": "1860soc",
+      "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
     },
     {
-      "specifier": "histsoc"
+      "specifier": "histsoc",
+      "description": "Varying historical land use, nitrogen deposition and fertilizer input."
     },
     {
-      "specifier": "rcp26soc"
+      "specifier": "rcp26soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
     },
     {
-      "specifier": "rcp60soc"
+      "specifier": "rcp60soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
     },
     {
-      "specifier": "2100rcp26soc"
+      "specifier": "2100rcp26soc",
+      "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
     }
   ],
   "variable": [
@@ -556,68 +588,77 @@
       "specifier": "aet",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Actual Evapotranspiration"
     },
     {
       "units": "day of year of anthesis",
       "specifier": "anthday",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Anthesis Date"
     },
     {
       "units": "t ha-1 per growing season",
       "specifier": "biom",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Total Above Ground Biomass Dry Matter Yields"
     },
     {
       "units": "mm ha-1 yr-1",
       "specifier": "gsprcp",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Accumulated Growing Season Precipitation"
     },
     {
       "units": "W m-2 yr-1",
       "specifier": "gsrsds",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Growing Season Incoming Solar Shortwave Radiation"
     },
     {
       "units": "kg ha-1 per growing season",
       "specifier": "initr",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Nitrogen Application Rate"
     },
     {
+      "units": "W m-2",
       "specifier": "lakeheatf",
-      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
-      "units": "W m-2"
+      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
     },
     {
       "units": "",
       "specifier": "leach",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Nitrogen Leached"
     },
     {
       "units": "day of year of maturity",
       "specifier": "matyday",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Maturity Date"
     },
     {
       "units": "year of maturity",
       "specifier": "matyyear",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Year of Maturity"
     },
     {
       "units": "kg m-2 s-1",
@@ -625,49 +666,56 @@
       "sectors": [
         "agriculture",
         "water_global"
-      ]
+      ],
+      "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)"
     },
     {
       "units": "day of year",
       "specifier": "plantday",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Actual Planting Date"
     },
     {
       "units": "year of planting",
       "specifier": "plantyear",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Actual Planting Year"
     },
     {
       "units": "kg C ha-1",
       "specifier": "sco2",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Soil Carbon Emissions "
     },
     {
       "units": "kg N2O-N ha-1",
       "specifier": "sn2o",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Nitrous Oxide Emissions"
     },
     {
       "units": "deg c-days yr-1",
       "specifier": "sumt",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Growing Season Temperature Sum"
     },
     {
       "units": "t ha-1 (dry matter per growing season)",
       "specifier": "yield",
       "sectors": [
         "agriculture"
-      ]
+      ],
+      "long_name": "Crop Yields"
     }
   ],
   "sens_scenario": [
@@ -675,10 +723,12 @@
       "specifier": "default"
     },
     {
-      "specifier": "co2"
+      "specifier": "co2",
+      "description": "Regular experiment."
     },
     {
-      "specifier": "2005co2"
+      "specifier": "2005co2",
+      "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
     }
   ],
   "model": [
@@ -1153,10 +1203,12 @@
   "bias_adjustment": [
     {
       "specifier": "nobc",
-      "description": "Indicates that no bias correction was performed on the climate data."
+      "description": "No bias correction was performed on the climate data."
     },
     {
-      "specifier": "ewembi"
+      "specifier": "ewembi",
+      "title": "EWEMBI",
+      "description": "Bias-adjusted using the EWEMBI dataset."
     }
   ],
   "diazotroph_scenario": [

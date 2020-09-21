@@ -1,5 +1,5 @@
 {
-  "commit": "4c688ce1e9fc4b43b490209bc36c4c22fb048ac6",
+  "commit": "a412e055ce96cd7ceb5b7c4c9cc9a937166e1e9c",
   "river_basin": [
     {
       "specifier": "alton"
@@ -540,36 +540,68 @@
       "comment": ""
     }
   ],
+  "period": [
+    {
+      "specifier": "future",
+      "title": "Future",
+      "description": "Future simulation period."
+    },
+    {
+      "specifier": "historical",
+      "title": "Historical",
+      "description": "Historical simulation period."
+    },
+    {
+      "specifier": "pre-industrial",
+      "title": "Pre-industrial",
+      "description": "Pre-industrial simulation period."
+    },
+    {
+      "specifier": "future_extended",
+      "title": "Future (extended)",
+      "description": "Future (extended) simulation period."
+    }
+  ],
   "soc_scenario": [
     {
-      "specifier": "nosoc"
+      "specifier": "nosoc",
+      "description": "Naturalized - without human impacts on river flow."
     },
     {
-      "specifier": "pressoc"
+      "specifier": "pressoc",
+      "description": "Constant human impacts - present-day (year-2000) dams and water use."
     },
     {
-      "specifier": "varsoc"
+      "specifier": "varsoc",
+      "description": "Time-varying human impacts - time-varying historical dam construction and water use."
     },
     {
-      "specifier": "nat"
+      "specifier": "nat",
+      "description": "Natural vegetation reference run."
     },
     {
-      "specifier": "2005soc"
+      "specifier": "2005soc",
+      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
     },
     {
-      "specifier": "1860soc"
+      "specifier": "1860soc",
+      "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
     },
     {
-      "specifier": "histsoc"
+      "specifier": "histsoc",
+      "description": "Varying historical land use, nitrogen deposition and fertilizer input."
     },
     {
-      "specifier": "rcp26soc"
+      "specifier": "rcp26soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
     },
     {
-      "specifier": "rcp60soc"
+      "specifier": "rcp60soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
     },
     {
-      "specifier": "2100rcp26soc"
+      "specifier": "2100rcp26soc",
+      "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
     }
   ],
   "variable": [
@@ -585,28 +617,32 @@
       "specifier": "adomuse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual Domestic Water Consumption"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "adomww",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual Domestic Water Withdrawal"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "ainduse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual Industrial Water Consumption"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "aindww",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual Industrial Water Withdrawal"
     },
     {
       "units": "kg m-2 s-1",
@@ -614,14 +650,16 @@
       "sectors": [
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Actual Irrigation Water Consumption"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "airrusegreen",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual Irrigation Green Water Consumption on Irrigated Cropland"
     },
     {
       "units": "kg m-2 s-1",
@@ -629,56 +667,64 @@
       "sectors": [
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Actual Irrigation Water Withdrawal"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "aliveuse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual livestock Water Consumption"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "aliveww",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual Livestock Water Withdrawal"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "amanuse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual Manufacturing Water Consumption"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "amanww",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual Manufacturing Water Withdrawal"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "arainfusegreen",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Actual Green Water Consumption on Rainfed Cropland"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "atotuse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Total Actual Water Consumption (all sectors)"
     },
     {
       "units": "kg m-2",
       "specifier": "canopystor",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Canopy Water Storage"
     },
     {
       "units": "m3 s-1",
@@ -686,7 +732,8 @@
       "sectors": [
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Discharge"
     },
     {
       "units": "kg m-2 s-1",
@@ -694,7 +741,8 @@
       "sectors": [
         "biomes",
         "water_global"
-      ]
+      ],
+      "long_name": "Water Evaporation from Soil"
     },
     {
       "units": "kg m-2 s-1",
@@ -703,14 +751,16 @@
         "biomes",
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Evapotranspiration"
     },
     {
       "units": "kg m-2",
       "specifier": "groundwstor",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Groundwater Storage"
     },
     {
       "units": "1",
@@ -719,19 +769,21 @@
         "biomes",
         "permafrost",
         "water_global"
-      ]
+      ],
+      "long_name": "Leaf Area Index"
     },
     {
+      "units": "W m-2",
       "specifier": "lakeheatf",
-      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
-      "units": "W m-2"
+      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
     },
     {
       "units": "kg m-2",
       "specifier": "lakestor",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Lake Water Storage"
     },
     {
       "specifier": "maxdis",
@@ -750,7 +802,8 @@
       "specifier": "pdomuse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Potential Domestic Water Consumption"
     },
     {
       "specifier": "pidmeluse",
@@ -769,14 +822,16 @@
       "specifier": "pirruse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Potential Irrigation Water Consumption"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "pirrusegreen",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Potential Irrigation Green Water Consumption on Irrigated Cropland"
     },
     {
       "units": "kg m-2 s-1",
@@ -784,14 +839,16 @@
       "sectors": [
         "agriculture",
         "water_global"
-      ]
+      ],
+      "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "pmanuse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Potential manufacturing Water Consumption"
     },
     {
       "units": "kg m-2 s-1",
@@ -800,21 +857,24 @@
         "biomes",
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Potential Evapotranspiration"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "ptotuse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Total Potential Water Consumption (all sectors)"
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "ptotww",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Total Potential Water Withdrawal (all sectors)"
     },
     {
       "units": "kg m-2 s-1",
@@ -822,7 +882,8 @@
       "sectors": [
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Groundwater Runoff"
     },
     {
       "specifier": "qint",
@@ -836,26 +897,29 @@
       "sectors": [
         "water_regional",
         "water_global"
-      ]
+      ],
+      "long_name": "Groundwater Recharge"
     },
     {
-      "units": "kg m-2 s-1",
       "specifier": "qs",
-      "valid_min": 0.0,
-      "valid_max": 0.004,
       "sectors": [
         "biomes",
         "permafrost",
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Surface Runoff",
+      "valid_min": 0.0,
+      "units": "kg m-2 s-1",
+      "valid_max": 0.004
     },
     {
       "units": "kg m-2 s-1",
       "specifier": "qsb",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Subsurface Runoff"
     },
     {
       "units": "kg m-2 s-1",
@@ -865,7 +929,8 @@
         "permafrost",
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Total Runoff"
     },
     {
       "specifier": "rainf",
@@ -880,14 +945,16 @@
       "specifier": "reservoirstor",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Reservoir Water Storage"
     },
     {
       "units": "kg m-2",
       "specifier": "riverstor",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "River Water Storage"
     },
     {
       "units": "kg m-2",
@@ -901,7 +968,8 @@
       "sectors": [
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Soil Moisture Content at Root Zone"
     },
     {
       "units": "m",
@@ -910,7 +978,8 @@
         "biomes",
         "permafrost",
         "water_global"
-      ]
+      ],
+      "long_name": "Snow depth"
     },
     {
       "specifier": "snowf",
@@ -933,7 +1002,8 @@
         "permafrost",
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Total Soil Moisture Content"
     },
     {
       "units": "kg m-2",
@@ -948,7 +1018,8 @@
         "permafrost",
         "water_global",
         "biomes"
-      ]
+      ],
+      "long_name": "Frozen Soil Moisture Content"
     },
     {
       "units": "kg m-2",
@@ -958,7 +1029,8 @@
         "permafrost",
         "water_global",
         "water_regional"
-      ]
+      ],
+      "long_name": "Snow Water Equivalent"
     },
     {
       "units": "m",
@@ -967,7 +1039,8 @@
         "permafrost",
         "water_global",
         "biomes"
-      ]
+      ],
+      "long_name": "Annual Maximum Thaw Depth"
     },
     {
       "units": "kg m-2 s-1",
@@ -975,7 +1048,8 @@
       "sectors": [
         "biomes",
         "water_global"
-      ]
+      ],
+      "long_name": "Transpiration"
     },
     {
       "specifier": "transp",
@@ -996,21 +1070,24 @@
         "biomes",
         "permafrost",
         "water_global"
-      ]
+      ],
+      "long_name": "Temperature of Soil"
     },
     {
       "units": "kg m-2",
       "specifier": "tws",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Total Water Storage"
     },
     {
       "units": "kg m-2",
       "specifier": "wetlandstor",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "long_name": "Wetland Water Storage"
     }
   ],
   "sens_scenario": [
@@ -1018,10 +1095,12 @@
       "specifier": "default"
     },
     {
-      "specifier": "co2"
+      "specifier": "co2",
+      "description": "Regular experiment."
     },
     {
-      "specifier": "2005co2"
+      "specifier": "2005co2",
+      "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
     }
   ],
   "model": [
@@ -1497,10 +1576,12 @@
   "bias_adjustment": [
     {
       "specifier": "nobc",
-      "description": "Indicates that no bias correction was performed on the climate data."
+      "description": "No bias correction was performed on the climate data."
     },
     {
-      "specifier": "ewembi"
+      "specifier": "ewembi",
+      "title": "EWEMBI",
+      "description": "Bias-adjusted using the EWEMBI dataset."
     }
   ],
   "diazotroph_scenario": [

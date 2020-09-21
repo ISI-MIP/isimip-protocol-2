@@ -1,5 +1,5 @@
 {
-  "commit": "4c688ce1e9fc4b43b490209bc36c4c22fb048ac6",
+  "commit": "a412e055ce96cd7ceb5b7c4c9cc9a937166e1e9c",
   "river_basin": [
     {
       "specifier": "alton"
@@ -493,43 +493,75 @@
       "comment": ""
     }
   ],
+  "period": [
+    {
+      "specifier": "future",
+      "title": "Future",
+      "description": "Future simulation period."
+    },
+    {
+      "specifier": "historical",
+      "title": "Historical",
+      "description": "Historical simulation period."
+    },
+    {
+      "specifier": "pre-industrial",
+      "title": "Pre-industrial",
+      "description": "Pre-industrial simulation period."
+    },
+    {
+      "specifier": "future_extended",
+      "title": "Future (extended)",
+      "description": "Future (extended) simulation period."
+    }
+  ],
   "soc_scenario": [
     {
-      "specifier": "nosoc"
+      "specifier": "nosoc",
+      "description": "Naturalized - without human impacts on river flow."
     },
     {
-      "specifier": "pressoc"
+      "specifier": "pressoc",
+      "description": "Constant human impacts - present-day (year-2000) dams and water use."
     },
     {
-      "specifier": "varsoc"
+      "specifier": "varsoc",
+      "description": "Time-varying human impacts - time-varying historical dam construction and water use."
     },
     {
-      "specifier": "nat"
+      "specifier": "nat",
+      "description": "Natural vegetation reference run."
     },
     {
-      "specifier": "2005soc"
+      "specifier": "2005soc",
+      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
     },
     {
-      "specifier": "1860soc"
+      "specifier": "1860soc",
+      "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
     },
     {
-      "specifier": "histsoc"
+      "specifier": "histsoc",
+      "description": "Varying historical land use, nitrogen deposition and fertilizer input."
     },
     {
-      "specifier": "rcp26soc"
+      "specifier": "rcp26soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
     },
     {
-      "specifier": "rcp60soc"
+      "specifier": "rcp60soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
     },
     {
-      "specifier": "2100rcp26soc"
+      "specifier": "2100rcp26soc",
+      "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
     }
   ],
   "variable": [
     {
+      "units": "W m-2",
       "specifier": "lakeheatf",
-      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
-      "units": "W m-2"
+      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
     }
   ],
   "sens_scenario": [
@@ -537,10 +569,12 @@
       "specifier": "default"
     },
     {
-      "specifier": "co2"
+      "specifier": "co2",
+      "description": "Regular experiment."
     },
     {
-      "specifier": "2005co2"
+      "specifier": "2005co2",
+      "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
     }
   ],
   "model": [
@@ -1008,10 +1042,12 @@
   "bias_adjustment": [
     {
       "specifier": "nobc",
-      "description": "Indicates that no bias correction was performed on the climate data."
+      "description": "No bias correction was performed on the climate data."
     },
     {
-      "specifier": "ewembi"
+      "specifier": "ewembi",
+      "title": "EWEMBI",
+      "description": "Bias-adjusted using the EWEMBI dataset."
     }
   ],
   "diazotroph_scenario": [
@@ -1851,7 +1887,7 @@
   "climate_scenario": [
     {
       "specifier": "picontrol",
-      "description": "Pre-industrial climate as simulated by the GCMs.",
+      "description": "Pre-industrial climate and 286ppm CO2 concentration.",
       "simulation_rounds": [
         "ISIMIP2b"
       ]
@@ -1896,7 +1932,7 @@
     },
     {
       "specifier": "2005co2",
-      "description": "RCP8.5 climate as simulated by the GCMs.",
+      "description": "CO2 concentration fixed at 2005 levels at 378.81ppm.",
       "simulation_rounds": [
         "ISIMIP2b"
       ]
