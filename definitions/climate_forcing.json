@@ -12,15 +12,11 @@
     "description": "",
     "simulation_rounds": [
       "ISIMIP2a"
-    ],
-    "sectors": [
-      "biodiversity",
-      "lakes_global"
     ]
   },
   {
     "specifier": "princeton",
-    "title": "PGMFD v.2 (Princeton)",
+    "title": "PGMFD v2.1 (Princeton)",
     "simulation_rounds": [
       "ISIMIP2a"
     ]
