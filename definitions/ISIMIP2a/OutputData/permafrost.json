@@ -1,5 +1,5 @@
 {
-  "commit": "a412e055ce96cd7ceb5b7c4c9cc9a937166e1e9c",
+  "commit": "aae3370c207b429c8d1c761c49e87d6e7b9754dc",
   "river_basin": [
     {
       "specifier": "alton"
@@ -1377,8 +1377,16 @@
       ]
     },
     {
+      "specifier": "ewembi",
+      "title": "GSWP3-EWEMBI",
+      "description": "",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
       "specifier": "princeton",
-      "title": "PGMFD v.2 (Princeton)",
+      "title": "PGMFD v2.1 (Princeton)",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
