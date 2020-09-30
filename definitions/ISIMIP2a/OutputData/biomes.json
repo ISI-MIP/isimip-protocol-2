@@ -1,5 +1,5 @@
 {
-  "commit": "44855e4ce7798b3744db4f370e2f82eb656cce65",
+  "commit": "b024f6ea6473a18b2cef2fa0d326a12567a13845",
   "river_basin": [
     {
       "specifier": "alton"
@@ -2423,17 +2423,11 @@
   "time_span": [
     {
       "specifier": "minimum",
-      "value": {
-        "ISIMIP2a": 1901,
-        "ISIMIP2b": 1661
-      }
+      "value": 1901
     },
     {
       "specifier": "maximum",
-      "value": {
-        "ISIMIP2a": 2018,
-        "ISIMIP2b": 2100
-      }
+      "value": 2018
     }
   ]
 }
