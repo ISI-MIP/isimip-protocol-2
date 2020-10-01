@@ -1,5 +1,5 @@
 {
-  "commit": "ad2ad98cf53da1a86348da9490a64c101f2ddcc0",
+  "commit": "c087091ce41cd6f87a4670d71da80c76c964902f",
   "river_basin": [
     {
       "specifier": "alton"
@@ -1185,9 +1185,9 @@
   "dimensions": [
     {
       "specifier": "lon",
-      "size": 720,
       "axis": "X",
       "units": "degrees_east",
+      "size": 720,
       "minimum": -179.75,
       "maximum": 179.75,
       "standard_name": "longitude",
@@ -1198,9 +1198,9 @@
     },
     {
       "specifier": "lat",
-      "size": 360,
       "axis": "Y",
       "units": "degrees_north",
+      "size": 360,
       "minimum": -89.75,
       "maximum": 89.75,
       "standard_name": "latitude",
