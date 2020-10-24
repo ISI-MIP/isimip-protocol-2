@@ -16,6 +16,14 @@
     "title": "ALBM"
   },
   {
+    "specifier": "air2water4par",
+    "title": "air2water4par"
+  },
+  {
+    "specifier": "air2water6par",
+    "title": "air2water6par"
+  },
+  {
     "specifier": "apecosm",
     "title": "APECOSM"
   },
@@ -104,6 +112,22 @@
     "title": "EPIC-BOKU"
   },
   {
+    "specifier": "epic-boku-br",
+    "title": "EPIC-BOKU-BR"
+  },
+  {
+    "specifier": "epic-boku-hg",
+    "title": "EPIC-BOKU-HG"
+  },
+  {
+    "specifier": "epic-boku-pe",
+    "title": "EPIC-BOKU-PE"
+  },
+  {
+    "specifier": "epic-boku-pt",
+    "title": "EPIC-BOKU-PT"
+  },
+  {
     "specifier": "epic-iiasa",
     "title": "EPIC-IIASA"
   },
@@ -148,6 +172,22 @@
     "title": "GEPIC"
   },
   {
+    "specifier": "gepic-br",
+    "title": "GEPIC-BR"
+  },
+  {
+    "specifier": "gepic-p",
+    "title": "GEPIC-P"
+  },
+  {
+    "specifier": "gepic-pm",
+    "title": "GEPIC-PM"
+  },
+  {
+    "specifier": "gepic-pt",
+    "title": "GEPI-PT"
+  },
+  {
     "specifier": "glm",
     "title": "GLM"
   },
@@ -158,6 +198,10 @@
   {
     "specifier": "gotm",
     "title": "GOTM"
+  },
+  {
+    "specifier": "flake-igb",
+    "title": "FLake-IGB"
   },
   {
     "specifier": "h08",
@@ -236,6 +280,10 @@
     "title": "MPI-HM"
   },
   {
+    "specifier": "mylake",
+    "title": "MyLake"
+  },
+  {
     "specifier": "orchidee",
     "title": "ORCHIDEE"
   },
@@ -256,12 +304,20 @@
     "title": "pAPSIM"
   },
   {
+    "specifier": "papsim-pm",
+    "title": "pAPSIM-PM"
+  },
+  {
     "specifier": "pcr-globwb",
     "title": "PCR-GLOBWB"
   },
   {
     "specifier": "pdssat",
     "title": "pDSSAT"
+  },
+  {
+    "specifier": "pdssat-pt",
+    "title": "pDSSAT-PT"
   },
   {
     "specifier": "pegasus",
