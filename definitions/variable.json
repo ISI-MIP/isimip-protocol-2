@@ -255,6 +255,15 @@
     "long_name": "Burnt Area Fraction"
   },
   {
+    "units": "s-2",
+    "specifier": "buoyancyfrequency",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Buoyancy frequency"
+  },
+  {
     "units": "kg m-2",
     "specifier": "canopystor",
     "sectors": [
