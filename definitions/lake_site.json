@@ -1,5 +1,13 @@
 [
   {
+    "specifier": "allequash",
+    "title": "Allequash Lake",
+    "country": "USA",
+    "lon": -89.62,
+    "lat": 46.04,
+    "type": "lake"
+  },
+  {
     "specifier": "alqueva",
     "title": "Alqueva Reservoir",
     "country": "Portugal",
@@ -104,7 +112,7 @@
     "type": "lake"
   },
   {
-    "specifier": "eagle ",
+    "specifier": "eagle",
     "title": "Eagle Lake",
     "country": "Canada",
     "lon": -76.7,
@@ -112,7 +120,7 @@
     "type": "lake"
   },
   {
-    "specifier": "ekoln ",
+    "specifier": "ekoln",
     "title": "Ekoln basin of Mälaren",
     "country": "Sweden",
     "lon": 17.62,
@@ -304,8 +312,8 @@
     "type": "lake"
   },
   {
-    "specifier": "ngoring ",
-    "title": "Ngoring ",
+    "specifier": "ngoring",
+    "title": "Ngoring",
     "country": "China",
     "lon": 97.7,
     "lat": 34.9,
@@ -336,7 +344,7 @@
     "type": "lake"
   },
   {
-    "specifier": "paajarvi",
+    "specifier": "paaijarvi",
     "title": "Lake Pääjärvi",
     "country": "Finland",
     "lon": 25.13,
