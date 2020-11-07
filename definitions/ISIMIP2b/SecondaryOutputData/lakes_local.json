@@ -1,5 +1,5 @@
 {
-  "commit": "6ffc19242492030b96e31d7b3f11bd6303928a49",
+  "commit": "d4a5fea3459be4bc53fa2ee36e015efd3c7feffa",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -1345,6 +1345,10 @@
     }
   ],
   "species": [
+    {
+      "title": "Stand total",
+      "specifier": "total"
+    },
     {
       "title": "Fagus sylvatica",
       "specifier": "fasy"

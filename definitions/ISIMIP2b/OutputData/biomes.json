@@ -1,5 +1,5 @@
 {
-  "commit": "6ffc19242492030b96e31d7b3f11bd6303928a49",
+  "commit": "d4a5fea3459be4bc53fa2ee36e015efd3c7feffa",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -1353,6 +1353,10 @@
   ],
   "species": [
     {
+      "title": "Stand total",
+      "specifier": "total"
+    },
+    {
       "title": "Fagus sylvatica",
       "specifier": "fasy"
     },
@@ -1988,7 +1992,8 @@
       "units": "kg m-2",
       "specifier": "cleaf",
       "sectors": [
-        "biomes"
+        "biomes",
+        "forestry"
       ],
       "long_name": "Carbon Mass in Leaves"
     },
@@ -1996,6 +2001,7 @@
       "units": "kg m-2",
       "specifier": "clitter",
       "sectors": [
+        "forestry",
         "biomes",
         "permafrost"
       ]
@@ -2004,7 +2010,8 @@
       "units": "kg m-2",
       "specifier": "croot",
       "sectors": [
-        "biomes"
+        "biomes",
+        "forestry"
       ],
       "long_name": "Carbon Mass in Roots"
     },
@@ -2019,6 +2026,7 @@
       ],
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost"
       ],
       "long_name": "Carbon Mass in Soil Pool"
@@ -2028,15 +2036,37 @@
       "specifier": "cveg",
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost"
       ],
       "long_name": "Carbon Mass in Vegetation"
     },
     {
+      "specifier": "cvegag",
+      "long_name": "Carbon Mass in Above Ground Vegetation Biomass",
+      "units": "kg m-2",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ]
+    },
+    {
+      "specifier": "cvegbg",
+      "long_name": "Carbon Mass in Below Ground Vegetation Biomass",
+      "units": "kg m-2",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ]
+    },
+    {
       "units": "kg m-2",
       "specifier": "cwood",
       "sectors": [
-        "biomes"
+        "biomes",
+        "forestry"
       ],
       "long_name": "Carbon Mass in Wood"
     },
@@ -2053,6 +2083,7 @@
       "specifier": "esoil",
       "sectors": [
         "biomes",
+        "forestry",
         "water_global"
       ],
       "long_name": "Water Evaporation from Soil"
@@ -2062,6 +2093,7 @@
       "specifier": "evap",
       "sectors": [
         "biomes",
+        "forestry",
         "water_global",
         "water_regional"
       ],
@@ -2072,6 +2104,7 @@
       "specifier": "fapar",
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost"
       ],
       "long_name": "Fraction of Absorbed Photosynthetically Active Radiation"
@@ -2094,6 +2127,7 @@
       "specifier": "gpp",
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost"
       ],
       "long_name": "Carbon Mass Flux out of Atmosphere due to Gross Primary Production on Land"
@@ -2102,7 +2136,8 @@
       "units": "kg m-2 s-1",
       "specifier": "intercep",
       "sectors": [
-        "biomes"
+        "biomes",
+        "forestry"
       ],
       "long_name": "Evaporation from Canopy (interception)"
     },
@@ -2111,6 +2146,7 @@
       "specifier": "lai",
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost",
         "water_global"
       ],
@@ -2126,9 +2162,46 @@
       "specifier": "npp",
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost"
       ],
       "long_name": "Carbon Mass Flux out of Atmosphere due to Net Primary Production on Land"
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "nppleaf",
+      "long_name": "Net Primary Production allocated to leaf biomass",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "npproot",
+      "long_name": "Net Primary Production allocated to fine root biomass",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "nppagwood",
+      "sectors": [
+        "biomes",
+        "permafrost"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "nppbgwood",
+      "sectors": [
+        "biomes",
+        "permafrost"
+      ]
     },
     {
       "units": "kg m-2 s-1",
@@ -2216,6 +2289,7 @@
       "specifier": "ra",
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost"
       ],
       "long_name": "Carbon Mass Flux into Atmosphere due to Autotrophic (plant) Respiration on Land"
@@ -2233,6 +2307,7 @@
       "specifier": "rh",
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost"
       ],
       "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land"
@@ -2241,7 +2316,8 @@
       "units": "kg m-2 s-1",
       "specifier": "rr",
       "sectors": [
-        "biomes"
+        "biomes",
+        "forestry"
       ],
       "long_name": "Root autotrophic respiration"
     },
@@ -2266,6 +2342,7 @@
       ],
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost",
         "water_global",
         "water_regional"
@@ -2320,6 +2397,7 @@
       "specifier": "trans",
       "sectors": [
         "biomes",
+        "forestry",
         "water_global"
       ],
       "long_name": "Transpiration"
@@ -2335,6 +2413,7 @@
       ],
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost",
         "water_global"
       ],

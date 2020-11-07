@@ -1,5 +1,5 @@
 {
-  "commit": "6ffc19242492030b96e31d7b3f11bd6303928a49",
+  "commit": "d4a5fea3459be4bc53fa2ee36e015efd3c7feffa",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -112,6 +112,16 @@
       "title": "WATCH-WFDEI",
       "simulation_rounds": [
         "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "localclim",
+      "title": "Locally observed weather data",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ],
+      "sectors": [
+        "forestry"
       ]
     }
   ],
@@ -1316,6 +1326,10 @@
   ],
   "species": [
     {
+      "title": "Stand total",
+      "specifier": "total"
+    },
+    {
       "title": "Fagus sylvatica",
       "specifier": "fasy"
     },
@@ -1930,9 +1944,438 @@
   ],
   "variable": [
     {
+      "specifier": "age",
+      "long_name": "Tree Age by DBH-Class",
+      "dimensions": [
+        "time",
+        "dbhclass",
+        "lat",
+        "lon"
+      ],
+      "units": "yr",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "ba",
+      "long_name": "Basal Area",
+      "units": "m2 ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "units": "kg m-2",
+      "specifier": "cleaf",
+      "sectors": [
+        "biomes",
+        "forestry"
+      ],
+      "long_name": "Carbon Mass in Leaves"
+    },
+    {
+      "units": "kg m-2",
+      "specifier": "clitter",
+      "sectors": [
+        "forestry",
+        "biomes",
+        "permafrost"
+      ]
+    },
+    {
+      "units": "kg m-2",
+      "specifier": "croot",
+      "sectors": [
+        "biomes",
+        "forestry"
+      ],
+      "long_name": "Carbon Mass in Roots"
+    },
+    {
+      "units": "kg m-2",
+      "specifier": "csoil",
+      "dimensions": [
+        "time",
+        "depth",
+        "lat",
+        "lon"
+      ],
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ],
+      "long_name": "Carbon Mass in Soil Pool"
+    },
+    {
+      "units": "kg m-2",
+      "specifier": "cveg",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ],
+      "long_name": "Carbon Mass in Vegetation"
+    },
+    {
+      "specifier": "cvegag",
+      "long_name": "Carbon Mass in Above Ground Vegetation Biomass",
+      "units": "kg m-2",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ]
+    },
+    {
+      "specifier": "cvegbg",
+      "long_name": "Carbon Mass in Below Ground Vegetation Biomass",
+      "units": "kg m-2",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ]
+    },
+    {
+      "units": "kg m-2",
+      "specifier": "cwood",
+      "sectors": [
+        "biomes",
+        "forestry"
+      ],
+      "long_name": "Carbon Mass in Wood"
+    },
+    {
+      "specifier": "dbh",
+      "long_name": "Mean DBH",
+      "units": "cm",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "dbhdomhei",
+      "long_name": "Mean DBH of 100 Highest Trees",
+      "units": "cm",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "dist",
+      "long_name": "Volume of Disturbance Damage",
+      "units": "m3 ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "density",
+      "long_name": "Stand Density",
+      "units": "m2 ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "domhei",
+      "long_name": "Dominant Height",
+      "units": "m2 ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "esoil",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "water_global"
+      ],
+      "long_name": "Water Evaporation from Soil"
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "evap",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "water_global",
+        "water_regional"
+      ],
+      "long_name": "Evapotranspiration"
+    },
+    {
+      "units": "%",
+      "specifier": "fapar",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ],
+      "long_name": "Fraction of Absorbed Photosynthetically Active Radiation"
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "gpp",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ],
+      "long_name": "Carbon Mass Flux out of Atmosphere due to Gross Primary Production on Land"
+    },
+    {
+      "specifier": "harv",
+      "long_name": "Harvest by DBH-Class",
+      "dimensions": [
+        "time",
+        "dbhclass",
+        "lat",
+        "lon"
+      ],
+      "units": "m3 ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "harvstemno",
+      "long_name": "Removed Stem Numbers by DBH-Class by Management",
+      "dimensions": [
+        "time",
+        "dbhclass",
+        "lat",
+        "lon"
+      ],
+      "units": "ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "hei",
+      "long_name": "Stand Height",
+      "units": "m ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "intercep",
+      "sectors": [
+        "biomes",
+        "forestry"
+      ],
+      "long_name": "Evaporation from Canopy (interception)"
+    },
+    {
+      "units": "1",
+      "specifier": "lai",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost",
+        "water_global"
+      ],
+      "long_name": "Leaf Area Index"
+    },
+    {
       "units": "W m-2",
       "specifier": "lakeheatf",
       "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
+    },
+    {
+      "specifier": "mai",
+      "long_name": "Mean Annual Increment",
+      "units": "m3 ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "mort",
+      "long_name": "Volume of Dead Trees",
+      "units": "m3 ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "mortstemno",
+      "long_name": "Removed Stem Numbers by DBH-Class by Natural Mortality",
+      "dimensions": [
+        "time",
+        "dbhclass",
+        "lat",
+        "lon"
+      ],
+      "units": "ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "nee",
+      "long_name": "Net Ecosystem Exchange",
+      "units": "kg m-2 s-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "nlit",
+      "long_name": "Nitrogen of Annual Litter",
+      "units": "g m-2 a-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "npp",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ],
+      "long_name": "Carbon Mass Flux out of Atmosphere due to Net Primary Production on Land"
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "nppleaf",
+      "long_name": "Net Primary Production allocated to leaf biomass",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "npproot",
+      "long_name": "Net Primary Production allocated to fine root biomass",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ]
+    },
+    {
+      "specifier": "nsoil",
+      "long_name": "Nitrogen in Soil",
+      "units": "g m-2 a-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "ra",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ],
+      "long_name": "Carbon Mass Flux into Atmosphere due to Autotrophic (plant) Respiration on Land"
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "rh",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ],
+      "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land"
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "rr",
+      "sectors": [
+        "biomes",
+        "forestry"
+      ],
+      "long_name": "Root autotrophic respiration"
+    },
+    {
+      "units": "kg m-2",
+      "specifier": "soilmoist",
+      "dimensions": [
+        "time",
+        "depth",
+        "lat",
+        "lon"
+      ],
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ],
+      "long_name": "Total Soil Moisture Content"
+    },
+    {
+      "specifier": "species",
+      "long_name": "Species Composition",
+      "units": "%",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "specifier": "stemno",
+      "long_name": "Remaining Stem Number after Disturbance and Management by DBH-Class",
+      "dimensions": [
+        "time",
+        "dbhclass",
+        "lat",
+        "lon"
+      ],
+      "units": "ha-1",
+      "sectors": [
+        "forestry"
+      ]
+    },
+    {
+      "units": "kg m-2 s-1",
+      "specifier": "trans",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "water_global"
+      ],
+      "long_name": "Transpiration"
+    },
+    {
+      "units": "K",
+      "specifier": "tsl",
+      "dimensions": [
+        "time",
+        "depth",
+        "lat",
+        "lon"
+      ],
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost",
+        "water_global"
+      ],
+      "long_name": "Temperature of Soil"
+    },
+    {
+      "specifier": "vol",
+      "long_name": "Stand Volume",
+      "units": "m3 ha-1",
+      "sectors": [
+        "forestry"
+      ]
     }
   ],
   "soc_scenario": [

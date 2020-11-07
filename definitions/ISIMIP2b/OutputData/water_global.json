@@ -1,5 +1,5 @@
 {
-  "commit": "6ffc19242492030b96e31d7b3f11bd6303928a49",
+  "commit": "d4a5fea3459be4bc53fa2ee36e015efd3c7feffa",
   "irrigation": [
     {
       "specifier": "cirr",
@@ -1354,6 +1354,10 @@
   ],
   "species": [
     {
+      "title": "Stand total",
+      "specifier": "total"
+    },
+    {
       "title": "Fagus sylvatica",
       "specifier": "fasy"
     },
@@ -2102,6 +2106,7 @@
       "specifier": "esoil",
       "sectors": [
         "biomes",
+        "forestry",
         "water_global"
       ],
       "long_name": "Water Evaporation from Soil"
@@ -2111,6 +2116,7 @@
       "specifier": "evap",
       "sectors": [
         "biomes",
+        "forestry",
         "water_global",
         "water_regional"
       ],
@@ -2129,6 +2135,7 @@
       "specifier": "lai",
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost",
         "water_global"
       ],
@@ -2361,6 +2368,7 @@
       ],
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost",
         "water_global",
         "water_regional"
@@ -2409,6 +2417,7 @@
       "specifier": "trans",
       "sectors": [
         "biomes",
+        "forestry",
         "water_global"
       ],
       "long_name": "Transpiration"
@@ -2430,6 +2439,7 @@
       ],
       "sectors": [
         "biomes",
+        "forestry",
         "permafrost",
         "water_global"
       ],
