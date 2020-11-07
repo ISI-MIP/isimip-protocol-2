@@ -1,4 +1,8 @@
 [
+    {
+    "title": "Stand total",
+    "specifier": "total"
+  },
   {
     "title": "Fagus sylvatica",
     "specifier": "fasy"

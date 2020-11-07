@@ -36,6 +36,16 @@
     ]
   },
   {
+    "specifier": "localclim",
+    "title": "Locally observed weather data",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ],
+    "sectors": [
+      "forestry"
+    ]
+  },
+  {
     "specifier": "gfdl-esm2m",
     "title": "GFDL-ESM2M",
     "simulation_rounds": [
