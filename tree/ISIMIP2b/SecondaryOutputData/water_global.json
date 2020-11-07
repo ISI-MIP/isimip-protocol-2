@@ -1,0 +1,12 @@
+[
+  "simulation_round",
+  "product",
+  "sector",
+  "model",
+  "climate_forcing",
+  "climate_scenario",
+  "soc_scenario",
+  "sens_scenario",
+  "variable",
+  "crop | pft"
+]
