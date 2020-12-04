@@ -1482,5 +1482,53 @@
       "agriculture"
     ],
     "long_name": "Crop Yields"
+  },
+  {
+    "units": "Number of deaths",
+    "specifier": "excess-temp-mortality",
+    "sectors": [
+      "waterborne_diseases"
+    ],
+    "long_name": "Temperature-related Deaths"
+  },
+  {
+    "units": "Number of new cases",
+    "specifier": "excess-temp-incidence",
+    "sectors": [
+      "waterborne_diseases"
+    ],
+    "long_name": "Temperature-related Incidence"
+  },
+  {
+    "units": "Number of cases",
+    "specifier": "excess-temp-prevalence",
+    "sectors": [
+      "waterborne_diseases"
+    ],
+    "long_name": "Temperature-related Prevalence"
+  },
+  {
+    "units": "Number of deaths",
+    "specifier": "excess-rain-mortality",
+    "sectors": [
+      "waterborne_diseases"
+    ],
+    "long_name": "Rainfall-related Deaths"
+  },
+  {
+    "units": "Number of new cases",
+    "specifier": "excess-rain-incidence",
+    "sectors": [
+      "waterborne_diseases"
+    ],
+    "long_name": "Rainfall-related Incidence"
+  },
+  {
+    "units": "Number of cases",
+    "specifier": "excess-rain-prevalence",
+    "sectors": [
+      "waterborne_diseases"
+    ],
+    "long_name": "Rainfall-related Prevalence"
   }
 ]

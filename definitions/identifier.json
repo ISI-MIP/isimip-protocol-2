@@ -98,5 +98,9 @@
   {
     "specifier": "variable",
     "title": "Variable"
+  },
+  {
+    "specifier": "disease",
+    "title": "Disease"
   }
 ]

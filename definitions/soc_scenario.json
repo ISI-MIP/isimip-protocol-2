@@ -38,5 +38,25 @@
   {
     "specifier": "2100rcp26soc",
     "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
+  },
+  {
+    "specifier": "ssp1soc",
+    "description": "Varying society according to SSP1 in terms of population and GDP. (in Health sector)"
+  },
+  {
+    "specifier": "ssp2soc",
+    "description": "Varying society according to SSP2 in terms of population and GDP. (in Health sector)"
+  },
+  {
+    "specifier": "ssp3soc",
+    "description": "Varying society according to SSP3 in terms of population and GDP. (in Health sector)"
+  },
+  {
+    "specifier": "ssp4soc",
+    "description": "Varying society according to SSP4 in terms of population and GDP. (in Health sector)"
+  },
+  {
+    "specifier": "ssp5soc",
+    "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
   }
 ]

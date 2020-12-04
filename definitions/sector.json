@@ -40,6 +40,10 @@
     "title": "Permafrost"
   },
   {
+    "specifier": "waterborne_diseases",
+    "title": "Waterborne Diseases"
+  },
+  {
     "specifier": "water_global",
     "title": "Water (global)"
   },
