@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/waterborne_diseases.json",
   "commit": "c74b86545e9e24bc213af7a16fd9d7306d89cd9c",
   "type": "object",
   "required": [
@@ -8,14 +8,15 @@
   ],
   "properties": {
     "specifiers": {
-      "type": "object",
       "required": [
         "model",
         "climate_forcing",
         "bias_adjustment",
         "climate_scenario",
+        "soc_scenario",
         "variable",
-        "ocean_region",
+        "disease",
+        "region",
         "time_step"
       ],
       "properties": {
@@ -137,11 +138,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "princeton",
-            "gswp3",
-            "wfdei",
-            "watch",
-            "ewembi"
+            "hadgem2-es",
+            "ipsl-cm5a-lr",
+            "miroc5",
+            "gfdl-esm2m"
           ]
         },
         "bias_adjustment": {
@@ -154,43 +154,62 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "hist"
+            "picontrol",
+            "rcp60",
+            "2005co2",
+            "rcp85",
+            "historical",
+            "rcp26",
+            "rcp45"
+          ]
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "ssp2soc",
+            "rcp60soc",
+            "ssp3soc",
+            "nosoc",
+            "ssp4soc",
+            "1860soc",
+            "rcp26soc",
+            "histsoc",
+            "ssp5soc",
+            "2100rcp26soc",
+            "ssp1soc",
+            "varsoc",
+            "pressoc",
+            "2005soc",
+            "nat"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "bcom",
-            "b30cm",
-            "tc10cm",
-            "tc",
-            "tsb",
-            "b10cm",
-            "tcb",
-            "tla",
+            "excess-temp-prevalence",
+            "excess-temp-mortality",
+            "excess-temp-incidence",
+            "excess-rain-mortality",
             "lakeheatf",
-            "tc30cm"
+            "excess-rain-prevalence",
+            "excess-rain-incidence"
           ]
         },
-        "ocean_region": {
+        "disease": {
           "type": "string",
           "enum": [
-            "se-australia",
-            "baltic-sea",
-            "med-glob",
-            "north-sea",
-            "nw-med-sea",
-            "adriatic-sea",
-            "east-bass-strait",
-            "cook-strait",
-            "humboldt-n"
+            "shigella"
+          ]
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
-            "daily",
             "annual"
           ]
         },
