@@ -1,9 +1,0 @@
-[
-  {
-    "specifier": "hist",
-    "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
-    "simulation_rounds": [
-      "ISIMIP2a"
-    ]
-  }
-]

@@ -1,5 +1,5 @@
 {
-  "commit": "c74b86545e9e24bc213af7a16fd9d7306d89cd9c",
+  "commit": "4451c662aaf48004b446f7be65ca66eb47d5592b",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<sector>[a-z0-9-_]+)/(?P<model>[A-Za-z0-9-+._]+)/(?P<climate_forcing>[a-z0-9-]+)/(?P<period>[a-z0-9-_]+)$",
   "dataset": "^(?P<model>[a-z0-9-]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9]+)_(?P<climate_scenario>[a-z0-9]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<sens_scenario>[a-z0-9-]+)_(?P<variable>[a-z0-9]+)(-(?P<crop>[a-z0-9]+)-(?P<irrigation>(firr|cirr|noirr))|-(?P<pft>[a-z0-9-]+))?_(?P<region>(global))_(?P<time_step>[a-z]+)",
   "file": "^(?P<model>[a-z0-9-]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9]+)_(?P<climate_scenario>[a-z0-9]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<sens_scenario>[a-z0-9-]+)_(?P<variable>[a-z0-9]+)(-(?P<crop>[a-z0-9]+)-(?P<irrigation>(firr|cirr|noirr))|-(?P<pft>[a-z0-9-]+))?_(?P<region>(global))_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.nc4)",
