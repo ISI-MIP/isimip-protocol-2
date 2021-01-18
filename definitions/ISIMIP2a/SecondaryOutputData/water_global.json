@@ -1,5 +1,5 @@
 {
-  "commit": "216a8af54658ceef74b984d83b616924e4197f97",
+  "commit": "7c1fe778a272be2dc16f24ee122a3aab1f5df08f",
   "diazotroph_scenario": [
     {
       "specifier": "w-diaz"
@@ -714,6 +714,20 @@
     {
       "specifier": "2005co2",
       "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
+    },
+    {
+      "specifier": "noco2",
+      "description": "Sensitivity experiment: only applies to models that take CO2 into account. CO2 concentration fixed at present-day value, i.e. run with transient historical CO2 up to the year 2000 and keep CO2 fixed at 369ppm thereafter.",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "co2const",
+      "description": "Keep CO2 concentration constant at 1971 level. For spin-up, use time-varying, historical CO2 concentration until 1970.",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
     }
   ],
   "variable": [
@@ -2329,7 +2343,7 @@
       ]
     },
     {
-      "specifier": "wfdei",
+      "specifier": "watch-wfdei",
       "title": "WATCH-WFDEI",
       "simulation_rounds": [
         "ISIMIP2a"

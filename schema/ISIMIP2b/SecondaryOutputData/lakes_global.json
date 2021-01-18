@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/water_regional.json",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/SecondaryOutputData/lakes_global.json",
   "commit": "7c1fe778a272be2dc16f24ee122a3aab1f5df08f",
   "type": "object",
   "required": [
@@ -17,7 +17,7 @@
         "soc_scenario",
         "sens_scenario",
         "variable",
-        "river",
+        "region",
         "time_step"
       ],
       "properties": {
@@ -140,11 +140,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "watch",
-            "gswp3",
-            "princeton",
-            "watch-wfdei"
+            "ipsl-cm5a-lr",
+            "miroc5",
+            "hadgem2-es",
+            "gfdl-esm2m"
           ]
         },
         "bias_adjustment": {
@@ -157,7 +156,13 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "hist"
+            "historical",
+            "rcp60",
+            "picontrol",
+            "rcp85",
+            "rcp45",
+            "2005co2",
+            "rcp26"
           ]
         },
         "soc_scenario": {
@@ -184,8 +189,6 @@
           "type": "string",
           "enum": [
             "co2",
-            "co2const",
-            "noco2",
             "default",
             "2005co2"
           ]
@@ -193,129 +196,45 @@
         "variable": {
           "type": "string",
           "enum": [
-            "airruse",
-            "qrecharge",
-            "qr",
-            "rainf",
+            "icedur",
+            "iceend",
+            "momf",
+            "buoyancyfrequency",
+            "bottemp",
+            "swup",
+            "icetemp",
+            "icethick",
+            "lwup",
+            "ice",
+            "watertemp",
+            "snowtemp",
+            "icestart",
+            "strat",
+            "latentheatf",
             "lakeheatf",
-            "rootmoist",
-            "evap",
-            "qtot",
-            "qs",
-            "qg",
-            "soilmoist",
-            "potevap",
-            "airrww",
-            "dis",
-            "qbaseflow",
-            "snowf",
-            "swe"
+            "stratdur",
+            "snowthick",
+            "sedheatf",
+            "stratstart",
+            "stratend",
+            "thermodepth",
+            "albedo",
+            "lakeicefrac",
+            "surftemp",
+            "sensheatf"
           ]
         },
-        "crop": {
+        "region": {
           "type": "string",
           "enum": [
-            "sgb",
-            "rap",
-            "sor",
-            "soy",
-            "cot",
-            "pot",
-            "nut",
-            "sug",
-            "mis",
-            "euc",
-            "mil",
-            "rye",
-            "cas",
-            "sun",
-            "pop",
-            "bar",
-            "ben",
-            "mgr",
-            "pea",
-            "whe",
-            "ric",
-            "mai"
-          ]
-        },
-        "irrigation": {
-          "type": "string",
-          "enum": [
-            "cirr",
-            "noirr"
-          ]
-        },
-        "pft": {
-          "type": "string"
-        },
-        "river": {
-          "type": "string",
-          "enum": [
-            "yellow",
-            "lena",
-            "tagus",
-            "pajeu",
-            "niger",
-            "mackenzie",
-            "amazon",
-            "darling",
-            "mississippi",
-            "ganges",
-            "yangtze",
-            "godavari",
-            "rhine",
-            "danube",
-            "blue-nile",
-            "indus"
-          ]
-        },
-        "river_basin": {
-          "type": "string",
-          "enum": [
-            "wisconsin-dells",
-            "stolb",
-            "cuntan",
-            "wien-nussdorf",
-            "tossaye",
-            "arctic-red-river",
-            "st-paul",
-            "louth",
-            "el-diem",
-            "khartoum",
-            "lobith",
-            "jimai",
-            "tarbela",
-            "maqu",
-            "sao-paulo-de-olivenca",
-            "roseiresdam",
-            "krestovski",
-            "huangheyuan",
-            "frankfurt",
-            "trier",
-            "rheinfelden",
-            "dire",
-            "rockenau",
-            "valley-city",
-            "tekra",
-            "trillo",
-            "ibi",
-            "lokoja",
-            "tangnaihai",
-            "alton",
-            "koulikoro",
-            "floresta",
-            "almourol",
-            "clinton",
-            "chisapani",
-            "farakka",
-            "niamey"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
             "annual",
+            "seasonal",
             "daily",
             "monthly"
           ]
