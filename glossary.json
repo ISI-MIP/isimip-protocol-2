@@ -1,32 +1,9 @@
 {
-  "commit": "4451c662aaf48004b446f7be65ca66eb47d5592b",
+  "commit": "216a8af54658ceef74b984d83b616924e4197f97",
   "terms": {
-    "fishing_type": {
-      "fishing": {},
-      "no-fishing": {}
-    },
-    "sens_scenario": {
-      "default": {},
-      "co2": {
-        "description": "Regular experiment."
-      },
-      "2005co2": {
-        "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
-      }
-    },
-    "time_span": {
-      "minimum": {
-        "value": {
-          "ISIMIP2a": 1901,
-          "ISIMIP2b": 1661
-        }
-      },
-      "maximum": {
-        "value": {
-          "ISIMIP2a": 2018,
-          "ISIMIP2b": 2100
-        }
-      }
+    "diazotroph_scenario": {
+      "w-diaz": {},
+      "wo-diaz": {}
     },
     "time_step": {
       "3hr": {
@@ -97,110 +74,76 @@
         ]
       }
     },
-    "river": {
-      "amazon": {},
-      "blue-nile": {},
-      "danube": {},
-      "darling": {},
-      "ganges": {},
-      "godavari": {},
-      "indus": {},
-      "lena": {},
-      "mackenzie": {},
-      "mississippi": {},
-      "niger": {},
-      "pajeu": {},
-      "rhine": {},
-      "tagus": {},
-      "yangtze": {},
-      "yellow": {}
+    "acidification_type": {
+      "oa": {},
+      "no-oa": {}
     },
-    "sector": {
-      "agriculture": {
-        "title": "Agriculture"
+    "crop": {
+      "whe": {
+        "title": "Wheat"
       },
-      "biodiversity": {
-        "title": "Terrestrial biodiversity"
+      "mai": {
+        "title": "Maize"
       },
-      "biomes": {
-        "title": "Biomes"
+      "soy": {
+        "title": "Soy"
       },
-      "forestry": {
-        "title": "Regional forests"
+      "ric": {
+        "title": "Rice"
       },
-      "health": {
-        "title": "Temperature-related mortality"
+      "bar": {
+        "title": "Barley"
       },
-      "lakes_global": {
-        "title": "Lakes (global)"
+      "ben": {
+        "title": "Bean"
       },
-      "lakes_local": {
-        "title": "Lakes (local)"
+      "cas": {
+        "title": "Cassava"
       },
-      "marine-fishery_global": {
-        "title": "Fisheries and Marine Ecosystems (global)"
+      "cot": {
+        "title": "Cotton"
       },
-      "marine-fishery_regional": {
-        "title": "Fisheries and Marine Ecosystems (regional)"
+      "euc": {
+        "title": "Eucalyptus"
       },
-      "permafrost": {
-        "title": "Permafrost"
+      "mgr": {
+        "title": "Managed grass"
       },
-      "waterborne_diseases": {
-        "title": "Waterborne Diseases"
+      "mil": {
+        "title": "Millet"
       },
-      "water_global": {
-        "title": "Water (global)"
+      "mis": {
+        "title": "Miscanthus"
       },
-      "water_regional": {
-        "title": "Water (regional)"
-      }
-    },
-    "soc_scenario": {
-      "nosoc": {
-        "description": "Naturalized - without human impacts on river flow."
+      "nut": {
+        "title": "Groundnuts"
       },
-      "pressoc": {
-        "description": "Constant human impacts - present-day (year-2000) dams and water use."
+      "pea": {
+        "title": "Field peas"
       },
-      "varsoc": {
-        "description": "Time-varying human impacts - time-varying historical dam construction and water use."
+      "pop": {
+        "title": "Poplar"
       },
-      "nat": {
-        "description": "Natural vegetation reference run."
+      "pot": {
+        "title": "Potato"
       },
-      "2005soc": {
-        "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
+      "rap": {
+        "title": "Rapeseed"
       },
-      "1860soc": {
-        "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
+      "rye": {
+        "title": "Rye"
       },
-      "histsoc": {
-        "description": "Varying historical land use, nitrogen deposition and fertilizer input."
+      "sgb": {
+        "title": "Sugar beet"
       },
-      "rcp26soc": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
+      "sor": {
+        "title": "Sorghum"
       },
-      "rcp60soc": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
+      "sug": {
+        "title": "Sugarcane"
       },
-      "2100rcp26soc": {
-        "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
-      },
-      "ssp1soc": {
-        "description": "Varying society according to SSP1 in terms of population and GDP. (in Health sector)"
-      },
-      "ssp2soc": {
-        "description": "Varying society according to SSP2 in terms of population and GDP. (in Health sector)"
-      },
-      "ssp3soc": {
-        "description": "Varying society according to SSP3 in terms of population and GDP. (in Health sector)"
-      },
-      "ssp4soc": {
-        "description": "Varying society according to SSP4 in terms of population and GDP. (in Health sector)"
-      },
-      "ssp5soc": {
-        "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
+      "sun": {
+        "title": "Sunflower"
       }
     },
     "model": {
@@ -533,74 +476,9 @@
       },
       "wbd": {
         "title": "WBD"
-      }
-    },
-    "crop": {
-      "whe": {
-        "title": "Wheat"
       },
-      "mai": {
-        "title": "Maize"
-      },
-      "soy": {
-        "title": "Soy"
-      },
-      "ric": {
-        "title": "Rice"
-      },
-      "bar": {
-        "title": "Barley"
-      },
-      "ben": {
-        "title": "Bean"
-      },
-      "cas": {
-        "title": "Cassava"
-      },
-      "cot": {
-        "title": "Cotton"
-      },
-      "euc": {
-        "title": "Eucalyptus"
-      },
-      "mgr": {
-        "title": "Managed grass"
-      },
-      "mil": {
-        "title": "Millet"
-      },
-      "mis": {
-        "title": "Miscanthus"
-      },
-      "nut": {
-        "title": "Groundnuts"
-      },
-      "pea": {
-        "title": "Field peas"
-      },
-      "pop": {
-        "title": "Poplar"
-      },
-      "pot": {
-        "title": "Potato"
-      },
-      "rap": {
-        "title": "Rapeseed"
-      },
-      "rye": {
-        "title": "Rye"
-      },
-      "sgb": {
-        "title": "Sugar beet"
-      },
-      "sor": {
-        "title": "Sorghum"
-      },
-      "sug": {
-        "title": "Sugarcane"
-      },
-      "sun": {
-        "title": "Sunflower"
+      "web-dhm-s": {
+        "title": "WEB-DHM-S"
       }
     },
     "simulation_round": {
@@ -616,165 +494,63 @@
         "title": "Global simulation"
       }
     },
-    "dimensions": {
-      "lon": {
-        "axis": "X",
-        "units": "degrees_east",
-        "size": {
-          "marine-fishery_global": 360,
-          "other": 720
-        },
-        "minimum": {
-          "marine-fishery_global": -179.5,
-          "other": -179.75
-        },
-        "maximum": {
-          "marine-fishery_global": 179.5,
-          "other": 179.75
-        },
-        "standard_name": "longitude",
-        "long_names": [
-          "Longitude",
-          "longitude"
-        ]
+    "period": {
+      "future": {
+        "title": "Future",
+        "description": "Future simulation period."
       },
-      "lat": {
-        "axis": "Y",
-        "units": "degrees_north",
-        "size": {
-          "marine-fishery_global": 180,
-          "other": 360
-        },
-        "minimum": {
-          "marine-fishery_global": -89.5,
-          "other": -89.75
-        },
-        "maximum": {
-          "marine-fishery_global": 89.5,
-          "other": 89.75
-        },
-        "standard_name": "latitude",
-        "long_names": [
-          "Latitude",
-          "latitude"
-        ]
+      "historical": {
+        "title": "Historical",
+        "description": "Historical simulation period."
       },
-      "time": {
-        "axis": "T",
-        "standard_name": "time",
-        "long_names": [
-          "time",
-          "time axis",
-          "Time",
-          "Time axis"
-        ],
-        "calenders_daily": [
-          "standard",
-          "proleptic_gregorian",
-          "366_day",
-          "365_day",
-          "360_day"
-        ],
-        "calenders_other": [
-          "360_day"
-        ]
+      "pre-industrial": {
+        "title": "Pre-industrial",
+        "description": "Pre-industrial simulation period."
       },
-      "depth": {
-        "axis": "Z",
-        "standard_name": "depth_below_land",
-        "long_name": "Depth of vertical layer center below land",
-        "positive": "down",
-        "units": "m"
-      },
-      "bnds": {}
-    },
-    "identifier": {
-      "acidification_type": {
-        "title": "Acidification type"
-      },
-      "bias_adjustment": {
-        "title": "Bias adjustment"
-      },
-      "climate_forcing": {
-        "title": "Climate forcing"
-      },
-      "climate_scenario": {
-        "title": "Climate scenario"
-      },
-      "crop": {
-        "title": "Crop type"
-      },
-      "diazotroph_scenario": {
-        "title": "Diazotroph scenario"
-      },
-      "fishing_type": {
-        "title": "Fishing type"
-      },
-      "forest_stand": {
-        "title": "Forest stand",
-        "location": true
-      },
-      "irrigation": {
-        "title": "Irrigation"
-      },
-      "lake_site": {
-        "title": "lake site",
-        "location": true
-      },
-      "ocean_region": {
-        "title": "Ocean region",
-        "location": true
-      },
-      "period": {
-        "title": "Period"
-      },
-      "product": {
-        "title": "Data product"
-      },
-      "region": {
-        "title": "region"
-      },
-      "river_basin": {
-        "title": "River basin",
-        "location": true
-      },
-      "river": {
-        "title": "River"
-      },
-      "sector": {
-        "title": "Sector"
-      },
-      "sens_scenario": {
-        "title": "Sensitivity scenario"
-      },
-      "simulation_round": {
-        "title": "Simulation round"
-      },
-      "soc_dataset": {
-        "title": "Socio-economic dataset"
-      },
-      "species": {
-        "title": "Species"
-      },
-      "time_span": {
-        "title": "Time span"
-      },
-      "time_step": {
-        "title": "Time step"
-      },
-      "variable": {
-        "title": "Variable"
-      },
-      "disease": {
-        "title": "Disease"
+      "future_extended": {
+        "title": "Future (extended)",
+        "description": "Future (extended) simulation period."
       }
     },
-    "disease": {
-      "shigella": {
-        "title": "Shigella",
-        "sectors": [
-          "waterborne_diseases"
-        ]
+    "river": {
+      "amazon": {},
+      "blue-nile": {},
+      "danube": {},
+      "darling": {},
+      "ganges": {},
+      "godavari": {},
+      "indus": {},
+      "lena": {},
+      "mackenzie": {},
+      "mississippi": {},
+      "niger": {},
+      "pajeu": {},
+      "rhine": {},
+      "tagus": {},
+      "yangtze": {},
+      "yellow": {}
+    },
+    "time_span": {
+      "minimum": {
+        "value": {
+          "ISIMIP2a": 1901,
+          "ISIMIP2b": 1661
+        }
+      },
+      "maximum": {
+        "value": {
+          "ISIMIP2a": 2018,
+          "ISIMIP2b": 2100
+        }
+      }
+    },
+    "sens_scenario": {
+      "default": {},
+      "co2": {
+        "description": "Regular experiment."
+      },
+      "2005co2": {
+        "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
       }
     },
     "variable": {
@@ -2136,599 +1912,22 @@
         "long_name": "Rainfall-related Prevalence"
       }
     },
-    "ocean_region": {
-      "north-sea": {
-        "title": "North Sea",
-        "north": 62.5,
-        "west": -4.5,
-        "south": 50.5,
-        "east": 9.5
-      },
-      "baltic-sea": {
-        "title": "Baltic Sea",
-        "north": 64.5,
-        "west": 15.5,
-        "south": 55.5,
-        "east": 23.5
-      },
-      "nw-med-sea": {
-        "title": "North-west Meditteranean",
-        "north": 43.5,
-        "west": -1.5,
-        "south": 36.5,
-        "east": 6.5
-      },
-      "adriatic-sea": {
-        "title": "Adriatic Sea",
-        "north": 45.5,
-        "west": 11.5,
-        "south": 39.5,
-        "east": 20.5
-      },
-      "med-glob": {
-        "title": "Mediterranean Sea",
-        "north": 45.5,
-        "west": -6.5,
-        "south": 29.5,
-        "east": 35.5
-      },
-      "se-australia": {
-        "title": "South-East Australia",
-        "north": -23.5,
-        "west": 120.5,
-        "south": -47.5,
-        "east": 170.5
-      },
-      "east-bass-strait": {
-        "title": "Eastern Bass Strait",
-        "north": -37.5,
-        "west": 145.5,
-        "south": -41.5,
-        "east": 151.5
-      },
-      "cook-strait": {
-        "title": "Cook Strait",
-        "north": -40.5,
-        "west": 174.5,
-        "south": -46.5,
-        "east": 179.5
-      },
-      "humboldt-n": {
-        "title": "North Humboldt Sea",
-        "north": 6.5,
-        "west": -93.5,
-        "south": -20.5,
-        "east": -69.5
-      }
-    },
-    "climate_forcing": {
-      "gswp3": {
-        "title": "GSWP3",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ]
-      },
-      "ewembi": {
-        "title": "GSWP3-EWEMBI",
-        "description": "",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ]
-      },
-      "princeton": {
-        "title": "PGMFD v2.1 (Princeton)",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ]
-      },
-      "watch": {
-        "title": "WATCH (WFD)",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ]
-      },
-      "wfdei": {
-        "title": "WATCH-WFDEI",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ]
-      },
-      "localclim": {
-        "title": "Locally observed weather data",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ],
+    "irrigation": {
+      "firr": {
+        "title": "Full irrigation",
         "sectors": [
-          "forestry"
+          "agriculture"
         ]
       },
-      "gfdl-esm2m": {
-        "title": "GFDL-ESM2M",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "hadgem2-es": {
-        "title": "HadGEM2-ES",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "ipsl-cm5a-lr": {
-        "title": "IPSL-CM5A-LR",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "miroc5": {
-        "title": "MIROC5",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      }
-    },
-    "diazotroph_scenario": {
-      "w-diaz": {},
-      "wo-diaz": {}
-    },
-    "river_basin": {
-      "alton": {
-        "title": "Alton",
-        "river": "Mississippi",
-        "river_specifier": "mississippi",
-        "lat": 38.885,
-        "lon": -90.1809,
-        "grdc": 4119800,
-        "availability_monthly": "1928-1984",
-        "availability_daily": "1933-1987",
-        "area_upstream": 444185
-      },
-      "sao-paulo-de-olivenca": {
-        "title": "S\u00e3o Paulo de Olivenca",
-        "river": "Amazon",
-        "river_specifier": "amazon",
-        "lat": -3.45,
-        "lon": -68.75,
-        "grdc": 3623100,
-        "availability_monthly": "1979-1993",
-        "availability_daily": "1973-2010",
-        "area_upstream": 990781
-      },
-      "el-diem": {
-        "title": "El-Deim, Sudan Border",
-        "river": "Blue Nile",
-        "river_specifier": "blue-nile",
-        "lat": 11,
-        "lon": 35,
-        "grdc": "",
-        "availability_monthly": "1961-2002",
-        "availability_daily": "1900-1982",
-        "area_upstream": 160000
-      },
-      "khartoum": {
-        "title": "Khartoum",
-        "river": "Blue Nile",
-        "river_specifier": "blue-nile",
-        "lat": 15.62,
-        "lon": 32.55,
-        "grdc": 1663100,
-        "availability_monthly": "",
-        "availability_daily": "1900-1982",
-        "area_upstream": 325000
-      },
-      "roseiresdam": {
-        "title": "Roseires Dam",
-        "river": "Blue Nile",
-        "river_specifier": "blue-nile"
-      },
-      "wien-nussdorf": {
-        "title": "Wien-Nu\u00dfdorf",
-        "river": "Danube",
-        "river_specifier": "danube",
-        "lat": 48.25,
-        "lon": 16.3,
-        "grdc": 6242500,
-        "availability_monthly": "1828-1899",
-        "availability_daily": "1900-to date",
-        "area_upstream": 101700
-      },
-      "farakka": {
-        "title": "Farakka",
-        "river": "Ganges",
-        "river_specifier": "ganges",
-        "lat": 25,
-        "lon": 87.92,
-        "grdc": 2846800,
-        "availability_monthly": "1949-1973",
-        "availability_daily": "",
-        "area_upstream": 835000
-      },
-      "chisapani": {
-        "title": "Chisapani",
-        "river": "Ganges",
-        "river_specifier": "ganges"
-      },
-      "tekra": {
-        "title": "Tekra",
-        "river": "Godavari",
-        "river_specifier": "godavari",
-        "lat": 19,
-        "lon": 80,
-        "grdc": "",
-        "availability_monthly": "1964-2017",
-        "availability_daily": "1964-2017",
-        "area_upstream": 119781
-      },
-      "tarbela": {
-        "title": "Tarbela Reservoir",
-        "river": "Indus",
-        "river_specifier": "indus",
-        "lat": 72.86,
-        "lon": 34.33,
-        "grdc": "",
-        "availability_monthly": "2000-2016",
-        "availability_daily": "2000-2016",
-        "area_upstream": 173345
-      },
-      "krestovski": {
-        "title": "Krestovski",
-        "river": "Lena",
-        "river_specifier": "lena",
-        "lat": 59.73,
-        "lon": 113.17,
-        "grdc": 2903427,
-        "availability_monthly": "1936-2002",
-        "availability_daily": "1936-1999",
-        "area_upstream": 440000
-      },
-      "stolb": {
-        "title": "Stolb",
-        "river": "Lena",
-        "river_specifier": "lena",
-        "lat": 72.37,
-        "lon": 126.8,
-        "grdc": 2903430,
-        "availability_monthly": "1978-1994",
-        "availability_daily": "1951-2002",
-        "area_upstream": 2460000
-      },
-      "arctic-red-river": {
-        "title": "Arctic Red River",
-        "river": "Mackenzie",
-        "river_specifier": "mackenzie",
-        "lat": 67.4583,
-        "lon": -133.745,
-        "grdc": 4208025,
-        "availability_monthly": "1972-1996",
-        "availability_daily": "1972-2015",
-        "area_upstream": 1660000
-      },
-      "clinton": {
-        "title": "Clinton",
-        "river": "Mississippi",
-        "river_specifier": "mississippi"
-      },
-      "st-paul": {
-        "title": "St. Paul",
-        "river": "Mississippi",
-        "river_specifier": "mississippi"
-      },
-      "valley-city": {
-        "title": "Valley City",
-        "river": "Mississippi",
-        "river_specifier": "mississippi"
-      },
-      "wisconsin-dells": {
-        "title": "Wisconsin Dells",
-        "river": "Mississippi",
-        "river_specifier": "mississippi"
-      },
-      "louth": {
-        "title": "Louth",
-        "river": "Darling",
-        "river_specifier": "darling",
-        "lat": -30.5318,
-        "lon": 145.1144,
-        "grdc": 5204250,
-        "availability_monthly": "1954-2000",
-        "availability_daily": "1954-2008",
-        "area_upstream": 489300
-      },
-      "dire": {
-        "title": "Dire",
-        "river": "Niger",
-        "river_specifier": "niger",
-        "lat": 16.2667,
-        "lon": -3.3833,
-        "grdc": 1134700,
-        "availability_monthly": "1924-2012",
-        "availability_daily": "1924-2003",
-        "area_upstream": 340000
-      },
-      "koulikoro": {
-        "title": "Koulikoro",
-        "river": "Niger",
-        "river_specifier": "niger",
-        "lat": -30.5318,
-        "lon": -7.55,
-        "grdc": 1134100,
-        "availability_monthly": "1907-2012",
-        "availability_daily": "1907-2006",
-        "area_upstream": 120000
-      },
-      "lokoja": {
-        "title": "Lokoja",
-        "river": "Niger",
-        "river_specifier": "niger",
-        "lat": 7.8,
-        "lon": 6.7667,
-        "grdc": 1834101,
-        "availability_monthly": "2007-2012",
-        "availability_daily": "1970-2006",
-        "area_upstream": 2074171
-      },
-      "tossaye": {
-        "title": "Tossaye",
-        "river": "Niger",
-        "river_specifier": "niger",
-        "lat": 16.9416,
-        "lon": -0.579166,
-        "grdc": 1134850,
-        "availability_monthly": "1954-1992",
-        "availability_daily": "1954-1992",
-        "area_upstream": 348000
-      },
-      "ibi": {
-        "title": "Ibi",
-        "river": "Niger",
-        "river_specifier": "niger"
-      },
-      "niamey": {
-        "title": "Niamey",
-        "river": "Niger",
-        "river_specifier": "niger"
-      },
-      "floresta": {
-        "title": "Floresta",
-        "river": "Pajeu",
-        "river_specifier": "pajeu",
-        "lat": -8.6089,
-        "lon": -38.5767,
-        "grdc": "",
-        "availability_monthly": "",
-        "availability_daily": "",
-        "area_upstream": 12266
-      },
-      "lobith": {
-        "title": "Lobith",
-        "river": "Rhine",
-        "river_specifier": "rhine",
-        "lat": 51.84,
-        "lon": 6.11,
-        "grdc": 6435060,
-        "availability_monthly": "1901-1996",
-        "availability_daily": "1901-2010",
-        "area_upstream": 160800
-      },
-      "frankfurt": {
-        "title": "Frankfurt",
-        "river": "Rhine",
-        "river_specifier": "rhine"
-      },
-      "rheinfelden": {
-        "title": "Rheinfelden",
-        "river": "Rhine",
-        "river_specifier": "rhine"
-      },
-      "rockenau": {
-        "title": "Rockenau",
-        "river": "Rhine",
-        "river_specifier": "rhine"
-      },
-      "trier": {
-        "title": "Trier",
-        "river": "Rhine",
-        "river_specifier": "rhine"
-      },
-      "almourol": {
-        "title": "Almourol",
-        "river": "Tagus",
-        "river_specifier": "tagus",
-        "lat": 39.47,
-        "lon": -8.37,
-        "grdc": 6113050,
-        "availability_monthly": "1973-1990",
-        "availability_daily": "1982-1990",
-        "area_upstream": 61490
-      },
-      "trillo": {
-        "title": "Trillo",
-        "river": "Tagus",
-        "river_specifier": "tagus",
-        "lat": 40.7,
-        "lon": -2.58,
-        "grdc": 6213800,
-        "availability_monthly": "1977-1984",
-        "availability_daily": "1977-1984",
-        "area_upstream": 3253
-      },
-      "cuntan": {
-        "title": "Cuntan",
-        "river": "Yangtze",
-        "river_specifier": "yangtze",
-        "lat": 29.616667,
-        "lon": 106.6,
-        "grdc": "",
-        "availability_monthly": "1987-2006",
-        "availability_daily": "1987-2006",
-        "area_upstream": 804859
-      },
-      "tangnaihai": {
-        "title": "Tangnaihai",
-        "river": "Yellow, Huang He",
-        "river_specifier": "yellow",
-        "lat": 35.5,
-        "lon": 100.15,
-        "grdc": "",
-        "availability_monthly": "1971-2002",
-        "availability_daily": "1971-2002",
-        "area_upstream": 121000
-      },
-      "maqu": {
-        "title": "Maqu",
-        "river": "Yellow, Huang He",
-        "river_specifier": "yellow"
-      },
-      "jimai": {
-        "title": "Jimai",
-        "river": "Yellow, Huang He",
-        "river_specifier": "yellow"
-      },
-      "huangheyuan": {
-        "title": "Huangheyuan",
-        "river": "Yellow, Huang He",
-        "river_specifier": "yellow"
-      }
-    },
-    "bias_adjustment": {
-      "nobc": {
-        "description": "No bias correction was performed on the climate data."
-      },
-      "localbc": {
-        "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
+      "cirr": {
+        "title": "Constrained irrigation",
         "sectors": [
-          "forestry"
+          "water_global",
+          "water_regional"
         ]
       },
-      "ewembi": {
-        "title": "EWEMBI",
-        "description": "Bias-adjusted using the EWEMBI dataset."
-      }
-    },
-    "product": {
-      "OutputData": {
-        "title": "Output Data"
-      },
-      "SecondaryOutputData": {
-        "title": "Secondary Output Data"
-      }
-    },
-    "species": {
-      "total": {
-        "title": "Stand total"
-      },
-      "fasy": {
-        "title": "Fagus sylvatica"
-      },
-      "quro": {
-        "title": "Quercus robur"
-      },
-      "qupe": {
-        "title": "Quercus petraea"
-      },
-      "pisy": {
-        "title": "Pinus sylvestris"
-      },
-      "piab": {
-        "title": "Picea abies"
-      },
-      "pipi": {
-        "title": "Pinus pinaster"
-      },
-      "lade": {
-        "title": "Larix decidua"
-      },
-      "acpl": {
-        "title": "Acer platanoides"
-      },
-      "eugl": {
-        "title": "Eucalyptus globulus"
-      },
-      "bepe": {
-        "title": "Betula pendula"
-      },
-      "bepu": {
-        "title": "Betula pubescens"
-      },
-      "rops": {
-        "title": "Robinia pseudoacacia"
-      },
-      "frex": {
-        "title": "Fraxinus excelsior"
-      },
-      "poni": {
-        "title": "Populus nigra"
-      },
-      "soau": {
-        "title": "Sorbus aucuparia"
-      },
-      "c3gr": {
-        "title": "C3 grass"
-      },
-      "hawo": {
-        "title": "hard woods"
-      },
-      "fi": {
-        "title": "fire"
-      },
-      "wi": {
-        "title": "wind"
-      },
-      "ins": {
-        "title": "Insects"
-      }
-    },
-    "climate_scenario": {
-      "hist": {
-        "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ]
-      },
-      "picontrol": {
-        "description": "Pre-industrial climate and 286ppm CO2 concentration.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "historical": {
-        "description": "Historical climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "rcp26": {
-        "description": "RCP2.6 climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "rcp45": {
-        "description": "RCP4.5 climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ],
-        "periods": [
-          "SecondaryOutputData"
-        ]
-      },
-      "rcp60": {
-        "description": "RCP6.0 climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "rcp85": {
-        "description": "RCP8.5 climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "2005co2": {
-        "description": "CO2 concentration fixed at 2005 levels at 378.81ppm.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
+      "noirr": {
+        "title": "No irrigation (rainfed land)"
       }
     },
     "lake_site": {
@@ -3195,40 +2394,92 @@
         "type": "reservoir"
       }
     },
-    "period": {
-      "future": {
-        "title": "Future",
-        "description": "Future simulation period."
+    "product": {
+      "OutputData": {
+        "title": "Output Data"
       },
-      "historical": {
-        "title": "Historical",
-        "description": "Historical simulation period."
-      },
-      "pre-industrial": {
-        "title": "Pre-industrial",
-        "description": "Pre-industrial simulation period."
-      },
-      "future_extended": {
-        "title": "Future (extended)",
-        "description": "Future (extended) simulation period."
+      "SecondaryOutputData": {
+        "title": "Secondary Output Data"
       }
     },
-    "irrigation": {
-      "firr": {
-        "title": "Full irrigation",
+    "species": {
+      "total": {
+        "title": "Stand total"
+      },
+      "fasy": {
+        "title": "Fagus sylvatica"
+      },
+      "quro": {
+        "title": "Quercus robur"
+      },
+      "qupe": {
+        "title": "Quercus petraea"
+      },
+      "pisy": {
+        "title": "Pinus sylvestris"
+      },
+      "piab": {
+        "title": "Picea abies"
+      },
+      "pipi": {
+        "title": "Pinus pinaster"
+      },
+      "lade": {
+        "title": "Larix decidua"
+      },
+      "acpl": {
+        "title": "Acer platanoides"
+      },
+      "eugl": {
+        "title": "Eucalyptus globulus"
+      },
+      "bepe": {
+        "title": "Betula pendula"
+      },
+      "bepu": {
+        "title": "Betula pubescens"
+      },
+      "rops": {
+        "title": "Robinia pseudoacacia"
+      },
+      "frex": {
+        "title": "Fraxinus excelsior"
+      },
+      "poni": {
+        "title": "Populus nigra"
+      },
+      "soau": {
+        "title": "Sorbus aucuparia"
+      },
+      "c3gr": {
+        "title": "C3 grass"
+      },
+      "hawo": {
+        "title": "hard woods"
+      },
+      "fi": {
+        "title": "fire"
+      },
+      "wi": {
+        "title": "wind"
+      },
+      "ins": {
+        "title": "Insects"
+      }
+    },
+    "bias_adjustment": {
+      "nobc": {
+        "description": "No bias correction was performed on the climate data."
+      },
+      "localbc": {
+        "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
         "sectors": [
-          "agriculture"
+          "forestry"
         ]
       },
-      "cirr": {
-        "title": "Constrained irrigation",
-        "sectors": [
-          "water_global",
-          "water_regional"
-        ]
-      },
-      "noirr": {
-        "title": "No irrigation (rainfed land)"
+      "ewembi": {
+        "title": "EWEMBI",
+        "description": "Bias-adjusted using the EWEMBI dataset."
       }
     },
     "forest_stand": {
@@ -3347,9 +2598,761 @@
         "comment": ""
       }
     },
-    "acidification_type": {
-      "oa": {},
-      "no-oa": {}
+    "soc_scenario": {
+      "nosoc": {
+        "description": "Naturalized - without human impacts on river flow."
+      },
+      "pressoc": {
+        "description": "Constant human impacts - present-day (year-2000) dams and water use."
+      },
+      "varsoc": {
+        "description": "Time-varying human impacts - time-varying historical dam construction and water use."
+      },
+      "nat": {
+        "description": "Natural vegetation reference run."
+      },
+      "2005soc": {
+        "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
+      },
+      "1860soc": {
+        "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
+      },
+      "histsoc": {
+        "description": "Varying historical land use, nitrogen deposition and fertilizer input."
+      },
+      "rcp26soc": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
+      },
+      "rcp60soc": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
+      },
+      "2100rcp26soc": {
+        "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
+      },
+      "ssp1soc": {
+        "description": "Varying society according to SSP1 in terms of population and GDP. (in Health sector)"
+      },
+      "ssp2soc": {
+        "description": "Varying society according to SSP2 in terms of population and GDP. (in Health sector)"
+      },
+      "ssp3soc": {
+        "description": "Varying society according to SSP3 in terms of population and GDP. (in Health sector)"
+      },
+      "ssp4soc": {
+        "description": "Varying society according to SSP4 in terms of population and GDP. (in Health sector)"
+      },
+      "ssp5soc": {
+        "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
+      }
+    },
+    "sector": {
+      "agriculture": {
+        "title": "Agriculture"
+      },
+      "biodiversity": {
+        "title": "Terrestrial biodiversity"
+      },
+      "biomes": {
+        "title": "Biomes"
+      },
+      "forestry": {
+        "title": "Regional forests"
+      },
+      "health": {
+        "title": "Temperature-related mortality"
+      },
+      "lakes_global": {
+        "title": "Lakes (global)"
+      },
+      "lakes_local": {
+        "title": "Lakes (local)"
+      },
+      "marine-fishery_global": {
+        "title": "Fisheries and Marine Ecosystems (global)"
+      },
+      "marine-fishery_regional": {
+        "title": "Fisheries and Marine Ecosystems (regional)"
+      },
+      "permafrost": {
+        "title": "Permafrost"
+      },
+      "waterborne_diseases": {
+        "title": "Waterborne Diseases"
+      },
+      "water_global": {
+        "title": "Water (global)"
+      },
+      "water_regional": {
+        "title": "Water (regional)"
+      }
+    },
+    "identifier": {
+      "acidification_type": {
+        "title": "Acidification type"
+      },
+      "bias_adjustment": {
+        "title": "Bias adjustment"
+      },
+      "climate_forcing": {
+        "title": "Climate forcing"
+      },
+      "climate_scenario": {
+        "title": "Climate scenario"
+      },
+      "crop": {
+        "title": "Crop type"
+      },
+      "diazotroph_scenario": {
+        "title": "Diazotroph scenario"
+      },
+      "fishing_type": {
+        "title": "Fishing type"
+      },
+      "forest_stand": {
+        "title": "Forest stand",
+        "location": true
+      },
+      "irrigation": {
+        "title": "Irrigation"
+      },
+      "lake_site": {
+        "title": "lake site",
+        "location": true
+      },
+      "ocean_region": {
+        "title": "Ocean region",
+        "location": true
+      },
+      "period": {
+        "title": "Period"
+      },
+      "product": {
+        "title": "Data product"
+      },
+      "region": {
+        "title": "region"
+      },
+      "river_basin": {
+        "title": "River basin",
+        "location": true
+      },
+      "river": {
+        "title": "River"
+      },
+      "sector": {
+        "title": "Sector"
+      },
+      "sens_scenario": {
+        "title": "Sensitivity scenario"
+      },
+      "simulation_round": {
+        "title": "Simulation round"
+      },
+      "soc_dataset": {
+        "title": "Socio-economic dataset"
+      },
+      "species": {
+        "title": "Species"
+      },
+      "time_span": {
+        "title": "Time span"
+      },
+      "time_step": {
+        "title": "Time step"
+      },
+      "variable": {
+        "title": "Variable"
+      },
+      "disease": {
+        "title": "Disease"
+      }
+    },
+    "disease": {
+      "shigella": {
+        "title": "Shigella",
+        "sectors": [
+          "waterborne_diseases"
+        ]
+      }
+    },
+    "fishing_type": {
+      "fishing": {},
+      "no-fishing": {}
+    },
+    "climate_scenario": {
+      "hist": {
+        "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ]
+      },
+      "picontrol": {
+        "description": "Pre-industrial climate and 286ppm CO2 concentration.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "historical": {
+        "description": "Historical climate as simulated by the GCMs.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "rcp26": {
+        "description": "RCP2.6 climate as simulated by the GCMs.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "rcp45": {
+        "description": "RCP4.5 climate as simulated by the GCMs.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ],
+        "periods": [
+          "SecondaryOutputData"
+        ]
+      },
+      "rcp60": {
+        "description": "RCP6.0 climate as simulated by the GCMs.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "rcp85": {
+        "description": "RCP8.5 climate as simulated by the GCMs.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "2005co2": {
+        "description": "CO2 concentration fixed at 2005 levels at 378.81ppm.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      }
+    },
+    "ocean_region": {
+      "north-sea": {
+        "title": "North Sea",
+        "north": 62.5,
+        "west": -4.5,
+        "south": 50.5,
+        "east": 9.5
+      },
+      "baltic-sea": {
+        "title": "Baltic Sea",
+        "north": 64.5,
+        "west": 15.5,
+        "south": 55.5,
+        "east": 23.5
+      },
+      "nw-med-sea": {
+        "title": "North-west Meditteranean",
+        "north": 43.5,
+        "west": -1.5,
+        "south": 36.5,
+        "east": 6.5
+      },
+      "adriatic-sea": {
+        "title": "Adriatic Sea",
+        "north": 45.5,
+        "west": 11.5,
+        "south": 39.5,
+        "east": 20.5
+      },
+      "med-glob": {
+        "title": "Mediterranean Sea",
+        "north": 45.5,
+        "west": -6.5,
+        "south": 29.5,
+        "east": 35.5
+      },
+      "se-australia": {
+        "title": "South-East Australia",
+        "north": -23.5,
+        "west": 120.5,
+        "south": -47.5,
+        "east": 170.5
+      },
+      "east-bass-strait": {
+        "title": "Eastern Bass Strait",
+        "north": -37.5,
+        "west": 145.5,
+        "south": -41.5,
+        "east": 151.5
+      },
+      "cook-strait": {
+        "title": "Cook Strait",
+        "north": -40.5,
+        "west": 174.5,
+        "south": -46.5,
+        "east": 179.5
+      },
+      "humboldt-n": {
+        "title": "North Humboldt Sea",
+        "north": 6.5,
+        "west": -93.5,
+        "south": -20.5,
+        "east": -69.5
+      }
+    },
+    "climate_forcing": {
+      "gswp3": {
+        "title": "GSWP3",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ]
+      },
+      "ewembi": {
+        "title": "GSWP3-EWEMBI",
+        "description": "",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ]
+      },
+      "princeton": {
+        "title": "PGMFD v2.1 (Princeton)",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ]
+      },
+      "watch": {
+        "title": "WATCH (WFD)",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ]
+      },
+      "wfdei": {
+        "title": "WATCH-WFDEI",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ]
+      },
+      "localclim": {
+        "title": "Locally observed weather data",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ],
+        "sectors": [
+          "forestry"
+        ]
+      },
+      "gfdl-esm2m": {
+        "title": "GFDL-ESM2M",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "hadgem2-es": {
+        "title": "HadGEM2-ES",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "ipsl-cm5a-lr": {
+        "title": "IPSL-CM5A-LR",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "miroc5": {
+        "title": "MIROC5",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      }
+    },
+    "dimensions": {
+      "lon": {
+        "axis": "X",
+        "units": "degrees_east",
+        "size": {
+          "marine-fishery_global": 360,
+          "other": 720
+        },
+        "minimum": {
+          "marine-fishery_global": -179.5,
+          "other": -179.75
+        },
+        "maximum": {
+          "marine-fishery_global": 179.5,
+          "other": 179.75
+        },
+        "standard_name": "longitude",
+        "long_names": [
+          "Longitude",
+          "longitude"
+        ]
+      },
+      "lat": {
+        "axis": "Y",
+        "units": "degrees_north",
+        "size": {
+          "marine-fishery_global": 180,
+          "other": 360
+        },
+        "minimum": {
+          "marine-fishery_global": -89.5,
+          "other": -89.75
+        },
+        "maximum": {
+          "marine-fishery_global": 89.5,
+          "other": 89.75
+        },
+        "standard_name": "latitude",
+        "long_names": [
+          "Latitude",
+          "latitude"
+        ]
+      },
+      "time": {
+        "axis": "T",
+        "standard_name": "time",
+        "long_names": [
+          "time",
+          "time axis",
+          "Time",
+          "Time axis"
+        ],
+        "calenders_daily": [
+          "standard",
+          "proleptic_gregorian",
+          "366_day",
+          "365_day",
+          "360_day"
+        ],
+        "calenders_other": [
+          "360_day"
+        ]
+      },
+      "depth": {
+        "axis": "Z",
+        "standard_name": "depth_below_land",
+        "long_name": "Depth of vertical layer center below land",
+        "positive": "down",
+        "units": "m"
+      },
+      "bnds": {}
+    },
+    "river_basin": {
+      "alton": {
+        "title": "Alton",
+        "river": "Mississippi",
+        "river_specifier": "mississippi",
+        "lat": 38.885,
+        "lon": -90.1809,
+        "grdc": 4119800,
+        "availability_monthly": "1928-1984",
+        "availability_daily": "1933-1987",
+        "area_upstream": 444185
+      },
+      "sao-paulo-de-olivenca": {
+        "title": "S\u00e3o Paulo de Olivenca",
+        "river": "Amazon",
+        "river_specifier": "amazon",
+        "lat": -3.45,
+        "lon": -68.75,
+        "grdc": 3623100,
+        "availability_monthly": "1979-1993",
+        "availability_daily": "1973-2010",
+        "area_upstream": 990781
+      },
+      "el-diem": {
+        "title": "El-Deim, Sudan Border",
+        "river": "Blue Nile",
+        "river_specifier": "blue-nile",
+        "lat": 11,
+        "lon": 35,
+        "grdc": "",
+        "availability_monthly": "1961-2002",
+        "availability_daily": "1900-1982",
+        "area_upstream": 160000
+      },
+      "khartoum": {
+        "title": "Khartoum",
+        "river": "Blue Nile",
+        "river_specifier": "blue-nile",
+        "lat": 15.62,
+        "lon": 32.55,
+        "grdc": 1663100,
+        "availability_monthly": "",
+        "availability_daily": "1900-1982",
+        "area_upstream": 325000
+      },
+      "roseiresdam": {
+        "title": "Roseires Dam",
+        "river": "Blue Nile",
+        "river_specifier": "blue-nile"
+      },
+      "wien-nussdorf": {
+        "title": "Wien-Nu\u00dfdorf",
+        "river": "Danube",
+        "river_specifier": "danube",
+        "lat": 48.25,
+        "lon": 16.3,
+        "grdc": 6242500,
+        "availability_monthly": "1828-1899",
+        "availability_daily": "1900-to date",
+        "area_upstream": 101700
+      },
+      "farakka": {
+        "title": "Farakka",
+        "river": "Ganges",
+        "river_specifier": "ganges",
+        "lat": 25,
+        "lon": 87.92,
+        "grdc": 2846800,
+        "availability_monthly": "1949-1973",
+        "availability_daily": "",
+        "area_upstream": 835000
+      },
+      "chisapani": {
+        "title": "Chisapani",
+        "river": "Ganges",
+        "river_specifier": "ganges"
+      },
+      "tekra": {
+        "title": "Tekra",
+        "river": "Godavari",
+        "river_specifier": "godavari",
+        "lat": 19,
+        "lon": 80,
+        "grdc": "",
+        "availability_monthly": "1964-2017",
+        "availability_daily": "1964-2017",
+        "area_upstream": 119781
+      },
+      "tarbela": {
+        "title": "Tarbela Reservoir",
+        "river": "Indus",
+        "river_specifier": "indus",
+        "lat": 72.86,
+        "lon": 34.33,
+        "grdc": "",
+        "availability_monthly": "2000-2016",
+        "availability_daily": "2000-2016",
+        "area_upstream": 173345
+      },
+      "krestovski": {
+        "title": "Krestovski",
+        "river": "Lena",
+        "river_specifier": "lena",
+        "lat": 59.73,
+        "lon": 113.17,
+        "grdc": 2903427,
+        "availability_monthly": "1936-2002",
+        "availability_daily": "1936-1999",
+        "area_upstream": 440000
+      },
+      "stolb": {
+        "title": "Stolb",
+        "river": "Lena",
+        "river_specifier": "lena",
+        "lat": 72.37,
+        "lon": 126.8,
+        "grdc": 2903430,
+        "availability_monthly": "1978-1994",
+        "availability_daily": "1951-2002",
+        "area_upstream": 2460000
+      },
+      "arctic-red-river": {
+        "title": "Arctic Red River",
+        "river": "Mackenzie",
+        "river_specifier": "mackenzie",
+        "lat": 67.4583,
+        "lon": -133.745,
+        "grdc": 4208025,
+        "availability_monthly": "1972-1996",
+        "availability_daily": "1972-2015",
+        "area_upstream": 1660000
+      },
+      "clinton": {
+        "title": "Clinton",
+        "river": "Mississippi",
+        "river_specifier": "mississippi"
+      },
+      "st-paul": {
+        "title": "St. Paul",
+        "river": "Mississippi",
+        "river_specifier": "mississippi"
+      },
+      "valley-city": {
+        "title": "Valley City",
+        "river": "Mississippi",
+        "river_specifier": "mississippi"
+      },
+      "wisconsin-dells": {
+        "title": "Wisconsin Dells",
+        "river": "Mississippi",
+        "river_specifier": "mississippi"
+      },
+      "louth": {
+        "title": "Louth",
+        "river": "Darling",
+        "river_specifier": "darling",
+        "lat": -30.5318,
+        "lon": 145.1144,
+        "grdc": 5204250,
+        "availability_monthly": "1954-2000",
+        "availability_daily": "1954-2008",
+        "area_upstream": 489300
+      },
+      "dire": {
+        "title": "Dire",
+        "river": "Niger",
+        "river_specifier": "niger",
+        "lat": 16.2667,
+        "lon": -3.3833,
+        "grdc": 1134700,
+        "availability_monthly": "1924-2012",
+        "availability_daily": "1924-2003",
+        "area_upstream": 340000
+      },
+      "koulikoro": {
+        "title": "Koulikoro",
+        "river": "Niger",
+        "river_specifier": "niger",
+        "lat": -30.5318,
+        "lon": -7.55,
+        "grdc": 1134100,
+        "availability_monthly": "1907-2012",
+        "availability_daily": "1907-2006",
+        "area_upstream": 120000
+      },
+      "lokoja": {
+        "title": "Lokoja",
+        "river": "Niger",
+        "river_specifier": "niger",
+        "lat": 7.8,
+        "lon": 6.7667,
+        "grdc": 1834101,
+        "availability_monthly": "2007-2012",
+        "availability_daily": "1970-2006",
+        "area_upstream": 2074171
+      },
+      "tossaye": {
+        "title": "Tossaye",
+        "river": "Niger",
+        "river_specifier": "niger",
+        "lat": 16.9416,
+        "lon": -0.579166,
+        "grdc": 1134850,
+        "availability_monthly": "1954-1992",
+        "availability_daily": "1954-1992",
+        "area_upstream": 348000
+      },
+      "ibi": {
+        "title": "Ibi",
+        "river": "Niger",
+        "river_specifier": "niger"
+      },
+      "niamey": {
+        "title": "Niamey",
+        "river": "Niger",
+        "river_specifier": "niger"
+      },
+      "floresta": {
+        "title": "Floresta",
+        "river": "Pajeu",
+        "river_specifier": "pajeu",
+        "lat": -8.6089,
+        "lon": -38.5767,
+        "grdc": "",
+        "availability_monthly": "",
+        "availability_daily": "",
+        "area_upstream": 12266
+      },
+      "lobith": {
+        "title": "Lobith",
+        "river": "Rhine",
+        "river_specifier": "rhine",
+        "lat": 51.84,
+        "lon": 6.11,
+        "grdc": 6435060,
+        "availability_monthly": "1901-1996",
+        "availability_daily": "1901-2010",
+        "area_upstream": 160800
+      },
+      "frankfurt": {
+        "title": "Frankfurt",
+        "river": "Rhine",
+        "river_specifier": "rhine"
+      },
+      "rheinfelden": {
+        "title": "Rheinfelden",
+        "river": "Rhine",
+        "river_specifier": "rhine"
+      },
+      "rockenau": {
+        "title": "Rockenau",
+        "river": "Rhine",
+        "river_specifier": "rhine"
+      },
+      "trier": {
+        "title": "Trier",
+        "river": "Rhine",
+        "river_specifier": "rhine"
+      },
+      "almourol": {
+        "title": "Almourol",
+        "river": "Tagus",
+        "river_specifier": "tagus",
+        "lat": 39.47,
+        "lon": -8.37,
+        "grdc": 6113050,
+        "availability_monthly": "1973-1990",
+        "availability_daily": "1982-1990",
+        "area_upstream": 61490
+      },
+      "trillo": {
+        "title": "Trillo",
+        "river": "Tagus",
+        "river_specifier": "tagus",
+        "lat": 40.7,
+        "lon": -2.58,
+        "grdc": 6213800,
+        "availability_monthly": "1977-1984",
+        "availability_daily": "1977-1984",
+        "area_upstream": 3253
+      },
+      "cuntan": {
+        "title": "Cuntan",
+        "river": "Yangtze",
+        "river_specifier": "yangtze",
+        "lat": 29.616667,
+        "lon": 106.6,
+        "grdc": "",
+        "availability_monthly": "1987-2006",
+        "availability_daily": "1987-2006",
+        "area_upstream": 804859
+      },
+      "tangnaihai": {
+        "title": "Tangnaihai",
+        "river": "Yellow, Huang He",
+        "river_specifier": "yellow",
+        "lat": 35.5,
+        "lon": 100.15,
+        "grdc": "",
+        "availability_monthly": "1971-2002",
+        "availability_daily": "1971-2002",
+        "area_upstream": 121000
+      },
+      "maqu": {
+        "title": "Maqu",
+        "river": "Yellow, Huang He",
+        "river_specifier": "yellow"
+      },
+      "jimai": {
+        "title": "Jimai",
+        "river": "Yellow, Huang He",
+        "river_specifier": "yellow"
+      },
+      "huangheyuan": {
+        "title": "Huangheyuan",
+        "river": "Yellow, Huang He",
+        "river_specifier": "yellow"
+      }
     }
   }
 }
