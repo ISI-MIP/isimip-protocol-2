@@ -29,7 +29,7 @@
     ]
   },
   {
-    "specifier": "wfdei",
+    "specifier": "watch-wfdei",
     "title": "WATCH-WFDEI",
     "simulation_rounds": [
       "ISIMIP2a"
