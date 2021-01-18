@@ -622,6 +622,36 @@
     "long_name": "Ice Temperature at Upper Surface"
   },
   {
+    "specifier": "icedur",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "products": [
+      "SecondaryOutputData"
+    ]
+  },
+  {
+    "specifier": "iceend",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "products": [
+      "SecondaryOutputData"
+    ]
+  },
+  {
+    "specifier": "icestart",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "products": [
+      "SecondaryOutputData"
+    ]
+  },
+  {
     "units": "kg ha-1 per growing season",
     "specifier": "initr",
     "sectors": [
@@ -1274,6 +1304,36 @@
     "specifier": "somcfire",
     "sectors": [
       "biomes"
+    ]
+  },
+  {
+    "specifier": "stratdur",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "products": [
+      "SecondaryOutputData"
+    ]
+  },
+  {
+    "specifier": "stratend",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "products": [
+      "SecondaryOutputData"
+    ]
+  },
+  {
+    "specifier": "stratstart",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "products": [
+      "SecondaryOutputData"
     ]
   },
   {
