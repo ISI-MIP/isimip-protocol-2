@@ -1,5 +1,5 @@
 {
-  "commit": "7c1fe778a272be2dc16f24ee122a3aab1f5df08f",
+  "commit": "c3ba0d3c0820c74285e98d00f3bac785c70b9852",
   "diazotroph_scenario": [
     {
       "specifier": "w-diaz"
@@ -1937,6 +1937,20 @@
     {
       "specifier": "gswp3",
       "title": "GSWP3",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "gswp3-ewembi",
+      "title": "GSWP3-EWEMBI",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "gswp3-w5e5",
+      "title": "GSWP3-W5E5",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
