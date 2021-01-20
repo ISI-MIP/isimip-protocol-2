@@ -7,6 +7,20 @@
     ]
   },
   {
+    "specifier": "gswp3-ewembi",
+    "title": "GSWP3-EWEMBI",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
+    "specifier": "gswp3-w5e5",
+    "title": "GSWP3-W5E5",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
+  },
+  {
     "specifier": "ewembi",
     "title": "GSWP3-EWEMBI",
     "description": "",
