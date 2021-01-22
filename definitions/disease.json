@@ -5,5 +5,77 @@
     "sectors": [
       "waterborne_diseases"
     ]
+  },
+  {
+    "specifier": "campylobacter",
+    "title": "Campylobacter",
+    "sectors": [
+      "waterborne_diseases"
+    ]
+  },
+  {
+    "specifier": "cholera",
+    "title": "Cholera",
+    "sectors": [
+      "waterborne_diseases"
+    ]
+  },
+  {
+    "specifier": "cryptosporidium",
+    "title": "Cryptosporidium",
+    "sectors": [
+      "waterborne_diseases"
+    ]
+  },
+  {
+    "specifier": "epecoli",
+    "title": "Epecoli",
+    "sectors": [
+      "waterborne_diseases"
+    ]
+  },
+  {
+    "specifier": "etecoli",
+    "title": "Etecoli",
+    "sectors": [
+      "waterborne_diseases"
+    ]
+  },
+  {
+    "specifier": "norovirus",
+    "title": "Norovirus",
+    "sectors": [
+      "waterborne_diseases"
+    ]
+  },
+  {
+    "specifier": "rotavirus",
+    "title": "Rotavirus",
+    "sectors": [
+      "waterborne_diseases"
+    ]
+  },
+  {
+    "specifier": "salmonella",
+    "title": "Salmonella",
+    "sectors": [
+      "waterborne_diseases"
+    ]
+  },
+  {
+    "specifier": "typhoid",
+    "title": "Typhoid",
+    "sectors": [
+      "waterborne_diseases"
+    ]
   }
 ]
+
+
+
+
+
+
+
+
+
