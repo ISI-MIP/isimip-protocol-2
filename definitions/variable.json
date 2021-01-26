@@ -1590,5 +1590,113 @@
       "waterborne_diseases"
     ],
     "long_name": "Rainfall-related Prevalence"
+  },
+  {
+    "units": "1",
+    "specifier": "ler",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "land_area_fraction_exposed_to_river_flood",
+    "long_name": "Land area fraction exposed to river flood"
+  },
+  {
+    "units": "1",
+    "specifier": "let",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "land_area_fraction_exposed_to_tropical_cyclone",
+    "long_name": "Land area fraction exposed to tropical cyclone"
+  },
+  {
+    "units": "1",
+    "specifier": "led",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "land_area_fraction_exposed_to_drought",
+    "long_name": "Land area fraction exposed to drought"
+  },
+  {
+    "units": "1",
+    "specifier": "leh",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "land_area_fraction_exposed_to_heatwave",
+    "long_name": "Land area fraction exposed to heatwave"
+  },
+  {
+    "units": "1",
+    "specifier": "lec",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "land_area_fraction_exposed_to_crop_failure",
+    "long_name": "Land area fraction exposed to crop failure"
+  },
+  {
+    "units": "1",
+    "specifier": "lew",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "land_area_fraction_exposed_to_wildfire",
+    "long_name": "Land area fraction exposed to wildfire"
+  },
+  {
+    "units": "1",
+    "specifier": "per",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "population_fraction_exposed_to_river_flood",
+    "long_name": "Population fraction exposed to river flood"
+  },
+  {
+    "units": "1",
+    "specifier": "pet",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "population_fraction_exposed_to_tropical_cyclone",
+    "long_name": "Population fraction exposed to tropical cyclone"
+  },
+  {
+    "units": "1",
+    "specifier": "ped",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "population_fraction_exposed_to_drought",
+    "long_name": "Population fraction exposed to drought"
+  },
+  {
+    "units": "1",
+    "specifier": "peh",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "population_fraction_exposed_to_heatwave",
+    "long_name": "Population fraction exposed to heatwave"
+  },
+  {
+    "units": "1",
+    "specifier": "pec",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "population_fraction_exposed_to_crop_failure",
+    "long_name": "Population fraction exposed to crop failure"
+  },
+  {
+    "units": "1",
+    "specifier": "pew",
+    "products": [
+      "DerivedOutputData"
+    ],
+    "standard_name": "population_fraction_exposed_to_wildfire",
+    "long_name": "Population fraction exposed to wildfire"
   }
 ]

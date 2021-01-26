@@ -11,6 +11,7 @@ def main():
     products = [definition['specifier'] for definition in definitions['product']]
     categories = []
     sectors = [definition['specifier'] for definition in definitions['sector']]
+    publications = [definition['specifier'] for definition in definitions['publication']]
 
     for simulation_round in simulation_rounds:
         for product in products:
@@ -27,6 +28,22 @@ def main():
                         output_definitions[definition_name] = []
                         for row in filter_rows(rows, simulation_round, product, category=category):
                             output_definitions[definition_name].append(filter_row(row, simulation_round, product, category=category))
+
+                    write_json(output_path, output_definitions)
+
+            elif product.startswith('Derived'):
+                for publication in publications:
+                    output_path = Path('output').joinpath('definitions') \
+                                                .joinpath(simulation_round).joinpath(product).joinpath(publication) \
+                                                .with_suffix('.json')
+
+                    output_definitions = {
+                        'commit': get_commit_hash()
+                    }
+                    for definition_name, rows in definitions.items():
+                        output_definitions[definition_name] = []
+                        for row in filter_rows(rows, simulation_round, product, publication=publication):
+                            output_definitions[definition_name].append(filter_row(row, simulation_round, product, publication=publication))
 
                     write_json(output_path, output_definitions)
 

@@ -6,5 +6,9 @@
   {
     "specifier": "SecondaryOutputData",
     "title": "Secondary Output Data"
+  },
+{
+    "specifier": "DerivedOutputData",
+    "title": "Derived Output Data"
   }
 ]

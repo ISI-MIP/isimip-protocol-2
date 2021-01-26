@@ -220,6 +220,10 @@
     "title": "HBV-PIK"
   },
   {
+    "specifier": "hwmid-humidex",
+    "title": "HWMId-humidex"
+  },
+  {
     "specifier": "hymod-jlu",
     "title": "HYMOD-JLU"
   },
@@ -246,6 +250,10 @@
   {
     "specifier": "jules-es-55",
     "title": "JULES-ES-55"
+  },
+  {
+    "specifier": "ke-tg-meanfield",
+    "title": "KE-TG-meanfield"
   },
   {
     "specifier": "lake",

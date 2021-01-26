@@ -19,11 +19,11 @@ def main():
             simulation_round = schema_path_components[1]
             product = schema_path_components[2]
             if product.endswith('InputData'):
-                category = schema_path_components[3]
-                sector = None
+                category, sector, publication = schema_path_components[3], None, None
+            elif product == 'DerivedOutputData':
+                category, sector, publication = None, None, schema_path_components[3]
             else:
-                category = None
-                sector = schema_path_components[3]
+                category, sector, publication = None, schema_path_components[3], None
 
             # step 1: read schema template
             with open(schema_path, encoding='utf-8') as f:
@@ -41,6 +41,9 @@ def main():
                     enum = []
                     if product.endswith('InputData'):
                         for row in filter_rows(rows, simulation_round, product, category=category):
+                            enum.append(row.get('specifier_file') or row.get('specifier'))
+                    elif product == 'DerivedOutputData':
+                        for row in filter_rows(rows, simulation_round, product, publication=publication):
                             enum.append(row.get('specifier_file') or row.get('specifier'))
                     else:
                         for row in filter_rows(rows, simulation_round, product, sector=sector):

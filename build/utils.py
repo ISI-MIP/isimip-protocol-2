@@ -13,7 +13,7 @@ def get_commit_date():
     return datetime.strptime(commit_date, '%Y-%m-%d %H:%M:%S %z').strftime('%d %B %Y')
 
 
-def filter_rows(rows, simulation_round, product, category=None, sector=None):
+def filter_rows(rows, simulation_round, product, category=None, sector=None, publication=None):
     for row in rows:
         if 'simulation_rounds' not in row or simulation_round in row['simulation_rounds']:
             if 'products' not in row or product in row['products']:
@@ -23,11 +23,14 @@ def filter_rows(rows, simulation_round, product, category=None, sector=None):
                 elif sector is not None:
                     if 'sectors' not in row or sector == 'index' or sector in row['sectors']:
                         yield row
+                elif publication is not None:
+                    if 'publications' not in row or publication in row['publications']:
+                        yield row
                 else:
                     yield row
 
 
-def filter_row(row, simulation_round, product, category=None, sector=None):
+def filter_row(row, simulation_round, product, category=None, sector=None, publication=None):
     values = {}
     for key, value in row.items():
         if isinstance(value, dict):
@@ -38,6 +41,9 @@ def filter_row(row, simulation_round, product, category=None, sector=None):
 
             if sector is not None:
                 values[key] = values[key] or value.get(sector)
+
+            if publication is not None:
+                values[key] = values[key] or value.get(publication)
 
             if values[key] is None:
                 if sector == 'index':
