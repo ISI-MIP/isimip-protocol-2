@@ -221,7 +221,10 @@
   },
   {
     "specifier": "hwmid-humidex",
-    "title": "HWMId-humidex"
+    "title": "HWMId-humidex",
+    "products": [
+      "DerivedOutputData"
+    ]
   },
   {
     "specifier": "hymod-jlu",
@@ -253,7 +256,10 @@
   },
   {
     "specifier": "ke-tg-meanfield",
-    "title": "KE-TG-meanfield"
+    "title": "KE-TG-meanfield",
+    "products": [
+      "DerivedOutputData"
+    ]
   },
   {
     "specifier": "lake",
