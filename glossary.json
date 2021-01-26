@@ -1,5 +1,5 @@
 {
-  "commit": "0b4422f19e106facb519c4736872fd52f593ba5c",
+  "commit": "7104cb6d5c608fef2dfcb5ba83820f571fc6bc85",
   "terms": {
     "time_step": {
       "3hr": {
@@ -227,6 +227,11 @@
       },
       "disease": {
         "title": "Disease"
+      }
+    },
+    "publication": {
+      "lange2020": {
+        "title": "Lange2020"
       }
     },
     "region": {
@@ -457,6 +462,9 @@
       },
       "SecondaryOutputData": {
         "title": "Secondary Output Data"
+      },
+      "DerivedOutputData": {
+        "title": "Derived Output Data"
       }
     },
     "crop": {
@@ -1764,6 +1772,9 @@
       "hbv-pik": {
         "title": "HBV-PIK"
       },
+      "hwmid-humidex": {
+        "title": "HWMId-humidex"
+      },
       "hymod-jlu": {
         "title": "HYMOD-JLU"
       },
@@ -1784,6 +1795,9 @@
       },
       "jules-es-55": {
         "title": "JULES-ES-55"
+      },
+      "ke-tg-meanfield": {
+        "title": "KE-TG-meanfield"
       },
       "lake": {
         "title": "LAKE"
@@ -3401,6 +3415,102 @@
           "waterborne_diseases"
         ],
         "long_name": "Rainfall-related Prevalence"
+      },
+      "ler": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "land_area_fraction_exposed_to_river_flood",
+        "long_name": "Land area fraction exposed to river flood"
+      },
+      "let": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "land_area_fraction_exposed_to_tropical_cyclone",
+        "long_name": "Land area fraction exposed to tropical cyclone"
+      },
+      "led": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "land_area_fraction_exposed_to_drought",
+        "long_name": "Land area fraction exposed to drought"
+      },
+      "leh": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "land_area_fraction_exposed_to_heatwave",
+        "long_name": "Land area fraction exposed to heatwave"
+      },
+      "lec": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "land_area_fraction_exposed_to_crop_failure",
+        "long_name": "Land area fraction exposed to crop failure"
+      },
+      "lew": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "land_area_fraction_exposed_to_wildfire",
+        "long_name": "Land area fraction exposed to wildfire"
+      },
+      "per": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "population_fraction_exposed_to_river_flood",
+        "long_name": "Population fraction exposed to river flood"
+      },
+      "pet": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "population_fraction_exposed_to_tropical_cyclone",
+        "long_name": "Population fraction exposed to tropical cyclone"
+      },
+      "ped": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "population_fraction_exposed_to_drought",
+        "long_name": "Population fraction exposed to drought"
+      },
+      "peh": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "population_fraction_exposed_to_heatwave",
+        "long_name": "Population fraction exposed to heatwave"
+      },
+      "pec": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "population_fraction_exposed_to_crop_failure",
+        "long_name": "Population fraction exposed to crop failure"
+      },
+      "pew": {
+        "units": "1",
+        "products": [
+          "DerivedOutputData"
+        ],
+        "standard_name": "population_fraction_exposed_to_wildfire",
+        "long_name": "Population fraction exposed to wildfire"
       }
     },
     "irrigation": {

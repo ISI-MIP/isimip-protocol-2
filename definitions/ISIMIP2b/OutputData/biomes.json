@@ -1,5 +1,5 @@
 {
-  "commit": "0b4422f19e106facb519c4736872fd52f593ba5c",
+  "commit": "7104cb6d5c608fef2dfcb5ba83820f571fc6bc85",
   "time_step": [
     {
       "specifier": "daily",
@@ -190,6 +190,12 @@
     {
       "specifier": "disease",
       "title": "Disease"
+    }
+  ],
+  "publication": [
+    {
+      "specifier": "lange2020",
+      "title": "Lange2020"
     }
   ],
   "region": [
@@ -388,6 +394,10 @@
     {
       "specifier": "SecondaryOutputData",
       "title": "Secondary Output Data"
+    },
+    {
+      "specifier": "DerivedOutputData",
+      "title": "Derived Output Data"
     }
   ],
   "crop": [
@@ -1929,6 +1939,10 @@
       "title": "HBV-PIK"
     },
     {
+      "specifier": "hwmid-humidex",
+      "title": "HWMId-humidex"
+    },
+    {
       "specifier": "hymod-jlu",
       "title": "HYMOD-JLU"
     },
@@ -1955,6 +1969,10 @@
     {
       "specifier": "jules-es-55",
       "title": "JULES-ES-55"
+    },
+    {
+      "specifier": "ke-tg-meanfield",
+      "title": "KE-TG-meanfield"
     },
     {
       "specifier": "lake",
