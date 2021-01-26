@@ -1,5 +1,5 @@
 {
-  "commit": "7104cb6d5c608fef2dfcb5ba83820f571fc6bc85",
+  "commit": "2d8bf0796312e3c91bf8ff66f32f83ca6ae2f9c6",
   "time_step": [
     {
       "specifier": "daily",
@@ -1940,10 +1940,6 @@
       "title": "HBV-PIK"
     },
     {
-      "specifier": "hwmid-humidex",
-      "title": "HWMId-humidex"
-    },
-    {
       "specifier": "hymod-jlu",
       "title": "HYMOD-JLU"
     },
@@ -1970,10 +1966,6 @@
     {
       "specifier": "jules-es-55",
       "title": "JULES-ES-55"
-    },
-    {
-      "specifier": "ke-tg-meanfield",
-      "title": "KE-TG-meanfield"
     },
     {
       "specifier": "lake",

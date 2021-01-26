@@ -1,5 +1,5 @@
 {
-  "commit": "7104cb6d5c608fef2dfcb5ba83820f571fc6bc85",
+  "commit": "2d8bf0796312e3c91bf8ff66f32f83ca6ae2f9c6",
   "time_step": [
     {
       "specifier": "3hr",
@@ -2038,7 +2038,10 @@
     },
     {
       "specifier": "hwmid-humidex",
-      "title": "HWMId-humidex"
+      "title": "HWMId-humidex",
+      "products": [
+        "DerivedOutputData"
+      ]
     },
     {
       "specifier": "hymod-jlu",
@@ -2070,7 +2073,10 @@
     },
     {
       "specifier": "ke-tg-meanfield",
-      "title": "KE-TG-meanfield"
+      "title": "KE-TG-meanfield",
+      "products": [
+        "DerivedOutputData"
+      ]
     },
     {
       "specifier": "lake",
