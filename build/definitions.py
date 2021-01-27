@@ -7,11 +7,19 @@ from utils import (filter_row, filter_rows, get_commit_hash, read_definitions,
 def main():
     definitions = read_definitions()
 
-    simulation_rounds = [definition['specifier'] for definition in definitions['simulation_round']]
-    products = [definition['specifier'] for definition in definitions['product']]
+    simulation_rounds = [
+        definition['specifier'] for definition in definitions['simulation_round']
+    ]
+    products = [
+        definition['specifier'] for definition in definitions['product']
+    ]
     categories = []
-    sectors = [definition['specifier'] for definition in definitions['sector']]
-    publications = [definition['specifier'] for definition in definitions['publication']]
+    sectors = [
+        definition['specifier'] for definition in definitions['sector']
+    ]
+    publications = [
+        definition.get('path_specifier') or definition['specifier'] for definition in definitions['publication']
+    ]
 
     for simulation_round in simulation_rounds:
         for product in products:
