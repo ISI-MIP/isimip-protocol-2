@@ -1,5 +1,5 @@
 {
-  "commit": "2d8bf0796312e3c91bf8ff66f32f83ca6ae2f9c6",
+  "commit": "32f4ca03ed72c500dc4a49d7ef5b7c3a1e0a53e9",
   "terms": {
     "time_step": {
       "3hr": {
@@ -231,7 +231,9 @@
     },
     "publication": {
       "lange2020": {
-        "title": "Lange2020"
+        "path_specifier": "Lange2020",
+        "title": "Lange et al. 2020",
+        "doi": "https://doi.org/10.1029/2020EF001616"
       }
     },
     "region": {

@@ -3,13 +3,11 @@
   "identifiers": [
     "simulation_round",
     "product",
-    "sector",
+    "publication",
     "model",
     "climate_forcing",
     "climate_scenario",
     "soc_scenario",
-    "sens_scenario",
-    "variable",
-    "species"
+    "variable"
   ]
 }
