@@ -73,6 +73,14 @@
     "units": "m"
   },
   {
+    "specifier": "levlak",
+    "axis": "Z",
+    "standard_name": "water_layer_depth",
+    "long_name": "Vertical Water Layer Depth",
+    "positive": "down",
+    "units": "m"
+  },
+  {
     "specifier": "bnds"
   }
 ]
