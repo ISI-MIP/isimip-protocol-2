@@ -682,7 +682,20 @@
   {
     "units": "W m-2",
     "specifier": "lakeheatf",
+    "sectors": [
+      "lake_global",
+      "lake_local"
+    ],
     "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
+  },
+  {
+    "units": "m2 s-1",
+    "specifier": "turbdiffheat",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Turbulent Diffusivity of Heat"
   },
   {
     "units": "W m-2",
@@ -1184,6 +1197,123 @@
     "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface"
   },
   {
+    "units": "g-3 m-3",
+    "specifier": "chl",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Chlorophyll Concentration"
+  },
+  {
+    "units": "mole m-3 as carbon",
+    "specifier": "phytobio",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Phytoplankton Functional Group Biomass"
+  },
+  {
+    "units": "mole m-3 as carbon",
+    "specifier": "zoobio",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Zooplankton Biomass"
+  },
+  {
+    "units": "mole m-3",
+    "specifier": "tp",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Total Phosphorus"
+  },
+  {
+    "units": "mole m-3",
+    "specifier": "pp",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Particulate Phosphorus"
+  },
+  {
+    "units": "mole m-3",
+    "specifier": "tpd",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Total Dissolved Phosphorus"
+  },
+  {
+    "units": "mole m-3",
+    "specifier": "tn",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Total Nitrogen"
+  },
+  {
+    "units": "mole m-3",
+    "specifier": "pn",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Particulate Nitrogen"
+  },
+  {
+    "units": "mole m-3",
+    "specifier": "tdn",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Total Dissolved Nitrogen"
+  },
+  {
+    "units": "mole m-3",
+    "specifier": "do",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Dissolved Oxygen"
+  },
+  {
+    "units": "mole m-3",
+    "specifier": "doc",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Dissolved Organic Carbon"
+  },
+  {
+    "units": "mole m-3",
+    "specifier": "si",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Dissolved Silica"
+  },
+  {
+    "units": "s-2",
+    "specifier": "buoyancyfrequency",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Buoyancy Frequency"
+  },
+  {
     "units": "m",
     "specifier": "snd",
     "sectors": [
@@ -1526,6 +1656,14 @@
       "lakes_local"
     ],
     "long_name": "Temperature of Lake Water"
+  },
+  {
+    "units": "m-1",
+    "specifier": "extcoeff",
+    "sectors": [
+      "lakes_global"
+    ],
+    "long_name": "Light Extinction Coefficient"
   },
   {
     "units": "kg m-2",
