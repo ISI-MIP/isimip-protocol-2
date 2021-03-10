@@ -1,5 +1,5 @@
 {
-  "commit": "fbfdeb0540adc9629f939b56ed5a3a1904815800",
+  "commit": "86f9693ea1e78fac350ff303766353dc20b2fc48",
   "time_span": [
     {
       "specifier": "minimum",
@@ -2657,6 +2657,14 @@
       "axis": "Z",
       "standard_name": "depth_below_land",
       "long_name": "Depth of vertical layer center below land",
+      "positive": "down",
+      "units": "m"
+    },
+    {
+      "specifier": "levlak",
+      "axis": "Z",
+      "standard_name": "water_layer_depth",
+      "long_name": "Vertical Water Layer Depth",
       "positive": "down",
       "units": "m"
     },
