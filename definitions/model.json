@@ -220,6 +220,10 @@
     "title": "HBV-PIK"
   },
   {
+    "specifier": "hbv-cma",
+    "title": "HBV-CMA"
+  },
+  {
     "specifier": "hwmid-humidex",
     "title": "HWMId-humidex",
     "products": [
