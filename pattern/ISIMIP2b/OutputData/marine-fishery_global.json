@@ -1,5 +1,5 @@
 {
-  "commit": "86f9693ea1e78fac350ff303766353dc20b2fc48",
+  "commit": "facd1c5992286d0cbe6ebdf2b4b7e2c14c4e4262",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<sector>[a-z0-9-_]+)/(?P<model>[A-Za-z0-9-+._]+)/(?P<climate_forcing>[a-z0-9-]+)/(?P<period>[a-z0-9-_]+)$",
   "dataset": "^(?P<model>[a-z0-9-]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<diazotroph_type>[a-z0-9-]+)_(?P<fishing_type>[a-z0-9-]+)_(?P<acidification_type>[a-z0-9-]+)_(?P<variable>[a-z0-9-]+)_(?P<region>(global))_(?P<time_step>[a-z0-9-]+)",
   "file": "^(?P<model>[a-z0-9-]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<diazotroph_type>[a-z0-9-]+)_(?P<fishing_type>[a-z0-9-]+)_(?P<acidification_type>[a-z0-9-]+)_(?P<variable>[a-z0-9-]+)_(?P<region>(global))_(?P<time_step>[a-z0-9-]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.nc4)",
