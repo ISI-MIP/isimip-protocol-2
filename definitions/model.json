@@ -385,6 +385,10 @@
     "specifier": "swat-ufz",
     "title": "SWAT-UFZ"
   },
+    {
+    "specifier": "swat-uottawa",
+    "title": "SWAT-uOttawa"
+  },
   {
     "specifier": "swat-vub",
     "title": "SWAT-VUB"
@@ -400,6 +404,10 @@
   {
     "specifier": "swim-nve",
     "title": "SWIM-NVE"
+  },
+  {
+    "specifier": "swim-nve-v2",
+    "title": "SWIM-NVE-v2"
   },
   {
     "specifier": "swim-pik",
@@ -436,6 +444,10 @@
   {
     "specifier": "vic-nve",
     "title": "VIC-NVE"
+  },
+  {
+    "specifier": "vic-nve-v2",
+    "title": "VIC-NVE-v2"
   },
   {
     "specifier": "vip",
