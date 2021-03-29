@@ -1,5 +1,5 @@
 {
-  "commit": "b934546594dc702f3141e87be08847356395cdf9",
+  "commit": "0ad000adfcecc4d2609ba6693f107eb17951a62c",
   "forest_stand": [
     {
       "specifier": "hyytiala",
@@ -516,18 +516,18 @@
     {
       "specifier": "depth",
       "axis": "Z",
-      "standard_name": "depth_below_land",
-      "long_name": "Depth of vertical layer center below land",
+      "standard_name": "depth_below_surface",
+      "long_name": "Depth of Vertical Layer Center Below Surface",
       "positive": "down",
       "units": "m"
     },
     {
       "specifier": "levlak",
       "axis": "Z",
-      "standard_name": "water_layer_depth",
-      "long_name": "Vertical Water Layer Depth",
+      "standard_name": "water_layer",
+      "long_name": "Vertical Water Layer Index",
       "positive": "down",
-      "units": "m"
+      "units": "1"
     },
     {
       "specifier": "bnds"
