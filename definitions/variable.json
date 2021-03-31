@@ -683,8 +683,8 @@
     "units": "W m-2",
     "specifier": "lakeheatf",
     "sectors": [
-      "lake_global",
-      "lake_local"
+      "lakes_global",
+      "lakes_local"
     ],
     "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
   },
