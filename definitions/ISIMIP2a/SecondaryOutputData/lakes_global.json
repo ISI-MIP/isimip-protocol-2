@@ -1,5 +1,5 @@
 {
-  "commit": "0ad000adfcecc4d2609ba6693f107eb17951a62c",
+  "commit": "3e86728123912e25af5440037dd1a9b10901a367",
   "forest_stand": [
     {
       "specifier": "hyytiala",
@@ -695,6 +695,15 @@
       "products": [
         "SecondaryOutputData"
       ]
+    },
+    {
+      "units": "W m-2",
+      "specifier": "lakeheatf",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ],
+      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
     },
     {
       "units": "m2 s-1",
