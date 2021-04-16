@@ -16,6 +16,14 @@
     "title": "Rice"
   },
   {
+    "specifier": "ri1",
+    "title": "Rice (first growing period)"
+  },
+  {
+    "specifier": "ri2",
+    "title": "Rice (second growing period)"
+  },
+  {
     "specifier": "bar",
     "title": "Barley"
   },
