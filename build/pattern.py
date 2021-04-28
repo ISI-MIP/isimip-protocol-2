@@ -36,6 +36,8 @@ def main():
                 pattern_json['dataset'] = '^' + '_'.join(dataset)
                 pattern_json['file'] = '^' + '_'.join(file) + '({})'.format('|'.join(suffix))
                 pattern_json['suffix'] = suffix
+                pattern_json['specifiers'] = pattern.get('specifiers', {})
+                pattern_json['specifiers_map'] = pattern.get('specifiers_map', {})
 
             # step 3: write json file
             os.makedirs(os.path.dirname(output_path), exist_ok=True)

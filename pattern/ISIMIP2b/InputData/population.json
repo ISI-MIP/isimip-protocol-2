@@ -1,0 +1,34 @@
+{
+  "path": [
+    "(?P<simulation_round>[A-Za-z0-9]+)",
+    "(?P<product>[A-Za-z]+)",
+    "(?P<subcategory>[a-z0-9-_]+)",
+    "(?P<soc_scenario>[a-z0-9]+)"
+  ],
+  "dataset": [
+    "(?P<soc_dataset>[a-z0-9-_]+)",
+    "(?P<soc_scenario>[a-z0-9]+)",
+    "(?P<resolution>[a-z0-9]+)",
+    "(?P<time_step>[a-z]+)"
+  ],
+  "file": [
+    "(?P<soc_dataset>[a-z0-9-_]+)",
+    "(?P<soc_scenario>[a-z0-9]+)",
+    "(?P<resolution>[a-z0-9]+)",
+    "(?P<time_step>[a-z]+)",
+    "(?P<start_year>\\d{4})-(?P<end_year>\\d{4})"
+  ],
+  "suffix": [
+    ".csv",
+    ".nc4"
+  ],
+  "specifiers": {
+    "category": "socioeconomic"
+  },
+  "specifiers_map": {
+    "0p5deg": "halfdeg",
+    "population_urbanshare": "population-urbanshare",
+    "urban_population": "population-urban",
+    "rural_population": "population-rural"
+  }
+}
