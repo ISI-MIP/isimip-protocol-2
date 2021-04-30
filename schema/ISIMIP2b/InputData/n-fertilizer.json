@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/n-fertilizer.json",
+  "commit": "1f74b0190bcd93443fe8384a5a415c22ef876e08",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "required": [],
+      "properties": {
+        "soc_dataset": {
+          "type": "string"
+        },
+        "soc_variable": {
+          "type": "string"
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "histsoc",
+            "2100rcp26soc",
+            "ssp1soc",
+            "1860soc",
+            "ssp4soc",
+            "rcp26soc",
+            "nosoc",
+            "ssp2soc",
+            "ssp3soc",
+            "ssp5soc",
+            "nat",
+            "2005soc",
+            "pressoc",
+            "rcp60soc",
+            "varsoc"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "daily",
+            "constant",
+            "annual",
+            "monthly",
+            "30year-mean",
+            "3hr",
+            "seasonal"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

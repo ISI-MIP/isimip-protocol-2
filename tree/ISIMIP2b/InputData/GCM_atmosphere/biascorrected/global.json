@@ -1,0 +1,12 @@
+{
+  "commit": "1f74b0190bcd93443fe8384a5a415c22ef876e08",
+  "identifiers": [
+    "simulation_round",
+    "product",
+    "category",
+    "subcategory",
+    "climate_forcing",
+    "climate_scenario",
+    "climate_variable"
+  ]
+}
