@@ -81,6 +81,14 @@
     "units": "1"
   },
   {
+    "specifier": "solay",
+    "axis": "Z",
+    "standard_name": "soil_level",
+    "long_name": "Hydrological soil levels",
+    "positive": "down",
+    "units": "1"
+  },
+  {
     "specifier": "bnds"
   }
 ]
