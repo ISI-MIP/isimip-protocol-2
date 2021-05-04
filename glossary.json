@@ -1,5 +1,5 @@
 {
-  "commit": "1612c256fa3118ecf63c5a537b478318f9443faa",
+  "commit": "3a74435bacc41c70ab3aeb453fe13afab45a8c3b",
   "terms": {
     "acidification_type": {
       "oa": {},
@@ -3333,6 +3333,13 @@
         "long_name": "Thermal soil levels",
         "positive": "down",
         "units": "m"
+      },
+      "snowlev": {
+        "axis": "Z",
+        "standard_name": "snow_level",
+        "long_name": "Snow levels",
+        "positive": "down",
+        "units": "1"
       },
       "bnds": {}
     },
