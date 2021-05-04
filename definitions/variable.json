@@ -519,11 +519,13 @@
     ]
   },
   {
+    "units": "kg m-2 s-1",
     "specifier": "fireint",
     "sectors": [
       "biomes",
       "permafrost"
-    ]
+    ],
+    "long_name": "Carbon Mass Flux into atmosphere due to total Carbon emissions from Fire"
   },
   {
     "units": "kg m-2 s-1",
