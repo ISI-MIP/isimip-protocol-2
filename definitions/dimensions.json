@@ -89,6 +89,14 @@
     "units": "1"
   },
   {
+    "specifier": "solth",
+    "axis": "Z",
+    "standard_name": "soil_level",
+    "long_name": "Thermal soil levels",
+    "positive": "down",
+    "units": "m"
+  },
+  {
     "specifier": "bnds"
   }
 ]
