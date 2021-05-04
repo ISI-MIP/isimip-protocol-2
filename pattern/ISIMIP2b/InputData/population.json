@@ -27,6 +27,7 @@
   },
   "specifiers_map": {
     "0p5deg": "halfdeg",
+    "population_agestructure": "population-agestructure",
     "population_urbanshare": "population-urbanshare",
     "urban_population": "population-urban",
     "rural_population": "population-rural"

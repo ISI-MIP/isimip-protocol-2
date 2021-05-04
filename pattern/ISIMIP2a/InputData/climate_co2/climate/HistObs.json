@@ -28,8 +28,6 @@
   "specifiers_map": {
     "HistObs": "atmosphere",
     "PGFv2.1": "princeton",
-    "pgfv2.1": "princeton",
-    "wind": "sfcwind",
-    "rhs": "hurs"
+    "pgfv2.1": "princeton"
   }
 }

@@ -38,6 +38,7 @@
     "MIROC5": "miroc5",
     "EWEMBI": "ewembi",
     "piControl": "picontrol",
-    "day": "daily"
+    "day": "daily",
+    "sfcWind": "sfcwind"
   }
 }
