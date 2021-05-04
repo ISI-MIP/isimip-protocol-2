@@ -1,5 +1,5 @@
 {
-  "commit": "1f74b0190bcd93443fe8384a5a415c22ef876e08",
+  "commit": "7d8c4e457adc7f2b15da0df82acb274b319a7404",
   "terms": {
     "acidification_type": {
       "oa": {},
@@ -2743,6 +2743,9 @@
       },
       "rcp60soc": {
         "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
+      },
+      "rcp85soc": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5."
       },
       "2100rcp26soc": {
         "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."

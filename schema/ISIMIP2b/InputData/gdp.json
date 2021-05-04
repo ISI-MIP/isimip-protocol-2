@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/gdp.json",
-  "commit": "1f74b0190bcd93443fe8384a5a415c22ef876e08",
+  "commit": "7d8c4e457adc7f2b15da0df82acb274b319a7404",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,32 +19,33 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "2100rcp26soc",
-            "ssp1soc",
-            "1860soc",
-            "ssp4soc",
-            "rcp26soc",
-            "nosoc",
-            "ssp2soc",
-            "ssp3soc",
-            "ssp5soc",
-            "nat",
-            "2005soc",
             "pressoc",
+            "nat",
+            "rcp26soc",
+            "rcp85soc",
+            "ssp5soc",
+            "ssp3soc",
+            "2100rcp26soc",
+            "nosoc",
+            "varsoc",
+            "histsoc",
+            "1860soc",
             "rcp60soc",
-            "varsoc"
+            "ssp2soc",
+            "ssp1soc",
+            "2005soc",
+            "ssp4soc"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
-            "constant",
-            "annual",
             "monthly",
             "30year-mean",
+            "constant",
             "3hr",
+            "daily",
+            "annual",
             "seasonal"
           ]
         },
