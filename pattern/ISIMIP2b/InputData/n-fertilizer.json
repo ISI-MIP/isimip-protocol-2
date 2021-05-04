@@ -1,5 +1,5 @@
 {
-  "commit": "3a74435bacc41c70ab3aeb453fe13afab45a8c3b",
+  "commit": "b49a954327283d5bf707b88836f0e96447383b1e",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<subcategory>[a-z0-9-_]+)/(?P<soc_scenario>[a-z0-9]+)$",
   "dataset": "^(?P<soc_scenario>[a-z0-9]+)_(?P<soc_dataset>[a-z0-9-]+)(_(?P<climate_forcing>(ipsl-cm5a-lr|hadgem2-es|miroc5|gfdl-esm2m)))?_(?P<time_step>[a-z]+)",
   "file": "^(?P<soc_scenario>[a-z0-9]+)_(?P<soc_dataset>[a-z0-9-]+)(_(?P<climate_forcing>(ipsl-cm5a-lr|hadgem2-es|miroc5|gfdl-esm2m)))?_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.nc4)",
