@@ -1,5 +1,5 @@
 {
-  "commit": "7d8c4e457adc7f2b15da0df82acb274b319a7404",
+  "commit": "3cadb508a572aa3a6b708fa7a4509aedc2c01900",
   "acidification_type": [
     {
       "specifier": "oa"
@@ -2289,6 +2289,14 @@
       "axis": "Z",
       "standard_name": "water_layer",
       "long_name": "Vertical Water Layer Index",
+      "positive": "down",
+      "units": "1"
+    },
+    {
+      "specifier": "solay",
+      "axis": "Z",
+      "standard_name": "soil_level",
+      "long_name": "Hydrological soil levels",
       "positive": "down",
       "units": "1"
     },
