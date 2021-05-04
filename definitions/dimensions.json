@@ -97,6 +97,14 @@
     "units": "m"
   },
   {
+    "specifier": "snowlev",
+    "axis": "Z",
+    "standard_name": "snow_level",
+    "long_name": "Snow levels",
+    "positive": "down",
+    "units": "1"
+  },
+  {
     "specifier": "bnds"
   }
 ]
