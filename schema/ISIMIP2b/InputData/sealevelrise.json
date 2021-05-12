@@ -25,6 +25,9 @@
         "sealevelrise_contrib": {
           "type": "string"
         },
+        "resolution": {
+          "type": "string"
+        },
         "time_step": {
           "type": "string"
         },

@@ -59,6 +59,10 @@
     "title": "region"
   },
   {
+    "specifier": "resolution",
+    "title": "Resolution"
+  },
+  {
     "specifier": "river_basin",
     "title": "River basin",
     "location": true

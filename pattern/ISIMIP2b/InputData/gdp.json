@@ -26,6 +26,7 @@
     "category": "socioeconomic"
   },
   "specifiers_map": {
-    "0p5deg": "halfdeg"
+    "0p5deg": "halfdeg",
+    "countrylevel": "national"
   }
 }
