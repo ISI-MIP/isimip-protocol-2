@@ -1,0 +1,15 @@
+{
+  "commit": "ff8e3816039156e3d0856b8afc334709919fd0e5",
+  "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<category>[A-Za-z_]+)/(?P<subcategory>[a-z0-9-_]+)$",
+  "dataset": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
+  "file": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})-(?P<end_year>\\d{4})(.nc4)",
+  "suffix": [
+    ".nc4"
+  ],
+  "specifiers": {},
+  "specifiers_map": {
+    "landuse_humaninfluences": "socioeconomic",
+    "0p5deg": "halfdeg",
+    "countrylevel": "national"
+  }
+}

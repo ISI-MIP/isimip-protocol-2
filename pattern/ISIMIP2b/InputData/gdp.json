@@ -1,5 +1,5 @@
 {
-  "commit": "0a4ffbd13c9dd382d31f5bf6affc99e2c883d9a3",
+  "commit": "ff8e3816039156e3d0856b8afc334709919fd0e5",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<subcategory>[a-z0-9-_]+)/(?P<soc_scenario>[a-z0-9]+)$",
   "dataset": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z0-9-]+)",
   "file": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z0-9-]+)_(?P<start_year>\\d{4})-(?P<end_year>\\d{4})(.csv|.nc4)",
@@ -11,6 +11,7 @@
     "category": "socioeconomic"
   },
   "specifiers_map": {
-    "0p5deg": "halfdeg"
+    "0p5deg": "halfdeg",
+    "countrylevel": "national"
   }
 }
