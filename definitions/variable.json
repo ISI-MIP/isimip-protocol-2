@@ -1662,6 +1662,15 @@
     "long_name": "Temperature of Lake Water"
   },
   {
+    "units": "K",
+    "specifier": "meanwatertemp",
+    "sectors": [
+      "lakes_global",
+      "lakes_local"
+    ],
+    "long_name": "Mean Temperature of Lake Water"
+  },
+  {
     "units": "m-1",
     "specifier": "extcoeff",
     "sectors": [
