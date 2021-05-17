@@ -1,5 +1,5 @@
 {
-  "commit": "ff8e3816039156e3d0856b8afc334709919fd0e5",
+  "commit": "f90022131d070e9df07cd631289f9526d555e8ef",
   "lake_site": [
     {
       "specifier": "allequash",
@@ -1467,6 +1467,15 @@
         "lakes_local"
       ],
       "long_name": "Temperature of Lake Water"
+    },
+    {
+      "units": "K",
+      "specifier": "meanwatertemp",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ],
+      "long_name": "Mean Temperature of Lake Water"
     },
     {
       "units": "m-1",
