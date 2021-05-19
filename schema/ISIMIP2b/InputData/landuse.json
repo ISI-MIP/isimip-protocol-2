@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/landuse.json",
-  "commit": "761cde5a3ba76c7208710ce0b9f055ade8816e08",
+  "commit": "b73751118947e35345f58b1cddb4de6e4c489a96",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,29 +19,29 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "ssp3soc",
-            "2005soc",
-            "pressoc",
-            "ssp2soc",
-            "1860soc",
-            "rcp85soc",
-            "histsoc",
-            "nosoc",
-            "ssp4soc",
-            "ssp5soc",
-            "rcp60soc",
-            "nat",
             "ssp1soc",
+            "rcp26soc",
+            "nosoc",
+            "ssp3soc",
+            "1860soc",
+            "2005soc",
+            "ssp2soc",
             "2100rcp26soc",
             "varsoc",
-            "rcp26soc"
+            "rcp85soc",
+            "ssp4soc",
+            "histsoc",
+            "rcp60soc",
+            "nat",
+            "ssp5soc",
+            "pressoc"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
-            "national",
             "5arcmin",
+            "national",
             "halfdeg"
           ]
         },
@@ -49,12 +49,12 @@
           "type": "string",
           "enum": [
             "monthly",
-            "daily",
-            "30year-mean",
             "annual",
             "3hr",
             "seasonal",
-            "constant"
+            "daily",
+            "constant",
+            "30year-mean"
           ]
         },
         "start_year": {

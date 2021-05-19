@@ -1,5 +1,5 @@
 {
-  "commit": "761cde5a3ba76c7208710ce0b9f055ade8816e08",
+  "commit": "b73751118947e35345f58b1cddb4de6e4c489a96",
   "lake_site": [
     {
       "specifier": "allequash",
@@ -1784,6 +1784,10 @@
     {
       "specifier": "swat-ufz",
       "title": "SWAT-UFZ"
+    },
+    {
+      "specifier": "swat-uottawa",
+      "title": "SWAT-uOttawa"
     },
     {
       "specifier": "swat-vub",
