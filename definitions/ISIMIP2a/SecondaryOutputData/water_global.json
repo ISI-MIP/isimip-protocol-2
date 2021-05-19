@@ -1,5 +1,5 @@
 {
-  "commit": "b73751118947e35345f58b1cddb4de6e4c489a96",
+  "commit": "89e3d74207aca8dd3295c0e616980c597db70245",
   "lake_site": [
     {
       "specifier": "allequash",
@@ -1751,8 +1751,7 @@
     },
     {
       "specifier": "ewembi",
-      "title": "GSWP3-EWEMBI",
-      "description": "",
+      "title": "EWEMBI",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
