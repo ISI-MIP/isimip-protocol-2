@@ -1668,6 +1668,9 @@
       "lakes_global",
       "lakes_local"
     ],
+    "products": [
+      "SecondaryOutputData"
+    ],
     "long_name": "Mean Temperature of Lake Water"
   },
   {
