@@ -385,6 +385,10 @@
     "specifier": "swat-ufz",
     "title": "SWAT-UFZ"
   },
+    {
+    "specifier": "swat-uottawa",
+    "title": "SWAT-uOttawa"
+  },
   {
     "specifier": "swat-vub",
     "title": "SWAT-VUB"
