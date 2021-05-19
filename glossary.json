@@ -1,5 +1,5 @@
 {
-  "commit": "f90022131d070e9df07cd631289f9526d555e8ef",
+  "commit": "761cde5a3ba76c7208710ce0b9f055ade8816e08",
   "terms": {
     "lake_site": {
       "allequash": {
@@ -2537,6 +2537,9 @@
         "sectors": [
           "lakes_global",
           "lakes_local"
+        ],
+        "products": [
+          "SecondaryOutputData"
         ],
         "long_name": "Mean Temperature of Lake Water"
       },
