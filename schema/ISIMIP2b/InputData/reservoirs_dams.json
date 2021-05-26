@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "required": [
+        "soc_dataset"
+      ],
+      "properties": {
+        "soc_dataset": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
