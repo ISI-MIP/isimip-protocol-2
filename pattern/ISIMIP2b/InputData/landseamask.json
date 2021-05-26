@@ -1,0 +1,19 @@
+{
+  "path": [
+    "(?P<simulation_round>[A-Za-z0-9]+)",
+    "(?P<product>[A-Za-z]+)",
+    "(?P<subcategory>[A-Za-z]+)"
+  ],
+  "dataset": [
+    "(?P<geo_dataset>[A-Za-z0-9_]+)"
+  ],
+  "file": [
+    "(?P<geo_dataset>[A-Za-z0-9_]+)"
+  ],
+  "suffix": [
+    ".nc4"
+  ],
+  "specifiers": {
+    "category": "geo_conditions"
+  }
+}
