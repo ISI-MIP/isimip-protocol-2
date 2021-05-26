@@ -1,0 +1,14 @@
+{
+  "commit": "6abfe4011da4fdb5ca1d18034ea3405b35b92acd",
+  "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<subcategory>[A-Za-z]+)$",
+  "dataset": "^(?P<geo_dataset>[A-Za-z0-9]+)",
+  "file": "^(?P<geo_dataset>[A-Za-z0-9]+)(.nc4)",
+  "suffix": [
+    ".nc4"
+  ],
+  "specifiers": {
+    "category": "geo_conditions",
+    "subcategory": "lakes"
+  },
+  "specifiers_map": {}
+}

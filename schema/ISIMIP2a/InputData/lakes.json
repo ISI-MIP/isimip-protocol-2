@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/InputData/lakes.json",
+  "commit": "6abfe4011da4fdb5ca1d18034ea3405b35b92acd",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "required": [
+        "geo_dataset"
+      ],
+      "properties": {
+        "geo_dataset": {
+          "type": "string"
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

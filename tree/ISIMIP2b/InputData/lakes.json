@@ -1,0 +1,10 @@
+{
+  "commit": "6abfe4011da4fdb5ca1d18034ea3405b35b92acd",
+  "identifiers": [
+    "simulation_round",
+    "product",
+    "category",
+    "subcategory",
+    "geo_dataset"
+  ]
+}
