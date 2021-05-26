@@ -1,0 +1,13 @@
+{
+  "commit": "ad14832fa57cb294be1a6e341bdd327db4dc59d6",
+  "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<subcategory>[a-z0-9-_]+)$",
+  "dataset": "^(?P<soc_dataset>[A-Za-z0-9-_]+)",
+  "file": "^(?P<soc_dataset>[A-Za-z0-9-_]+)(.xls)",
+  "suffix": [
+    ".xls"
+  ],
+  "specifiers": {
+    "category": "socioeconomic"
+  },
+  "specifiers_map": {}
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/InputData/reservoirs_dams.json",
+  "commit": "ad14832fa57cb294be1a6e341bdd327db4dc59d6",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "required": [
+        "soc_dataset"
+      ],
+      "properties": {
+        "soc_dataset": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

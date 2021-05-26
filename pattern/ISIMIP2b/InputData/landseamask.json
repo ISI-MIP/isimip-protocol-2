@@ -1,0 +1,13 @@
+{
+  "commit": "ad14832fa57cb294be1a6e341bdd327db4dc59d6",
+  "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<subcategory>[A-Za-z]+)$",
+  "dataset": "^(?P<geo_dataset>[A-Za-z0-9_]+)",
+  "file": "^(?P<geo_dataset>[A-Za-z0-9_]+)(.nc4)",
+  "suffix": [
+    ".nc4"
+  ],
+  "specifiers": {
+    "category": "geo_conditions"
+  },
+  "specifiers_map": {}
+}
