@@ -28,6 +28,7 @@
   "specifiers_map": {
     "0p5deg": "halfdeg",
     "5min": "5arcmin",
-    "countrylevel": "national"
+    "countrylevel": "national",
+    "population": "pop"
   }
 }

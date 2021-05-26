@@ -57,5 +57,12 @@
     "simulation_rounds": [
       "ISIMIP2b"
     ]
+  },
+  {
+    "specifier": "2299rcp26",
+    "description": "Repeating climate between 2270 and 2299 for additional 200 years up to 2500 (or equilibrium if possible), CO2 fixed at year 2299 levels.",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
   }
 ]

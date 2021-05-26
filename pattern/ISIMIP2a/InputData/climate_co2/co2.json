@@ -1,0 +1,31 @@
+{
+  "path": [
+    "(?P<simulation_round>[A-Za-z0-9]+)",
+    "(?P<product>[A-Za-z]+)",
+    "(climate_co2)",
+    "(?P<climate_dataset>[A-Za-z0-9]+)"
+  ],
+  "dataset": [
+    "(?P<climate_scenario>[A-Za-z0-9]+)",
+    "(?P<climate_variable>[A-Za-z0-9]+)",
+    "(?P<time_step>[a-z]+)"
+  ],
+  "file": [
+    "(?P<climate_scenario>[A-Za-z0-9]+)",
+    "(?P<climate_variable>[A-Za-z0-9]+)",
+    "(?P<time_step>[a-z]+)",
+    "(?P<start_year>\\d{4})",
+    "(?P<end_year>\\d{4})"
+  ],
+  "suffix": [
+    ".txt"
+  ],
+  "specifiers": {
+    "category": "climate",
+    "subcategory": "atmosphere_composition"
+  },
+  "specifiers_map": {
+    "historical": "hist",
+    "CO2": "co2"
+  }
+}

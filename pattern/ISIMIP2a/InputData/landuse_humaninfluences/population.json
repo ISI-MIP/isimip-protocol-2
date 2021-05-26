@@ -26,6 +26,7 @@
   ],
   "specifiers_map": {
     "landuse_humaninfluences": "socioeconomic",
-    "countrylevel": "national"
+    "countrylevel": "national",
+    "population": "pop"
   }
 }
