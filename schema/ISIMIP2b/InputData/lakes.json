@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "required": [
+        "geo_dataset"
+      ],
+      "properties": {
+        "geo_dataset": {
+          "type": "string"
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}
