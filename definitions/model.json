@@ -12,6 +12,10 @@
     "title": "3PG"
   },
   {
+    "specifier": "3pgn-bw",
+    "title": "3PGN-BW"
+  },
+  {
     "specifier": "albm",
     "title": "ALBM"
   },
