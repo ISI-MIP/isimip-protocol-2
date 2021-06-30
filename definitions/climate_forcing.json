@@ -85,5 +85,12 @@
     "simulation_rounds": [
       "ISIMIP2b"
     ]
+  },
+  {
+    "specifier": "cesm1-bgc",
+    "title": "CESM1-BGC",
+    "simulation_rounds": [
+      "ISIMIP2b"
+    ]
   }
 ]
