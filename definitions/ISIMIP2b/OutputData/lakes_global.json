@@ -1,5 +1,5 @@
 {
-  "commit": "067d060726f1e645131f65b057f65228d8206198",
+  "commit": "a90869803adfdb4ccca88809f1460b4b304f3823",
   "river": [
     {
       "specifier": "amazon"
@@ -2100,6 +2100,10 @@
     {
       "specifier": "web-dhm-s",
       "title": "WEB-DHM-S"
+    },
+    {
+      "specifier": "mizer",
+      "title": "Mizer"
     }
   ],
   "lake_site": [
