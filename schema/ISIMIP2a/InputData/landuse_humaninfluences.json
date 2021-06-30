@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/InputData/landuse_humaninfluences.json",
-  "commit": "d1e9b9a5d1433a1e1f18041ae7d55253dea85c63",
+  "commit": "067d060726f1e645131f65b057f65228d8206198",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,22 +19,22 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "1860soc",
-            "rcp26soc",
-            "2100rcp26soc",
             "varsoc",
-            "ssp5soc",
             "2005soc",
-            "nat",
-            "histsoc",
-            "rcp85soc",
-            "ssp3soc",
-            "pressoc",
-            "ssp2soc",
-            "ssp1soc",
+            "ssp5soc",
             "ssp4soc",
             "rcp60soc",
-            "nosoc"
+            "pressoc",
+            "nosoc",
+            "rcp85soc",
+            "ssp1soc",
+            "ssp2soc",
+            "2100rcp26soc",
+            "1860soc",
+            "ssp3soc",
+            "rcp26soc",
+            "histsoc",
+            "nat"
           ]
         },
         "resulution": {
@@ -43,12 +43,12 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "3hr",
-            "annual",
             "monthly",
-            "daily",
-            "constant",
             "seasonal",
+            "daily",
+            "annual",
+            "constant",
+            "3hr",
             "30year-mean"
           ]
         },
