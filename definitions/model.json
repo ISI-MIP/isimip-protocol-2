@@ -480,5 +480,9 @@
   {
     "specifier": "web-dhm-s",
     "title": "WEB-DHM-S"
+  },
+  {
+    "specifier": "mizer",
+    "title": "Mizer"
   }
 ]
