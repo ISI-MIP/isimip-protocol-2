@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/population.json",
-  "commit": "a90869803adfdb4ccca88809f1460b4b304f3823",
+  "commit": "5f457c2dc4dd88bfb8953bb291bd1cb442af337e",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,22 +19,22 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2100rcp26soc",
-            "rcp26soc",
-            "pressoc",
-            "2005soc",
-            "histsoc",
             "1860soc",
+            "ssp2soc",
+            "rcp26soc",
             "ssp3soc",
-            "ssp4soc",
+            "nat",
             "ssp5soc",
             "nosoc",
+            "histsoc",
+            "pressoc",
             "rcp85soc",
             "rcp60soc",
-            "nat",
-            "ssp2soc",
-            "ssp1soc",
-            "varsoc"
+            "2100rcp26soc",
+            "varsoc",
+            "2005soc",
+            "ssp4soc",
+            "ssp1soc"
           ]
         },
         "resolution": {
@@ -48,13 +48,13 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "30year-mean",
-            "constant",
             "3hr",
-            "monthly",
+            "30year-mean",
             "annual",
+            "seasonal",
+            "constant",
             "daily",
-            "seasonal"
+            "monthly"
           ]
         },
         "start_year": {
