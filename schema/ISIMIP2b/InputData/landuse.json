@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/landuse.json",
-  "commit": "5f457c2dc4dd88bfb8953bb291bd1cb442af337e",
+  "commit": "b40bc986e0b71b86251b1538f16089dc0a5b55b8",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,42 +19,58 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "1860soc",
-            "ssp2soc",
+            "rcp26sochwp",
+            "rcp85socam",
             "rcp26soc",
-            "ssp3soc",
-            "nat",
+            "1860soc",
+            "2005soc",
             "ssp5soc",
-            "nosoc",
+            "rcp60socam",
+            "rcp26socam",
             "histsoc",
+            "rcp60soc",
+            "rcp85socbe",
+            "rcp60soca",
+            "rcp60socbe",
+            "rcp85soca",
+            "rcp85sochwp",
+            "rcp26soca",
+            "rcp60socbeb",
+            "ssp2soc",
+            "rcp26socbeb",
+            "nosoc",
+            "ssp4soc",
+            "rcp60sochwp",
+            "varsoc",
+            "rcp85socbeb",
             "pressoc",
             "rcp85soc",
-            "rcp60soc",
+            "ssp1soc",
+            "ssp3soc",
+            "2005socsite",
+            "rcp26socbe",
             "2100rcp26soc",
-            "varsoc",
-            "2005soc",
-            "ssp4soc",
-            "ssp1soc"
+            "nat"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
-            "5arcmin",
             "national",
-            "halfdeg"
+            "halfdeg",
+            "5arcmin"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "3hr",
-            "30year-mean",
             "annual",
-            "seasonal",
-            "constant",
             "daily",
-            "monthly"
+            "constant",
+            "30year-mean",
+            "3hr",
+            "monthly",
+            "seasonal"
           ]
         },
         "start_year": {
