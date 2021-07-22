@@ -1,0 +1,44 @@
+{
+  "path": [
+    "(?P<simulation_round>[A-Za-z0-9]+)",
+    "(?P<product>[A-Za-z]+)",
+    "GCM_(?P<subcategory>[a-z0-9-_]+)",
+    "(biascorrected)",
+    "(?P<region>(global))",
+    "(?P<climate_scenario>[A-Za-z0-9]+)",
+    "(?P<climate_forcing>[A-Za-z0-9-]+)"
+  ],
+  "dataset": [
+    "(?P<climate_variable>[A-Za-z]+)",
+    "(?P<time_step>[a-z0-9-]+)",
+    "(?P<climate_forcing>[A-Za-z0-9-]+)",
+    "(?P<climate_scenario>[A-Za-z0-9]+)",
+    "(?P<ensemble_member>[a-z0-9]+)",
+    "(?P<bias_adjustment>[A-Za-z0-9-]+)"
+  ],
+  "file": [
+    "(?P<climate_variable>[A-Za-z]+)",
+    "(?P<time_step>[a-z0-9-]+)",
+    "(?P<climate_forcing>[A-Za-z0-9-]+)",
+    "(?P<climate_scenario>[A-Za-z0-9]+)",
+    "(?P<ensemble_member>[a-z0-9]+)",
+    "(?P<bias_adjustment>[A-Za-z0-9-]+)",
+    "(?P<start_year>\\d{4})\\d{4}-(?P<end_year>\\d{4})\\d{4}"
+  ],
+  "suffix": [
+    ".nc4"
+  ],
+  "specifiers": {
+    "category": "climate"
+  },
+  "specifiers_map": {
+    "GFDL-ESM2M": "gfdl-esm2m",
+    "HadGEM2-ES": "hadgem2-es",
+    "IPSL-CM5A-LR": "ipsl-cm5a-lr",
+    "MIROC5": "miroc5",
+    "EWEMBI": "ewembi",
+    "piControl": "picontrol",
+    "day": "daily",
+    "sfcWind": "sfcwind"
+  }
+}
