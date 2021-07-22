@@ -1,5 +1,5 @@
 {
-  "commit": "b40bc986e0b71b86251b1538f16089dc0a5b55b8",
+  "commit": "49732375ddbe9f178fe9fa06e30f6a5183b73d27",
   "river": [
     {
       "specifier": "amazon"
@@ -610,70 +610,6 @@
     {
       "specifier": "ssp5soc",
       "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
-    },
-    {
-      "specifier": "rcp26socbe",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp60socbe",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp85socbe",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp26socbeb",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp60socbeb",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp85socbeb",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp26sochwp",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize harvested wood products. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp60sochwp",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize harvested wood products. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp85sochwp",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize harvested wood products. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp26soca",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp60soca",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp85soca",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp26socam",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp60socam",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
-    },
-    {
-      "specifier": "rcp85socam",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
-    },
-    {
-      "specifier": "2005socsite",
-      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input. In addition, model usually plants the same tree species again or allows for regeneration of the same species. (in Forestry sector)"
     }
   ],
   "acidification_type": [

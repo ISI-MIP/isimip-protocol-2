@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/GCM_atmosphere/biascorrected/global.json",
-  "commit": "b40bc986e0b71b86251b1538f16089dc0a5b55b8",
+  "commit": "49732375ddbe9f178fe9fa06e30f6a5183b73d27",
   "type": "object",
   "required": [
     "specifiers"
@@ -22,9 +22,9 @@
           "enum": [
             "gfdl-esm2m",
             "miroc5",
+            "hadgem2-es",
             "cesm1-bgc",
-            "ipsl-cm5a-lr",
-            "hadgem2-es"
+            "ipsl-cm5a-lr"
           ]
         },
         "ensemble_member": {
@@ -34,21 +34,21 @@
           "type": "string",
           "enum": [
             "localbc",
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "2005co2",
-            "picontrol",
             "rcp26",
-            "rcp85",
-            "historical",
-            "rcp60",
             "rcp45",
-            "2299rcp26"
+            "picontrol",
+            "2005co2",
+            "rcp60",
+            "rcp85",
+            "2299rcp26",
+            "historical"
           ]
         },
         "climate_variable": {
@@ -63,13 +63,13 @@
         "time_step": {
           "type": "string",
           "enum": [
+            "monthly",
+            "constant",
+            "3hr",
             "annual",
             "daily",
-            "constant",
-            "30year-mean",
-            "3hr",
-            "monthly",
-            "seasonal"
+            "seasonal",
+            "30year-mean"
           ]
         },
         "start_year": {
