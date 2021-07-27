@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/InputData/reservoirs_dams.json",
-  "commit": "49732375ddbe9f178fe9fa06e30f6a5183b73d27",
+  "commit": "5d88028e0aed044bbe2a8aa42ad8263f50995ffa",
   "type": "object",
   "required": [
     "specifiers"

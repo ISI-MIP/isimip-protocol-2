@@ -1,5 +1,5 @@
 {
-  "commit": "49732375ddbe9f178fe9fa06e30f6a5183b73d27",
+  "commit": "5d88028e0aed044bbe2a8aa42ad8263f50995ffa",
   "river": [
     {
       "specifier": "amazon"
@@ -652,6 +652,10 @@
     {
       "specifier": "disease",
       "title": "Disease"
+    },
+    {
+      "specifier": "sealevelrise_contrib",
+      "title": "Sealevelrise contribution"
     }
   ],
   "sector": [
