@@ -106,5 +106,9 @@
   {
     "specifier": "disease",
     "title": "Disease"
+  },
+  {
+    "specifier": "sealevelrise_contrib",
+    "title": "Sealevelrise contribution"
   }
 ]
