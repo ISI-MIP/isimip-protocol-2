@@ -1,5 +1,5 @@
 {
-  "commit": "5d88028e0aed044bbe2a8aa42ad8263f50995ffa",
+  "commit": "64146749004af94cf24c42caa5a56fb68d5a0656",
   "terms": {
     "river": {
       "amazon": {},
@@ -2088,6 +2088,11 @@
       "halfdeg": {},
       "5arcmin": {},
       "national": {}
+    },
+    "subcategory": {
+      "sealevelrise": {
+        "title": "Sealevelrise"
+      }
     },
     "region": {
       "global": {
