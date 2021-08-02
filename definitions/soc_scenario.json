@@ -62,5 +62,45 @@
   {
     "specifier": "ssp5soc",
     "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
-  }
+  },
+  {
+    "specifier": "2005socsite",
+    "description": "Varying land use and human influences up to 2005; fixed present-day site-specific forest management afterwards."
+  },
+  {
+    "specifier": "rcp26socbe",
+    "description": "Varying land use and human influences according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy."
+  },
+  {
+    "specifier": "rcp26sochwp",
+    "description": "Varying land use and human influences according to SSP2 and RCP2.6. Future forest managed to maximize harvested wood products (HWP)."
+  },
+  {
+    "specifier": "rcp26soca",
+    "description": "Varying land use and human influences according to SSP2 and RCP2.6. Future forest managed to maximize multifunctional-adapted forest."
+  },
+  {
+    "specifier": "rcp60socbe",
+    "description": "Varying land use and human influences according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy. Managements under rcp60soc are the same as in rcp26soc."
+  },
+  {
+    "specifier": "rcp60sochwp",
+    "description": "Varying land use and human influences according to SSP2 and RCP6.0. Future forest managed to maximize harvested wood products (HWP). Managements under rcp60soc are the same as in rcp26soc."
+  },
+  {
+    "specifier": "rcp60soca",
+    "description": "Varying land use and human influences according to SSP2 and RCP6.0. Future forest managed to maximize multifunctional-adapted forest. Managements under rcp60soc are the same as in rcp26soc."
+  },
+  {
+    "specifier": "rcp85socbe",
+    "description": "Varying land use and human influences according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy. Managements under rcp85soc are the same as in rcp26soc."
+  },
+  {
+    "specifier": "rcp85sochwp",
+    "description": "Varying land use and human influences according to SSP2 and RCP8.5. Future forest managed to maximize harvested wood products (HWP). Managements under rcp85soc are the same as in rcp26soc."
+  },
+  {
+    "specifier": "rcp85soca",
+    "description": "Varying land use and human influences according to SSP2 and RCP8.5. Future forest managed to maximize multifunctional-adapted forest. Managements under rcp85soc are the same as in rcp26soc."
+  },
 ]
