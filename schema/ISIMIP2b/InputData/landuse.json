@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/landuse.json",
-  "commit": "64146749004af94cf24c42caa5a56fb68d5a0656",
+  "commit": "9342451fdceedef367882a3c1d2dc7c89294d27c",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,22 +19,38 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
-            "ssp2soc",
-            "varsoc",
-            "histsoc",
             "ssp5soc",
-            "nosoc",
-            "pressoc",
-            "ssp4soc",
-            "ssp3soc",
+            "rcp26soca",
+            "rcp85socbe",
+            "rcp60socam",
+            "rcp85soca",
+            "nat",
             "ssp1soc",
-            "2005soc",
-            "rcp26soc",
-            "rcp60soc",
+            "rcp60soca",
+            "ssp3soc",
             "2100rcp26soc",
+            "rcp26soc",
+            "2005soc",
+            "rcp60soc",
+            "rcp85socbeb",
+            "rcp85socam",
+            "rcp26socbeb",
+            "rcp60socbe",
+            "rcp60socbeb",
+            "rcp85sochwp",
+            "rcp26socbe",
+            "varsoc",
+            "rcp26socam",
+            "pressoc",
+            "rcp60sochwp",
             "1860soc",
-            "rcp85soc"
+            "histsoc",
+            "nosoc",
+            "rcp26sochwp",
+            "2005socsite",
+            "ssp2soc",
+            "rcp85soc",
+            "ssp4soc"
           ]
         },
         "resolution": {
@@ -48,13 +64,13 @@
         "time_step": {
           "type": "string",
           "enum": [
+            "annual",
             "seasonal",
-            "daily",
+            "constant",
             "3hr",
             "monthly",
             "30year-mean",
-            "constant",
-            "annual"
+            "daily"
           ]
         },
         "start_year": {

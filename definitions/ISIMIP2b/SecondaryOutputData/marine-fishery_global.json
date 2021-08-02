@@ -1,55 +1,286 @@
 {
-  "commit": "64146749004af94cf24c42caa5a56fb68d5a0656",
-  "river": [
+  "commit": "9342451fdceedef367882a3c1d2dc7c89294d27c",
+  "irrigation": [
     {
-      "specifier": "amazon"
-    },
-    {
-      "specifier": "blue-nile"
-    },
-    {
-      "specifier": "danube"
-    },
-    {
-      "specifier": "darling"
-    },
-    {
-      "specifier": "ganges"
-    },
-    {
-      "specifier": "godavari"
-    },
-    {
-      "specifier": "indus"
-    },
-    {
-      "specifier": "lena"
-    },
-    {
-      "specifier": "mackenzie"
-    },
-    {
-      "specifier": "mississippi"
-    },
-    {
-      "specifier": "niger"
-    },
-    {
-      "specifier": "pajeu"
-    },
-    {
-      "specifier": "rhine"
-    },
-    {
-      "specifier": "tagus"
-    },
-    {
-      "specifier": "yangtze"
-    },
-    {
-      "specifier": "yellow"
+      "specifier": "noirr",
+      "title": "No irrigation (rainfed land)"
     }
   ],
+  "resolution": [
+    {
+      "specifier": "halfdeg"
+    },
+    {
+      "specifier": "5arcmin"
+    },
+    {
+      "specifier": "national"
+    }
+  ],
+  "time_step": [
+    {
+      "specifier": "daily",
+      "increment": "days",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "lakes_global",
+        "lakes_local",
+        "marine-fishery_global",
+        "marine-fishery_regional",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ]
+    },
+    {
+      "specifier": "monthly",
+      "increment": "months",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "lakes_global",
+        "lakes_local",
+        "marine-fishery_global",
+        "marine-fishery_regional",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ]
+    },
+    {
+      "specifier": "annual",
+      "increment": "years",
+      "sectors": [
+        "agriculture",
+        "biomes",
+        "forestry",
+        "lakes_global",
+        "lakes_local",
+        "marine-fishery_global",
+        "marine-fishery_regional",
+        "permafrost",
+        "waterborne_diseases",
+        "water_global",
+        "water_regional"
+      ]
+    }
+  ],
+  "fishing_type": [
+    {
+      "specifier": "fishing"
+    },
+    {
+      "specifier": "no-fishing"
+    }
+  ],
+  "species": [
+    {
+      "title": "Stand total",
+      "specifier": "total"
+    },
+    {
+      "title": "Fagus sylvatica",
+      "specifier": "fasy"
+    },
+    {
+      "title": "Quercus robur",
+      "specifier": "quro"
+    },
+    {
+      "title": "Quercus petraea",
+      "specifier": "qupe"
+    },
+    {
+      "title": "Pinus sylvestris",
+      "specifier": "pisy"
+    },
+    {
+      "title": "Picea abies",
+      "specifier": "piab"
+    },
+    {
+      "title": "Pinus pinaster",
+      "specifier": "pipi"
+    },
+    {
+      "title": "Larix decidua",
+      "specifier": "lade"
+    },
+    {
+      "title": "Acer platanoides",
+      "specifier": "acpl"
+    },
+    {
+      "title": "Eucalyptus globulus",
+      "specifier": "eugl"
+    },
+    {
+      "title": "Betula pendula",
+      "specifier": "bepe"
+    },
+    {
+      "title": "Betula pubescens",
+      "specifier": "bepu"
+    },
+    {
+      "title": "Robinia pseudoacacia",
+      "specifier": "rops"
+    },
+    {
+      "title": "Fraxinus excelsior",
+      "specifier": "frex"
+    },
+    {
+      "title": "Populus nigra",
+      "specifier": "poni"
+    },
+    {
+      "title": "Sorbus aucuparia",
+      "specifier": "soau"
+    },
+    {
+      "title": "C3 grass",
+      "specifier": "c3gr"
+    },
+    {
+      "title": "hard woods",
+      "specifier": "hawo"
+    },
+    {
+      "title": "fire",
+      "specifier": "fi"
+    },
+    {
+      "title": "wind",
+      "specifier": "wi"
+    },
+    {
+      "title": "Insects",
+      "specifier": "ins"
+    }
+  ],
+  "subcategory": [
+    {
+      "specifier": "sealevelrise",
+      "title": "Sealevelrise"
+    }
+  ],
+  "identifier": [
+    {
+      "specifier": "acidification_type",
+      "title": "Acidification type"
+    },
+    {
+      "specifier": "bias_adjustment",
+      "title": "Bias adjustment"
+    },
+    {
+      "specifier": "climate_forcing",
+      "title": "Climate forcing"
+    },
+    {
+      "specifier": "climate_scenario",
+      "title": "Climate scenario"
+    },
+    {
+      "specifier": "crop",
+      "title": "Crop type"
+    },
+    {
+      "specifier": "diazotroph_scenario",
+      "title": "Diazotroph scenario"
+    },
+    {
+      "specifier": "fishing_type",
+      "title": "Fishing type"
+    },
+    {
+      "specifier": "forest_stand",
+      "title": "Forest stand",
+      "location": true
+    },
+    {
+      "specifier": "irrigation",
+      "title": "Irrigation"
+    },
+    {
+      "specifier": "lake_site",
+      "title": "lake site",
+      "location": true
+    },
+    {
+      "specifier": "ocean_region",
+      "title": "Ocean region",
+      "location": true
+    },
+    {
+      "specifier": "period",
+      "title": "Period"
+    },
+    {
+      "specifier": "product",
+      "title": "Data product"
+    },
+    {
+      "specifier": "region",
+      "title": "region"
+    },
+    {
+      "specifier": "resolution",
+      "title": "Resolution"
+    },
+    {
+      "specifier": "river_basin",
+      "title": "River basin",
+      "location": true
+    },
+    {
+      "specifier": "river",
+      "title": "River"
+    },
+    {
+      "specifier": "sector",
+      "title": "Sector"
+    },
+    {
+      "specifier": "sens_scenario",
+      "title": "Sensitivity scenario"
+    },
+    {
+      "specifier": "simulation_round",
+      "title": "Simulation round"
+    },
+    {
+      "specifier": "soc_dataset",
+      "title": "Socio-economic dataset"
+    },
+    {
+      "specifier": "species",
+      "title": "Species"
+    },
+    {
+      "specifier": "time_span",
+      "title": "Time span"
+    },
+    {
+      "specifier": "time_step",
+      "title": "Time step"
+    },
+    {
+      "specifier": "variable",
+      "title": "Variable"
+    },
+    {
+      "specifier": "disease",
+      "title": "Disease"
+    },
+    {
+      "specifier": "sealevelrise_contrib",
+      "title": "Sealevelrise contribution"
+    }
+  ],
+  "disease": [],
   "crop": [
     {
       "specifier": "whe",
@@ -148,16 +379,6 @@
       "title": "Sunflower"
     }
   ],
-  "time_span": [
-    {
-      "specifier": "minimum",
-      "value": 1661
-    },
-    {
-      "specifier": "maximum",
-      "value": 2100
-    }
-  ],
   "period": [
     {
       "specifier": "future",
@@ -178,6 +399,60 @@
       "specifier": "future_extended",
       "title": "Future (extended)",
       "description": "Future (extended) simulation period."
+    }
+  ],
+  "sector": [
+    {
+      "specifier": "agriculture",
+      "title": "Agriculture"
+    },
+    {
+      "specifier": "biodiversity",
+      "title": "Terrestrial biodiversity"
+    },
+    {
+      "specifier": "biomes",
+      "title": "Biomes"
+    },
+    {
+      "specifier": "forestry",
+      "title": "Regional forests"
+    },
+    {
+      "specifier": "health",
+      "title": "Temperature-related mortality"
+    },
+    {
+      "specifier": "lakes_global",
+      "title": "Lakes (global)"
+    },
+    {
+      "specifier": "lakes_local",
+      "title": "Lakes (local)"
+    },
+    {
+      "specifier": "marine-fishery_global",
+      "title": "Fisheries and Marine Ecosystems (global)"
+    },
+    {
+      "specifier": "marine-fishery_regional",
+      "title": "Fisheries and Marine Ecosystems (regional)"
+    },
+    {
+      "specifier": "permafrost",
+      "title": "Permafrost"
+    },
+    {
+      "specifier": "waterborne_diseases",
+      "title": "Waterborne Diseases"
+    },
+    {
+      "specifier": "water_global",
+      "title": "Water (global)"
+    },
+    {
+      "specifier": "water_regional",
+      "title": "Water (regional)"
     }
   ],
   "variable": [
@@ -302,220 +577,41 @@
       "long_name": "Total System Biomass Density "
     }
   ],
-  "sens_scenario": [
+  "climate_forcing": [
     {
-      "specifier": "default"
+      "specifier": "gfdl-esm2m",
+      "title": "GFDL-ESM2M",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ]
     },
     {
-      "specifier": "co2",
-      "description": "Regular experiment."
+      "specifier": "hadgem2-es",
+      "title": "HadGEM2-ES",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ]
     },
     {
-      "specifier": "2005co2",
-      "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
-    }
-  ],
-  "simulation_round": [
-    {
-      "specifier": "ISIMIP2a",
-      "title": "ISIMIP2a simulation round"
+      "specifier": "ipsl-cm5a-lr",
+      "title": "IPSL-CM5A-LR",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ]
     },
     {
-      "specifier": "ISIMIP2b",
-      "title": "ISIMIP2b simulation round"
-    }
-  ],
-  "identifier": [
-    {
-      "specifier": "acidification_type",
-      "title": "Acidification type"
+      "specifier": "miroc5",
+      "title": "MIROC5",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ]
     },
     {
-      "specifier": "bias_adjustment",
-      "title": "Bias adjustment"
-    },
-    {
-      "specifier": "climate_forcing",
-      "title": "Climate forcing"
-    },
-    {
-      "specifier": "climate_scenario",
-      "title": "Climate scenario"
-    },
-    {
-      "specifier": "crop",
-      "title": "Crop type"
-    },
-    {
-      "specifier": "diazotroph_scenario",
-      "title": "Diazotroph scenario"
-    },
-    {
-      "specifier": "fishing_type",
-      "title": "Fishing type"
-    },
-    {
-      "specifier": "forest_stand",
-      "title": "Forest stand",
-      "location": true
-    },
-    {
-      "specifier": "irrigation",
-      "title": "Irrigation"
-    },
-    {
-      "specifier": "lake_site",
-      "title": "lake site",
-      "location": true
-    },
-    {
-      "specifier": "ocean_region",
-      "title": "Ocean region",
-      "location": true
-    },
-    {
-      "specifier": "period",
-      "title": "Period"
-    },
-    {
-      "specifier": "product",
-      "title": "Data product"
-    },
-    {
-      "specifier": "region",
-      "title": "region"
-    },
-    {
-      "specifier": "resolution",
-      "title": "Resolution"
-    },
-    {
-      "specifier": "river_basin",
-      "title": "River basin",
-      "location": true
-    },
-    {
-      "specifier": "river",
-      "title": "River"
-    },
-    {
-      "specifier": "sector",
-      "title": "Sector"
-    },
-    {
-      "specifier": "sens_scenario",
-      "title": "Sensitivity scenario"
-    },
-    {
-      "specifier": "simulation_round",
-      "title": "Simulation round"
-    },
-    {
-      "specifier": "soc_dataset",
-      "title": "Socio-economic dataset"
-    },
-    {
-      "specifier": "species",
-      "title": "Species"
-    },
-    {
-      "specifier": "time_span",
-      "title": "Time span"
-    },
-    {
-      "specifier": "time_step",
-      "title": "Time step"
-    },
-    {
-      "specifier": "variable",
-      "title": "Variable"
-    },
-    {
-      "specifier": "disease",
-      "title": "Disease"
-    },
-    {
-      "specifier": "sealevelrise_contrib",
-      "title": "Sealevelrise contribution"
-    }
-  ],
-  "sector": [
-    {
-      "specifier": "agriculture",
-      "title": "Agriculture"
-    },
-    {
-      "specifier": "biodiversity",
-      "title": "Terrestrial biodiversity"
-    },
-    {
-      "specifier": "biomes",
-      "title": "Biomes"
-    },
-    {
-      "specifier": "forestry",
-      "title": "Regional forests"
-    },
-    {
-      "specifier": "health",
-      "title": "Temperature-related mortality"
-    },
-    {
-      "specifier": "lakes_global",
-      "title": "Lakes (global)"
-    },
-    {
-      "specifier": "lakes_local",
-      "title": "Lakes (local)"
-    },
-    {
-      "specifier": "marine-fishery_global",
-      "title": "Fisheries and Marine Ecosystems (global)"
-    },
-    {
-      "specifier": "marine-fishery_regional",
-      "title": "Fisheries and Marine Ecosystems (regional)"
-    },
-    {
-      "specifier": "permafrost",
-      "title": "Permafrost"
-    },
-    {
-      "specifier": "waterborne_diseases",
-      "title": "Waterborne Diseases"
-    },
-    {
-      "specifier": "water_global",
-      "title": "Water (global)"
-    },
-    {
-      "specifier": "water_regional",
-      "title": "Water (regional)"
-    }
-  ],
-  "product": [
-    {
-      "specifier": "OutputData",
-      "title": "Output Data"
-    },
-    {
-      "specifier": "SecondaryOutputData",
-      "title": "Secondary Output Data"
-    },
-    {
-      "specifier": "DerivedOutputData",
-      "title": "Derived Output Data"
-    }
-  ],
-  "bias_adjustment": [
-    {
-      "specifier": "nobc",
-      "description": "No bias correction was performed on the climate data."
-    },
-    {
-      "specifier": "ewembi",
-      "title": "EWEMBI",
-      "description": "Bias-adjusted using the EWEMBI dataset."
+      "specifier": "cesm1-bgc",
+      "title": "CESM1-BGC",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ]
     }
   ],
   "ocean_region": [
@@ -608,72 +704,6 @@
       "east": 0.0
     }
   ],
-  "soc_scenario": [
-    {
-      "specifier": "nosoc",
-      "description": "Naturalized - without human impacts on river flow."
-    },
-    {
-      "specifier": "pressoc",
-      "description": "Constant human impacts - present-day (year-2000) dams and water use."
-    },
-    {
-      "specifier": "varsoc",
-      "description": "Time-varying human impacts - time-varying historical dam construction and water use."
-    },
-    {
-      "specifier": "nat",
-      "description": "Natural vegetation reference run."
-    },
-    {
-      "specifier": "2005soc",
-      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
-    },
-    {
-      "specifier": "1860soc",
-      "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
-    },
-    {
-      "specifier": "histsoc",
-      "description": "Varying historical land use, nitrogen deposition and fertilizer input."
-    },
-    {
-      "specifier": "rcp26soc",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
-    },
-    {
-      "specifier": "rcp60soc",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
-    },
-    {
-      "specifier": "rcp85soc",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5."
-    },
-    {
-      "specifier": "2100rcp26soc",
-      "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
-    },
-    {
-      "specifier": "ssp1soc",
-      "description": "Varying society according to SSP1 in terms of population and GDP. (in Health sector)"
-    },
-    {
-      "specifier": "ssp2soc",
-      "description": "Varying society according to SSP2 in terms of population and GDP. (in Health sector)"
-    },
-    {
-      "specifier": "ssp3soc",
-      "description": "Varying society according to SSP3 in terms of population and GDP. (in Health sector)"
-    },
-    {
-      "specifier": "ssp4soc",
-      "description": "Varying society according to SSP4 in terms of population and GDP. (in Health sector)"
-    },
-    {
-      "specifier": "ssp5soc",
-      "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
-    }
-  ],
   "acidification_type": [
     {
       "specifier": "oa"
@@ -682,43 +712,239 @@
       "specifier": "no-oa"
     }
   ],
-  "diazotroph_scenario": [
+  "time_span": [
     {
-      "specifier": "w-diaz"
+      "specifier": "minimum",
+      "value": 1661
     },
     {
-      "specifier": "wo-diaz"
+      "specifier": "maximum",
+      "value": 2100
     }
   ],
-  "resolution": [
+  "forest_stand": [
     {
-      "specifier": "halfdeg"
+      "specifier": "hyytiala",
+      "title": "Hyyti\u00e4l\u00e4",
+      "lat": 61.8475,
+      "lon": 24.295,
+      "country": "FI",
+      "type": "Even-aged conifer",
+      "species": [
+        "pisy",
+        "piab"
+      ],
+      "thinning": "below",
+      "comment": "Note that an experimental plot of pine contains a lot of data while footprint of flux tower is larger. Please note that the deciduous admixtures only appear in the data at a later stage and hence do not need to be simulated. Only simulate pine and spruce (no hard-woods) and regenerate as pure pine stand"
     },
     {
-      "specifier": "5arcmin"
+      "specifier": "peitz",
+      "title": "Peitz",
+      "lat": 51.9166,
+      "lon": 14.35,
+      "country": "DE",
+      "type": "Even-aged conifer",
+      "species": [
+        "pisy"
+      ],
+      "thinning": "below",
+      "comment": "Managed using a weak thinning from below."
     },
     {
-      "specifier": "national"
-    }
-  ],
-  "subcategory": [
-    {
-      "specifier": "sealevelrise",
-      "title": "Sealevelrise"
-    }
-  ],
-  "region": [
-    {
-      "specifier": "global",
-      "title": "Global simulation"
-    }
-  ],
-  "fishing_type": [
-    {
-      "specifier": "fishing"
+      "specifier": "solling-beech",
+      "title": "Solling (beech)",
+      "lat": 51.77,
+      "lon": 9.57,
+      "country": "DE",
+      "type": "Even-aged deciduous",
+      "species": [
+        "fasy"
+      ],
+      "thinning": "above",
+      "comment": ""
     },
     {
-      "specifier": "no-fishing"
+      "specifier": "solling-spruce",
+      "title": "Solling (spruce)",
+      "lat": 51.77,
+      "lon": 9.57,
+      "country": "DE",
+      "type": "Even-aged conifer",
+      "species": [
+        "piab "
+      ],
+      "thinning": "below",
+      "comment": ""
+    },
+    {
+      "specifier": "soro",
+      "title": "Sor\u00f8",
+      "lat": 55.485844,
+      "lon": 11.644616,
+      "country": "DK",
+      "type": "Even-aged deciduous",
+      "species": [
+        "fasy"
+      ],
+      "thinning": "above",
+      "comment": ""
+    },
+    {
+      "specifier": "kroof",
+      "title": "Kranzberg Roof Project",
+      "lat": 48.25,
+      "lon": 11.4,
+      "country": "DE",
+      "type": "Mixed deciduous and conifers",
+      "species": [
+        "fasy",
+        "piab",
+        "acpl",
+        "lade",
+        "pisy",
+        "quro"
+      ],
+      "thinning": "below",
+      "comment": "Unmanaged/ thinning from below in past 20 years for all species."
+    },
+    {
+      "specifier": "le-bray",
+      "title": "Le Bray",
+      "lat": 44.71711,
+      "lon": -0.7693,
+      "country": "FR",
+      "type": "Even-aged conifer",
+      "species": [
+        "pipi"
+      ],
+      "thinning": "below",
+      "comment": ""
+    },
+    {
+      "specifier": "collelongo",
+      "title": "Collelongo",
+      "lat": 41.8494,
+      "lon": 13.5881,
+      "country": "IT",
+      "type": "Even-aged deciduous",
+      "species": [
+        "fasy"
+      ],
+      "thinning": "above",
+      "comment": ""
+    },
+    {
+      "specifier": "bily-kriz",
+      "title": "B\u00edl\u00fd K\u0159\u00ed\u017e",
+      "lat": 49.3,
+      "lon": 18.32,
+      "country": "CZ",
+      "type": "Even-aged conifer",
+      "species": [
+        "piab"
+      ],
+      "thinning": "below",
+      "comment": ""
+    }
+  ],
+  "dimensions": [
+    {
+      "specifier": "lon",
+      "axis": "X",
+      "units": "degrees_east",
+      "size": 360,
+      "minimum": -179.5,
+      "maximum": 179.5,
+      "standard_name": "longitude",
+      "long_names": [
+        "Longitude",
+        "longitude"
+      ]
+    },
+    {
+      "specifier": "lat",
+      "axis": "Y",
+      "units": "degrees_north",
+      "size": 180,
+      "minimum": -89.5,
+      "maximum": 89.5,
+      "standard_name": "latitude",
+      "long_names": [
+        "Latitude",
+        "latitude"
+      ]
+    },
+    {
+      "specifier": "time",
+      "axis": "T",
+      "standard_name": "time",
+      "long_names": [
+        "time",
+        "time axis",
+        "Time",
+        "Time axis"
+      ],
+      "calenders_daily": [
+        "standard",
+        "proleptic_gregorian",
+        "366_day",
+        "365_day",
+        "360_day"
+      ],
+      "calenders_other": [
+        "360_day"
+      ]
+    },
+    {
+      "specifier": "depth",
+      "axis": "Z",
+      "standard_name": "depth_below_surface",
+      "long_name": "Depth of Vertical Layer Center Below Surface",
+      "positive": "down",
+      "units": "m"
+    },
+    {
+      "specifier": "levlak",
+      "axis": "Z",
+      "standard_name": "water_layer",
+      "long_name": "Vertical Water Layer Index",
+      "positive": "down",
+      "units": "1"
+    },
+    {
+      "specifier": "solay",
+      "axis": "Z",
+      "standard_name": "soil_level",
+      "long_name": "Hydrological soil levels",
+      "positive": "down",
+      "units": "1"
+    },
+    {
+      "specifier": "solth",
+      "axis": "Z",
+      "standard_name": "soil_level",
+      "long_name": "Thermal soil levels",
+      "positive": "down",
+      "units": "m"
+    },
+    {
+      "specifier": "snowlev",
+      "axis": "Z",
+      "standard_name": "snow_level",
+      "long_name": "Snow levels",
+      "positive": "down",
+      "units": "1"
+    },
+    {
+      "specifier": "bnds"
+    }
+  ],
+  "publication": [
+    {
+      "specifier": "lange2020",
+      "path_specifier": "Lange2020",
+      "title": "Lange et al. 2020",
+      "doi": "https://doi.org/10.1029/2020EF001616"
     }
   ],
   "river_basin": [
@@ -1080,226 +1306,6 @@
       "river_specifier": "yellow"
     }
   ],
-  "time_step": [
-    {
-      "specifier": "daily",
-      "increment": "days",
-      "sectors": [
-        "biomes",
-        "forestry",
-        "lakes_global",
-        "lakes_local",
-        "marine-fishery_global",
-        "marine-fishery_regional",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ]
-    },
-    {
-      "specifier": "monthly",
-      "increment": "months",
-      "sectors": [
-        "biomes",
-        "forestry",
-        "lakes_global",
-        "lakes_local",
-        "marine-fishery_global",
-        "marine-fishery_regional",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ]
-    },
-    {
-      "specifier": "annual",
-      "increment": "years",
-      "sectors": [
-        "agriculture",
-        "biomes",
-        "forestry",
-        "lakes_global",
-        "lakes_local",
-        "marine-fishery_global",
-        "marine-fishery_regional",
-        "permafrost",
-        "waterborne_diseases",
-        "water_global",
-        "water_regional"
-      ]
-    }
-  ],
-  "publication": [
-    {
-      "specifier": "lange2020",
-      "path_specifier": "Lange2020",
-      "title": "Lange et al. 2020",
-      "doi": "https://doi.org/10.1029/2020EF001616"
-    }
-  ],
-  "disease": [],
-  "climate_forcing": [
-    {
-      "specifier": "gfdl-esm2m",
-      "title": "GFDL-ESM2M",
-      "simulation_rounds": [
-        "ISIMIP2b"
-      ]
-    },
-    {
-      "specifier": "hadgem2-es",
-      "title": "HadGEM2-ES",
-      "simulation_rounds": [
-        "ISIMIP2b"
-      ]
-    },
-    {
-      "specifier": "ipsl-cm5a-lr",
-      "title": "IPSL-CM5A-LR",
-      "simulation_rounds": [
-        "ISIMIP2b"
-      ]
-    },
-    {
-      "specifier": "miroc5",
-      "title": "MIROC5",
-      "simulation_rounds": [
-        "ISIMIP2b"
-      ]
-    },
-    {
-      "specifier": "cesm1-bgc",
-      "title": "CESM1-BGC",
-      "simulation_rounds": [
-        "ISIMIP2b"
-      ]
-    }
-  ],
-  "forest_stand": [
-    {
-      "specifier": "hyytiala",
-      "title": "Hyyti\u00e4l\u00e4",
-      "lat": 61.8475,
-      "lon": 24.295,
-      "country": "FI",
-      "type": "Even-aged conifer",
-      "species": [
-        "pisy",
-        "piab"
-      ],
-      "thinning": "below",
-      "comment": "Note that an experimental plot of pine contains a lot of data while footprint of flux tower is larger. Please note that the deciduous admixtures only appear in the data at a later stage and hence do not need to be simulated. Only simulate pine and spruce (no hard-woods) and regenerate as pure pine stand"
-    },
-    {
-      "specifier": "peitz",
-      "title": "Peitz",
-      "lat": 51.9166,
-      "lon": 14.35,
-      "country": "DE",
-      "type": "Even-aged conifer",
-      "species": [
-        "pisy"
-      ],
-      "thinning": "below",
-      "comment": "Managed using a weak thinning from below."
-    },
-    {
-      "specifier": "solling-beech",
-      "title": "Solling (beech)",
-      "lat": 51.77,
-      "lon": 9.57,
-      "country": "DE",
-      "type": "Even-aged deciduous",
-      "species": [
-        "fasy"
-      ],
-      "thinning": "above",
-      "comment": ""
-    },
-    {
-      "specifier": "solling-spruce",
-      "title": "Solling (spruce)",
-      "lat": 51.77,
-      "lon": 9.57,
-      "country": "DE",
-      "type": "Even-aged conifer",
-      "species": [
-        "piab "
-      ],
-      "thinning": "below",
-      "comment": ""
-    },
-    {
-      "specifier": "soro",
-      "title": "Sor\u00f8",
-      "lat": 55.485844,
-      "lon": 11.644616,
-      "country": "DK",
-      "type": "Even-aged deciduous",
-      "species": [
-        "fasy"
-      ],
-      "thinning": "above",
-      "comment": ""
-    },
-    {
-      "specifier": "kroof",
-      "title": "Kranzberg Roof Project",
-      "lat": 48.25,
-      "lon": 11.4,
-      "country": "DE",
-      "type": "Mixed deciduous and conifers",
-      "species": [
-        "fasy",
-        "piab",
-        "acpl",
-        "lade",
-        "pisy",
-        "quro"
-      ],
-      "thinning": "below",
-      "comment": "Unmanaged/ thinning from below in past 20 years for all species."
-    },
-    {
-      "specifier": "le-bray",
-      "title": "Le Bray",
-      "lat": 44.71711,
-      "lon": -0.7693,
-      "country": "FR",
-      "type": "Even-aged conifer",
-      "species": [
-        "pipi"
-      ],
-      "thinning": "below",
-      "comment": ""
-    },
-    {
-      "specifier": "collelongo",
-      "title": "Collelongo",
-      "lat": 41.8494,
-      "lon": 13.5881,
-      "country": "IT",
-      "type": "Even-aged deciduous",
-      "species": [
-        "fasy"
-      ],
-      "thinning": "above",
-      "comment": ""
-    },
-    {
-      "specifier": "bily-kriz",
-      "title": "B\u00edl\u00fd K\u0159\u00ed\u017e",
-      "lat": 49.3,
-      "lon": 18.32,
-      "country": "CZ",
-      "type": "Even-aged conifer",
-      "species": [
-        "piab"
-      ],
-      "thinning": "below",
-      "comment": ""
-    }
-  ],
   "climate_scenario": [
     {
       "specifier": "picontrol",
@@ -1361,564 +1367,85 @@
       ]
     }
   ],
-  "species": [
+  "sens_scenario": [
     {
-      "title": "Stand total",
-      "specifier": "total"
+      "specifier": "default"
     },
     {
-      "title": "Fagus sylvatica",
-      "specifier": "fasy"
+      "specifier": "co2",
+      "description": "Regular experiment."
     },
     {
-      "title": "Quercus robur",
-      "specifier": "quro"
-    },
-    {
-      "title": "Quercus petraea",
-      "specifier": "qupe"
-    },
-    {
-      "title": "Pinus sylvestris",
-      "specifier": "pisy"
-    },
-    {
-      "title": "Picea abies",
-      "specifier": "piab"
-    },
-    {
-      "title": "Pinus pinaster",
-      "specifier": "pipi"
-    },
-    {
-      "title": "Larix decidua",
-      "specifier": "lade"
-    },
-    {
-      "title": "Acer platanoides",
-      "specifier": "acpl"
-    },
-    {
-      "title": "Eucalyptus globulus",
-      "specifier": "eugl"
-    },
-    {
-      "title": "Betula pendula",
-      "specifier": "bepe"
-    },
-    {
-      "title": "Betula pubescens",
-      "specifier": "bepu"
-    },
-    {
-      "title": "Robinia pseudoacacia",
-      "specifier": "rops"
-    },
-    {
-      "title": "Fraxinus excelsior",
-      "specifier": "frex"
-    },
-    {
-      "title": "Populus nigra",
-      "specifier": "poni"
-    },
-    {
-      "title": "Sorbus aucuparia",
-      "specifier": "soau"
-    },
-    {
-      "title": "C3 grass",
-      "specifier": "c3gr"
-    },
-    {
-      "title": "hard woods",
-      "specifier": "hawo"
-    },
-    {
-      "title": "fire",
-      "specifier": "fi"
-    },
-    {
-      "title": "wind",
-      "specifier": "wi"
-    },
-    {
-      "title": "Insects",
-      "specifier": "ins"
+      "specifier": "2005co2",
+      "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
     }
   ],
-  "model": [
+  "diazotroph_scenario": [
     {
-      "specifier": "3d-cmcc-cnr-bgc",
-      "title": "3D-CMCC-CNR-BGC"
+      "specifier": "w-diaz"
     },
     {
-      "specifier": "3d-cmcc-fem",
-      "title": "3D-CMCC-FEM"
-    },
-    {
-      "specifier": "3pg",
-      "title": "3PG"
-    },
-    {
-      "specifier": "3pgn-bw",
-      "title": "3PGN-BW"
-    },
-    {
-      "specifier": "albm",
-      "title": "ALBM"
-    },
-    {
-      "specifier": "air2water4par",
-      "title": "air2water4par"
-    },
-    {
-      "specifier": "air2water6par",
-      "title": "air2water6par"
-    },
-    {
-      "specifier": "apecosm",
-      "title": "APECOSM"
-    },
-    {
-      "specifier": "atlantis_se-australia",
-      "title": "Atlantis_se-australia"
-    },
-    {
-      "specifier": "basfor",
-      "title": "BASFOR"
-    },
-    {
-      "specifier": "bioscen15-mem-gam",
-      "title": "BioScen15-MEM-GAM"
-    },
-    {
-      "specifier": "bioscen15-mem-gbm",
-      "title": "BioScen15-MEM-GBM"
-    },
-    {
-      "specifier": "bioscen15-sdm-gam",
-      "title": "BioScen15-SDM-GAM"
-    },
-    {
-      "specifier": "bioscen15-sdm-gbm",
-      "title": "BioScen15-SDM-GBM"
-    },
-    {
-      "specifier": "boats",
-      "title": "BOATS"
-    },
-    {
-      "specifier": "caraib",
-      "title": "CARAIB"
-    },
-    {
-      "specifier": "cgms-wofost",
-      "title": "CGMS-WOFOST"
-    },
-    {
-      "specifier": "clm-crop",
-      "title": "CLM-Crop"
-    },
-    {
-      "specifier": "clm40",
-      "title": "CLM40"
-    },
-    {
-      "specifier": "clm45",
-      "title": "CLM45"
-    },
-    {
-      "specifier": "clm50",
-      "title": "CLM50"
-    },
-    {
-      "specifier": "cwatm",
-      "title": "CWatM"
-    },
-    {
-      "specifier": "dbem",
-      "title": "DBEM"
-    },
-    {
-      "specifier": "dbh",
-      "title": "DBH"
-    },
-    {
-      "specifier": "dbpm",
-      "title": "DBPM"
-    },
-    {
-      "specifier": "dlem",
-      "title": "DLEM"
-    },
-    {
-      "specifier": "ecomag",
-      "title": "ECOMAG"
-    },
-    {
-      "specifier": "ecoocean",
-      "title": "EcoOcean"
-    },
-    {
-      "specifier": "epic-boku",
-      "title": "EPIC-BOKU"
-    },
-    {
-      "specifier": "epic-boku-br",
-      "title": "EPIC-BOKU-BR"
-    },
-    {
-      "specifier": "epic-boku-hg",
-      "title": "EPIC-BOKU-HG"
-    },
-    {
-      "specifier": "epic-boku-pe",
-      "title": "EPIC-BOKU-PE"
-    },
-    {
-      "specifier": "epic-boku-pt",
-      "title": "EPIC-BOKU-PT"
-    },
-    {
-      "specifier": "epic-iiasa",
-      "title": "EPIC-IIASA"
-    },
-    {
-      "specifier": "epic-tamu",
-      "title": "EPIC-TAMU"
-    },
-    {
-      "specifier": "ewe_adriatic-sea",
-      "title": "EwE_adriatic-sea"
-    },
-    {
-      "specifier": "ewe_baltic-sea",
-      "title": "EwE_baltic-sea"
-    },
-    {
-      "specifier": "ewe_cook-strait",
-      "title": "EwE_cook-strait"
-    },
-    {
-      "specifier": "ewe_east-bass-strait",
-      "title": "EwE_east-bass-strait"
-    },
-    {
-      "specifier": "ewe_med-glob",
-      "title": "EwE_med-glob"
-    },
-    {
-      "specifier": "ewe_north-sea",
-      "title": "EwE_north-sea"
-    },
-    {
-      "specifier": "ewe_nw-med-sea",
-      "title": "EwE_nw-med-sea"
-    },
-    {
-      "specifier": "forclim",
-      "title": "ForClim"
-    },
-    {
-      "specifier": "gepic",
-      "title": "GEPIC"
-    },
-    {
-      "specifier": "gepic-br",
-      "title": "GEPIC-BR"
-    },
-    {
-      "specifier": "gepic-p",
-      "title": "GEPIC-P"
-    },
-    {
-      "specifier": "gepic-pm",
-      "title": "GEPIC-PM"
-    },
-    {
-      "specifier": "gepic-pt",
-      "title": "GEPI-PT"
-    },
-    {
-      "specifier": "glm",
-      "title": "GLM"
-    },
-    {
-      "specifier": "gotilwaplus",
-      "title": "GOTILWAplus"
-    },
-    {
-      "specifier": "gotm",
-      "title": "GOTM"
-    },
+      "specifier": "wo-diaz"
+    }
+  ],
+  "simulation_round": [
     {
-      "specifier": "flake-igb",
-      "title": "FLake-IGB"
+      "specifier": "ISIMIP2a",
+      "title": "ISIMIP2a simulation round"
     },
     {
-      "specifier": "h08",
-      "title": "H08"
-    },
-    {
-      "specifier": "hbv-iww",
-      "title": "HBV-IWW"
-    },
-    {
-      "specifier": "hbv-jlu",
-      "title": "HBV-JLU"
-    },
-    {
-      "specifier": "hbv-pik",
-      "title": "HBV-PIK"
-    },
-    {
-      "specifier": "hbv-cma",
-      "title": "HBV-CMA"
-    },
-    {
-      "specifier": "hymod-jlu",
-      "title": "HYMOD-JLU"
-    },
-    {
-      "specifier": "hymod-ufz",
-      "title": "HYMOD-UFZ"
-    },
-    {
-      "specifier": "hype",
-      "title": "HYPE"
-    },
-    {
-      "specifier": "iapras-dss",
-      "title": "IAPRAS-DSS"
-    },
-    {
-      "specifier": "jules-b1",
-      "title": "JULES-B1"
-    },
-    {
-      "specifier": "jules-w1",
-      "title": "JULES-W1"
-    },
-    {
-      "specifier": "jules-es-55",
-      "title": "JULES-ES-55"
-    },
-    {
-      "specifier": "lake",
-      "title": "LAKE"
-    },
-    {
-      "specifier": "landscape-dndc",
-      "title": "Landscape-DNDC"
-    },
-    {
-      "specifier": "lpj-guess",
-      "title": "LPJ-GUESS"
-    },
-    {
-      "specifier": "lpjml",
-      "title": "LPJmL"
-    },
-    {
-      "specifier": "macroecological",
-      "title": "MACROECOLOGICAL"
-    },
-    {
-      "specifier": "matsiro",
-      "title": "MATSIRO"
-    },
-    {
-      "specifier": "mhm",
-      "title": "mHM"
-    },
-    {
-      "specifier": "mpi-hm",
-      "title": "MPI-HM"
-    },
-    {
-      "specifier": "mylake",
-      "title": "MyLake"
-    },
-    {
-      "specifier": "orchidee",
-      "title": "ORCHIDEE"
-    },
-    {
-      "specifier": "orchidee-crop",
-      "title": "ORCHIDEE-Crop"
-    },
-    {
-      "specifier": "orchidee-dgvm",
-      "title": "ORCHIDEE-DGVM"
-    },
-    {
-      "specifier": "osmose_humboldt-n",
-      "title": "OSMOSE_humboldt-n"
-    },
-    {
-      "specifier": "papsim",
-      "title": "pAPSIM"
-    },
-    {
-      "specifier": "papsim-pm",
-      "title": "pAPSIM-PM"
-    },
-    {
-      "specifier": "pcr-globwb",
-      "title": "PCR-GLOBWB"
-    },
-    {
-      "specifier": "pdssat",
-      "title": "pDSSAT"
-    },
-    {
-      "specifier": "pdssat-pt",
-      "title": "pDSSAT-PT"
-    },
-    {
-      "specifier": "pegasus",
-      "title": "PEGASUS"
-    },
-    {
-      "specifier": "pepic",
-      "title": "PEPIC"
-    },
-    {
-      "specifier": "prebas",
-      "title": "PREBAS"
-    },
-    {
-      "specifier": "prysbi2",
-      "title": "PRYSBI2"
-    },
-    {
-      "specifier": "simstrat",
-      "title": "Simstrat"
-    },
-    {
-      "specifier": "simstrat-uog",
-      "title": "SIMSTRAT-UoG"
-    },
-    {
-      "specifier": "swap",
-      "title": "SWAP"
-    },
-    {
-      "specifier": "swat-cma",
-      "title": "SWAT-CMA"
-    },
-    {
-      "specifier": "swat-iitgn",
-      "title": "SWAT-IITGN"
-    },
-    {
-      "specifier": "swat-sggw",
-      "title": "SWAT-SGGW"
-    },
-    {
-      "specifier": "swat-tamu",
-      "title": "SWAT-TAMU"
-    },
-    {
-      "specifier": "swat-ufz",
-      "title": "SWAT-UFZ"
-    },
-    {
-      "specifier": "swat-uottawa",
-      "title": "SWAT-uOttawa"
-    },
-    {
-      "specifier": "swat-vub",
-      "title": "SWAT-VUB"
-    },
-    {
-      "specifier": "swbm",
-      "title": "SWBM"
-    },
-    {
-      "specifier": "swim-cma",
-      "title": "SWIM-CMA"
-    },
-    {
-      "specifier": "swim-nve",
-      "title": "SWIM-NVE"
-    },
-    {
-      "specifier": "swim-nve-v2",
-      "title": "SWIM-NVE-v2"
-    },
-    {
-      "specifier": "swim-pik",
-      "title": "SWIM-PIK"
-    },
-    {
-      "specifier": "swim-pik",
-      "title": "SWIM-PIK"
-    },
+      "specifier": "ISIMIP2b",
+      "title": "ISIMIP2b simulation round"
+    }
+  ],
+  "river": [
     {
-      "specifier": "vegas",
-      "title": "VEGAS"
+      "specifier": "amazon"
     },
     {
-      "specifier": "vic",
-      "title": "VIC"
+      "specifier": "blue-nile"
     },
     {
-      "specifier": "vic-cma",
-      "title": "VIC-CMA"
+      "specifier": "danube"
     },
     {
-      "specifier": "vic-hhu",
-      "title": "VIC-HHU"
+      "specifier": "darling"
     },
     {
-      "specifier": "vic-iitgn",
-      "title": "VIC-IITGN"
+      "specifier": "ganges"
     },
     {
-      "specifier": "vic-lake",
-      "title": "VIC-LAKE"
+      "specifier": "godavari"
     },
     {
-      "specifier": "vic-nve",
-      "title": "VIC-NVE"
+      "specifier": "indus"
     },
     {
-      "specifier": "vic-nve-v2",
-      "title": "VIC-NVE-v2"
+      "specifier": "lena"
     },
     {
-      "specifier": "vip",
-      "title": "VIP"
+      "specifier": "mackenzie"
     },
     {
-      "specifier": "visit",
-      "title": "VISIT"
+      "specifier": "mississippi"
     },
     {
-      "specifier": "watergap2",
-      "title": "WaterGAP2"
+      "specifier": "niger"
     },
     {
-      "specifier": "watergap3",
-      "title": "WaterGAP3"
+      "specifier": "pajeu"
     },
     {
-      "specifier": "ways",
-      "title": "WAYS"
+      "specifier": "rhine"
     },
     {
-      "specifier": "wbd",
-      "title": "WBD"
+      "specifier": "tagus"
     },
     {
-      "specifier": "web-dhm-s",
-      "title": "WEB-DHM-S"
+      "specifier": "yangtze"
     },
     {
-      "specifier": "mizer",
-      "title": "Mizer"
+      "specifier": "yellow"
     }
   ],
   "lake_site": [
@@ -2451,102 +1978,639 @@
       "type": "reservoir"
     }
   ],
-  "dimensions": [
+  "bias_adjustment": [
     {
-      "specifier": "lon",
-      "axis": "X",
-      "units": "degrees_east",
-      "size": 360,
-      "minimum": -179.5,
-      "maximum": 179.5,
-      "standard_name": "longitude",
-      "long_names": [
-        "Longitude",
-        "longitude"
-      ]
+      "specifier": "nobc",
+      "description": "No bias correction was performed on the climate data."
     },
     {
-      "specifier": "lat",
-      "axis": "Y",
-      "units": "degrees_north",
-      "size": 180,
-      "minimum": -89.5,
-      "maximum": 89.5,
-      "standard_name": "latitude",
-      "long_names": [
-        "Latitude",
-        "latitude"
-      ]
-    },
-    {
-      "specifier": "time",
-      "axis": "T",
-      "standard_name": "time",
-      "long_names": [
-        "time",
-        "time axis",
-        "Time",
-        "Time axis"
-      ],
-      "calenders_daily": [
-        "standard",
-        "proleptic_gregorian",
-        "366_day",
-        "365_day",
-        "360_day"
-      ],
-      "calenders_other": [
-        "360_day"
-      ]
-    },
-    {
-      "specifier": "depth",
-      "axis": "Z",
-      "standard_name": "depth_below_surface",
-      "long_name": "Depth of Vertical Layer Center Below Surface",
-      "positive": "down",
-      "units": "m"
-    },
-    {
-      "specifier": "levlak",
-      "axis": "Z",
-      "standard_name": "water_layer",
-      "long_name": "Vertical Water Layer Index",
-      "positive": "down",
-      "units": "1"
-    },
-    {
-      "specifier": "solay",
-      "axis": "Z",
-      "standard_name": "soil_level",
-      "long_name": "Hydrological soil levels",
-      "positive": "down",
-      "units": "1"
-    },
-    {
-      "specifier": "solth",
-      "axis": "Z",
-      "standard_name": "soil_level",
-      "long_name": "Thermal soil levels",
-      "positive": "down",
-      "units": "m"
-    },
-    {
-      "specifier": "snowlev",
-      "axis": "Z",
-      "standard_name": "snow_level",
-      "long_name": "Snow levels",
-      "positive": "down",
-      "units": "1"
-    },
-    {
-      "specifier": "bnds"
+      "specifier": "ewembi",
+      "title": "EWEMBI",
+      "description": "Bias-adjusted using the EWEMBI dataset."
     }
   ],
-  "irrigation": [
+  "product": [
     {
-      "specifier": "noirr",
-      "title": "No irrigation (rainfed land)"
+      "specifier": "OutputData",
+      "title": "Output Data"
+    },
+    {
+      "specifier": "SecondaryOutputData",
+      "title": "Secondary Output Data"
+    },
+    {
+      "specifier": "DerivedOutputData",
+      "title": "Derived Output Data"
+    }
+  ],
+  "model": [
+    {
+      "specifier": "3d-cmcc-cnr-bgc",
+      "title": "3D-CMCC-CNR-BGC"
+    },
+    {
+      "specifier": "3d-cmcc-fem",
+      "title": "3D-CMCC-FEM"
+    },
+    {
+      "specifier": "3pg",
+      "title": "3PG"
+    },
+    {
+      "specifier": "3pgn-bw",
+      "title": "3PGN-BW"
+    },
+    {
+      "specifier": "albm",
+      "title": "ALBM"
+    },
+    {
+      "specifier": "air2water4par",
+      "title": "air2water4par"
+    },
+    {
+      "specifier": "air2water6par",
+      "title": "air2water6par"
+    },
+    {
+      "specifier": "apecosm",
+      "title": "APECOSM"
+    },
+    {
+      "specifier": "atlantis_se-australia",
+      "title": "Atlantis_se-australia"
+    },
+    {
+      "specifier": "basfor",
+      "title": "BASFOR"
+    },
+    {
+      "specifier": "bioscen15-mem-gam",
+      "title": "BioScen15-MEM-GAM"
+    },
+    {
+      "specifier": "bioscen15-mem-gbm",
+      "title": "BioScen15-MEM-GBM"
+    },
+    {
+      "specifier": "bioscen15-sdm-gam",
+      "title": "BioScen15-SDM-GAM"
+    },
+    {
+      "specifier": "bioscen15-sdm-gbm",
+      "title": "BioScen15-SDM-GBM"
+    },
+    {
+      "specifier": "boats",
+      "title": "BOATS"
+    },
+    {
+      "specifier": "caraib",
+      "title": "CARAIB"
+    },
+    {
+      "specifier": "cgms-wofost",
+      "title": "CGMS-WOFOST"
+    },
+    {
+      "specifier": "clm-crop",
+      "title": "CLM-Crop"
+    },
+    {
+      "specifier": "clm40",
+      "title": "CLM40"
+    },
+    {
+      "specifier": "clm45",
+      "title": "CLM45"
+    },
+    {
+      "specifier": "clm50",
+      "title": "CLM50"
+    },
+    {
+      "specifier": "cwatm",
+      "title": "CWatM"
+    },
+    {
+      "specifier": "dbem",
+      "title": "DBEM"
+    },
+    {
+      "specifier": "dbh",
+      "title": "DBH"
+    },
+    {
+      "specifier": "dbpm",
+      "title": "DBPM"
+    },
+    {
+      "specifier": "dlem",
+      "title": "DLEM"
+    },
+    {
+      "specifier": "ecomag",
+      "title": "ECOMAG"
+    },
+    {
+      "specifier": "ecoocean",
+      "title": "EcoOcean"
+    },
+    {
+      "specifier": "epic-boku",
+      "title": "EPIC-BOKU"
+    },
+    {
+      "specifier": "epic-boku-br",
+      "title": "EPIC-BOKU-BR"
+    },
+    {
+      "specifier": "epic-boku-hg",
+      "title": "EPIC-BOKU-HG"
+    },
+    {
+      "specifier": "epic-boku-pe",
+      "title": "EPIC-BOKU-PE"
+    },
+    {
+      "specifier": "epic-boku-pt",
+      "title": "EPIC-BOKU-PT"
+    },
+    {
+      "specifier": "epic-iiasa",
+      "title": "EPIC-IIASA"
+    },
+    {
+      "specifier": "epic-tamu",
+      "title": "EPIC-TAMU"
+    },
+    {
+      "specifier": "ewe_adriatic-sea",
+      "title": "EwE_adriatic-sea"
+    },
+    {
+      "specifier": "ewe_baltic-sea",
+      "title": "EwE_baltic-sea"
+    },
+    {
+      "specifier": "ewe_cook-strait",
+      "title": "EwE_cook-strait"
+    },
+    {
+      "specifier": "ewe_east-bass-strait",
+      "title": "EwE_east-bass-strait"
+    },
+    {
+      "specifier": "ewe_med-glob",
+      "title": "EwE_med-glob"
+    },
+    {
+      "specifier": "ewe_north-sea",
+      "title": "EwE_north-sea"
+    },
+    {
+      "specifier": "ewe_nw-med-sea",
+      "title": "EwE_nw-med-sea"
+    },
+    {
+      "specifier": "forclim",
+      "title": "ForClim"
+    },
+    {
+      "specifier": "gepic",
+      "title": "GEPIC"
+    },
+    {
+      "specifier": "gepic-br",
+      "title": "GEPIC-BR"
+    },
+    {
+      "specifier": "gepic-p",
+      "title": "GEPIC-P"
+    },
+    {
+      "specifier": "gepic-pm",
+      "title": "GEPIC-PM"
+    },
+    {
+      "specifier": "gepic-pt",
+      "title": "GEPI-PT"
+    },
+    {
+      "specifier": "glm",
+      "title": "GLM"
+    },
+    {
+      "specifier": "gotilwaplus",
+      "title": "GOTILWAplus"
+    },
+    {
+      "specifier": "gotm",
+      "title": "GOTM"
+    },
+    {
+      "specifier": "flake-igb",
+      "title": "FLake-IGB"
+    },
+    {
+      "specifier": "h08",
+      "title": "H08"
+    },
+    {
+      "specifier": "hbv-iww",
+      "title": "HBV-IWW"
+    },
+    {
+      "specifier": "hbv-jlu",
+      "title": "HBV-JLU"
+    },
+    {
+      "specifier": "hbv-pik",
+      "title": "HBV-PIK"
+    },
+    {
+      "specifier": "hbv-cma",
+      "title": "HBV-CMA"
+    },
+    {
+      "specifier": "hymod-jlu",
+      "title": "HYMOD-JLU"
+    },
+    {
+      "specifier": "hymod-ufz",
+      "title": "HYMOD-UFZ"
+    },
+    {
+      "specifier": "hype",
+      "title": "HYPE"
+    },
+    {
+      "specifier": "iapras-dss",
+      "title": "IAPRAS-DSS"
+    },
+    {
+      "specifier": "jules-b1",
+      "title": "JULES-B1"
+    },
+    {
+      "specifier": "jules-w1",
+      "title": "JULES-W1"
+    },
+    {
+      "specifier": "jules-es-55",
+      "title": "JULES-ES-55"
+    },
+    {
+      "specifier": "lake",
+      "title": "LAKE"
+    },
+    {
+      "specifier": "landscape-dndc",
+      "title": "Landscape-DNDC"
+    },
+    {
+      "specifier": "lpj-guess",
+      "title": "LPJ-GUESS"
+    },
+    {
+      "specifier": "lpjml",
+      "title": "LPJmL"
+    },
+    {
+      "specifier": "macroecological",
+      "title": "MACROECOLOGICAL"
+    },
+    {
+      "specifier": "matsiro",
+      "title": "MATSIRO"
+    },
+    {
+      "specifier": "mhm",
+      "title": "mHM"
+    },
+    {
+      "specifier": "mpi-hm",
+      "title": "MPI-HM"
+    },
+    {
+      "specifier": "mylake",
+      "title": "MyLake"
+    },
+    {
+      "specifier": "orchidee",
+      "title": "ORCHIDEE"
+    },
+    {
+      "specifier": "orchidee-crop",
+      "title": "ORCHIDEE-Crop"
+    },
+    {
+      "specifier": "orchidee-dgvm",
+      "title": "ORCHIDEE-DGVM"
+    },
+    {
+      "specifier": "osmose_humboldt-n",
+      "title": "OSMOSE_humboldt-n"
+    },
+    {
+      "specifier": "papsim",
+      "title": "pAPSIM"
+    },
+    {
+      "specifier": "papsim-pm",
+      "title": "pAPSIM-PM"
+    },
+    {
+      "specifier": "pcr-globwb",
+      "title": "PCR-GLOBWB"
+    },
+    {
+      "specifier": "pdssat",
+      "title": "pDSSAT"
+    },
+    {
+      "specifier": "pdssat-pt",
+      "title": "pDSSAT-PT"
+    },
+    {
+      "specifier": "pegasus",
+      "title": "PEGASUS"
+    },
+    {
+      "specifier": "pepic",
+      "title": "PEPIC"
+    },
+    {
+      "specifier": "prebas",
+      "title": "PREBAS"
+    },
+    {
+      "specifier": "prysbi2",
+      "title": "PRYSBI2"
+    },
+    {
+      "specifier": "simstrat",
+      "title": "Simstrat"
+    },
+    {
+      "specifier": "simstrat-uog",
+      "title": "SIMSTRAT-UoG"
+    },
+    {
+      "specifier": "swap",
+      "title": "SWAP"
+    },
+    {
+      "specifier": "swat-cma",
+      "title": "SWAT-CMA"
+    },
+    {
+      "specifier": "swat-iitgn",
+      "title": "SWAT-IITGN"
+    },
+    {
+      "specifier": "swat-sggw",
+      "title": "SWAT-SGGW"
+    },
+    {
+      "specifier": "swat-tamu",
+      "title": "SWAT-TAMU"
+    },
+    {
+      "specifier": "swat-ufz",
+      "title": "SWAT-UFZ"
+    },
+    {
+      "specifier": "swat-uottawa",
+      "title": "SWAT-uOttawa"
+    },
+    {
+      "specifier": "swat-vub",
+      "title": "SWAT-VUB"
+    },
+    {
+      "specifier": "swbm",
+      "title": "SWBM"
+    },
+    {
+      "specifier": "swim-cma",
+      "title": "SWIM-CMA"
+    },
+    {
+      "specifier": "swim-nve",
+      "title": "SWIM-NVE"
+    },
+    {
+      "specifier": "swim-nve-v2",
+      "title": "SWIM-NVE-v2"
+    },
+    {
+      "specifier": "swim-pik",
+      "title": "SWIM-PIK"
+    },
+    {
+      "specifier": "swim-pik",
+      "title": "SWIM-PIK"
+    },
+    {
+      "specifier": "vegas",
+      "title": "VEGAS"
+    },
+    {
+      "specifier": "vic",
+      "title": "VIC"
+    },
+    {
+      "specifier": "vic-cma",
+      "title": "VIC-CMA"
+    },
+    {
+      "specifier": "vic-hhu",
+      "title": "VIC-HHU"
+    },
+    {
+      "specifier": "vic-iitgn",
+      "title": "VIC-IITGN"
+    },
+    {
+      "specifier": "vic-lake",
+      "title": "VIC-LAKE"
+    },
+    {
+      "specifier": "vic-nve",
+      "title": "VIC-NVE"
+    },
+    {
+      "specifier": "vic-nve-v2",
+      "title": "VIC-NVE-v2"
+    },
+    {
+      "specifier": "vip",
+      "title": "VIP"
+    },
+    {
+      "specifier": "visit",
+      "title": "VISIT"
+    },
+    {
+      "specifier": "watergap2",
+      "title": "WaterGAP2"
+    },
+    {
+      "specifier": "watergap3",
+      "title": "WaterGAP3"
+    },
+    {
+      "specifier": "ways",
+      "title": "WAYS"
+    },
+    {
+      "specifier": "wbd",
+      "title": "WBD"
+    },
+    {
+      "specifier": "web-dhm-s",
+      "title": "WEB-DHM-S"
+    },
+    {
+      "specifier": "mizer",
+      "title": "Mizer"
+    }
+  ],
+  "soc_scenario": [
+    {
+      "specifier": "nosoc",
+      "description": "Naturalized - without human impacts on river flow."
+    },
+    {
+      "specifier": "pressoc",
+      "description": "Constant human impacts - present-day (year-2000) dams and water use."
+    },
+    {
+      "specifier": "varsoc",
+      "description": "Time-varying human impacts - time-varying historical dam construction and water use."
+    },
+    {
+      "specifier": "nat",
+      "description": "Natural vegetation reference run."
+    },
+    {
+      "specifier": "2005soc",
+      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
+    },
+    {
+      "specifier": "1860soc",
+      "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
+    },
+    {
+      "specifier": "histsoc",
+      "description": "Varying historical land use, nitrogen deposition and fertilizer input."
+    },
+    {
+      "specifier": "rcp26soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
+    },
+    {
+      "specifier": "rcp60soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
+    },
+    {
+      "specifier": "rcp85soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5."
+    },
+    {
+      "specifier": "2100rcp26soc",
+      "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
+    },
+    {
+      "specifier": "ssp1soc",
+      "description": "Varying society according to SSP1 in terms of population and GDP. (in Health sector)"
+    },
+    {
+      "specifier": "ssp2soc",
+      "description": "Varying society according to SSP2 in terms of population and GDP. (in Health sector)"
+    },
+    {
+      "specifier": "ssp3soc",
+      "description": "Varying society according to SSP3 in terms of population and GDP. (in Health sector)"
+    },
+    {
+      "specifier": "ssp4soc",
+      "description": "Varying society according to SSP4 in terms of population and GDP. (in Health sector)"
+    },
+    {
+      "specifier": "ssp5soc",
+      "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
+    },
+    {
+      "specifier": "rcp26socbe",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp60socbe",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp85socbe",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp26socbeb",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp60socbeb",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp85socbeb",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp26sochwp",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp60sochwp",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp85sochwp",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp26soca",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp60soca",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp85soca",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp26socam",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp60socam",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+    },
+    {
+      "specifier": "rcp85socam",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+    },
+    {
+      "specifier": "2005socsite",
+      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input. In addition, model usually plants the same tree species again or allows for regeneration of the same species. (in Forestry sector)"
+    }
+  ],
+  "region": [
+    {
+      "specifier": "global",
+      "title": "Global simulation"
     }
   ]
 }

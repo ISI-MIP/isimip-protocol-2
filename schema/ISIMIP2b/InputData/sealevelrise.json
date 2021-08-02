@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/sealevelrise.json",
-  "commit": "64146749004af94cf24c42caa5a56fb68d5a0656",
+  "commit": "9342451fdceedef367882a3c1d2dc7c89294d27c",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,24 +19,24 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "cesm1-bgc",
             "miroc5",
-            "hadgem2-es",
+            "ipsl-cm5a-lr",
             "gfdl-esm2m",
-            "ipsl-cm5a-lr"
+            "cesm1-bgc",
+            "hadgem2-es"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "2299rcp26",
-            "rcp60",
-            "picontrol",
-            "rcp45",
-            "2005co2",
-            "historical",
             "rcp85",
-            "rcp26"
+            "rcp60",
+            "historical",
+            "rcp26",
+            "2005co2",
+            "picontrol",
+            "2299rcp26",
+            "rcp45"
           ]
         },
         "climate_variable": {
@@ -56,13 +56,13 @@
         "time_step": {
           "type": "string",
           "enum": [
+            "annual",
             "seasonal",
-            "daily",
+            "constant",
             "3hr",
             "monthly",
             "30year-mean",
-            "constant",
-            "annual"
+            "daily"
           ]
         },
         "start_year": {
