@@ -105,6 +105,14 @@
     "units": "1"
   },
   {
+    "specifier": "dbhclass",
+    "axis": "Z",
+    "standard_name": "dbhclass",
+    "long_name": "Diameter at breast heigh (DBH) class",
+    "positive": "up",
+    "units": "cm"
+  },
+  {
     "specifier": "bnds"
   }
 ]
