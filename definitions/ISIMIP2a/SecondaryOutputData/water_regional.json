@@ -1,5 +1,5 @@
 {
-  "commit": "bf58ec4e4bc615cb1e2667b7e2cc83f6f641b059",
+  "commit": "cd0857d0841af14858d722b84e564f03228f1b81",
   "irrigation": [
     {
       "specifier": "cirr",
@@ -998,6 +998,14 @@
       "long_name": "Snow levels",
       "positive": "down",
       "units": "1"
+    },
+    {
+      "specifier": "dbhclass",
+      "axis": "Z",
+      "standard_name": "dbhclass",
+      "long_name": "Diameter at breast heigh (DBH) class",
+      "positive": "up",
+      "units": "cm"
     },
     {
       "specifier": "bnds"
