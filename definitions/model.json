@@ -470,6 +470,14 @@
     "title": "WaterGAP2"
   },
   {
+    "specifier": "watergap22isimip2a",
+    "title": "WaterGAP22ISIMIP2a"
+  },
+  {
+    "specifier": "watergap22c",
+    "title": "WaterGAP22c"
+  },
+  {
     "specifier": "watergap3",
     "title": "WaterGAP3"
   },
