@@ -1,5 +1,5 @@
 {
-  "commit": "c4c3403a2563a4a0201076537f00d1beaa438162",
+  "commit": "432e9409a1e0dd65c95e532ce070ca6ea1091df5",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -1078,7 +1078,6 @@
         "360_day"
       ],
       "calenders_other": [
-        "proleptic_gregorian",
         "360_day"
       ]
     },
@@ -2656,11 +2655,11 @@
       "title": "WaterGAP2"
     },
     {
-      "specifier": "watergap22isimip2a",
+      "specifier": "watergap2-2isimip2a",
       "title": "WaterGAP22ISIMIP2a"
     },
     {
-      "specifier": "watergap22c",
+      "specifier": "watergap2-2c",
       "title": "WaterGAP22c"
     },
     {
