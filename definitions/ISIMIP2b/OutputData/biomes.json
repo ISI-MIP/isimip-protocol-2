@@ -1,5 +1,5 @@
 {
-  "commit": "432e9409a1e0dd65c95e532ce070ca6ea1091df5",
+  "commit": "429773d8a5da54de915be04b6eeaebad98be9b5c",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -464,469 +464,493 @@
   ],
   "variable": [
     {
-      "units": "1",
-      "specifier": "albedo",
       "sectors": [
         "lakes_global",
         "lakes_local",
         "biomes"
-      ]
+      ],
+      "specifier": "albedo",
+      "units": "1"
     },
     {
-      "units": "%",
-      "specifier": "burntarea",
+      "long_name": "Burnt Area Fraction",
       "sectors": [
         "permafrost",
         "biomes"
       ],
-      "long_name": "Burnt Area Fraction"
+      "specifier": "burntarea",
+      "units": "%"
     },
     {
-      "units": "kg m-2",
-      "specifier": "cleaf",
+      "long_name": "Carbon Mass in Leaves",
       "sectors": [
         "biomes",
         "forestry"
       ],
-      "long_name": "Carbon Mass in Leaves"
+      "specifier": "cleaf",
+      "units": "kg m-2"
     },
     {
-      "units": "kg m-2",
-      "specifier": "clitter",
       "sectors": [
         "forestry",
         "biomes",
         "permafrost"
-      ]
+      ],
+      "specifier": "clitter",
+      "units": "kg m-2"
     },
     {
-      "units": "kg m-2",
-      "specifier": "croot",
+      "long_name": "Carbon Mass in Roots",
       "sectors": [
         "biomes",
         "forestry"
       ],
-      "long_name": "Carbon Mass in Roots"
+      "specifier": "croot",
+      "units": "kg m-2"
     },
     {
-      "units": "kg m-2",
-      "specifier": "csoil",
       "dimensions": [
         "time",
         "depth",
         "lat",
         "lon"
       ],
+      "long_name": "Carbon Mass in Soil Pool",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
       ],
-      "long_name": "Carbon Mass in Soil Pool"
+      "specifier": "csoil",
+      "units": "kg m-2"
     },
     {
-      "units": "kg m-2",
+      "long_name": "Carbon Mass in Vegetation",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost"
+      ],
       "specifier": "cveg",
+      "units": "kg m-2"
+    },
+    {
+      "long_name": "Carbon Mass in Above Ground Vegetation Biomass",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
       ],
-      "long_name": "Carbon Mass in Vegetation"
-    },
-    {
       "specifier": "cvegag",
-      "long_name": "Carbon Mass in Above Ground Vegetation Biomass",
-      "units": "kg m-2",
-      "sectors": [
-        "biomes",
-        "forestry",
-        "permafrost"
-      ]
+      "units": "kg m-2"
     },
     {
-      "specifier": "cvegbg",
       "long_name": "Carbon Mass in Below Ground Vegetation Biomass",
-      "units": "kg m-2",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
-      ]
+      ],
+      "specifier": "cvegbg",
+      "units": "kg m-2"
     },
     {
-      "units": "kg m-2",
-      "specifier": "cwood",
+      "long_name": "Carbon Mass in Wood",
       "sectors": [
         "biomes",
         "forestry"
       ],
-      "long_name": "Carbon Mass in Wood"
+      "specifier": "cwood",
+      "units": "kg m-2"
     },
     {
-      "units": "m3 s-1",
-      "specifier": "dis",
+      "long_name": "Discharge",
       "sectors": [
         "biomes",
         "water_global",
         "water_regional"
       ],
-      "long_name": "Discharge"
+      "specifier": "dis",
+      "units": "m3 s-1",
+      "valid_max": 700000.0,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "ecoatmflux",
       "sectors": [
         "biomes",
         "permafrost"
-      ]
+      ],
+      "specifier": "ecoatmflux",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "esoil",
+      "long_name": "Water Evaporation from Soil",
       "sectors": [
         "biomes",
         "forestry",
         "water_global"
       ],
-      "long_name": "Water Evaporation from Soil"
+      "specifier": "esoil",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "evap",
+      "long_name": "Evapotranspiration",
       "sectors": [
         "biomes",
         "forestry",
         "water_global",
         "water_regional"
       ],
-      "long_name": "Evapotranspiration"
+      "specifier": "evap",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.004,
+      "valid_min": 0.0
     },
     {
-      "units": "%",
-      "specifier": "fapar",
+      "long_name": "Fraction of Absorbed Photosynthetically Active Radiation",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
       ],
-      "long_name": "Fraction of Absorbed Photosynthetically Active Radiation"
+      "specifier": "fapar",
+      "units": "%"
     },
     {
-      "specifier": "firefrac",
       "sectors": [
         "biomes"
-      ]
+      ],
+      "specifier": "firefrac"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "fireint",
+      "long_name": "Carbon Mass Flux into atmosphere due to total Carbon emissions from Fire",
       "sectors": [
         "biomes",
         "permafrost"
       ],
-      "long_name": "Carbon Mass Flux into atmosphere due to total Carbon emissions from Fire"
+      "specifier": "fireint",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "gpp",
+      "long_name": "Carbon Mass Flux out of Atmosphere due to Gross Primary Production on Land",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
       ],
-      "long_name": "Carbon Mass Flux out of Atmosphere due to Gross Primary Production on Land"
+      "specifier": "gpp",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "intercep",
+      "long_name": "Evaporation from Canopy (interception)",
       "sectors": [
         "biomes",
         "forestry"
       ],
-      "long_name": "Evaporation from Canopy (interception)"
+      "specifier": "intercep",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "1",
-      "specifier": "lai",
+      "long_name": "Leaf Area Index",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost",
         "water_global"
       ],
-      "long_name": "Leaf Area Index"
+      "specifier": "lai",
+      "units": "1",
+      "valid_max": 10.0,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "npp",
+      "long_name": "Carbon Mass Flux out of Atmosphere due to Net Primary Production on Land",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
       ],
-      "long_name": "Carbon Mass Flux out of Atmosphere due to Net Primary Production on Land"
+      "specifier": "npp",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "nppleaf",
       "long_name": "Net Primary Production allocated to leaf biomass",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
-      ]
+      ],
+      "specifier": "nppleaf",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "npproot",
       "long_name": "Net Primary Production allocated to fine root biomass",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
-      ]
+      ],
+      "specifier": "npproot",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "nppagwood",
-      "sectors": [
-        "biomes",
-        "permafrost"
-      ]
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "nppbgwood",
-      "sectors": [
-        "biomes",
-        "permafrost"
-      ]
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "npplandleaf",
-      "sectors": [
-        "biomes",
-        "permafrost"
-      ]
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "npplandroot",
-      "sectors": [
-        "biomes",
-        "permafrost"
-      ]
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "nppabovegroundwood",
-      "sectors": [
-        "biomes",
-        "permafrost"
-      ]
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "nppbelowgroundwood",
-      "sectors": [
-        "biomes",
-        "permafrost"
-      ]
-    },
-    {
-      "units": "%",
-      "specifier": "pft",
       "sectors": [
         "biomes",
         "permafrost"
       ],
-      "long_name": "Plant Functional Type Grid Fraction"
+      "specifier": "nppagwood",
+      "units": "kg m-2 s-1"
     },
     {
-      "specifier": "pft2storeys",
+      "sectors": [
+        "biomes",
+        "permafrost"
+      ],
+      "specifier": "nppbgwood",
+      "units": "kg m-2 s-1"
+    },
+    {
+      "sectors": [
+        "biomes",
+        "permafrost"
+      ],
+      "specifier": "npplandleaf",
+      "units": "kg m-2 s-1"
+    },
+    {
+      "sectors": [
+        "biomes",
+        "permafrost"
+      ],
+      "specifier": "npplandroot",
+      "units": "kg m-2 s-1"
+    },
+    {
+      "sectors": [
+        "biomes",
+        "permafrost"
+      ],
+      "specifier": "nppabovegroundwood",
+      "units": "kg m-2 s-1"
+    },
+    {
+      "sectors": [
+        "biomes",
+        "permafrost"
+      ],
+      "specifier": "nppbelowgroundwood",
+      "units": "kg m-2 s-1"
+    },
+    {
+      "long_name": "Plant Functional Type Grid Fraction",
+      "sectors": [
+        "biomes",
+        "permafrost"
+      ],
+      "specifier": "pft",
+      "units": "%"
+    },
+    {
       "sectors": [
         "biomes"
-      ]
+      ],
+      "specifier": "pft2storeys"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "potevap",
+      "long_name": "Potential Evapotranspiration",
       "sectors": [
         "biomes",
         "water_global",
         "water_regional"
       ],
-      "long_name": "Potential Evapotranspiration"
+      "specifier": "potevap",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.004,
+      "valid_min": 0.0
     },
     {
-      "specifier": "qs",
+      "long_name": "Surface Runoff",
       "sectors": [
         "biomes",
         "permafrost",
         "water_global",
         "water_regional"
       ],
-      "long_name": "Surface Runoff",
-      "valid_min": 0.0,
+      "specifier": "qs",
       "units": "kg m-2 s-1",
-      "valid_max": 0.004
+      "valid_max": 0.004,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "qsb",
+      "long_name": "Subsurface Runoff",
       "sectors": [
         "biomes",
         "water_global"
       ],
-      "long_name": "Subsurface Runoff"
+      "specifier": "qsb",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "qtot",
+      "long_name": "Total Runoff",
       "sectors": [
         "biomes",
         "permafrost",
         "water_global",
         "water_regional"
       ],
-      "long_name": "Total Runoff"
+      "specifier": "qtot",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.004,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "ra",
+      "long_name": "Carbon Mass Flux into Atmosphere due to Autotrophic (plant) Respiration on Land",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
       ],
-      "long_name": "Carbon Mass Flux into Atmosphere due to Autotrophic (plant) Respiration on Land"
+      "specifier": "ra",
+      "units": "kg m-2 s-1"
     },
     {
-      "specifier": "rainf",
       "sectors": [
         "water_global",
         "water_regional",
         "biomes"
-      ]
+      ],
+      "specifier": "rainf"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "rh",
+      "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost"
       ],
-      "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land"
+      "specifier": "rh",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "rr",
+      "long_name": "Root autotrophic respiration",
       "sectors": [
         "biomes",
         "forestry"
       ],
-      "long_name": "Root autotrophic respiration"
+      "specifier": "rr",
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "m",
+      "long_name": "Snow depth",
+      "sectors": [
+        "biomes",
+        "permafrost",
+        "water_global"
+      ],
       "specifier": "snd",
-      "sectors": [
-        "biomes",
-        "permafrost",
-        "water_global"
-      ],
-      "long_name": "Snow depth"
-    },
-    {
-      "units": "kg m-2",
-      "specifier": "soilmoist",
-      "dimensions": [
-        "time",
-        "depth",
-        "lat",
-        "lon"
-      ],
-      "sectors": [
-        "biomes",
-        "forestry",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Total Soil Moisture Content"
-    },
-    {
-      "units": "kg m-2",
-      "specifier": "soilmoistfroz",
-      "dimensions": [
-        "time",
-        "depth",
-        "lat",
-        "lon"
-      ],
-      "sectors": [
-        "permafrost",
-        "water_global",
-        "biomes"
-      ],
-      "long_name": "Frozen Soil Moisture Content"
-    },
-    {
-      "specifier": "somcfire",
-      "sectors": [
-        "biomes"
-      ]
-    },
-    {
-      "units": "kg m-2",
-      "specifier": "swe",
-      "sectors": [
-        "biomes",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Snow Water Equivalent"
-    },
-    {
       "units": "m",
-      "specifier": "thawdepth",
-      "sectors": [
-        "permafrost",
-        "water_global",
-        "biomes"
-      ],
-      "long_name": "Annual Maximum Thaw Depth"
+      "valid_max": 1000.0,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "trans",
-      "sectors": [
-        "biomes",
-        "forestry",
-        "water_global"
-      ],
-      "long_name": "Transpiration"
-    },
-    {
-      "units": "K",
-      "specifier": "tsl",
       "dimensions": [
         "time",
         "depth",
         "lat",
         "lon"
       ],
+      "long_name": "Total Soil Moisture Content",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ],
+      "specifier": "soilmoist",
+      "units": "kg m-2",
+      "valid_max": 10000.0,
+      "valid_min": 0.0
+    },
+    {
+      "dimensions": [
+        "time",
+        "depth",
+        "lat",
+        "lon"
+      ],
+      "long_name": "Frozen Soil Moisture Content",
+      "sectors": [
+        "permafrost",
+        "water_global",
+        "biomes"
+      ],
+      "specifier": "soilmoistfroz",
+      "units": "kg m-2",
+      "valid_max": 10000.0,
+      "valid_min": 0.0
+    },
+    {
+      "sectors": [
+        "biomes"
+      ],
+      "specifier": "somcfire"
+    },
+    {
+      "long_name": "Snow Water Equivalent",
+      "sectors": [
+        "biomes",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ],
+      "specifier": "swe",
+      "units": "kg m-2",
+      "valid_max": 200000.0,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Annual Maximum Thaw Depth",
+      "sectors": [
+        "permafrost",
+        "water_global",
+        "biomes"
+      ],
+      "specifier": "thawdepth",
+      "units": "m",
+      "valid_max": 100.0,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Transpiration",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "water_global"
+      ],
+      "specifier": "trans",
+      "units": "kg m-2 s-1"
+    },
+    {
+      "dimensions": [
+        "time",
+        "depth",
+        "lat",
+        "lon"
+      ],
+      "long_name": "Temperature of Soil",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost",
         "water_global"
       ],
-      "long_name": "Temperature of Soil"
+      "specifier": "tsl",
+      "units": "K",
+      "valid_max": 320.0,
+      "valid_min": 250.0
     }
   ],
   "climate_forcing": [

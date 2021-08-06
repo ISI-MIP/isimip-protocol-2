@@ -1,5 +1,5 @@
 {
-  "commit": "432e9409a1e0dd65c95e532ce070ca6ea1091df5",
+  "commit": "429773d8a5da54de915be04b6eeaebad98be9b5c",
   "irrigation": [
     {
       "specifier": "firr",
@@ -442,133 +442,135 @@
   ],
   "variable": [
     {
-      "units": "mm per growing season",
+      "long_name": "Actual Evapotranspiration",
+      "sectors": [
+        "agriculture"
+      ],
       "specifier": "aet",
+      "units": "mm per growing season"
+    },
+    {
+      "long_name": "Anthesis Date",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Actual Evapotranspiration"
-    },
-    {
-      "units": "day of year of anthesis",
       "specifier": "anthday",
+      "units": "day of year of anthesis"
+    },
+    {
+      "long_name": "Total Above Ground Biomass Dry Matter Yields",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Anthesis Date"
-    },
-    {
-      "units": "t ha-1 per growing season",
       "specifier": "biom",
+      "units": "t ha-1 per growing season"
+    },
+    {
+      "long_name": "Accumulated Growing Season Precipitation",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Total Above Ground Biomass Dry Matter Yields"
-    },
-    {
-      "units": "mm ha-1 yr-1",
       "specifier": "gsprcp",
+      "units": "mm ha-1 yr-1"
+    },
+    {
+      "long_name": "Growing Season Incoming Solar Shortwave Radiation",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Accumulated Growing Season Precipitation"
-    },
-    {
-      "units": "W m-2 yr-1",
       "specifier": "gsrsds",
+      "units": "W m-2 yr-1"
+    },
+    {
+      "long_name": "Nitrogen Application Rate",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Growing Season Incoming Solar Shortwave Radiation"
-    },
-    {
-      "units": "kg ha-1 per growing season",
       "specifier": "initr",
+      "units": "kg ha-1 per growing season"
+    },
+    {
+      "long_name": "Nitrogen Leached",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Nitrogen Application Rate"
-    },
-    {
-      "units": "",
       "specifier": "leach",
+      "units": ""
+    },
+    {
+      "long_name": "Maturity Date",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Nitrogen Leached"
-    },
-    {
-      "units": "day of year of maturity",
       "specifier": "matyday",
+      "units": "day of year of maturity"
+    },
+    {
+      "long_name": "Year of Maturity",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Maturity Date"
-    },
-    {
-      "units": "year of maturity",
       "specifier": "matyyear",
-      "sectors": [
-        "agriculture"
-      ],
-      "long_name": "Year of Maturity"
+      "units": "year of maturity"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "pirrww",
+      "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)",
       "sectors": [
         "agriculture",
         "water_global"
       ],
-      "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)"
+      "specifier": "pirrww",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "day of year",
+      "long_name": "Actual Planting Date",
+      "sectors": [
+        "agriculture"
+      ],
       "specifier": "plantday",
+      "units": "day of year"
+    },
+    {
+      "long_name": "Actual Planting Year",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Actual Planting Date"
-    },
-    {
-      "units": "year of planting",
       "specifier": "plantyear",
+      "units": "year of planting"
+    },
+    {
+      "long_name": "Soil Carbon Emissions ",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Actual Planting Year"
-    },
-    {
-      "units": "kg C ha-1",
       "specifier": "sco2",
+      "units": "kg C ha-1"
+    },
+    {
+      "long_name": "Nitrous Oxide Emissions",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Soil Carbon Emissions "
-    },
-    {
-      "units": "kg N2O-N ha-1",
       "specifier": "sn2o",
+      "units": "kg N2O-N ha-1"
+    },
+    {
+      "long_name": "Growing Season Temperature Sum",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Nitrous Oxide Emissions"
-    },
-    {
-      "units": "deg c-days yr-1",
       "specifier": "sumt",
-      "sectors": [
-        "agriculture"
-      ],
-      "long_name": "Growing Season Temperature Sum"
+      "units": "deg c-days yr-1"
     },
     {
-      "units": "t ha-1 (dry matter per growing season)",
-      "specifier": "yield",
+      "long_name": "Crop Yields",
       "sectors": [
         "agriculture"
       ],
-      "long_name": "Crop Yields"
+      "specifier": "yield",
+      "units": "t ha-1 (dry matter per growing season)"
     }
   ],
   "climate_forcing": [

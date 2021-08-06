@@ -1,5 +1,5 @@
 {
-  "commit": "432e9409a1e0dd65c95e532ce070ca6ea1091df5",
+  "commit": "429773d8a5da54de915be04b6eeaebad98be9b5c",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -465,318 +465,318 @@
   ],
   "variable": [
     {
-      "units": "1",
-      "specifier": "albedo",
       "sectors": [
         "lakes_global",
         "lakes_local",
         "biomes"
-      ]
+      ],
+      "specifier": "albedo",
+      "units": "1"
     },
     {
-      "units": "K",
+      "long_name": "Temperature of Lake Bottom Water",
+      "sectors": [
+        "lakes_global",
+        "lakes_local"
+      ],
       "specifier": "bottemp",
+      "units": "K"
+    },
+    {
+      "long_name": "Buoyancy frequency",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Temperature of Lake Bottom Water"
-    },
-    {
-      "units": "s-2",
       "specifier": "buoyancyfrequency",
+      "units": "s-2"
+    },
+    {
+      "long_name": "Lake Ice Cover",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Buoyancy frequency"
-    },
-    {
-      "units": "1",
       "specifier": "ice",
+      "units": "1"
+    },
+    {
+      "long_name": "Ice Thickness",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Lake Ice Cover"
-    },
-    {
-      "units": "m",
       "specifier": "icethick",
+      "units": "m"
+    },
+    {
+      "long_name": "Ice Temperature at Upper Surface",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Ice Thickness"
-    },
-    {
-      "units": "K",
       "specifier": "icetemp",
+      "units": "K"
+    },
+    {
+      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Ice Temperature at Upper Surface"
-    },
-    {
-      "units": "W m-2",
       "specifier": "lakeheatf",
+      "units": "W m-2"
+    },
+    {
+      "long_name": "Turbulent Diffusivity of Heat",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
-    },
-    {
-      "units": "m2 s-1",
       "specifier": "turbdiffheat",
+      "units": "m2 s-1"
+    },
+    {
+      "long_name": "Latent Heat Flux at Lake-Atmosphere Interface",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Turbulent Diffusivity of Heat"
-    },
-    {
-      "units": "W m-2",
       "specifier": "latentheatf",
+      "units": "W m-2"
+    },
+    {
+      "long_name": "Lake Layer Ice Mass Fraction",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Latent Heat Flux at Lake-Atmosphere Interface"
-    },
-    {
-      "units": "1",
       "specifier": "lakeicefrac",
+      "units": "1"
+    },
+    {
+      "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Lake Layer Ice Mass Fraction"
-    },
-    {
-      "units": "W m-2",
       "specifier": "lwup",
+      "units": "W m-2"
+    },
+    {
+      "long_name": "Momentum Flux at Lake-Atmosphere Interface",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface"
-    },
-    {
-      "units": "kg m-1 s-2",
       "specifier": "momf",
+      "units": "kg m-1 s-2"
+    },
+    {
+      "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Momentum Flux at Lake-Atmosphere Interface"
-    },
-    {
-      "units": "W m-2",
       "specifier": "sedheatf",
+      "units": "W m-2"
+    },
+    {
+      "long_name": "Chlorophyll Concentration",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface"
-    },
-    {
-      "units": "g-3 m-3",
       "specifier": "chl",
+      "units": "g-3 m-3"
+    },
+    {
+      "long_name": "Phytoplankton Functional Group Biomass",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Chlorophyll Concentration"
-    },
-    {
-      "units": "mole m-3 as carbon",
       "specifier": "phytobio",
+      "units": "mole m-3 as carbon"
+    },
+    {
+      "long_name": "Zooplankton Biomass",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Phytoplankton Functional Group Biomass"
-    },
-    {
-      "units": "mole m-3 as carbon",
       "specifier": "zoobio",
+      "units": "mole m-3 as carbon"
+    },
+    {
+      "long_name": "Total Phosphorus",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Zooplankton Biomass"
-    },
-    {
-      "units": "mole m-3",
       "specifier": "tp",
+      "units": "mole m-3"
+    },
+    {
+      "long_name": "Particulate Phosphorus",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Total Phosphorus"
-    },
-    {
-      "units": "mole m-3",
       "specifier": "pp",
+      "units": "mole m-3"
+    },
+    {
+      "long_name": "Total Dissolved Phosphorus",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Particulate Phosphorus"
-    },
-    {
-      "units": "mole m-3",
       "specifier": "tpd",
+      "units": "mole m-3"
+    },
+    {
+      "long_name": "Total Nitrogen",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Total Dissolved Phosphorus"
-    },
-    {
-      "units": "mole m-3",
       "specifier": "tn",
+      "units": "mole m-3"
+    },
+    {
+      "long_name": "Particulate Nitrogen",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Total Nitrogen"
-    },
-    {
-      "units": "mole m-3",
       "specifier": "pn",
+      "units": "mole m-3"
+    },
+    {
+      "long_name": "Total Dissolved Nitrogen",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Particulate Nitrogen"
-    },
-    {
-      "units": "mole m-3",
       "specifier": "tdn",
+      "units": "mole m-3"
+    },
+    {
+      "long_name": "Dissolved Oxygen",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Total Dissolved Nitrogen"
-    },
-    {
-      "units": "mole m-3",
       "specifier": "do",
+      "units": "mole m-3"
+    },
+    {
+      "long_name": "Dissolved Organic Carbon",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Dissolved Oxygen"
-    },
-    {
-      "units": "mole m-3",
       "specifier": "doc",
+      "units": "mole m-3"
+    },
+    {
+      "long_name": "Dissolved Silica",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Dissolved Organic Carbon"
-    },
-    {
-      "units": "mole m-3",
       "specifier": "si",
+      "units": "mole m-3"
+    },
+    {
+      "long_name": "Buoyancy Frequency",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Dissolved Silica"
-    },
-    {
-      "units": "s-2",
       "specifier": "buoyancyfrequency",
+      "units": "s-2"
+    },
+    {
+      "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Buoyancy Frequency"
-    },
-    {
-      "units": "W m-2",
       "specifier": "sensheatf",
+      "units": "W m-2"
+    },
+    {
+      "long_name": "Snow Temperature at Upper Surface",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface"
-    },
-    {
-      "units": "K",
       "specifier": "snowtemp",
+      "units": "K"
+    },
+    {
+      "long_name": "Snow Thickness",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Snow Temperature at Upper Surface"
-    },
-    {
-      "units": "m",
       "specifier": "snowthick",
+      "units": "m"
+    },
+    {
+      "long_name": "Thermal Stratification",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Snow Thickness"
-    },
-    {
-      "units": "1",
       "specifier": "strat",
+      "units": "1"
+    },
+    {
+      "long_name": "Temperature of Lake Surface Water",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Thermal Stratification"
-    },
-    {
-      "units": "K",
       "specifier": "surftemp",
+      "units": "K"
+    },
+    {
+      "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Temperature of Lake Surface Water"
-    },
-    {
-      "units": "W m-2",
       "specifier": "swup",
+      "units": "W m-2"
+    },
+    {
+      "long_name": "Depth of Thermocline",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface"
-    },
-    {
-      "units": "m",
       "specifier": "thermodepth",
+      "units": "m"
+    },
+    {
+      "long_name": "Temperature of Lake Water",
       "sectors": [
         "lakes_global",
         "lakes_local"
       ],
-      "long_name": "Depth of Thermocline"
-    },
-    {
-      "units": "K",
       "specifier": "watertemp",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "long_name": "Temperature of Lake Water"
+      "units": "K"
     },
     {
-      "units": "m-1",
-      "specifier": "extcoeff",
+      "long_name": "Light Extinction Coefficient",
       "sectors": [
         "lakes_global"
       ],
-      "long_name": "Light Extinction Coefficient"
+      "specifier": "extcoeff",
+      "units": "m-1"
     }
   ],
   "climate_forcing": [

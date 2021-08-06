@@ -1,5 +1,5 @@
 {
-  "commit": "432e9409a1e0dd65c95e532ce070ca6ea1091df5",
+  "commit": "429773d8a5da54de915be04b6eeaebad98be9b5c",
   "irrigation": [
     {
       "specifier": "cirr",
@@ -465,491 +465,575 @@
   ],
   "variable": [
     {
-      "units": "kg m-2 s-1",
+      "sectors": [
+        "water_global"
+      ],
       "specifier": "admeluse",
-      "sectors": [
-        "water_global"
-      ]
+      "units": "kg m-2 s-1"
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Actual Domestic Water Consumption",
+      "sectors": [
+        "water_global"
+      ],
       "specifier": "adomuse",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Actual Domestic Water Withdrawal",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Actual Domestic Water Consumption"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "adomww",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Actual Industrial Water Consumption",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Actual Domestic Water Withdrawal"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "ainduse",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Actual Industrial Water Withdrawal",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Actual Industrial Water Consumption"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "aindww",
-      "sectors": [
-        "water_global"
-      ],
-      "long_name": "Actual Industrial Water Withdrawal"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Actual Irrigation Water Consumption",
+      "sectors": [
+        "water_global",
+        "water_regional"
+      ],
       "specifier": "airruse",
-      "sectors": [
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Actual Irrigation Water Consumption"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Actual Irrigation Green Water Consumption on Irrigated Cropland",
+      "sectors": [
+        "water_global"
+      ],
       "specifier": "airrusegreen",
-      "sectors": [
-        "water_global"
-      ],
-      "long_name": "Actual Irrigation Green Water Consumption on Irrigated Cropland"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Actual Irrigation Water Withdrawal",
+      "sectors": [
+        "water_global",
+        "water_regional"
+      ],
       "specifier": "airrww",
-      "sectors": [
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Actual Irrigation Water Withdrawal"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Actual livestock Water Consumption",
+      "sectors": [
+        "water_global"
+      ],
       "specifier": "aliveuse",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Actual Livestock Water Withdrawal",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Actual livestock Water Consumption"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "aliveww",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Actual Manufacturing Water Consumption",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Actual Livestock Water Withdrawal"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "amanuse",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Actual Manufacturing Water Withdrawal",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Actual Manufacturing Water Consumption"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "amanww",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Actual Green Water Consumption on Rainfed Cropland",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Actual Manufacturing Water Withdrawal"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "arainfusegreen",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Total Actual Water Consumption (all sectors)",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Actual Green Water Consumption on Rainfed Cropland"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "atotuse",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Canopy Water Storage",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Total Actual Water Consumption (all sectors)"
-    },
-    {
-      "units": "kg m-2",
       "specifier": "canopystor",
-      "sectors": [
-        "water_global"
-      ],
-      "long_name": "Canopy Water Storage"
-    },
-    {
-      "units": "m3 s-1",
-      "specifier": "dis",
-      "sectors": [
-        "biomes",
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Discharge"
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "esoil",
-      "sectors": [
-        "biomes",
-        "forestry",
-        "water_global"
-      ],
-      "long_name": "Water Evaporation from Soil"
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "evap",
-      "sectors": [
-        "biomes",
-        "forestry",
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Evapotranspiration"
-    },
-    {
       "units": "kg m-2",
-      "specifier": "groundwstor",
+      "valid_max": 10000.0,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Discharge",
+      "sectors": [
+        "biomes",
+        "water_global",
+        "water_regional"
+      ],
+      "specifier": "dis",
+      "units": "m3 s-1",
+      "valid_max": 700000.0,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Water Evaporation from Soil",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "water_global"
+      ],
+      "specifier": "esoil",
+      "units": "kg m-2 s-1"
+    },
+    {
+      "long_name": "Evapotranspiration",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "water_global",
+        "water_regional"
+      ],
+      "specifier": "evap",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.004,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Groundwater Storage",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Groundwater Storage"
+      "specifier": "groundwstor",
+      "units": "kg m-2",
+      "valid_max": 20000.0,
+      "valid_min": -200000.0
     },
     {
-      "units": "1",
-      "specifier": "lai",
+      "long_name": "Leaf Area Index",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost",
         "water_global"
       ],
-      "long_name": "Leaf Area Index"
+      "specifier": "lai",
+      "units": "1",
+      "valid_max": 10.0,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2",
+      "long_name": "Lake Water Storage",
+      "sectors": [
+        "water_global"
+      ],
       "specifier": "lakestor",
+      "units": "kg m-2",
+      "valid_max": 200000.0,
+      "valid_min": -200000.0
+    },
+    {
       "sectors": [
         "water_global"
       ],
-      "long_name": "Lake Water Storage"
+      "specifier": "maxdis"
     },
     {
-      "specifier": "maxdis",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "specifier": "mindis"
     },
     {
-      "specifier": "mindis",
+      "long_name": "Potential Domestic Water Consumption",
       "sectors": [
         "water_global"
-      ]
-    },
-    {
-      "units": "kg m-2 s-1",
+      ],
       "specifier": "pdomuse",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
       "sectors": [
         "water_global"
       ],
-      "long_name": "Potential Domestic Water Consumption"
+      "specifier": "pidmeluse"
     },
     {
-      "specifier": "pidmeluse",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "specifier": "pidmelww"
     },
     {
-      "specifier": "pidmelww",
+      "long_name": "Potential Irrigation Water Consumption",
       "sectors": [
         "water_global"
-      ]
-    },
-    {
-      "units": "kg m-2 s-1",
+      ],
       "specifier": "pirruse",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Potential Irrigation Green Water Consumption on Irrigated Cropland",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Potential Irrigation Water Consumption"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "pirrusegreen",
-      "sectors": [
-        "water_global"
-      ],
-      "long_name": "Potential Irrigation Green Water Consumption on Irrigated Cropland"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "pirrww",
+      "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)",
       "sectors": [
         "agriculture",
         "water_global"
       ],
-      "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)"
+      "specifier": "pirrww",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Potential manufacturing Water Consumption",
+      "sectors": [
+        "water_global"
+      ],
       "specifier": "pmanuse",
-      "sectors": [
-        "water_global"
-      ],
-      "long_name": "Potential manufacturing Water Consumption"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Potential Evapotranspiration",
+      "sectors": [
+        "biomes",
+        "water_global",
+        "water_regional"
+      ],
       "specifier": "potevap",
-      "sectors": [
-        "biomes",
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Potential Evapotranspiration"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.004,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Total Potential Water Consumption (all sectors)",
+      "sectors": [
+        "water_global"
+      ],
       "specifier": "ptotuse",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Total Potential Water Withdrawal (all sectors)",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Total Potential Water Consumption (all sectors)"
-    },
-    {
-      "units": "kg m-2 s-1",
       "specifier": "ptotww",
-      "sectors": [
-        "water_global"
-      ],
-      "long_name": "Total Potential Water Withdrawal (all sectors)"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Groundwater Runoff",
+      "sectors": [
+        "water_global",
+        "water_regional"
+      ],
       "specifier": "qg",
-      "sectors": [
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Groundwater Runoff"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "specifier": "qint",
       "sectors": [
         "water_global"
-      ]
+      ],
+      "specifier": "qint"
     },
     {
-      "units": "kg m-2 s-1",
+      "long_name": "Groundwater Recharge",
+      "sectors": [
+        "water_regional",
+        "water_global"
+      ],
       "specifier": "qr",
-      "sectors": [
-        "water_regional",
-        "water_global"
-      ],
-      "long_name": "Groundwater Recharge"
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
     },
     {
-      "specifier": "qs",
-      "sectors": [
-        "biomes",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ],
       "long_name": "Surface Runoff",
-      "valid_min": 0.0,
-      "units": "kg m-2 s-1",
-      "valid_max": 0.004
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "qsb",
-      "sectors": [
-        "biomes",
-        "water_global"
-      ],
-      "long_name": "Subsurface Runoff"
-    },
-    {
-      "units": "kg m-2 s-1",
-      "specifier": "qtot",
       "sectors": [
         "biomes",
         "permafrost",
         "water_global",
         "water_regional"
       ],
-      "long_name": "Total Runoff"
+      "specifier": "qs",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.004,
+      "valid_min": 0.0
     },
     {
-      "specifier": "rainf",
+      "long_name": "Subsurface Runoff",
+      "sectors": [
+        "biomes",
+        "water_global"
+      ],
+      "specifier": "qsb",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.002,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Total Runoff",
+      "sectors": [
+        "biomes",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ],
+      "specifier": "qtot",
+      "units": "kg m-2 s-1",
+      "valid_max": 0.004,
+      "valid_min": 0.0
+    },
+    {
       "sectors": [
         "water_global",
         "water_regional",
         "biomes"
-      ]
+      ],
+      "specifier": "rainf"
     },
     {
-      "units": "kg m-2",
+      "long_name": "Reservoir Water Storage",
+      "sectors": [
+        "water_global"
+      ],
       "specifier": "reservoirstor",
+      "units": "kg m-2",
+      "valid_max": 150000.0,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "River Water Storage",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Reservoir Water Storage"
-    },
-    {
-      "units": "kg m-2",
       "specifier": "riverstor",
-      "sectors": [
-        "water_global"
-      ],
-      "long_name": "River Water Storage"
+      "units": "kg m-2",
+      "valid_max": 50000.0,
+      "valid_min": 0.0
     },
     {
-      "units": "kg m-2",
+      "dimensions": [
+        "time",
+        "depth",
+        "lat",
+        "lon"
+      ],
+      "long_name": "Soil Moisture Content at Root Zone",
+      "sectors": [
+        "water_global",
+        "water_regional"
+      ],
       "specifier": "rootmoist",
-      "dimensions": [
-        "time",
-        "depth",
-        "lat",
-        "lon"
-      ],
-      "sectors": [
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Soil Moisture Content at Root Zone"
+      "units": "kg m-2",
+      "valid_max": 10000.0,
+      "valid_min": 0.0
     },
     {
-      "units": "m",
+      "long_name": "Snow depth",
+      "sectors": [
+        "biomes",
+        "permafrost",
+        "water_global"
+      ],
       "specifier": "snd",
-      "sectors": [
-        "biomes",
-        "permafrost",
-        "water_global"
-      ],
-      "long_name": "Snow depth"
-    },
-    {
-      "specifier": "snowf",
-      "sectors": [
-        "water_global",
-        "water_regional"
-      ]
-    },
-    {
-      "units": "kg m-2",
-      "specifier": "soilmoist",
-      "dimensions": [
-        "time",
-        "depth",
-        "lat",
-        "lon"
-      ],
-      "sectors": [
-        "biomes",
-        "forestry",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Total Soil Moisture Content"
-    },
-    {
-      "units": "kg m-2",
-      "specifier": "soilmoistfroz",
-      "dimensions": [
-        "time",
-        "depth",
-        "lat",
-        "lon"
-      ],
-      "sectors": [
-        "permafrost",
-        "water_global",
-        "biomes"
-      ],
-      "long_name": "Frozen Soil Moisture Content"
-    },
-    {
-      "units": "kg m-2",
-      "specifier": "swe",
-      "sectors": [
-        "biomes",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ],
-      "long_name": "Snow Water Equivalent"
-    },
-    {
       "units": "m",
-      "specifier": "thawdepth",
+      "valid_max": 1000.0,
+      "valid_min": 0.0
+    },
+    {
       "sectors": [
-        "permafrost",
         "water_global",
-        "biomes"
+        "water_regional"
       ],
-      "long_name": "Annual Maximum Thaw Depth"
+      "specifier": "snowf"
     },
     {
-      "units": "kg m-2 s-1",
-      "specifier": "trans",
-      "sectors": [
-        "biomes",
-        "forestry",
-        "water_global"
-      ],
-      "long_name": "Transpiration"
-    },
-    {
-      "specifier": "transp",
-      "sectors": [
-        "water_global"
-      ]
-    },
-    {
-      "units": "K",
-      "specifier": "tsl",
       "dimensions": [
         "time",
         "depth",
         "lat",
         "lon"
       ],
+      "long_name": "Total Soil Moisture Content",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ],
+      "specifier": "soilmoist",
+      "units": "kg m-2",
+      "valid_max": 10000.0,
+      "valid_min": 0.0
+    },
+    {
+      "dimensions": [
+        "time",
+        "depth",
+        "lat",
+        "lon"
+      ],
+      "long_name": "Frozen Soil Moisture Content",
+      "sectors": [
+        "permafrost",
+        "water_global",
+        "biomes"
+      ],
+      "specifier": "soilmoistfroz",
+      "units": "kg m-2",
+      "valid_max": 10000.0,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Snow Water Equivalent",
+      "sectors": [
+        "biomes",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ],
+      "specifier": "swe",
+      "units": "kg m-2",
+      "valid_max": 200000.0,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Annual Maximum Thaw Depth",
+      "sectors": [
+        "permafrost",
+        "water_global",
+        "biomes"
+      ],
+      "specifier": "thawdepth",
+      "units": "m",
+      "valid_max": 100.0,
+      "valid_min": 0.0
+    },
+    {
+      "long_name": "Transpiration",
+      "sectors": [
+        "biomes",
+        "forestry",
+        "water_global"
+      ],
+      "specifier": "trans",
+      "units": "kg m-2 s-1"
+    },
+    {
+      "sectors": [
+        "water_global"
+      ],
+      "specifier": "transp"
+    },
+    {
+      "dimensions": [
+        "time",
+        "depth",
+        "lat",
+        "lon"
+      ],
+      "long_name": "Temperature of Soil",
       "sectors": [
         "biomes",
         "forestry",
         "permafrost",
         "water_global"
       ],
-      "long_name": "Temperature of Soil"
+      "specifier": "tsl",
+      "units": "K",
+      "valid_max": 320.0,
+      "valid_min": 250.0
     },
     {
-      "units": "kg m-2",
+      "long_name": "Total Water Storage",
+      "sectors": [
+        "water_global"
+      ],
       "specifier": "tws",
-      "sectors": [
-        "water_global"
-      ],
-      "long_name": "Total Water Storage"
+      "units": "kg m-2",
+      "valid_max": 200000.0,
+      "valid_min": -200000.0
     },
     {
-      "units": "kg m-2",
-      "specifier": "wetlandstor",
+      "long_name": "Wetland Water Storage",
       "sectors": [
         "water_global"
       ],
-      "long_name": "Wetland Water Storage"
+      "specifier": "wetlandstor",
+      "units": "kg m-2",
+      "valid_max": 10000.0,
+      "valid_min": -10000.0
     }
   ],
   "climate_forcing": [

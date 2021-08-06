@@ -1,5 +1,5 @@
 {
-  "commit": "432e9409a1e0dd65c95e532ce070ca6ea1091df5",
+  "commit": "429773d8a5da54de915be04b6eeaebad98be9b5c",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -417,116 +417,116 @@
   ],
   "variable": [
     {
-      "units": "Estimated number of species (species richness) per cell",
+      "long_name": "Amphibian Species Richness",
+      "sectors": [
+        "biodiversity"
+      ],
       "specifier": "amphibiansr",
+      "units": "Estimated number of species (species richness) per cell"
+    },
+    {
+      "long_name": "Amphibian Summed Probability of Occurrence",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Amphibian Species Richness"
-    },
-    {
-      "units": "Summed probability of occurrence per cell",
       "specifier": "amphibiansumprob",
+      "units": "Summed probability of occurrence per cell"
+    },
+    {
+      "long_name": "Terrestrial Bird Species Probability of Occurrence",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Amphibian Summed Probability of Occurrence"
-    },
-    {
-      "units": "Probability of occurrence per cell",
       "specifier": "birdprob",
+      "units": "Probability of occurrence per cell"
+    },
+    {
+      "long_name": "Terrestrial Bird Species Richness",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Terrestrial Bird Species Probability of Occurrence"
-    },
-    {
-      "units": "Estimated number of species (species richness) per cell",
       "specifier": "birdsr",
+      "units": "Estimated number of species (species richness) per cell"
+    },
+    {
+      "long_name": "Terrestrial Bird Summed Probability of Occurrence ",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Terrestrial Bird Species Richness"
-    },
-    {
-      "units": "Summed probability of occurrence per cell",
       "specifier": "birdsumprob",
+      "units": "Summed probability of occurrence per cell"
+    },
+    {
+      "long_name": "Summed Probability of Endemic Amphibian Species",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Terrestrial Bird Summed Probability of Occurrence "
-    },
-    {
-      "units": "Summed probability of occurrence per cell",
       "specifier": "endamphibiansumprob",
+      "units": "Summed probability of occurrence per cell"
+    },
+    {
+      "long_name": "Summed Probability of Endemic Terrestrial Bird Species",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Summed Probability of Endemic Amphibian Species"
-    },
-    {
-      "units": "Summed probability of occurrence per cell",
       "specifier": "endbirdsumprob",
+      "units": "Summed probability of occurrence per cell"
+    },
+    {
+      "long_name": "Summed Probability of Endemic Terrestrial Mammal Species",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Summed Probability of Endemic Terrestrial Bird Species"
-    },
-    {
-      "units": "Summed probability of occurrence per cell",
       "specifier": "endmammalsumprob",
+      "units": "Summed probability of occurrence per cell"
+    },
+    {
+      "long_name": "Terrestrial Mammal Species Probability of Occurrence",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Summed Probability of Endemic Terrestrial Mammal Species"
-    },
-    {
-      "units": "Probability of occurrence per cell",
       "specifier": "mammalprob",
+      "units": "Probability of occurrence per cell"
+    },
+    {
+      "long_name": "Terrestrial Mammal Species Richness",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Terrestrial Mammal Species Probability of Occurrence"
-    },
-    {
-      "units": "Estimated number of species (species richness) per cell",
       "specifier": "mammalsr",
+      "units": "Estimated number of species (species richness) per cell"
+    },
+    {
+      "long_name": "Terrestrial Mammal Summed Probability of Occurrence",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Terrestrial Mammal Species Richness"
-    },
-    {
-      "units": "Summed probability of occurrence per cell",
       "specifier": "mammalsumprob",
+      "units": "Summed probability of occurrence per cell"
+    },
+    {
+      "long_name": "Summed Probability of Threatened Amphibian Species",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Terrestrial Mammal Summed Probability of Occurrence"
-    },
-    {
-      "units": "Summed probability of occurrence per cell",
       "specifier": "thramphibiansumprob",
+      "units": "Summed probability of occurrence per cell"
+    },
+    {
+      "long_name": "Summed Probability of Threatened Terrestrial Bird Species",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Summed Probability of Threatened Amphibian Species"
-    },
-    {
-      "units": "Summed probability of occurrence per cell",
       "specifier": "thrbirdsumprob",
-      "sectors": [
-        "biodiversity"
-      ],
-      "long_name": "Summed Probability of Threatened Terrestrial Bird Species"
+      "units": "Summed probability of occurrence per cell"
     },
     {
-      "units": "Summed probability of occurrence per cell",
-      "specifier": "thrmammalsumprob",
+      "long_name": "Summed Probability of Threatened Terrestrial Mammal Species",
       "sectors": [
         "biodiversity"
       ],
-      "long_name": "Summed Probability of Threatened Terrestrial Mammal Species"
+      "specifier": "thrmammalsumprob",
+      "units": "Summed probability of occurrence per cell"
     }
   ],
   "climate_forcing": [

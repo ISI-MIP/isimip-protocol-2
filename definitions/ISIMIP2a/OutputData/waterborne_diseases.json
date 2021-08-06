@@ -1,5 +1,5 @@
 {
-  "commit": "432e9409a1e0dd65c95e532ce070ca6ea1091df5",
+  "commit": "429773d8a5da54de915be04b6eeaebad98be9b5c",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -498,52 +498,52 @@
   ],
   "variable": [
     {
-      "units": "Number of deaths",
+      "long_name": "Temperature-related Deaths",
+      "sectors": [
+        "waterborne_diseases"
+      ],
       "specifier": "excess-temp-mortality",
+      "units": "Number of deaths"
+    },
+    {
+      "long_name": "Temperature-related Incidence",
       "sectors": [
         "waterborne_diseases"
       ],
-      "long_name": "Temperature-related Deaths"
-    },
-    {
-      "units": "Number of new cases",
       "specifier": "excess-temp-incidence",
+      "units": "Number of new cases"
+    },
+    {
+      "long_name": "Temperature-related Prevalence",
       "sectors": [
         "waterborne_diseases"
       ],
-      "long_name": "Temperature-related Incidence"
-    },
-    {
-      "units": "Number of cases",
       "specifier": "excess-temp-prevalence",
+      "units": "Number of cases"
+    },
+    {
+      "long_name": "Rainfall-related Deaths",
       "sectors": [
         "waterborne_diseases"
       ],
-      "long_name": "Temperature-related Prevalence"
-    },
-    {
-      "units": "Number of deaths",
       "specifier": "excess-rain-mortality",
+      "units": "Number of deaths"
+    },
+    {
+      "long_name": "Rainfall-related Incidence",
       "sectors": [
         "waterborne_diseases"
       ],
-      "long_name": "Rainfall-related Deaths"
-    },
-    {
-      "units": "Number of new cases",
       "specifier": "excess-rain-incidence",
-      "sectors": [
-        "waterborne_diseases"
-      ],
-      "long_name": "Rainfall-related Incidence"
+      "units": "Number of new cases"
     },
     {
-      "units": "Number of cases",
-      "specifier": "excess-rain-prevalence",
+      "long_name": "Rainfall-related Prevalence",
       "sectors": [
         "waterborne_diseases"
       ],
-      "long_name": "Rainfall-related Prevalence"
+      "specifier": "excess-rain-prevalence",
+      "units": "Number of cases"
     }
   ],
   "climate_forcing": [
