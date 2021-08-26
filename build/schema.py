@@ -5,6 +5,7 @@ from pathlib import Path
 from utils import filter_rows, get_commit_hash, read_definitions, write_json
 
 URL = 'https://protocol.isimip.org/schema/'
+EXCLUDE = ['model']
 
 
 def main():
@@ -36,7 +37,7 @@ def main():
 
             # step 2: loop over properties/specifiers/properties and add enums from definition files
             for identifier, properties in schema['properties']['specifiers']['properties'].items():
-                if identifier in definitions:
+                if identifier in definitions and identifier not in EXCLUDE:
                     rows = definitions[identifier]
                     enum = []
                     if product.endswith('InputData'):
