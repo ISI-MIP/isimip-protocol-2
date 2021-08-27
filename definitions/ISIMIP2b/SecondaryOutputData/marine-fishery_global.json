@@ -1,5 +1,5 @@
 {
-  "commit": "b533f5125e0f6d26c672d366161561eaaf358d5c",
+  "commit": "fb1302ea6611bf492176fd0527ad7de7d2a57cb9",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -2474,7 +2474,7 @@
     },
     {
       "specifier": "watergap2-2c",
-      "title": "WaterGAP22c"
+      "title": "WaterGAP2-2c"
     },
     {
       "specifier": "watergap3",

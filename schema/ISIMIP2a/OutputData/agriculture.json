@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/agriculture.json",
-  "commit": "b533f5125e0f6d26c672d366161561eaaf358d5c",
+  "commit": "fb1302ea6611bf492176fd0527ad7de7d2a57cb9",
   "type": "object",
   "required": [
     "specifiers"
@@ -28,13 +28,13 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
+            "princeton",
             "gswp3",
             "gswp3-ewembi",
             "ewembi",
-            "princeton",
             "gswp3-w5e5",
-            "watch",
-            "watch-wfdei"
+            "watch-wfdei",
+            "watch"
           ]
         },
         "bias_adjustment": {
@@ -56,51 +56,51 @@
         "variable": {
           "type": "string",
           "enum": [
-            "initr",
-            "pirrww",
             "anthday",
-            "matyyear",
-            "biom",
-            "sco2",
-            "sumt",
             "gsrsds",
-            "plantyear",
+            "initr",
             "matyday",
-            "gsprcp",
-            "leach",
-            "sn2o",
-            "plantday",
+            "pirrww",
+            "sumt",
+            "sco2",
             "yield",
-            "aet"
+            "plantyear",
+            "matyyear",
+            "plantday",
+            "gsprcp",
+            "sn2o",
+            "biom",
+            "aet",
+            "leach"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
             "ben",
-            "mgr",
-            "bar",
-            "cot",
+            "rye",
+            "ri2",
+            "soy",
+            "ric",
+            "sor",
+            "ri1",
+            "euc",
+            "rap",
             "sun",
+            "mis",
+            "sug",
             "mai",
+            "cas",
             "nut",
             "pot",
-            "pea",
-            "rap",
-            "cas",
-            "whe",
-            "ric",
-            "sgb",
-            "mis",
-            "euc",
-            "mil",
-            "rye",
             "pop",
-            "soy",
-            "ri2",
-            "ri1",
-            "sug",
-            "sor"
+            "mgr",
+            "sgb",
+            "bar",
+            "mil",
+            "whe",
+            "cot",
+            "pea"
           ]
         },
         "irrigation": {
