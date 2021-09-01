@@ -1,5 +1,5 @@
 {
-  "commit": "fb1302ea6611bf492176fd0527ad7de7d2a57cb9",
+  "commit": "3c2db9562fb3eaaa0402c0c1c83c8ab25179ca09",
   "terms": {
     "irrigation": {
       "firr": {
@@ -145,6 +145,15 @@
       },
       "soau": {
         "title": "Sorbus aucuparia"
+      },
+      "psme": {
+        "title": "Pseudotuga Menzies"
+      },
+      "qupu": {
+        "title": "Quercus pubescens"
+      },
+      "abal": {
+        "title": "Abies alba"
       },
       "c3gr": {
         "title": "C3 grass"

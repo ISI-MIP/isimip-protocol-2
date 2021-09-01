@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/agriculture.json",
-  "commit": "fb1302ea6611bf492176fd0527ad7de7d2a57cb9",
+  "commit": "3c2db9562fb3eaaa0402c0c1c83c8ab25179ca09",
   "type": "object",
   "required": [
     "specifiers"
@@ -29,12 +29,12 @@
           "type": "string",
           "enum": [
             "princeton",
-            "gswp3",
             "gswp3-ewembi",
             "ewembi",
-            "gswp3-w5e5",
+            "gswp3",
+            "watch",
             "watch-wfdei",
-            "watch"
+            "gswp3-w5e5"
           ]
         },
         "bias_adjustment": {
@@ -56,58 +56,58 @@
         "variable": {
           "type": "string",
           "enum": [
-            "anthday",
-            "gsrsds",
-            "initr",
             "matyday",
-            "pirrww",
-            "sumt",
-            "sco2",
-            "yield",
-            "plantyear",
-            "matyyear",
-            "plantday",
             "gsprcp",
-            "sn2o",
-            "biom",
             "aet",
-            "leach"
+            "yield",
+            "sumt",
+            "gsrsds",
+            "plantday",
+            "initr",
+            "plantyear",
+            "biom",
+            "matyyear",
+            "pirrww",
+            "leach",
+            "sn2o",
+            "sco2",
+            "anthday"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "ben",
-            "rye",
-            "ri2",
+            "sgb",
+            "whe",
+            "mis",
+            "pea",
+            "mgr",
+            "nut",
+            "sun",
+            "pot",
+            "mil",
+            "rap",
+            "cot",
             "soy",
             "ric",
-            "sor",
-            "ri1",
-            "euc",
-            "rap",
-            "sun",
-            "mis",
             "sug",
+            "euc",
+            "ri2",
             "mai",
-            "cas",
-            "nut",
-            "pot",
+            "rye",
+            "sor",
             "pop",
-            "mgr",
-            "sgb",
+            "ri1",
+            "ben",
             "bar",
-            "mil",
-            "whe",
-            "cot",
-            "pea"
+            "cas"
           ]
         },
         "irrigation": {
           "type": "string",
           "enum": [
-            "noirr",
-            "firr"
+            "firr",
+            "noirr"
           ]
         },
         "region": {

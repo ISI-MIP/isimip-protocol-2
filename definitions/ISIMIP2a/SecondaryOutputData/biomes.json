@@ -1,5 +1,5 @@
 {
-  "commit": "fb1302ea6611bf492176fd0527ad7de7d2a57cb9",
+  "commit": "3c2db9562fb3eaaa0402c0c1c83c8ab25179ca09",
   "irrigation": [
     {
       "specifier": "noirr",
@@ -145,6 +145,18 @@
     {
       "title": "Sorbus aucuparia",
       "specifier": "soau"
+    },
+    {
+      "title": "Pseudotuga Menzies",
+      "specifier": "psme"
+    },
+    {
+      "title": "Quercus pubescens",
+      "specifier": "qupu"
+    },
+    {
+      "title": "Abies alba",
+      "specifier": "abal"
     },
     {
       "title": "C3 grass",
