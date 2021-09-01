@@ -64,6 +64,18 @@
     "specifier": "soau"
   },
   {
+    "title": "Pseudotuga Menzies",
+    "specifier": "psme"
+  },
+  {
+    "title": "Quercus pubescens",
+    "specifier": "qupu"
+  },
+  {
+    "title": "Abies alba",
+    "specifier": "abal"
+  },
+  {
     "title": "C3 grass",
     "specifier": "c3gr"
   },
