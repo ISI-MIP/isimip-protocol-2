@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "3c2db9562fb3eaaa0402c0c1c83c8ab25179ca09",
+  "commit": "c5d0d3017d8edd1be71da6d7774572d1bc4a6a0f",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,13 +25,13 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "princeton",
-            "gswp3-ewembi",
-            "ewembi",
             "gswp3",
-            "watch",
+            "ewembi",
+            "gswp3-w5e5",
             "watch-wfdei",
-            "gswp3-w5e5"
+            "watch",
+            "princeton",
+            "gswp3-ewembi"
           ]
         },
         "bias_adjustment": {
@@ -50,31 +50,32 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tc10cm",
-            "tc30cm",
-            "tla",
             "b30cm",
-            "tc",
-            "tcb",
-            "tsb",
             "bcom",
-            "b10cm"
+            "tsb",
+            "tpb",
+            "tla",
+            "tc30cm",
+            "b10cm",
+            "tc",
+            "tc10cm",
+            "tcb"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "hawaii",
-            "nw-med-sea",
-            "adriatic-sea",
-            "cook-strait",
             "baltic-sea",
-            "benguela",
-            "se-australia",
-            "humboldt-n",
+            "hawaii",
+            "cook-strait",
             "east-bass-strait",
+            "humboldt-n",
+            "nw-med-sea",
             "med-glob",
-            "north-sea"
+            "se-australia",
+            "adriatic-sea",
+            "north-sea",
+            "benguela"
           ]
         },
         "time_step": {
