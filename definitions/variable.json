@@ -1620,6 +1620,18 @@
     "units": "g C m-2"
   },
   {
+    "comment": "All pelagic consumers (trophic level >1, vertebrates and invertebrates)",
+    "frequency": "monthly",
+    "long_name": "Total Pelagic Biomass Density",
+    "resolution": "0.5° grid",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ],
+    "specifier": "tpb",
+    "units": "g m-2"
+  },
+  {
     "long_name": "Annual Maximum Thaw Depth",
     "sectors": [
       "permafrost",
