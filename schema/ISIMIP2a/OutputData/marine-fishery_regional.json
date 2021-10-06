@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "87a44d14c4c2033a0b812ed83abeb82054d8a085",
+  "commit": "d7bf895201544116065c0380065d267bce407da1",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,19 +26,19 @@
           "type": "string",
           "enum": [
             "princeton",
-            "gswp3",
             "gswp3-ewembi",
-            "watch-wfdei",
             "watch",
+            "gswp3-w5e5",
+            "watch-wfdei",
             "ewembi",
-            "gswp3-w5e5"
+            "gswp3"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "nobc"
+            "nobc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
@@ -50,40 +50,40 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tc",
-            "tla",
+            "b10cm",
+            "tcb",
+            "tc30cm",
             "tpb",
             "bcom",
-            "b10cm",
-            "tc30cm",
-            "tcb",
-            "tsb",
             "tc10cm",
-            "b30cm"
+            "b30cm",
+            "tsb",
+            "tc",
+            "tla"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "hawaii",
+            "humboldt-n",
             "adriatic-sea",
-            "north-sea",
-            "nw-med-sea",
-            "med-glob",
-            "east-bass-strait",
             "benguela",
+            "med-glob",
+            "north-sea",
+            "east-bass-strait",
             "se-australia",
-            "baltic-sea",
+            "nw-med-sea",
+            "hawaii",
             "cook-strait",
-            "humboldt-n"
+            "baltic-sea"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
             "daily",
-            "annual",
-            "monthly"
+            "monthly",
+            "annual"
           ]
         },
         "start_year": {

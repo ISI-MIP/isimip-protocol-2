@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/InputData/climate_co2/co2.json",
-  "commit": "87a44d14c4c2033a0b812ed83abeb82054d8a085",
+  "commit": "d7bf895201544116065c0380065d267bce407da1",
   "type": "object",
   "required": [
     "specifiers"
@@ -32,13 +32,13 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "constant",
-            "annual",
-            "daily",
             "seasonal",
+            "annual",
             "3hr",
-            "30year-mean",
-            "monthly"
+            "monthly",
+            "constant",
+            "daily",
+            "30year-mean"
           ]
         },
         "start_year": {

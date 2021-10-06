@@ -1,5 +1,5 @@
 {
-  "commit": "87a44d14c4c2033a0b812ed83abeb82054d8a085",
+  "commit": "d7bf895201544116065c0380065d267bce407da1",
   "bias_adjustment": [
     {
       "specifier": "nobc",
@@ -1644,7 +1644,8 @@
     {
       "sectors": [
         "biomes",
-        "permafrost"
+        "permafrost",
+        "forestry"
       ],
       "specifier": "nppagwood",
       "units": "kg m-2 s-1"
@@ -1652,7 +1653,8 @@
     {
       "sectors": [
         "biomes",
-        "permafrost"
+        "permafrost",
+        "forestry"
       ],
       "specifier": "nppbgwood",
       "units": "kg m-2 s-1"
