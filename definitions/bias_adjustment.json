@@ -7,7 +7,8 @@
     "specifier": "localbc",
     "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
     "sectors": [
-      "forestry"
+      "forestry",
+      "water_regional"
     ]
   },
   {
