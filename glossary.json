@@ -1,5 +1,5 @@
 {
-  "commit": "c5d0d3017d8edd1be71da6d7774572d1bc4a6a0f",
+  "commit": "87a44d14c4c2033a0b812ed83abeb82054d8a085",
   "terms": {
     "bias_adjustment": {
       "nobc": {
@@ -8,7 +8,8 @@
       "localbc": {
         "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
         "sectors": [
-          "forestry"
+          "forestry",
+          "water_regional"
         ]
       },
       "ewembi": {

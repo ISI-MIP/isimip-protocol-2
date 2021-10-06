@@ -1,9 +1,17 @@
 {
-  "commit": "c5d0d3017d8edd1be71da6d7774572d1bc4a6a0f",
+  "commit": "87a44d14c4c2033a0b812ed83abeb82054d8a085",
   "bias_adjustment": [
     {
       "specifier": "nobc",
       "description": "No bias correction was performed on the climate data."
+    },
+    {
+      "specifier": "localbc",
+      "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
+      "sectors": [
+        "forestry",
+        "water_regional"
+      ]
     },
     {
       "specifier": "ewembi",
