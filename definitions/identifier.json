@@ -33,6 +33,10 @@
     "location": true
   },
   {
+    "specifier": "frequency",
+    "title": "Temporal resolution"
+  },
+  {
     "specifier": "irrigation",
     "title": "Irrigation"
   },
@@ -56,11 +60,11 @@
   },
   {
     "specifier": "region",
-    "title": "region"
+    "title": "Region"
   },
   {
     "specifier": "resolution",
-    "title": "Resolution"
+    "title": "Spatial resolution"
   },
   {
     "specifier": "river_basin",
