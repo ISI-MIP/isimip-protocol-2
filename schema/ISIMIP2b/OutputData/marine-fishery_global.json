@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_global.json",
-  "commit": "d7bf895201544116065c0380065d267bce407da1",
+  "commit": "3023fcd908f450c5dae5b399da8a78b52be77bc7",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,51 +25,51 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "cesm1-bgc",
+            "gfdl-esm2m",
             "ipsl-cm5a-lr",
-            "miroc5",
             "hadgem2-es",
-            "gfdl-esm2m"
+            "miroc5",
+            "cesm1-bgc"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp60",
-            "rcp45",
             "historical",
-            "rcp85",
             "2299rcp26",
             "picontrol",
-            "2005co2",
-            "rcp26"
+            "rcp85",
+            "rcp26",
+            "rcp45",
+            "rcp60",
+            "2005co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "b10cm",
-            "blarge",
-            "tcb",
-            "tc",
-            "tc30cm",
-            "csmall",
-            "bcom",
-            "tc10cm",
-            "tpb",
             "clarge",
-            "bmed",
-            "b30cm",
-            "tsb",
+            "tc",
+            "cmed",
             "bsmall",
-            "cmed"
+            "bmed",
+            "tsb",
+            "b10cm",
+            "tc30cm",
+            "tpb",
+            "bcom",
+            "b30cm",
+            "csmall",
+            "blarge",
+            "tc10cm",
+            "tcb"
           ]
         },
         "region": {
@@ -81,9 +81,9 @@
         "time_step": {
           "type": "string",
           "enum": [
+            "annual",
             "daily",
-            "monthly",
-            "annual"
+            "monthly"
           ]
         },
         "start_year": {
