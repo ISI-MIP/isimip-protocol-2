@@ -1,5 +1,5 @@
 {
-  "commit": "70667a07bc17317c22b4cfd515adc09e44eb47b2",
+  "commit": "25a27676e7f9b07ce161bfedc73fa810edf0f154",
   "terms": {
     "climate_scenario": {
       "hist": {
@@ -1602,6 +1602,14 @@
         ],
         "units": "g C m-2"
       },
+      "b10cm-pelpred": {
+        "long_name": "Biomass Density of Pelagic Predators > 10cm",
+        "sectors": [
+          "marine-fishery_global",
+          "marine-fishery_regional"
+        ],
+        "units": "g C m-2"
+      },
       "b30cm": {
         "long_name": "Biomass Density of Consumers >30cm",
         "sectors": [
@@ -1612,6 +1620,14 @@
       },
       "b30cm-bendet": {
         "long_name": "Biomass Density of Benthic Detritivores > 30cm",
+        "sectors": [
+          "marine-fishery_global",
+          "marine-fishery_regional"
+        ],
+        "units": "g C m-2"
+      },
+      "b30cm-pelpred": {
+        "long_name": "Biomass Density of Pelagic Predators > 30cm",
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"

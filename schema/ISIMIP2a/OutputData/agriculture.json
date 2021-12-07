@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/agriculture.json",
-  "commit": "70667a07bc17317c22b4cfd515adc09e44eb47b2",
+  "commit": "25a27676e7f9b07ce161bfedc73fa810edf0f154",
   "type": "object",
   "required": [
     "specifiers"
@@ -28,13 +28,13 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
-            "gswp3",
             "gswp3-ewembi",
-            "gswp3-w5e5",
-            "ewembi",
             "watch-wfdei",
-            "princeton"
+            "watch",
+            "ewembi",
+            "gswp3",
+            "princeton",
+            "gswp3-w5e5"
           ]
         },
         "bias_adjustment": {
@@ -56,51 +56,51 @@
         "variable": {
           "type": "string",
           "enum": [
-            "matyday",
-            "sco2",
-            "pirrww",
-            "initr",
-            "gsprcp",
-            "matyyear",
-            "plantyear",
-            "aet",
-            "sumt",
             "gsrsds",
+            "matyday",
             "biom",
-            "plantday",
-            "sn2o",
-            "anthday",
+            "pirrww",
+            "plantyear",
+            "sumt",
+            "matyyear",
             "leach",
-            "yield"
+            "anthday",
+            "aet",
+            "gsprcp",
+            "plantday",
+            "sco2",
+            "yield",
+            "initr",
+            "sn2o"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
             "mai",
-            "sgb",
+            "whe",
+            "sor",
+            "cas",
             "mgr",
+            "rap",
+            "euc",
             "rye",
-            "nut",
+            "cot",
+            "sgb",
+            "soy",
+            "bar",
+            "mil",
+            "sun",
             "ben",
             "pea",
-            "euc",
-            "pop",
-            "whe",
             "mis",
-            "ri2",
-            "mil",
-            "cas",
-            "rap",
-            "ri1",
-            "cot",
-            "sor",
-            "sun",
-            "bar",
-            "sug",
-            "soy",
+            "pop",
             "ric",
-            "pot"
+            "nut",
+            "pot",
+            "sug",
+            "ri1",
+            "ri2"
           ]
         },
         "irrigation": {
