@@ -1,5 +1,5 @@
 {
-  "commit": "77a33aef911a4e6fc6febdd404463b4841b7e3ff",
+  "commit": "70667a07bc17317c22b4cfd515adc09e44eb47b2",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<category>[A-Za-z_]+)/(?P<subcategory>[a-z0-9-_]+)$",
   "dataset": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
   "file": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})-(?P<end_year>\\d{4})(.nc4)",

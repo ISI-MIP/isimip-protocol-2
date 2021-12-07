@@ -1,5 +1,5 @@
 {
-  "commit": "77a33aef911a4e6fc6febdd404463b4841b7e3ff",
+  "commit": "70667a07bc17317c22b4cfd515adc09e44eb47b2",
   "terms": {
     "climate_scenario": {
       "hist": {
@@ -1604,6 +1604,14 @@
       },
       "b30cm": {
         "long_name": "Biomass Density of Consumers >30cm",
+        "sectors": [
+          "marine-fishery_global",
+          "marine-fishery_regional"
+        ],
+        "units": "g C m-2"
+      },
+      "b30cm-bendet": {
+        "long_name": "Biomass Density of Benthic Detritivores > 30cm",
         "sectors": [
           "marine-fishery_global",
           "marine-fishery_regional"
