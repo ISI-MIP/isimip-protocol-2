@@ -212,6 +212,15 @@
     "units": "g C m-2"
   },
   {
+    "long_name": "Biomass Density of Pelagic Predators > 10cm",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ],
+    "specifier": "b10cm-pelpred",
+    "units": "g C m-2"
+  },
+  {
     "long_name": "Biomass Density of Consumers >30cm",
     "sectors": [
       "marine-fishery_global",
@@ -227,6 +236,15 @@
       "marine-fishery_regional"
     ],
     "specifier": "b30cm-bendet",
+    "units": "g C m-2"
+  },
+  {
+    "long_name": "Biomass Density of Pelagic Predators > 30cm",
+    "sectors": [
+      "marine-fishery_global",
+      "marine-fishery_regional"
+    ],
+    "specifier": "b30cm-pelpred",
     "units": "g C m-2"
   },
   {
