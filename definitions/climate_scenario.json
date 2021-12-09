@@ -64,5 +64,12 @@
     "simulation_rounds": [
       "ISIMIP2b"
     ]
+  },
+  {
+    "specifier": "fore",
+    "description": "Unsupported climate scenario from Marine-Fishery sector",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ]
   }
 ]
