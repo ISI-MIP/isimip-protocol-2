@@ -59,6 +59,17 @@
     ]
   },
   {
+    "specifier": "gfdl-reanalysis",
+    "title": "GFDL Reanalysis",
+    "simulation_rounds": [
+      "ISIMIP2a"
+    ],
+    "sectors": [
+      "marine-fishery_regional",
+      "marine-fishery_global"
+    ]
+  },
+  {
     "specifier": "gfdl-esm2m",
     "title": "GFDL-ESM2M",
     "simulation_rounds": [
