@@ -1,5 +1,5 @@
 {
-  "commit": "25a27676e7f9b07ce161bfedc73fa810edf0f154",
+  "commit": "79de9e195386748362a4fca0aac3d45364e2e249",
   "terms": {
     "climate_scenario": {
       "hist": {
@@ -3327,6 +3327,16 @@
         ],
         "sectors": [
           "forestry"
+        ]
+      },
+      "gfdl-reanalysis": {
+        "title": "GFDL Reanalysis",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ],
+        "sectors": [
+          "marine-fishery_regional",
+          "marine-fishery_global"
         ]
       },
       "gfdl-esm2m": {

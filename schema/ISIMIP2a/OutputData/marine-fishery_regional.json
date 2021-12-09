@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "25a27676e7f9b07ce161bfedc73fa810edf0f154",
+  "commit": "79de9e195386748362a4fca0aac3d45364e2e249",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,13 +25,14 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3-ewembi",
-            "watch-wfdei",
-            "watch",
+            "gswp3-w5e5",
             "ewembi",
+            "watch-wfdei",
+            "gfdl-reanalysis",
             "gswp3",
-            "princeton",
-            "gswp3-w5e5"
+            "watch",
+            "gswp3-ewembi",
+            "princeton"
           ]
         },
         "bias_adjustment": {
@@ -50,44 +51,44 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tcb",
+            "tc",
+            "tla",
             "b30cm",
             "b30cm-pelpred",
-            "b30cm-bendet",
-            "tpb",
-            "tc",
-            "tc10cm",
-            "bcom",
             "tsb",
-            "tla",
+            "tc10cm",
             "tc30cm",
+            "bcom",
             "b10cm",
             "b10cm-bendet",
-            "b10cm-pelpred"
+            "b10cm-pelpred",
+            "b30cm-bendet",
+            "tpb",
+            "tcb"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "east-bass-strait",
             "north-sea",
-            "baltic-sea",
-            "med-glob",
-            "se-australia",
-            "cook-strait",
-            "humboldt-n",
             "nw-med-sea",
+            "baltic-sea",
+            "cook-strait",
             "hawaii",
-            "adriatic-sea",
-            "benguela"
+            "benguela",
+            "se-australia",
+            "med-glob",
+            "humboldt-n",
+            "east-bass-strait",
+            "adriatic-sea"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
             "daily",
-            "monthly"
+            "monthly",
+            "annual"
           ]
         },
         "start_year": {
