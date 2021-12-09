@@ -1,5 +1,5 @@
 {
-  "commit": "79de9e195386748362a4fca0aac3d45364e2e249",
+  "commit": "fe4bfdd95fe53b93ed16f5921fd8def7cce04f09",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/GCM_(?P<subcategory>[a-z0-9-_]+)/(biascorrected)/(?P<region>(global))/(?P<climate_scenario>[A-Za-z0-9]+)/(?P<climate_forcing>[A-Za-z0-9-]+)$",
   "dataset": "^(?P<climate_variable>[A-Za-z]+)_(?P<time_step>[a-z0-9-]+)_(?P<climate_forcing>[A-Za-z0-9-]+)_(?P<climate_scenario>[A-Za-z0-9]+)_(?P<ensemble_member>[a-z0-9]+)_(?P<bias_adjustment>[A-Za-z0-9-]+)",
   "file": "^(?P<climate_variable>[A-Za-z]+)_(?P<time_step>[a-z0-9-]+)_(?P<climate_forcing>[A-Za-z0-9-]+)_(?P<climate_scenario>[A-Za-z0-9]+)_(?P<ensemble_member>[a-z0-9]+)_(?P<bias_adjustment>[A-Za-z0-9-]+)_(?P<start_year>\\d{4})\\d{4}-(?P<end_year>\\d{4})\\d{4}(.nc4)",
