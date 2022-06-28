@@ -10,39 +10,32 @@
     "specifier": "maximum",
     "value": {
       "ISIMIP2a": 2018,
-      "ISIMIP2b": 2100
+      "ISIMIP2b": 2299
     }
   },
   {
     "specifier": "start_pre-ind",
     "value": {
-      "ISIMIP3b": 1661
+      "ISIMIP2b": 1661
     }
   },
   {
     "specifier": "end_pre-ind",
     "value": {
-      "ISIMIP3b": 1860
+      "ISIMIP2b": 1860
     }
   },
   {
     "specifier": "start_hist",
     "value": {
-      "ISIMIP3a": {
-	  "pgfv2.1" : 1901,
-	  "gswp3-w5e5" : 1901,
-	  "gswp3-ewembi" : 1901,
-	  "gswp3" : 1901,
-	  "watch" : 1901,
-	  "watch-wfdei" : 1901
-	  },
-      "ISIMIP3b": 1861
+      "ISIMIP2a": 1901,
+      "ISIMIP2b": 1861
     }
   },
   {
     "specifier": "end_hist",
     "value": {
-      "ISIMIP3a": {
+      "ISIMIP2a": {
 	  "pgfv2.1" : 2012,
 	  "gswp3-w5e5" : 2016,
 	  "gswp3-ewembi" : 2016,
@@ -50,31 +43,31 @@
 	  "watch" : 2001,
 	  "watch-wfdei" : 2016
 	  },
-      "ISIMIP3b": 2005
+      "ISIMIP2b": 2005
     }
   },
   {
     "specifier": "start_fut",
     "value": {
-      "ISIMIP3b": 2006
+      "ISIMIP2b": 2006
     }
   },
   {
     "specifier": "end_fut",
     "value": {
-      "ISIMIP3b": 2099
+      "ISIMIP2b": 2099
     }
   },
   {
     "specifier": "start_fut-ext",
     "value": {
-      "ISIMIP3b": 2100
+      "ISIMIP2b": 2100
     }
   },
   {
     "specifier": "end_fut-ext",
     "value": {
-      "ISIMIP3b": 2299
+      "ISIMIP2b": 2299
     }
   }
 ]
