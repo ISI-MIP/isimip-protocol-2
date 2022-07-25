@@ -1,6 +1,6 @@
 {
-  "commit": "52338dd2aa4c5e2c14320914413a6cb735a3fc14",
-  "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(climate_co2)/(?P<climate_dataset>[A-Za-z0-9]+)$",
+  "commit": "c6b59224391ca92c9df51e4df468babe6aa2f673",
+  "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(climate_co2)/(?P<climate_variable>[A-Za-z0-9]+)$",
   "dataset": "^(?P<climate_scenario>[A-Za-z0-9]+)_(?P<climate_variable>[A-Za-z0-9]+)_(?P<time_step>[a-z]+)",
   "file": "^(?P<climate_scenario>[A-Za-z0-9]+)_(?P<climate_variable>[A-Za-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.txt)",
   "suffix": [

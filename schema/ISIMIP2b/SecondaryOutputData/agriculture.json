@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/SecondaryOutputData/agriculture.json",
-  "commit": "52338dd2aa4c5e2c14320914413a6cb735a3fc14",
+  "commit": "c6b59224391ca92c9df51e4df468babe6aa2f673",
   "type": "object",
   "required": [
     "specifiers"
@@ -29,8 +29,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ipsl-cm5a-lr",
             "cesm1-bgc",
+            "ipsl-cm5a-lr",
             "hadgem2-es",
             "miroc5",
             "gfdl-esm2m"
@@ -39,123 +39,123 @@
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "nobc"
+            "nobc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp45",
             "2299rcp26",
-            "rcp26",
-            "rcp60",
-            "2005co2",
             "rcp85",
+            "rcp60",
+            "rcp45",
             "picontrol",
-            "historical"
+            "2005co2",
+            "historical",
+            "rcp26"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "rcp26socam",
-            "rcp60sochwp",
-            "pressoc",
-            "2005socsite",
-            "rcp85socbeb",
-            "rcp60socbeb",
             "rcp85socbe",
-            "rcp60soc",
-            "rcp60socbe",
-            "rcp26soc",
-            "histsoc",
-            "ssp2soc",
-            "1860soc",
-            "ssp4soc",
-            "2005soc",
-            "rcp26soca",
-            "rcp85soca",
-            "rcp26socbe",
             "rcp85socam",
-            "rcp85soc",
-            "2100rcp26soc",
-            "ssp1soc",
-            "ssp3soc",
-            "rcp26sochwp",
-            "ssp5soc",
-            "varsoc",
+            "ssp4soc",
             "nat",
-            "rcp85sochwp",
+            "rcp60socbe",
+            "pressoc",
+            "2005soc",
             "rcp26socbeb",
+            "ssp1soc",
+            "rcp26sochwp",
+            "rcp60soc",
+            "ssp3soc",
             "rcp60socam",
+            "rcp85sochwp",
+            "rcp85soc",
+            "ssp2soc",
+            "rcp60socbeb",
+            "rcp26socbe",
+            "histsoc",
+            "rcp26soca",
+            "rcp85socbeb",
+            "2005socsite",
+            "rcp26soc",
+            "rcp60sochwp",
+            "rcp85soca",
+            "rcp60soca",
+            "1860soc",
+            "rcp26socam",
             "nosoc",
-            "rcp60soca"
+            "2100rcp26soc",
+            "varsoc",
+            "ssp5soc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
             "co2",
+            "default",
             "2005co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "anthday",
+            "aet",
+            "sumt",
+            "sco2",
             "pirrww",
+            "matyday",
             "gsprcp",
             "initr",
-            "sco2",
-            "plantday",
-            "sn2o",
-            "plantyear",
-            "leach",
-            "sumt",
-            "yield",
-            "aet",
-            "biom",
-            "matyyear",
             "gsrsds",
-            "matyday"
+            "sn2o",
+            "yield",
+            "anthday",
+            "matyyear",
+            "plantyear",
+            "biom",
+            "plantday",
+            "leach"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "pop",
-            "sug",
             "ric",
+            "mai",
+            "ri1",
+            "rye",
+            "whe",
+            "cas",
             "soy",
             "bar",
-            "mai",
-            "pot",
-            "mil",
-            "cas",
-            "ri1",
-            "pea",
             "ri2",
-            "whe",
-            "euc",
-            "rap",
-            "sun",
+            "pot",
             "ben",
-            "mgr",
+            "sgb",
+            "rap",
+            "pea",
+            "cot",
+            "mis",
+            "euc",
+            "sug",
+            "mil",
+            "sun",
+            "pop",
             "sor",
             "nut",
-            "sgb",
-            "rye",
-            "cot",
-            "mis"
+            "mgr"
           ]
         },
         "irrigation": {
           "type": "string",
           "enum": [
-            "noirr",
-            "firr"
+            "firr",
+            "noirr"
           ]
         },
         "region": {
@@ -167,8 +167,8 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
-            "seasonal"
+            "seasonal",
+            "annual"
           ]
         },
         "start_year": {
