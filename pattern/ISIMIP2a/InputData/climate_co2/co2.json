@@ -3,7 +3,7 @@
     "(?P<simulation_round>[A-Za-z0-9]+)",
     "(?P<product>[A-Za-z]+)",
     "(climate_co2)",
-    "(?P<climate_dataset>[A-Za-z0-9]+)"
+    "(?P<climate_variable>[A-Za-z0-9]+)"
   ],
   "dataset": [
     "(?P<climate_scenario>[A-Za-z0-9]+)",

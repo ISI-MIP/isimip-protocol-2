@@ -2,15 +2,15 @@
   "path": [
     "(?P<simulation_round>[A-Za-z0-9]+)",
     "(?P<product>[A-Za-z]+)",
-    "(?P<climate_dataset>[A-Za-z0-9]+)",
+    "(?P<climate_variable>[A-Za-z0-9]+)",
     "(?P<climate_scenario>[A-Za-z0-9]+)"
   ],
   "dataset": [
-    "(?P<climate_dataset>[A-Za-z0-9]+)",
+    "(?P<climate_variable>[A-Za-z0-9]+)",
     "(?P<climate_scenario>[A-Za-z0-9]+)"
   ],
   "file": [
-    "(?P<climate_dataset>[A-Za-z0-9]+)",
+    "(?P<climate_variable>[A-Za-z0-9]+)",
     "(?P<climate_scenario>[A-Za-z0-9]+)",
     "(?P<start_year>\\d{4})-(?P<end_year>\\d{4})"
   ],
