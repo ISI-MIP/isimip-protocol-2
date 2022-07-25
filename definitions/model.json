@@ -36,6 +36,10 @@
     "title": "APECOSM"
   },
   {
+    "specifier": "atlantis",
+    "title": "Atlantis"
+  },
+  {
     "specifier": "atlantis_se-australia",
     "title": "Atlantis_se-australia"
   },
@@ -142,6 +146,10 @@
   {
     "specifier": "epic-tamu",
     "title": "EPIC-TAMU"
+  },
+  {
+    "specifier": "ewe",
+    "title": "EwE"
   },
   {
     "specifier": "ewe_adriatic-sea",
@@ -320,6 +328,10 @@
   {
     "specifier": "orchidee-dgvm",
     "title": "ORCHIDEE-DGVM"
+  },
+  {
+    "specifier": "osmose",
+    "title": "OSMOSE"
   },
   {
     "specifier": "osmose_humboldt-n",
