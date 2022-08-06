@@ -1,5 +1,5 @@
 {
-  "commit": "c6b59224391ca92c9df51e4df468babe6aa2f673",
+  "commit": "fed4b535b53ef408227765746835b19440b14328",
   "river": [
     {
       "specifier": "amazon"
@@ -1069,6 +1069,10 @@
       "title": "FLake-IGB"
     },
     {
+      "specifier": "formind",
+      "title": "FORMIND"
+    },
+    {
       "specifier": "h08",
       "title": "H08"
     },
@@ -1221,6 +1225,14 @@
     {
       "specifier": "prysbi2",
       "title": "PRYSBI2"
+    },
+    {
+      "specifier": "salem",
+      "title": "SALEM"
+    },
+    {
+      "specifier": "sibyla",
+      "title": "SIBYLA"
     },
     {
       "specifier": "simstrat",

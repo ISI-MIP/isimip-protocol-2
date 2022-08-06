@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
-  "commit": "c6b59224391ca92c9df51e4df468babe6aa2f673",
+  "commit": "fed4b535b53ef408227765746835b19440b14328",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,53 +25,53 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "princeton",
             "watch-wfdei",
             "key-run",
+            "ewembi",
+            "gfdl-reanalysis",
             "gswp3",
+            "gswp3-ewembi",
             "watch",
             "gswp3-w5e5",
-            "gfdl-reanalysis",
-            "ewembi",
-            "gswp3-ewembi"
+            "princeton"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "fore",
-            "hist"
+            "hist",
+            "fore"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "csmall",
-            "b10cm-bendet",
-            "tpb",
             "tsb",
-            "b10cm",
             "tc30cm",
+            "tpb",
             "b30cm-bendet",
-            "bsmall",
-            "bcom",
-            "tcb",
-            "cmed",
-            "b10cm-pelpred",
-            "clarge",
-            "tc",
-            "tc10cm",
             "bmed",
+            "b10cm-bendet",
+            "b30cm",
+            "bsmall",
+            "csmall",
+            "clarge",
             "blarge",
             "b30cm-pelpred",
-            "b30cm"
+            "tcb",
+            "tc",
+            "b10cm-pelpred",
+            "b10cm",
+            "bcom",
+            "tc10cm",
+            "cmed"
           ]
         },
         "region": {
@@ -83,9 +83,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "annual",
-            "monthly"
+            "monthly",
+            "daily"
           ]
         },
         "start_year": {

@@ -1,5 +1,5 @@
 {
-  "commit": "c6b59224391ca92c9df51e4df468babe6aa2f673",
+  "commit": "fed4b535b53ef408227765746835b19440b14328",
   "terms": {
     "river": {
       "amazon": {},
@@ -939,6 +939,9 @@
       "flake-igb": {
         "title": "FLake-IGB"
       },
+      "formind": {
+        "title": "FORMIND"
+      },
       "h08": {
         "title": "H08"
       },
@@ -1055,6 +1058,12 @@
       },
       "prysbi2": {
         "title": "PRYSBI2"
+      },
+      "salem": {
+        "title": "SALEM"
+      },
+      "sibyla": {
+        "title": "SIBYLA"
       },
       "simstrat": {
         "title": "Simstrat"
