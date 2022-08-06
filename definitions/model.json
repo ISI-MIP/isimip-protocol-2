@@ -220,6 +220,10 @@
     "title": "FLake-IGB"
   },
   {
+    "specifier": "formind",
+    "title": "FORMIND"
+  },
+  {
     "specifier": "h08",
     "title": "H08"
   },
@@ -374,6 +378,14 @@
     "title": "PRYSBI2"
   },
   {
+    "specifier": "salem",
+    "title": "SALEM"
+  },
+  {
+    "specifier": "sibyla",
+    "title": "SIBYLA"
+  },
+  {
     "specifier": "simstrat",
     "title": "Simstrat"
   },
@@ -405,7 +417,7 @@
     "specifier": "swat-ufz",
     "title": "SWAT-UFZ"
   },
-    {
+  {
     "specifier": "swat-uottawa",
     "title": "SWAT-uOttawa"
   },
