@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/population.json",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/water_abstraction.json",
   "commit": "4332e18be41d5181c8642ae758a132b72733ec13",
   "type": "object",
   "required": [
@@ -11,9 +11,6 @@
       "required": [],
       "properties": {
         "soc_dataset": {
-          "type": "string"
-        },
-        "soc_variable": {
           "type": "string"
         },
         "soc_scenario": {
@@ -51,14 +48,6 @@
             "2100rcp26soc",
             "rcp85soc",
             "ssp2soc"
-          ]
-        },
-        "resolution": {
-          "type": "string",
-          "enum": [
-            "5arcmin",
-            "halfdeg",
-            "national"
           ]
         },
         "time_step": {
