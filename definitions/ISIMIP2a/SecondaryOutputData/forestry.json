@@ -1,1378 +1,194 @@
 {
-  "commit": "4332e18be41d5181c8642ae758a132b72733ec13",
-  "river": [
+  "commit": "2dfc1fe76770e1f62c02056ccc918117cbdc6d5f",
+  "climate_forcing": [
     {
-      "specifier": "amazon"
-    },
-    {
-      "specifier": "blue-nile"
-    },
-    {
-      "specifier": "danube"
-    },
-    {
-      "specifier": "darling"
-    },
-    {
-      "specifier": "ganges"
-    },
-    {
-      "specifier": "godavari"
-    },
-    {
-      "specifier": "indus"
-    },
-    {
-      "specifier": "lena"
-    },
-    {
-      "specifier": "mackenzie"
-    },
-    {
-      "specifier": "mississippi"
-    },
-    {
-      "specifier": "niger"
-    },
-    {
-      "specifier": "pajeu"
-    },
-    {
-      "specifier": "rhine"
-    },
-    {
-      "specifier": "tagus"
-    },
-    {
-      "specifier": "yangtze"
-    },
-    {
-      "specifier": "yellow"
-    }
-  ],
-  "sector": [
-    {
-      "specifier": "agriculture",
-      "title": "Agriculture"
-    },
-    {
-      "specifier": "biodiversity",
-      "title": "Terrestrial biodiversity"
-    },
-    {
-      "specifier": "biomes",
-      "title": "Biomes"
-    },
-    {
-      "specifier": "forestry",
-      "title": "Regional forests"
-    },
-    {
-      "specifier": "health",
-      "title": "Temperature-related mortality"
-    },
-    {
-      "specifier": "lakes_global",
-      "title": "Lakes (global)"
-    },
-    {
-      "specifier": "lakes_local",
-      "title": "Lakes (local)"
-    },
-    {
-      "specifier": "marine-fishery_global",
-      "title": "Fisheries and Marine Ecosystems (global)"
-    },
-    {
-      "specifier": "marine-fishery_regional",
-      "title": "Fisheries and Marine Ecosystems (regional)"
-    },
-    {
-      "specifier": "permafrost",
-      "title": "Permafrost"
-    },
-    {
-      "specifier": "waterborne_diseases",
-      "title": "Waterborne Diseases"
-    },
-    {
-      "specifier": "water_global",
-      "title": "Water (global)"
-    },
-    {
-      "specifier": "water_regional",
-      "title": "Water (regional)"
-    }
-  ],
-  "climate_scenario": [
-    {
-      "specifier": "hist",
-      "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
+      "specifier": "gswp3",
+      "title": "GSWP3",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
     },
     {
-      "specifier": "fore",
-      "description": "Unsupported climate scenario from Marine-Fishery sector",
+      "specifier": "gswp3-ewembi",
+      "title": "GSWP3-EWEMBI",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
+    },
+    {
+      "specifier": "gswp3-w5e5",
+      "title": "GSWP3-W5E5",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "ewembi",
+      "title": "EWEMBI",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "princeton",
+      "title": "PGMFD v2.1 (Princeton)",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "watch",
+      "title": "WATCH (WFD)",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "watch-wfdei",
+      "title": "WATCH-WFDEI",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ]
+    },
+    {
+      "specifier": "localclim",
+      "title": "Locally observed weather data",
+      "simulation_rounds": [
+        "ISIMIP2a"
+      ],
+      "sectors": [
+        "forestry"
+      ]
     }
   ],
-  "forest_stand": [
-    {
-      "specifier": "hyytiala",
-      "title": "Hyyti\u00e4l\u00e4",
-      "lat": 61.8475,
-      "lon": 24.295,
-      "country": "FI",
-      "type": "Even-aged conifer",
-      "species": [
-        "pisy",
-        "piab"
-      ],
-      "thinning": "below",
-      "comment": "Note that an experimental plot of pine contains a lot of data while footprint of flux tower is larger. Please note that the deciduous admixtures only appear in the data at a later stage and hence do not need to be simulated. Only simulate pine and spruce (no hard-woods) and regenerate as pure pine stand"
-    },
-    {
-      "specifier": "peitz",
-      "title": "Peitz",
-      "lat": 51.9166,
-      "lon": 14.35,
-      "country": "DE",
-      "type": "Even-aged conifer",
-      "species": [
-        "pisy"
-      ],
-      "thinning": "below",
-      "comment": "Managed using a weak thinning from below."
-    },
-    {
-      "specifier": "solling-beech",
-      "title": "Solling (beech)",
-      "lat": 51.77,
-      "lon": 9.57,
-      "country": "DE",
-      "type": "Even-aged deciduous",
-      "species": [
-        "fasy"
-      ],
-      "thinning": "above",
-      "comment": ""
-    },
-    {
-      "specifier": "solling-spruce",
-      "title": "Solling (spruce)",
-      "lat": 51.77,
-      "lon": 9.57,
-      "country": "DE",
-      "type": "Even-aged conifer",
-      "species": [
-        "piab "
-      ],
-      "thinning": "below",
-      "comment": ""
-    },
-    {
-      "specifier": "soro",
-      "title": "Sor\u00f8",
-      "lat": 55.485844,
-      "lon": 11.644616,
-      "country": "DK",
-      "type": "Even-aged deciduous",
-      "species": [
-        "fasy"
-      ],
-      "thinning": "above",
-      "comment": ""
-    },
-    {
-      "specifier": "kroof",
-      "title": "Kranzberg Roof Project",
-      "lat": 48.25,
-      "lon": 11.4,
-      "country": "DE",
-      "type": "Mixed deciduous and conifers",
-      "species": [
-        "fasy",
-        "piab",
-        "acpl",
-        "lade",
-        "pisy",
-        "quro"
-      ],
-      "thinning": "below",
-      "comment": "Unmanaged/ thinning from below in past 20 years for all species."
-    },
-    {
-      "specifier": "le-bray",
-      "title": "Le Bray",
-      "lat": 44.71711,
-      "lon": -0.7693,
-      "country": "FR",
-      "type": "Even-aged conifer",
-      "species": [
-        "pipi"
-      ],
-      "thinning": "below",
-      "comment": ""
-    },
-    {
-      "specifier": "collelongo",
-      "title": "Collelongo",
-      "lat": 41.8494,
-      "lon": 13.5881,
-      "country": "IT",
-      "type": "Even-aged deciduous",
-      "species": [
-        "fasy"
-      ],
-      "thinning": "above",
-      "comment": ""
-    },
-    {
-      "specifier": "bily-kriz",
-      "title": "B\u00edl\u00fd K\u0159\u00ed\u017e",
-      "lat": 49.3,
-      "lon": 18.32,
-      "country": "CZ",
-      "type": "Even-aged conifer",
-      "species": [
-        "piab"
-      ],
-      "thinning": "below",
-      "comment": ""
-    }
-  ],
-  "time_span": [
-    {
-      "specifier": "minimum",
-      "value": 1901
-    },
-    {
-      "specifier": "maximum",
-      "value": 2018
-    },
-    {
-      "specifier": "start_pre-ind",
-      "value": {
-        "ISIMIP2b": 1661
-      }
-    },
-    {
-      "specifier": "end_pre-ind",
-      "value": {
-        "ISIMIP2b": 1860
-      }
-    },
-    {
-      "specifier": "start_hist",
-      "value": 1901
-    },
-    {
-      "specifier": "end_hist",
-      "value": {
-        "pgfv2.1": 2012,
-        "gswp3-w5e5": 2016,
-        "gswp3-ewembi": 2016,
-        "gswp3": 2010,
-        "watch": 2001,
-        "watch-wfdei": 2016
-      }
-    },
-    {
-      "specifier": "start_fut",
-      "value": {
-        "ISIMIP2b": 2006
-      }
-    },
-    {
-      "specifier": "end_fut",
-      "value": {
-        "ISIMIP2b": 2099
-      }
-    },
-    {
-      "specifier": "start_fut-ext",
-      "value": {
-        "ISIMIP2b": 2100
-      }
-    },
-    {
-      "specifier": "end_fut-ext",
-      "value": {
-        "ISIMIP2b": 2299
-      }
-    }
-  ],
-  "resolution": [
-    {
-      "specifier": "halfdeg"
-    },
-    {
-      "specifier": "5arcmin"
-    },
-    {
-      "specifier": "national"
-    }
-  ],
-  "lake_site": [
-    {
-      "specifier": "allequash",
-      "title": "Allequash Lake",
-      "country": "USA",
-      "lon": -89.62,
-      "lat": 46.04,
-      "type": "lake"
-    },
-    {
-      "specifier": "alqueva",
-      "title": "Alqueva Reservoir",
-      "country": "Portugal",
-      "lon": -7.49,
-      "lat": 38.2,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "annecy",
-      "title": "Lake Annecy",
-      "country": "France",
-      "lon": 6.17,
-      "lat": 45.87,
-      "type": "lake"
-    },
-    {
-      "specifier": "annie",
-      "title": "Lake Annie",
-      "country": "USA",
-      "lon": -81.35,
-      "lat": 27.21,
-      "type": "lake"
-    },
-    {
-      "specifier": "argyle",
-      "title": "Lake Argyle",
-      "country": "Australia",
-      "lon": 128.68,
-      "lat": -16.31,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "biel",
-      "title": "Lake Biel",
-      "country": "Switzerland",
-      "lon": 7.16,
-      "lat": 47.08,
-      "type": "lake"
-    },
-    {
-      "specifier": "big-muskellunge",
-      "title": "Big Muskellunge Lake",
-      "country": "USA",
-      "lon": -89.61,
-      "lat": 46.02,
-      "type": "lake"
-    },
-    {
-      "specifier": "black-oak",
-      "title": "Black Oak Lake",
-      "country": "USA",
-      "lon": -89.32,
-      "lat": 46.16,
-      "type": "lake"
-    },
-    {
-      "specifier": "bourget",
-      "title": "Lake Bourget",
-      "country": "France",
-      "lon": 5.86,
-      "lat": 45.76,
-      "type": "lake"
-    },
-    {
-      "specifier": "burley-griffin",
-      "title": "Lake Burley Griffin",
-      "country": "Australia",
-      "lon": 149.07,
-      "lat": -35.3,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "crystal-lake",
-      "title": "Crystal Lake",
-      "country": "USA",
-      "lon": -89.61,
-      "lat": 46.0,
-      "type": "lake"
-    },
-    {
-      "specifier": "crystal-bog",
-      "title": "Crystal Bog",
-      "country": "USA",
-      "lon": -89.61,
-      "lat": 46.01,
-      "type": "lake"
-    },
-    {
-      "specifier": "delavan",
-      "title": "Delavan Lake",
-      "country": "USA",
-      "lon": -88.6,
-      "lat": 42.61,
-      "type": "lake"
-    },
-    {
-      "specifier": "dickie",
-      "title": "Dickie Lake",
-      "country": "Canada",
-      "lon": -79.09,
-      "lat": 45.15,
-      "type": "lake"
-    },
-    {
-      "specifier": "eagle",
-      "title": "Eagle Lake",
-      "country": "Canada",
-      "lon": -76.7,
-      "lat": 44.68,
-      "type": "lake"
-    },
-    {
-      "specifier": "ekoln",
-      "title": "Ekoln basin of M\u00e4laren",
-      "country": "Sweden",
-      "lon": 17.62,
-      "lat": 59.75,
-      "type": "lake"
-    },
-    {
-      "specifier": "erken",
-      "title": "Lake Erken",
-      "country": "Sweden",
-      "lon": 18.63,
-      "lat": 59.84,
-      "type": "lake"
-    },
-    {
-      "specifier": "esthwaite-water",
-      "title": "Esthwaite Water",
-      "country": "United Kingdom",
-      "lon": -2.99,
-      "lat": 54.37,
-      "type": "lake"
-    },
-    {
-      "specifier": "falling-creek",
-      "title": "Falling Creek Reservoir",
-      "country": "USA",
-      "lon": -79.84,
-      "lat": 37.31,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "feeagh",
-      "title": "Lake Feeagh",
-      "country": "Ireland",
-      "lon": -9.5,
-      "lat": 53.9,
-      "type": "lake"
-    },
-    {
-      "specifier": "fish",
-      "title": "Fish Lake",
-      "country": "USA",
-      "lon": -89.65,
-      "lat": 43.29,
-      "type": "lake"
-    },
-    {
-      "specifier": "geneva",
-      "title": "Lake Geneva",
-      "country": "France/Switzerland",
-      "lon": 6.59,
-      "lat": 46.45,
-      "type": "lake"
-    },
-    {
-      "specifier": "great",
-      "title": "Great Pond",
-      "country": "USA",
-      "lon": -69.89,
-      "lat": 44.53,
-      "type": "lake"
-    },
-    {
-      "specifier": "green",
-      "title": "Green Lake",
-      "country": "USA",
-      "lon": -89.0,
-      "lat": 43.81,
-      "type": "lake"
-    },
-    {
-      "specifier": "harp",
-      "title": "Harp Lake",
-      "country": "Canada",
-      "lon": -79.13,
-      "lat": 45.38,
-      "type": "lake"
-    },
-    {
-      "specifier": "kilpisjarvi",
-      "title": "Kilpisj\u00e4rvi",
-      "country": "Finland",
-      "lon": 20.77,
-      "lat": 69.03,
-      "type": "lake"
-    },
-    {
-      "specifier": "kinneret",
-      "title": "Lake Kinneret",
-      "country": "Israel",
-      "lon": 35.35,
-      "lat": 32.49,
-      "type": "lake"
-    },
-    {
-      "specifier": "kivu",
-      "title": "Lake Kivu",
-      "country": "Rwanda/DR Congo",
-      "lon": 29.24,
-      "lat": -1.73,
-      "type": "lake"
-    },
-    {
-      "specifier": "klicava",
-      "title": "Klicava Reservoir",
-      "country": "Czechia",
-      "lon": 13.93,
-      "lat": 50.07,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "kuivajarvi",
-      "title": "Lake Kuivajarvi",
-      "country": "Finland",
-      "lon": 23.51,
-      "lat": 60.47,
-      "type": "lake"
-    },
-    {
-      "specifier": "langtjern",
-      "title": "Lake Langtjern",
-      "country": "Norway",
-      "lon": 9.73,
-      "lat": 60.37,
-      "type": "lake"
-    },
-    {
-      "specifier": "laramie",
-      "title": "Laramie Lake",
-      "country": "USA",
-      "lon": -105.84,
-      "lat": 40.62,
-      "type": "lake"
-    },
-    {
-      "specifier": "lower-zurich",
-      "title": "Lower Lake Zurich",
-      "country": "Switzerland",
-      "lon": 8.58,
-      "lat": 47.28,
-      "type": "lake"
-    },
-    {
-      "specifier": "mendota",
-      "title": "Lake Mendota",
-      "country": "USA",
-      "lon": -89.41,
-      "lat": 43.1,
-      "type": "lake"
-    },
-    {
-      "specifier": "monona",
-      "title": "Lake Monona",
-      "country": "USA",
-      "lon": -89.36,
-      "lat": 43.06,
-      "type": "lake"
-    },
-    {
-      "specifier": "mozhaysk",
-      "title": "Mozhaysk reservoir",
-      "country": "Russia",
-      "lon": 35.82,
-      "lat": 55.59,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "mt-bold",
-      "title": "Mt Bold",
-      "country": "Australia",
-      "lon": 138.71,
-      "lat": -35.12,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "mueggelsee",
-      "title": "Lake M\u00fcggelsee",
-      "country": "Germany",
-      "lon": 13.65,
-      "lat": 52.43,
-      "type": "lake"
-    },
-    {
-      "specifier": "neuchatel",
-      "title": "Lake Neuch\u00e2tel",
-      "country": "Switzerland",
-      "lon": 6.52,
-      "lat": 46.54,
-      "type": "lake"
-    },
-    {
-      "specifier": "ngoring",
-      "title": "Ngoring",
-      "country": "China",
-      "lon": 97.7,
-      "lat": 34.9,
-      "type": "lake"
-    },
-    {
-      "specifier": "nohipalo-mustjaerv",
-      "title": "Lake Nohipalo Mustj\u00e4rv",
-      "country": "Estonia",
-      "lon": 27.34,
-      "lat": 57.93,
-      "type": "lake"
-    },
-    {
-      "specifier": "nohipalo-valgejaerv",
-      "title": "Lake Nohipalo Valgej\u00e4rv",
-      "country": "Estonia",
-      "lon": 27.35,
-      "lat": 57.94,
-      "type": "lake"
-    },
-    {
-      "specifier": "okauchee",
-      "title": "Okauchee Lake",
-      "country": "USA",
-      "lon": -88.43,
-      "lat": 43.13,
-      "type": "lake"
-    },
-    {
-      "specifier": "paaijarvi",
-      "title": "Lake P\u00e4\u00e4j\u00e4rvi",
-      "country": "Finland",
-      "lon": 25.13,
-      "lat": 61.07,
-      "type": "lake"
-    },
-    {
-      "specifier": "rappbode",
-      "title": "Rappbode Reservoir",
-      "country": "Germany",
-      "lon": 10.89,
-      "lat": 51.74,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "rimov",
-      "title": "Rimov Reservoir",
-      "country": "Czechia",
-      "lon": 14.49,
-      "lat": 48.85,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "rotorua",
-      "title": "Lake Rotorua",
-      "country": "New Zealand",
-      "lon": 176.28,
-      "lat": -38.08,
-      "type": "lake"
-    },
-    {
-      "specifier": "sammamish",
-      "title": "Lake Sammamish",
-      "country": "USA",
-      "lon": -122.1,
-      "lat": 47.59,
-      "type": "lake"
-    },
-    {
-      "specifier": "sau",
-      "title": "Sau Reservoir",
-      "country": "Spain",
-      "lon": 2.4,
-      "lat": 41.97,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "sparkling",
-      "title": "Sparkling Lake",
-      "country": "USA",
-      "lon": -89.7,
-      "lat": 46.01,
-      "type": "lake"
-    },
-    {
-      "specifier": "stechlin",
-      "title": "Lake Stechlin",
-      "country": "Germany",
-      "lon": 13.03,
-      "lat": 53.17,
-      "type": "lake"
-    },
-    {
-      "specifier": "sunapee",
-      "title": "Lake Sunapee",
-      "country": "USA",
-      "lon": -72.5,
-      "lat": 43.23,
-      "type": "lake"
-    },
-    {
-      "specifier": "tahoe",
-      "title": "Lake Tahoe",
-      "country": "USA",
-      "lon": -120.03,
-      "lat": 39.09,
-      "type": "reservoir"
-    },
-    {
-      "specifier": "tarawera",
-      "title": "Lake Tarawera",
-      "country": "New Zealand",
-      "lon": 176.43,
-      "lat": -38.21,
-      "type": "lake"
-    },
-    {
-      "specifier": "taupo",
-      "title": "Lake Taupo",
-      "country": "New Zealand",
-      "lon": 175.89,
-      "lat": -38.8,
-      "type": "lake"
-    },
-    {
-      "specifier": "toolik",
-      "title": "Toolik Lake",
-      "country": "USA",
-      "lon": -149.6,
-      "lat": 68.63,
-      "type": "lake"
-    },
-    {
-      "specifier": "trout-lake",
-      "title": "Trout Lake",
-      "country": "USA",
-      "lon": -89.67,
-      "lat": 46.03,
-      "type": "lake"
-    },
-    {
-      "specifier": "trout-bog",
-      "title": "Trout Bog",
-      "country": "USA",
-      "lon": -89.69,
-      "lat": 46.04,
-      "type": "lake"
-    },
-    {
-      "specifier": "two-sisters",
-      "title": "Two Sisters Lake",
-      "country": "USA",
-      "lon": -89.53,
-      "lat": 45.77,
-      "type": "lake"
-    },
-    {
-      "specifier": "vendyurskoe",
-      "title": "Lake Vendyurskoe",
-      "country": "Russia",
-      "lon": 33.1,
-      "lat": 62.1,
-      "type": "lake"
-    },
-    {
-      "specifier": "vortsjaerv",
-      "title": "lake V\u00f5rtsj\u00e4rv",
-      "country": "Estonia",
-      "lon": 26.01,
-      "lat": 58.31,
-      "type": "lake"
-    },
-    {
-      "specifier": "waahi",
-      "title": "Lake Waahi",
-      "country": "New Zealand",
-      "lon": 175.07,
-      "lat": 37.33,
-      "type": "lake"
-    },
-    {
-      "specifier": "washington",
-      "title": "Lake Washington",
-      "country": "USA",
-      "lon": -122.27,
-      "lat": 47.64,
-      "type": "lake"
-    },
-    {
-      "specifier": "windermere",
-      "title": "Windermere",
-      "country": "United Kingdom",
-      "lon": -2.95,
-      "lat": 54.31,
-      "type": "lake"
-    },
-    {
-      "specifier": "wingra",
-      "title": "Lake Wingra",
-      "country": "USA",
-      "lon": -89.43,
-      "lat": 43.05,
-      "type": "lake"
-    },
-    {
-      "specifier": "zlutice",
-      "title": "Zlutice Reservoir",
-      "country": "Czechia",
-      "lon": 13.11,
-      "lat": 50.09,
-      "type": "reservoir"
-    }
-  ],
-  "model": [
-    {
-      "specifier": "3d-cmcc-cnr-bgc",
-      "title": "3D-CMCC-CNR-BGC"
-    },
-    {
-      "specifier": "3d-cmcc-fem",
-      "title": "3D-CMCC-FEM"
-    },
-    {
-      "specifier": "3pg",
-      "title": "3PG"
-    },
-    {
-      "specifier": "3pgn-bw",
-      "title": "3PGN-BW"
-    },
-    {
-      "specifier": "4c",
-      "title": "4C"
-    },
-    {
-      "specifier": "albm",
-      "title": "ALBM"
-    },
-    {
-      "specifier": "air2water4par",
-      "title": "air2water4par"
-    },
+  "soc_scenario": [
     {
-      "specifier": "air2water6par",
-      "title": "air2water6par"
+      "specifier": "nosoc",
+      "description": "Naturalized - without human impacts on river flow."
     },
     {
-      "specifier": "apecosm",
-      "title": "APECOSM"
+      "specifier": "pressoc",
+      "description": "Constant human impacts - present-day (year-2000) dams and water use."
     },
     {
-      "specifier": "atlantis",
-      "title": "Atlantis"
+      "specifier": "varsoc",
+      "description": "Time-varying human impacts - time-varying historical dam construction and water use."
     },
     {
-      "specifier": "atlantis_se-australia",
-      "title": "Atlantis_se-australia"
+      "specifier": "nat",
+      "description": "Natural vegetation reference run."
     },
     {
-      "specifier": "basfor",
-      "title": "BASFOR"
+      "specifier": "2005soc",
+      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
     },
     {
-      "specifier": "bioscen15-mem-gam",
-      "title": "BioScen15-MEM-GAM"
+      "specifier": "1860soc",
+      "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
     },
     {
-      "specifier": "bioscen15-mem-gbm",
-      "title": "BioScen15-MEM-GBM"
+      "specifier": "histsoc",
+      "description": "Varying historical land use, nitrogen deposition and fertilizer input."
     },
     {
-      "specifier": "bioscen15-sdm-gam",
-      "title": "BioScen15-SDM-GAM"
+      "specifier": "rcp26soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
     },
     {
-      "specifier": "bioscen15-sdm-gbm",
-      "title": "BioScen15-SDM-GBM"
+      "specifier": "rcp60soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
     },
     {
-      "specifier": "boats",
-      "title": "BOATS"
+      "specifier": "rcp85soc",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5."
     },
     {
-      "specifier": "caraib",
-      "title": "CARAIB"
+      "specifier": "2100rcp26soc",
+      "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
     },
     {
-      "specifier": "cgms-wofost",
-      "title": "CGMS-WOFOST"
+      "specifier": "ssp1soc",
+      "description": "Varying society according to SSP1 in terms of population and GDP. (in Health sector)"
     },
     {
-      "specifier": "clm-crop",
-      "title": "CLM-Crop"
+      "specifier": "ssp2soc",
+      "description": "Varying society according to SSP2 in terms of population and GDP. (in Health sector)"
     },
     {
-      "specifier": "clm40",
-      "title": "CLM40"
+      "specifier": "ssp3soc",
+      "description": "Varying society according to SSP3 in terms of population and GDP. (in Health sector)"
     },
     {
-      "specifier": "clm45",
-      "title": "CLM45"
+      "specifier": "ssp4soc",
+      "description": "Varying society according to SSP4 in terms of population and GDP. (in Health sector)"
     },
     {
-      "specifier": "clm50",
-      "title": "CLM50"
+      "specifier": "ssp5soc",
+      "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
     },
     {
-      "specifier": "cwatm",
-      "title": "CWatM"
+      "specifier": "rcp26socbe",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy. (in Forestry sector)"
     },
     {
-      "specifier": "dbem",
-      "title": "DBEM"
+      "specifier": "rcp60socbe",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy. (in Forestry sector)"
     },
     {
-      "specifier": "dbh",
-      "title": "DBH"
+      "specifier": "rcp85socbe",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy. (in Forestry sector)"
     },
     {
-      "specifier": "dbpm",
-      "title": "DBPM"
+      "specifier": "rcp26socbeb",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
     },
     {
-      "specifier": "dlem",
-      "title": "DLEM"
+      "specifier": "rcp60socbeb",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
     },
     {
-      "specifier": "ecomag",
-      "title": "ECOMAG"
+      "specifier": "rcp85socbeb",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
     },
     {
-      "specifier": "ecoocean",
-      "title": "EcoOcean"
+      "specifier": "rcp26sochwp",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize harvested wood products. (in Forestry sector)"
     },
     {
-      "specifier": "epic-boku",
-      "title": "EPIC-BOKU"
+      "specifier": "rcp60sochwp",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize harvested wood products. (in Forestry sector)"
     },
     {
-      "specifier": "epic-boku-br",
-      "title": "EPIC-BOKU-BR"
+      "specifier": "rcp85sochwp",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize harvested wood products. (in Forestry sector)"
     },
     {
-      "specifier": "epic-boku-hg",
-      "title": "EPIC-BOKU-HG"
+      "specifier": "rcp26soca",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
     },
     {
-      "specifier": "epic-boku-pe",
-      "title": "EPIC-BOKU-PE"
+      "specifier": "rcp60soca",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
     },
     {
-      "specifier": "epic-boku-pt",
-      "title": "EPIC-BOKU-PT"
+      "specifier": "rcp85soca",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
     },
     {
-      "specifier": "epic-iiasa",
-      "title": "EPIC-IIASA"
+      "specifier": "rcp26socam",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
     },
     {
-      "specifier": "epic-tamu",
-      "title": "EPIC-TAMU"
+      "specifier": "rcp60socam",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
     },
-    {
-      "specifier": "ewe",
-      "title": "EwE"
-    },
-    {
-      "specifier": "ewe_adriatic-sea",
-      "title": "EwE_adriatic-sea"
-    },
-    {
-      "specifier": "ewe_baltic-sea",
-      "title": "EwE_baltic-sea"
-    },
-    {
-      "specifier": "ewe_cook-strait",
-      "title": "EwE_cook-strait"
-    },
-    {
-      "specifier": "ewe_east-bass-strait",
-      "title": "EwE_east-bass-strait"
-    },
-    {
-      "specifier": "ewe_med-glob",
-      "title": "EwE_med-glob"
-    },
-    {
-      "specifier": "ewe_north-sea",
-      "title": "EwE_north-sea"
-    },
-    {
-      "specifier": "ewe_nw-med-sea",
-      "title": "EwE_nw-med-sea"
-    },
-    {
-      "specifier": "forclim",
-      "title": "ForClim"
-    },
-    {
-      "specifier": "gepic",
-      "title": "GEPIC"
-    },
-    {
-      "specifier": "gepic-br",
-      "title": "GEPIC-BR"
-    },
-    {
-      "specifier": "gepic-p",
-      "title": "GEPIC-P"
-    },
-    {
-      "specifier": "gepic-pm",
-      "title": "GEPIC-PM"
-    },
-    {
-      "specifier": "gepic-pt",
-      "title": "GEPI-PT"
-    },
-    {
-      "specifier": "glm",
-      "title": "GLM"
-    },
-    {
-      "specifier": "gotilwaplus",
-      "title": "GOTILWAplus"
-    },
-    {
-      "specifier": "gotm",
-      "title": "GOTM"
-    },
-    {
-      "specifier": "flake-igb",
-      "title": "FLake-IGB"
-    },
-    {
-      "specifier": "formind",
-      "title": "FORMIND"
-    },
-    {
-      "specifier": "h08",
-      "title": "H08"
-    },
-    {
-      "specifier": "hbv-iww",
-      "title": "HBV-IWW"
-    },
-    {
-      "specifier": "hbv-jlu",
-      "title": "HBV-JLU"
-    },
-    {
-      "specifier": "hbv-pik",
-      "title": "HBV-PIK"
-    },
-    {
-      "specifier": "hbv-cma",
-      "title": "HBV-CMA"
-    },
-    {
-      "specifier": "hymod-jlu",
-      "title": "HYMOD-JLU"
-    },
-    {
-      "specifier": "hymod-ufz",
-      "title": "HYMOD-UFZ"
-    },
-    {
-      "specifier": "hype",
-      "title": "HYPE"
-    },
-    {
-      "specifier": "iapras-dss",
-      "title": "IAPRAS-DSS"
-    },
-    {
-      "specifier": "jules-b1",
-      "title": "JULES-B1"
-    },
-    {
-      "specifier": "jules-w1",
-      "title": "JULES-W1"
-    },
-    {
-      "specifier": "jules-es-55",
-      "title": "JULES-ES-55"
-    },
-    {
-      "specifier": "lake",
-      "title": "LAKE"
-    },
-    {
-      "specifier": "landscape-dndc",
-      "title": "Landscape-DNDC"
-    },
-    {
-      "specifier": "lpj-guess",
-      "title": "LPJ-GUESS"
-    },
-    {
-      "specifier": "lpjml",
-      "title": "LPJmL"
-    },
-    {
-      "specifier": "macroecological",
-      "title": "MACROECOLOGICAL"
-    },
-    {
-      "specifier": "matsiro",
-      "title": "MATSIRO"
-    },
-    {
-      "specifier": "mhm",
-      "title": "mHM"
-    },
-    {
-      "specifier": "mpi-hm",
-      "title": "MPI-HM"
-    },
-    {
-      "specifier": "mylake",
-      "title": "MyLake"
-    },
-    {
-      "specifier": "orchidee",
-      "title": "ORCHIDEE"
-    },
-    {
-      "specifier": "orchidee-crop",
-      "title": "ORCHIDEE-Crop"
-    },
-    {
-      "specifier": "orchidee-dgvm",
-      "title": "ORCHIDEE-DGVM"
-    },
-    {
-      "specifier": "osmose",
-      "title": "OSMOSE"
-    },
-    {
-      "specifier": "osmose_humboldt-n",
-      "title": "OSMOSE_humboldt-n"
-    },
-    {
-      "specifier": "papsim",
-      "title": "pAPSIM"
-    },
-    {
-      "specifier": "papsim-pm",
-      "title": "pAPSIM-PM"
-    },
-    {
-      "specifier": "pcr-globwb",
-      "title": "PCR-GLOBWB"
-    },
-    {
-      "specifier": "pdssat",
-      "title": "pDSSAT"
-    },
-    {
-      "specifier": "pdssat-pt",
-      "title": "pDSSAT-PT"
-    },
-    {
-      "specifier": "pegasus",
-      "title": "PEGASUS"
-    },
-    {
-      "specifier": "pepic",
-      "title": "PEPIC"
-    },
-    {
-      "specifier": "prebas",
-      "title": "PREBAS"
-    },
-    {
-      "specifier": "prysbi2",
-      "title": "PRYSBI2"
-    },
-    {
-      "specifier": "salem",
-      "title": "SALEM"
-    },
-    {
-      "specifier": "sibyla",
-      "title": "SIBYLA"
-    },
-    {
-      "specifier": "simstrat",
-      "title": "Simstrat"
-    },
-    {
-      "specifier": "simstrat-uog",
-      "title": "SIMSTRAT-UoG"
-    },
-    {
-      "specifier": "swap",
-      "title": "SWAP"
-    },
-    {
-      "specifier": "swat-cma",
-      "title": "SWAT-CMA"
-    },
-    {
-      "specifier": "swat-iitgn",
-      "title": "SWAT-IITGN"
-    },
-    {
-      "specifier": "swat-sggw",
-      "title": "SWAT-SGGW"
-    },
-    {
-      "specifier": "swat-tamu",
-      "title": "SWAT-TAMU"
-    },
-    {
-      "specifier": "swat-ufz",
-      "title": "SWAT-UFZ"
-    },
-    {
-      "specifier": "swat-uottawa",
-      "title": "SWAT-uOttawa"
-    },
-    {
-      "specifier": "swat-vub",
-      "title": "SWAT-VUB"
-    },
-    {
-      "specifier": "swbm",
-      "title": "SWBM"
-    },
-    {
-      "specifier": "swim-cma",
-      "title": "SWIM-CMA"
-    },
-    {
-      "specifier": "swim-nve",
-      "title": "SWIM-NVE"
-    },
-    {
-      "specifier": "swim-nve-v2",
-      "title": "SWIM-NVE-v2"
-    },
-    {
-      "specifier": "swim-pik",
-      "title": "SWIM-PIK"
-    },
-    {
-      "specifier": "swim-pik",
-      "title": "SWIM-PIK"
-    },
-    {
-      "specifier": "vegas",
-      "title": "VEGAS"
-    },
-    {
-      "specifier": "vic",
-      "title": "VIC"
-    },
-    {
-      "specifier": "vic-cma",
-      "title": "VIC-CMA"
-    },
-    {
-      "specifier": "vic-hhu",
-      "title": "VIC-HHU"
-    },
-    {
-      "specifier": "vic-iitgn",
-      "title": "VIC-IITGN"
-    },
-    {
-      "specifier": "vic-lake",
-      "title": "VIC-LAKE"
-    },
-    {
-      "specifier": "vic-nve",
-      "title": "VIC-NVE"
-    },
-    {
-      "specifier": "vic-nve-v2",
-      "title": "VIC-NVE-v2"
-    },
-    {
-      "specifier": "vip",
-      "title": "VIP"
-    },
-    {
-      "specifier": "visit",
-      "title": "VISIT"
-    },
-    {
-      "specifier": "watergap2",
-      "title": "WaterGAP2"
-    },
-    {
-      "specifier": "watergap2-2isimip2a",
-      "title": "WaterGAP22ISIMIP2a"
-    },
-    {
-      "specifier": "watergap2-2c",
-      "title": "WaterGAP2-2c"
-    },
-    {
-      "specifier": "watergap3",
-      "title": "WaterGAP3"
-    },
-    {
-      "specifier": "ways",
-      "title": "WAYS"
-    },
-    {
-      "specifier": "wbd",
-      "title": "WBD"
-    },
-    {
-      "specifier": "web-dhm-s",
-      "title": "WEB-DHM-S"
-    },
-    {
-      "specifier": "mizer",
-      "title": "Mizer"
-    }
-  ],
-  "simulation_round": [
-    {
-      "specifier": "ISIMIP2a",
-      "title": "ISIMIP2a simulation round"
-    },
-    {
-      "specifier": "ISIMIP2b",
-      "title": "ISIMIP2b simulation round"
-    }
-  ],
-  "acidification_type": [
     {
-      "specifier": "oa"
+      "specifier": "rcp85socam",
+      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
     },
     {
-      "specifier": "no-oa"
+      "specifier": "2005socsite",
+      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input. In addition, model usually plants the same tree species again or allows for regeneration of the same species. (in Forestry sector)"
     }
   ],
   "river_basin": [
@@ -1734,12 +550,26 @@
       "river_specifier": "yellow"
     }
   ],
-  "fishing_type": [
+  "period": [
     {
-      "specifier": "fishing"
+      "specifier": "future",
+      "title": "Future",
+      "description": "Future simulation period."
     },
     {
-      "specifier": "no-fishing"
+      "specifier": "historical",
+      "title": "Historical",
+      "description": "Historical simulation period."
+    },
+    {
+      "specifier": "pre-industrial",
+      "title": "Pre-industrial",
+      "description": "Pre-industrial simulation period."
+    },
+    {
+      "specifier": "future_extended",
+      "title": "Future (extended)",
+      "description": "Future (extended) simulation period."
     }
   ],
   "region": [
@@ -1748,230 +578,370 @@
       "title": "Global simulation"
     }
   ],
-  "ocean_region": [
+  "disease": [],
+  "product": [
     {
-      "specifier": "north-sea",
-      "title": "North Sea",
-      "north": 62.5,
-      "west": -4.5,
-      "south": 50.5,
-      "east": 9.5
+      "specifier": "OutputData",
+      "title": "Output Data"
     },
     {
-      "specifier": "baltic-sea",
-      "title": "Baltic Sea",
-      "north": 64.5,
-      "west": 15.5,
-      "south": 55.5,
-      "east": 23.5
+      "specifier": "SecondaryOutputData",
+      "title": "Secondary Output Data"
     },
     {
-      "specifier": "nw-med-sea",
-      "title": "North-west Meditteranean",
-      "north": 43.5,
-      "west": -1.5,
-      "south": 36.5,
-      "east": 6.5
-    },
-    {
-      "specifier": "adriatic-sea",
-      "title": "Adriatic Sea",
-      "north": 45.5,
-      "west": 11.5,
-      "south": 39.5,
-      "east": 20.5
-    },
-    {
-      "specifier": "med-glob",
-      "title": "Mediterranean Sea",
-      "north": 45.5,
-      "west": -6.5,
-      "south": 29.5,
-      "east": 35.5
-    },
-    {
-      "specifier": "se-australia",
-      "title": "South-East Australia",
-      "north": -23.5,
-      "west": 120.5,
-      "south": -47.5,
-      "east": 170.5
-    },
-    {
-      "specifier": "east-bass-strait",
-      "title": "Eastern Bass Strait",
-      "north": -37.5,
-      "west": 145.5,
-      "south": -41.5,
-      "east": 151.5
-    },
-    {
-      "specifier": "cook-strait",
-      "title": "Cook Strait",
-      "north": -40.5,
-      "west": 174.5,
-      "south": -46.5,
-      "east": 179.5
-    },
-    {
-      "specifier": "humboldt-n",
-      "title": "North Humboldt Sea",
-      "north": 6.5,
-      "west": -93.5,
-      "south": -20.5,
-      "east": -69.5
-    },
-    {
-      "specifier": "hawaii",
-      "title": "Hawaii",
-      "north": 0.0,
-      "west": 0.0,
-      "south": 0.0,
-      "east": 0.0
-    },
-    {
-      "specifier": "benguela",
-      "title": "Benguela Current",
-      "north": 0.0,
-      "west": 0.0,
-      "south": 0.0,
-      "east": 0.0
+      "specifier": "DerivedOutputData",
+      "title": "Derived Output Data"
     }
   ],
-  "irrigation": [
+  "publication": [
     {
-      "specifier": "noirr",
-      "title": "No irrigation (rainfed land)"
+      "specifier": "lange2020",
+      "path_specifier": "Lange2020",
+      "title": "Lange et al. 2020",
+      "doi": "https://doi.org/10.1029/2020EF001616"
     }
   ],
-  "soc_scenario": [
+  "forest_stand": [
     {
-      "specifier": "nosoc",
-      "description": "Naturalized - without human impacts on river flow."
+      "specifier": "hyytiala",
+      "title": "Hyyti\u00e4l\u00e4",
+      "lat": 61.8475,
+      "lon": 24.295,
+      "country": "FI",
+      "type": "Even-aged conifer",
+      "species": [
+        "pisy",
+        "piab"
+      ],
+      "thinning": "below",
+      "comment": "Note that an experimental plot of pine contains a lot of data while footprint of flux tower is larger. Please note that the deciduous admixtures only appear in the data at a later stage and hence do not need to be simulated. Only simulate pine and spruce (no hard-woods) and regenerate as pure pine stand"
     },
     {
-      "specifier": "pressoc",
-      "description": "Constant human impacts - present-day (year-2000) dams and water use."
+      "specifier": "peitz",
+      "title": "Peitz",
+      "lat": 51.9166,
+      "lon": 14.35,
+      "country": "DE",
+      "type": "Even-aged conifer",
+      "species": [
+        "pisy"
+      ],
+      "thinning": "below",
+      "comment": "Managed using a weak thinning from below."
     },
     {
-      "specifier": "varsoc",
-      "description": "Time-varying human impacts - time-varying historical dam construction and water use."
+      "specifier": "solling-beech",
+      "title": "Solling (beech)",
+      "lat": 51.77,
+      "lon": 9.57,
+      "country": "DE",
+      "type": "Even-aged deciduous",
+      "species": [
+        "fasy"
+      ],
+      "thinning": "above",
+      "comment": ""
     },
     {
-      "specifier": "nat",
-      "description": "Natural vegetation reference run."
+      "specifier": "solling-spruce",
+      "title": "Solling (spruce)",
+      "lat": 51.77,
+      "lon": 9.57,
+      "country": "DE",
+      "type": "Even-aged conifer",
+      "species": [
+        "piab "
+      ],
+      "thinning": "below",
+      "comment": ""
     },
     {
-      "specifier": "2005soc",
-      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
+      "specifier": "soro",
+      "title": "Sor\u00f8",
+      "lat": 55.485844,
+      "lon": 11.644616,
+      "country": "DK",
+      "type": "Even-aged deciduous",
+      "species": [
+        "fasy"
+      ],
+      "thinning": "above",
+      "comment": ""
     },
     {
-      "specifier": "1860soc",
-      "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
+      "specifier": "kroof",
+      "title": "Kranzberg Roof Project",
+      "lat": 48.25,
+      "lon": 11.4,
+      "country": "DE",
+      "type": "Mixed deciduous and conifers",
+      "species": [
+        "fasy",
+        "piab",
+        "acpl",
+        "lade",
+        "pisy",
+        "quro"
+      ],
+      "thinning": "below",
+      "comment": "Unmanaged/ thinning from below in past 20 years for all species."
     },
     {
-      "specifier": "histsoc",
-      "description": "Varying historical land use, nitrogen deposition and fertilizer input."
+      "specifier": "le-bray",
+      "title": "Le Bray",
+      "lat": 44.71711,
+      "lon": -0.7693,
+      "country": "FR",
+      "type": "Even-aged conifer",
+      "species": [
+        "pipi"
+      ],
+      "thinning": "below",
+      "comment": ""
     },
     {
-      "specifier": "rcp26soc",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
+      "specifier": "collelongo",
+      "title": "Collelongo",
+      "lat": 41.8494,
+      "lon": 13.5881,
+      "country": "IT",
+      "type": "Even-aged deciduous",
+      "species": [
+        "fasy"
+      ],
+      "thinning": "above",
+      "comment": ""
     },
     {
-      "specifier": "rcp60soc",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
+      "specifier": "bily-kriz",
+      "title": "B\u00edl\u00fd K\u0159\u00ed\u017e",
+      "lat": 49.3,
+      "lon": 18.32,
+      "country": "CZ",
+      "type": "Even-aged conifer",
+      "species": [
+        "piab"
+      ],
+      "thinning": "below",
+      "comment": ""
+    }
+  ],
+  "dimensions": [
+    {
+      "specifier": "lon",
+      "axis": "X",
+      "units": "degrees_east",
+      "size": 720,
+      "minimum": -179.75,
+      "maximum": 179.75,
+      "standard_name": "longitude",
+      "long_names": [
+        "Longitude",
+        "longitude"
+      ]
     },
     {
-      "specifier": "rcp85soc",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5."
+      "specifier": "lat",
+      "axis": "Y",
+      "units": "degrees_north",
+      "size": 360,
+      "minimum": -89.75,
+      "maximum": 89.75,
+      "standard_name": "latitude",
+      "long_names": [
+        "Latitude",
+        "latitude"
+      ]
     },
     {
-      "specifier": "2100rcp26soc",
-      "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
+      "specifier": "time",
+      "axis": "T",
+      "standard_name": "time",
+      "long_names": [
+        "time",
+        "time axis",
+        "Time",
+        "Time axis"
+      ],
+      "calenders_daily": [
+        "standard",
+        "proleptic_gregorian",
+        "366_day",
+        "365_day",
+        "360_day"
+      ],
+      "calenders_other": [
+        "360_day"
+      ]
     },
     {
-      "specifier": "ssp1soc",
-      "description": "Varying society according to SSP1 in terms of population and GDP. (in Health sector)"
+      "specifier": "depth",
+      "axis": "Z",
+      "standard_name": "depth_below_surface",
+      "long_name": "Depth of Vertical Layer Center Below Surface",
+      "positive": "down",
+      "units": "m"
     },
     {
-      "specifier": "ssp2soc",
-      "description": "Varying society according to SSP2 in terms of population and GDP. (in Health sector)"
+      "specifier": "levlak",
+      "axis": "Z",
+      "standard_name": "water_layer",
+      "long_name": "Vertical Water Layer Index",
+      "positive": "down",
+      "units": "1"
     },
     {
-      "specifier": "ssp3soc",
-      "description": "Varying society according to SSP3 in terms of population and GDP. (in Health sector)"
+      "specifier": "solay",
+      "axis": "Z",
+      "standard_name": "soil_level",
+      "long_name": "Hydrological soil levels",
+      "positive": "down",
+      "units": "1"
     },
     {
-      "specifier": "ssp4soc",
-      "description": "Varying society according to SSP4 in terms of population and GDP. (in Health sector)"
+      "specifier": "solth",
+      "axis": "Z",
+      "standard_name": "soil_level",
+      "long_name": "Thermal soil levels",
+      "positive": "down",
+      "units": "m"
     },
     {
-      "specifier": "ssp5soc",
-      "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
+      "specifier": "snowlev",
+      "axis": "Z",
+      "standard_name": "snow_level",
+      "long_name": "Snow levels",
+      "positive": "down",
+      "units": "1"
     },
     {
-      "specifier": "rcp26socbe",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy. (in Forestry sector)"
+      "specifier": "dbhclass",
+      "axis": "Z",
+      "standard_name": "dbhclass",
+      "long_name": "Diameter at breast heigh (DBH) class",
+      "positive": "up",
+      "units": "cm"
     },
     {
-      "specifier": "rcp60socbe",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy. (in Forestry sector)"
+      "specifier": "bnds"
+    }
+  ],
+  "identifier": [
+    {
+      "specifier": "acidification_type",
+      "title": "Acidification type"
     },
     {
-      "specifier": "rcp85socbe",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy. (in Forestry sector)"
+      "specifier": "bias_adjustment",
+      "title": "Bias adjustment"
     },
     {
-      "specifier": "rcp26socbeb",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+      "specifier": "climate_forcing",
+      "title": "Climate forcing"
     },
     {
-      "specifier": "rcp60socbeb",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+      "specifier": "climate_scenario",
+      "title": "Climate scenario"
     },
     {
-      "specifier": "rcp85socbeb",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+      "specifier": "crop",
+      "title": "Crop type"
     },
     {
-      "specifier": "rcp26sochwp",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+      "specifier": "diazotroph_scenario",
+      "title": "Diazotroph scenario"
     },
     {
-      "specifier": "rcp60sochwp",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+      "specifier": "fishing_type",
+      "title": "Fishing type"
     },
     {
-      "specifier": "rcp85sochwp",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+      "specifier": "forest_stand",
+      "title": "Forest stand",
+      "location": true
     },
     {
-      "specifier": "rcp26soca",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+      "specifier": "frequency",
+      "title": "Temporal resolution"
     },
     {
-      "specifier": "rcp60soca",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+      "specifier": "irrigation",
+      "title": "Irrigation"
     },
     {
-      "specifier": "rcp85soca",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+      "specifier": "lake_site",
+      "title": "lake site",
+      "location": true
     },
     {
-      "specifier": "rcp26socam",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+      "specifier": "ocean_region",
+      "title": "Ocean region",
+      "location": true
     },
     {
-      "specifier": "rcp60socam",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+      "specifier": "period",
+      "title": "Period"
     },
     {
-      "specifier": "rcp85socam",
-      "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+      "specifier": "product",
+      "title": "Data product"
     },
     {
-      "specifier": "2005socsite",
-      "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input. In addition, model usually plants the same tree species again or allows for regeneration of the same species. (in Forestry sector)"
+      "specifier": "region",
+      "title": "Region"
+    },
+    {
+      "specifier": "resolution",
+      "title": "Spatial resolution"
+    },
+    {
+      "specifier": "river_basin",
+      "title": "River basin",
+      "location": true
+    },
+    {
+      "specifier": "river",
+      "title": "River"
+    },
+    {
+      "specifier": "sector",
+      "title": "Sector"
+    },
+    {
+      "specifier": "sens_scenario",
+      "title": "Sensitivity scenario"
+    },
+    {
+      "specifier": "simulation_round",
+      "title": "Simulation round"
+    },
+    {
+      "specifier": "soc_dataset",
+      "title": "Socio-economic dataset"
+    },
+    {
+      "specifier": "species",
+      "title": "Species"
+    },
+    {
+      "specifier": "time_span",
+      "title": "Time span"
+    },
+    {
+      "specifier": "time_step",
+      "title": "Time step"
+    },
+    {
+      "specifier": "variable",
+      "title": "Variable"
+    },
+    {
+      "specifier": "disease",
+      "title": "Disease"
+    },
+    {
+      "specifier": "sealevelrise_contrib",
+      "title": "Sealevelrise contribution"
     }
   ],
   "species": [
@@ -2529,29 +1499,6 @@
       "units": "m3 ha-1"
     }
   ],
-  "product": [
-    {
-      "specifier": "OutputData",
-      "title": "Output Data"
-    },
-    {
-      "specifier": "SecondaryOutputData",
-      "title": "Secondary Output Data"
-    },
-    {
-      "specifier": "DerivedOutputData",
-      "title": "Derived Output Data"
-    }
-  ],
-  "publication": [
-    {
-      "specifier": "lange2020",
-      "path_specifier": "Lange2020",
-      "title": "Lange et al. 2020",
-      "doi": "https://doi.org/10.1029/2020EF001616"
-    }
-  ],
-  "disease": [],
   "sens_scenario": [
     {
       "specifier": "default"
@@ -2579,163 +1526,1271 @@
       ]
     }
   ],
-  "bias_adjustment": [
+  "time_span": [
     {
-      "specifier": "nobc",
-      "description": "No bias correction was performed on the climate data."
+      "specifier": "minimum",
+      "value": 1901
     },
     {
-      "specifier": "localbc",
-      "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
-      "sectors": [
-        "forestry",
-        "water_regional"
-      ]
+      "specifier": "maximum",
+      "value": 2018
     },
     {
-      "specifier": "ewembi",
-      "title": "EWEMBI",
-      "description": "Bias-adjusted using the EWEMBI dataset."
+      "specifier": "start_pre-ind",
+      "value": {
+        "ISIMIP2b": 1661
+      }
+    },
+    {
+      "specifier": "end_pre-ind",
+      "value": {
+        "ISIMIP2b": 1860
+      }
+    },
+    {
+      "specifier": "start_hist",
+      "value": 1901
+    },
+    {
+      "specifier": "end_hist",
+      "value": {
+        "pgfv2.1": 2012,
+        "gswp3-w5e5": 2016,
+        "gswp3-ewembi": 2016,
+        "gswp3": 2010,
+        "watch": 2001,
+        "watch-wfdei": 2016
+      }
+    },
+    {
+      "specifier": "start_fut",
+      "value": {
+        "ISIMIP2b": 2006
+      }
+    },
+    {
+      "specifier": "end_fut",
+      "value": {
+        "ISIMIP2b": 2099
+      }
+    },
+    {
+      "specifier": "start_fut-ext",
+      "value": {
+        "ISIMIP2b": 2100
+      }
+    },
+    {
+      "specifier": "end_fut-ext",
+      "value": {
+        "ISIMIP2b": 2299
+      }
     }
   ],
-  "period": [
+  "fishing_type": [
     {
-      "specifier": "future",
-      "title": "Future",
-      "description": "Future simulation period."
+      "specifier": "fishing"
     },
     {
-      "specifier": "historical",
-      "title": "Historical",
-      "description": "Historical simulation period."
-    },
-    {
-      "specifier": "pre-industrial",
-      "title": "Pre-industrial",
-      "description": "Pre-industrial simulation period."
-    },
-    {
-      "specifier": "future_extended",
-      "title": "Future (extended)",
-      "description": "Future (extended) simulation period."
+      "specifier": "no-fishing"
     }
   ],
-  "identifier": [
+  "acidification_type": [
     {
-      "specifier": "acidification_type",
-      "title": "Acidification type"
+      "specifier": "oa"
     },
     {
-      "specifier": "bias_adjustment",
-      "title": "Bias adjustment"
+      "specifier": "no-oa"
+    }
+  ],
+  "sector": [
+    {
+      "specifier": "agriculture",
+      "title": "Agriculture"
     },
     {
-      "specifier": "climate_forcing",
-      "title": "Climate forcing"
+      "specifier": "biodiversity",
+      "title": "Terrestrial biodiversity"
     },
     {
-      "specifier": "climate_scenario",
-      "title": "Climate scenario"
+      "specifier": "biomes",
+      "title": "Biomes"
     },
     {
-      "specifier": "crop",
-      "title": "Crop type"
+      "specifier": "forestry",
+      "title": "Regional forests"
     },
     {
-      "specifier": "diazotroph_scenario",
-      "title": "Diazotroph scenario"
+      "specifier": "health",
+      "title": "Temperature-related mortality"
     },
     {
-      "specifier": "fishing_type",
-      "title": "Fishing type"
+      "specifier": "lakes_global",
+      "title": "Lakes (global)"
     },
     {
-      "specifier": "forest_stand",
-      "title": "Forest stand",
-      "location": true
+      "specifier": "lakes_local",
+      "title": "Lakes (local)"
     },
     {
-      "specifier": "frequency",
-      "title": "Temporal resolution"
+      "specifier": "marine-fishery_global",
+      "title": "Fisheries and Marine Ecosystems (global)"
     },
     {
-      "specifier": "irrigation",
-      "title": "Irrigation"
+      "specifier": "marine-fishery_regional",
+      "title": "Fisheries and Marine Ecosystems (regional)"
     },
     {
-      "specifier": "lake_site",
-      "title": "lake site",
-      "location": true
+      "specifier": "permafrost",
+      "title": "Permafrost"
     },
     {
-      "specifier": "ocean_region",
-      "title": "Ocean region",
-      "location": true
+      "specifier": "waterborne_diseases",
+      "title": "Waterborne Diseases"
     },
     {
-      "specifier": "period",
-      "title": "Period"
+      "specifier": "water_global",
+      "title": "Water (global)"
     },
     {
-      "specifier": "product",
-      "title": "Data product"
+      "specifier": "water_regional",
+      "title": "Water (regional)"
+    }
+  ],
+  "model": [
+    {
+      "specifier": "3d-cmcc-cnr-bgc",
+      "title": "3D-CMCC-CNR-BGC"
     },
     {
-      "specifier": "region",
-      "title": "Region"
+      "specifier": "3d-cmcc-fem",
+      "title": "3D-CMCC-FEM"
     },
     {
-      "specifier": "resolution",
-      "title": "Spatial resolution"
+      "specifier": "3pg",
+      "title": "3PG"
     },
     {
-      "specifier": "river_basin",
-      "title": "River basin",
-      "location": true
+      "specifier": "3pgn-bw",
+      "title": "3PGN-BW"
     },
     {
-      "specifier": "river",
-      "title": "River"
+      "specifier": "4c",
+      "title": "4C"
     },
     {
-      "specifier": "sector",
-      "title": "Sector"
+      "specifier": "albm",
+      "title": "ALBM"
     },
     {
-      "specifier": "sens_scenario",
-      "title": "Sensitivity scenario"
+      "specifier": "air2water4par",
+      "title": "air2water4par"
     },
     {
-      "specifier": "simulation_round",
-      "title": "Simulation round"
+      "specifier": "air2water6par",
+      "title": "air2water6par"
     },
     {
-      "specifier": "soc_dataset",
-      "title": "Socio-economic dataset"
+      "specifier": "apecosm",
+      "title": "APECOSM"
     },
     {
-      "specifier": "species",
-      "title": "Species"
+      "specifier": "atlantis",
+      "title": "Atlantis"
     },
     {
-      "specifier": "time_span",
-      "title": "Time span"
+      "specifier": "atlantis_se-australia",
+      "title": "Atlantis_se-australia"
     },
     {
-      "specifier": "time_step",
-      "title": "Time step"
+      "specifier": "basfor",
+      "title": "BASFOR"
     },
     {
-      "specifier": "variable",
-      "title": "Variable"
+      "specifier": "bioscen15-mem-gam",
+      "title": "BioScen15-MEM-GAM"
     },
     {
-      "specifier": "disease",
-      "title": "Disease"
+      "specifier": "bioscen15-mem-gbm",
+      "title": "BioScen15-MEM-GBM"
     },
     {
-      "specifier": "sealevelrise_contrib",
-      "title": "Sealevelrise contribution"
+      "specifier": "bioscen15-sdm-gam",
+      "title": "BioScen15-SDM-GAM"
+    },
+    {
+      "specifier": "bioscen15-sdm-gbm",
+      "title": "BioScen15-SDM-GBM"
+    },
+    {
+      "specifier": "boats",
+      "title": "BOATS"
+    },
+    {
+      "specifier": "caraib",
+      "title": "CARAIB"
+    },
+    {
+      "specifier": "cgms-wofost",
+      "title": "CGMS-WOFOST"
+    },
+    {
+      "specifier": "clm-crop",
+      "title": "CLM-Crop"
+    },
+    {
+      "specifier": "clm40",
+      "title": "CLM40"
+    },
+    {
+      "specifier": "clm45",
+      "title": "CLM45"
+    },
+    {
+      "specifier": "clm50",
+      "title": "CLM50"
+    },
+    {
+      "specifier": "cwatm",
+      "title": "CWatM"
+    },
+    {
+      "specifier": "dbem",
+      "title": "DBEM"
+    },
+    {
+      "specifier": "dbh",
+      "title": "DBH"
+    },
+    {
+      "specifier": "dbpm",
+      "title": "DBPM"
+    },
+    {
+      "specifier": "dlem",
+      "title": "DLEM"
+    },
+    {
+      "specifier": "ecomag",
+      "title": "ECOMAG"
+    },
+    {
+      "specifier": "ecoocean",
+      "title": "EcoOcean"
+    },
+    {
+      "specifier": "epic-boku",
+      "title": "EPIC-BOKU"
+    },
+    {
+      "specifier": "epic-boku-br",
+      "title": "EPIC-BOKU-BR"
+    },
+    {
+      "specifier": "epic-boku-hg",
+      "title": "EPIC-BOKU-HG"
+    },
+    {
+      "specifier": "epic-boku-pe",
+      "title": "EPIC-BOKU-PE"
+    },
+    {
+      "specifier": "epic-boku-pt",
+      "title": "EPIC-BOKU-PT"
+    },
+    {
+      "specifier": "epic-iiasa",
+      "title": "EPIC-IIASA"
+    },
+    {
+      "specifier": "epic-tamu",
+      "title": "EPIC-TAMU"
+    },
+    {
+      "specifier": "ewe",
+      "title": "EwE"
+    },
+    {
+      "specifier": "ewe_adriatic-sea",
+      "title": "EwE_adriatic-sea"
+    },
+    {
+      "specifier": "ewe_baltic-sea",
+      "title": "EwE_baltic-sea"
+    },
+    {
+      "specifier": "ewe_cook-strait",
+      "title": "EwE_cook-strait"
+    },
+    {
+      "specifier": "ewe_east-bass-strait",
+      "title": "EwE_east-bass-strait"
+    },
+    {
+      "specifier": "ewe_med-glob",
+      "title": "EwE_med-glob"
+    },
+    {
+      "specifier": "ewe_north-sea",
+      "title": "EwE_north-sea"
+    },
+    {
+      "specifier": "ewe_nw-med-sea",
+      "title": "EwE_nw-med-sea"
+    },
+    {
+      "specifier": "forclim",
+      "title": "ForClim"
+    },
+    {
+      "specifier": "gepic",
+      "title": "GEPIC"
+    },
+    {
+      "specifier": "gepic-br",
+      "title": "GEPIC-BR"
+    },
+    {
+      "specifier": "gepic-p",
+      "title": "GEPIC-P"
+    },
+    {
+      "specifier": "gepic-pm",
+      "title": "GEPIC-PM"
+    },
+    {
+      "specifier": "gepic-pt",
+      "title": "GEPI-PT"
+    },
+    {
+      "specifier": "glm",
+      "title": "GLM"
+    },
+    {
+      "specifier": "gotilwaplus",
+      "title": "GOTILWAplus"
+    },
+    {
+      "specifier": "gotm",
+      "title": "GOTM"
+    },
+    {
+      "specifier": "flake-igb",
+      "title": "FLake-IGB"
+    },
+    {
+      "specifier": "formind",
+      "title": "FORMIND"
+    },
+    {
+      "specifier": "h08",
+      "title": "H08"
+    },
+    {
+      "specifier": "hbv-iww",
+      "title": "HBV-IWW"
+    },
+    {
+      "specifier": "hbv-jlu",
+      "title": "HBV-JLU"
+    },
+    {
+      "specifier": "hbv-pik",
+      "title": "HBV-PIK"
+    },
+    {
+      "specifier": "hbv-cma",
+      "title": "HBV-CMA"
+    },
+    {
+      "specifier": "hymod-jlu",
+      "title": "HYMOD-JLU"
+    },
+    {
+      "specifier": "hymod-ufz",
+      "title": "HYMOD-UFZ"
+    },
+    {
+      "specifier": "hype",
+      "title": "HYPE"
+    },
+    {
+      "specifier": "iapras-dss",
+      "title": "IAPRAS-DSS"
+    },
+    {
+      "specifier": "jules-b1",
+      "title": "JULES-B1"
+    },
+    {
+      "specifier": "jules-w1",
+      "title": "JULES-W1"
+    },
+    {
+      "specifier": "jules-es-55",
+      "title": "JULES-ES-55"
+    },
+    {
+      "specifier": "lake",
+      "title": "LAKE"
+    },
+    {
+      "specifier": "landscape-dndc",
+      "title": "Landscape-DNDC"
+    },
+    {
+      "specifier": "lpj-guess",
+      "title": "LPJ-GUESS"
+    },
+    {
+      "specifier": "lpjml",
+      "title": "LPJmL"
+    },
+    {
+      "specifier": "macroecological",
+      "title": "MACROECOLOGICAL"
+    },
+    {
+      "specifier": "matsiro",
+      "title": "MATSIRO"
+    },
+    {
+      "specifier": "mhm",
+      "title": "mHM"
+    },
+    {
+      "specifier": "mpi-hm",
+      "title": "MPI-HM"
+    },
+    {
+      "specifier": "mylake",
+      "title": "MyLake"
+    },
+    {
+      "specifier": "orchidee",
+      "title": "ORCHIDEE"
+    },
+    {
+      "specifier": "orchidee-crop",
+      "title": "ORCHIDEE-Crop"
+    },
+    {
+      "specifier": "orchidee-dgvm",
+      "title": "ORCHIDEE-DGVM"
+    },
+    {
+      "specifier": "osmose",
+      "title": "OSMOSE"
+    },
+    {
+      "specifier": "osmose_humboldt-n",
+      "title": "OSMOSE_humboldt-n"
+    },
+    {
+      "specifier": "papsim",
+      "title": "pAPSIM"
+    },
+    {
+      "specifier": "papsim-pm",
+      "title": "pAPSIM-PM"
+    },
+    {
+      "specifier": "pcr-globwb",
+      "title": "PCR-GLOBWB"
+    },
+    {
+      "specifier": "pdssat",
+      "title": "pDSSAT"
+    },
+    {
+      "specifier": "pdssat-pt",
+      "title": "pDSSAT-PT"
+    },
+    {
+      "specifier": "pegasus",
+      "title": "PEGASUS"
+    },
+    {
+      "specifier": "pepic",
+      "title": "PEPIC"
+    },
+    {
+      "specifier": "prebas",
+      "title": "PREBAS"
+    },
+    {
+      "specifier": "prysbi2",
+      "title": "PRYSBI2"
+    },
+    {
+      "specifier": "salem",
+      "title": "SALEM"
+    },
+    {
+      "specifier": "sibyla",
+      "title": "SIBYLA"
+    },
+    {
+      "specifier": "simstrat",
+      "title": "Simstrat"
+    },
+    {
+      "specifier": "simstrat-uog",
+      "title": "SIMSTRAT-UoG"
+    },
+    {
+      "specifier": "swap",
+      "title": "SWAP"
+    },
+    {
+      "specifier": "swat-cma",
+      "title": "SWAT-CMA"
+    },
+    {
+      "specifier": "swat-iitgn",
+      "title": "SWAT-IITGN"
+    },
+    {
+      "specifier": "swat-sggw",
+      "title": "SWAT-SGGW"
+    },
+    {
+      "specifier": "swat-tamu",
+      "title": "SWAT-TAMU"
+    },
+    {
+      "specifier": "swat-ufz",
+      "title": "SWAT-UFZ"
+    },
+    {
+      "specifier": "swat-uottawa",
+      "title": "SWAT-uOttawa"
+    },
+    {
+      "specifier": "swat-vub",
+      "title": "SWAT-VUB"
+    },
+    {
+      "specifier": "swbm",
+      "title": "SWBM"
+    },
+    {
+      "specifier": "swim-cma",
+      "title": "SWIM-CMA"
+    },
+    {
+      "specifier": "swim-nve",
+      "title": "SWIM-NVE"
+    },
+    {
+      "specifier": "swim-nve-v2",
+      "title": "SWIM-NVE-v2"
+    },
+    {
+      "specifier": "swim-pik",
+      "title": "SWIM-PIK"
+    },
+    {
+      "specifier": "swim-pik",
+      "title": "SWIM-PIK"
+    },
+    {
+      "specifier": "vegas",
+      "title": "VEGAS"
+    },
+    {
+      "specifier": "vic",
+      "title": "VIC"
+    },
+    {
+      "specifier": "vic-cma",
+      "title": "VIC-CMA"
+    },
+    {
+      "specifier": "vic-hhu",
+      "title": "VIC-HHU"
+    },
+    {
+      "specifier": "vic-iitgn",
+      "title": "VIC-IITGN"
+    },
+    {
+      "specifier": "vic-lake",
+      "title": "VIC-LAKE"
+    },
+    {
+      "specifier": "vic-nve",
+      "title": "VIC-NVE"
+    },
+    {
+      "specifier": "vic-nve-v2",
+      "title": "VIC-NVE-v2"
+    },
+    {
+      "specifier": "vip",
+      "title": "VIP"
+    },
+    {
+      "specifier": "visit",
+      "title": "VISIT"
+    },
+    {
+      "specifier": "watergap2",
+      "title": "WaterGAP2"
+    },
+    {
+      "specifier": "watergap2-2isimip2a",
+      "title": "WaterGAP22ISIMIP2a"
+    },
+    {
+      "specifier": "watergap2-2c",
+      "title": "WaterGAP2-2c"
+    },
+    {
+      "specifier": "watergap3",
+      "title": "WaterGAP3"
+    },
+    {
+      "specifier": "ways",
+      "title": "WAYS"
+    },
+    {
+      "specifier": "wbd",
+      "title": "WBD"
+    },
+    {
+      "specifier": "web-dhm-s",
+      "title": "WEB-DHM-S"
+    },
+    {
+      "specifier": "mizer",
+      "title": "Mizer"
+    }
+  ],
+  "irrigation": [
+    {
+      "specifier": "noirr",
+      "title": "No irrigation (rainfed land)"
+    }
+  ],
+  "ocean_region": [
+    {
+      "specifier": "north-sea",
+      "title": "North Sea",
+      "north": 62.5,
+      "west": -4.5,
+      "south": 50.5,
+      "east": 9.5
+    },
+    {
+      "specifier": "baltic-sea",
+      "title": "Baltic Sea",
+      "north": 64.5,
+      "west": 15.5,
+      "south": 55.5,
+      "east": 23.5
+    },
+    {
+      "specifier": "nw-med-sea",
+      "title": "North-west Meditteranean",
+      "north": 43.5,
+      "west": -1.5,
+      "south": 36.5,
+      "east": 6.5
+    },
+    {
+      "specifier": "adriatic-sea",
+      "title": "Adriatic Sea",
+      "north": 45.5,
+      "west": 11.5,
+      "south": 39.5,
+      "east": 20.5
+    },
+    {
+      "specifier": "med-glob",
+      "title": "Mediterranean Sea",
+      "north": 45.5,
+      "west": -6.5,
+      "south": 29.5,
+      "east": 35.5
+    },
+    {
+      "specifier": "se-australia",
+      "title": "South-East Australia",
+      "north": -23.5,
+      "west": 120.5,
+      "south": -47.5,
+      "east": 170.5
+    },
+    {
+      "specifier": "east-bass-strait",
+      "title": "Eastern Bass Strait",
+      "north": -37.5,
+      "west": 145.5,
+      "south": -41.5,
+      "east": 151.5
+    },
+    {
+      "specifier": "cook-strait",
+      "title": "Cook Strait",
+      "north": -40.5,
+      "west": 174.5,
+      "south": -46.5,
+      "east": 179.5
+    },
+    {
+      "specifier": "humboldt-n",
+      "title": "North Humboldt Sea",
+      "north": 6.5,
+      "west": -93.5,
+      "south": -20.5,
+      "east": -69.5
+    },
+    {
+      "specifier": "hawaii",
+      "title": "Hawaii",
+      "north": 0.0,
+      "west": 0.0,
+      "south": 0.0,
+      "east": 0.0
+    },
+    {
+      "specifier": "benguela",
+      "title": "Benguela Current",
+      "north": 0.0,
+      "west": 0.0,
+      "south": 0.0,
+      "east": 0.0
+    }
+  ],
+  "lake_site": [
+    {
+      "specifier": "allequash",
+      "title": "Allequash Lake",
+      "country": "USA",
+      "lon": -89.62,
+      "lat": 46.04,
+      "type": "lake"
+    },
+    {
+      "specifier": "alqueva",
+      "title": "Alqueva Reservoir",
+      "country": "Portugal",
+      "lon": -7.49,
+      "lat": 38.2,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "annecy",
+      "title": "Lake Annecy",
+      "country": "France",
+      "lon": 6.17,
+      "lat": 45.87,
+      "type": "lake"
+    },
+    {
+      "specifier": "annie",
+      "title": "Lake Annie",
+      "country": "USA",
+      "lon": -81.35,
+      "lat": 27.21,
+      "type": "lake"
+    },
+    {
+      "specifier": "argyle",
+      "title": "Lake Argyle",
+      "country": "Australia",
+      "lon": 128.68,
+      "lat": -16.31,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "biel",
+      "title": "Lake Biel",
+      "country": "Switzerland",
+      "lon": 7.16,
+      "lat": 47.08,
+      "type": "lake"
+    },
+    {
+      "specifier": "big-muskellunge",
+      "title": "Big Muskellunge Lake",
+      "country": "USA",
+      "lon": -89.61,
+      "lat": 46.02,
+      "type": "lake"
+    },
+    {
+      "specifier": "black-oak",
+      "title": "Black Oak Lake",
+      "country": "USA",
+      "lon": -89.32,
+      "lat": 46.16,
+      "type": "lake"
+    },
+    {
+      "specifier": "bourget",
+      "title": "Lake Bourget",
+      "country": "France",
+      "lon": 5.86,
+      "lat": 45.76,
+      "type": "lake"
+    },
+    {
+      "specifier": "burley-griffin",
+      "title": "Lake Burley Griffin",
+      "country": "Australia",
+      "lon": 149.07,
+      "lat": -35.3,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "crystal-lake",
+      "title": "Crystal Lake",
+      "country": "USA",
+      "lon": -89.61,
+      "lat": 46.0,
+      "type": "lake"
+    },
+    {
+      "specifier": "crystal-bog",
+      "title": "Crystal Bog",
+      "country": "USA",
+      "lon": -89.61,
+      "lat": 46.01,
+      "type": "lake"
+    },
+    {
+      "specifier": "delavan",
+      "title": "Delavan Lake",
+      "country": "USA",
+      "lon": -88.6,
+      "lat": 42.61,
+      "type": "lake"
+    },
+    {
+      "specifier": "dickie",
+      "title": "Dickie Lake",
+      "country": "Canada",
+      "lon": -79.09,
+      "lat": 45.15,
+      "type": "lake"
+    },
+    {
+      "specifier": "eagle",
+      "title": "Eagle Lake",
+      "country": "Canada",
+      "lon": -76.7,
+      "lat": 44.68,
+      "type": "lake"
+    },
+    {
+      "specifier": "ekoln",
+      "title": "Ekoln basin of M\u00e4laren",
+      "country": "Sweden",
+      "lon": 17.62,
+      "lat": 59.75,
+      "type": "lake"
+    },
+    {
+      "specifier": "erken",
+      "title": "Lake Erken",
+      "country": "Sweden",
+      "lon": 18.63,
+      "lat": 59.84,
+      "type": "lake"
+    },
+    {
+      "specifier": "esthwaite-water",
+      "title": "Esthwaite Water",
+      "country": "United Kingdom",
+      "lon": -2.99,
+      "lat": 54.37,
+      "type": "lake"
+    },
+    {
+      "specifier": "falling-creek",
+      "title": "Falling Creek Reservoir",
+      "country": "USA",
+      "lon": -79.84,
+      "lat": 37.31,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "feeagh",
+      "title": "Lake Feeagh",
+      "country": "Ireland",
+      "lon": -9.5,
+      "lat": 53.9,
+      "type": "lake"
+    },
+    {
+      "specifier": "fish",
+      "title": "Fish Lake",
+      "country": "USA",
+      "lon": -89.65,
+      "lat": 43.29,
+      "type": "lake"
+    },
+    {
+      "specifier": "geneva",
+      "title": "Lake Geneva",
+      "country": "France/Switzerland",
+      "lon": 6.59,
+      "lat": 46.45,
+      "type": "lake"
+    },
+    {
+      "specifier": "great",
+      "title": "Great Pond",
+      "country": "USA",
+      "lon": -69.89,
+      "lat": 44.53,
+      "type": "lake"
+    },
+    {
+      "specifier": "green",
+      "title": "Green Lake",
+      "country": "USA",
+      "lon": -89.0,
+      "lat": 43.81,
+      "type": "lake"
+    },
+    {
+      "specifier": "harp",
+      "title": "Harp Lake",
+      "country": "Canada",
+      "lon": -79.13,
+      "lat": 45.38,
+      "type": "lake"
+    },
+    {
+      "specifier": "kilpisjarvi",
+      "title": "Kilpisj\u00e4rvi",
+      "country": "Finland",
+      "lon": 20.77,
+      "lat": 69.03,
+      "type": "lake"
+    },
+    {
+      "specifier": "kinneret",
+      "title": "Lake Kinneret",
+      "country": "Israel",
+      "lon": 35.35,
+      "lat": 32.49,
+      "type": "lake"
+    },
+    {
+      "specifier": "kivu",
+      "title": "Lake Kivu",
+      "country": "Rwanda/DR Congo",
+      "lon": 29.24,
+      "lat": -1.73,
+      "type": "lake"
+    },
+    {
+      "specifier": "klicava",
+      "title": "Klicava Reservoir",
+      "country": "Czechia",
+      "lon": 13.93,
+      "lat": 50.07,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "kuivajarvi",
+      "title": "Lake Kuivajarvi",
+      "country": "Finland",
+      "lon": 23.51,
+      "lat": 60.47,
+      "type": "lake"
+    },
+    {
+      "specifier": "langtjern",
+      "title": "Lake Langtjern",
+      "country": "Norway",
+      "lon": 9.73,
+      "lat": 60.37,
+      "type": "lake"
+    },
+    {
+      "specifier": "laramie",
+      "title": "Laramie Lake",
+      "country": "USA",
+      "lon": -105.84,
+      "lat": 40.62,
+      "type": "lake"
+    },
+    {
+      "specifier": "lower-zurich",
+      "title": "Lower Lake Zurich",
+      "country": "Switzerland",
+      "lon": 8.58,
+      "lat": 47.28,
+      "type": "lake"
+    },
+    {
+      "specifier": "mendota",
+      "title": "Lake Mendota",
+      "country": "USA",
+      "lon": -89.41,
+      "lat": 43.1,
+      "type": "lake"
+    },
+    {
+      "specifier": "monona",
+      "title": "Lake Monona",
+      "country": "USA",
+      "lon": -89.36,
+      "lat": 43.06,
+      "type": "lake"
+    },
+    {
+      "specifier": "mozhaysk",
+      "title": "Mozhaysk reservoir",
+      "country": "Russia",
+      "lon": 35.82,
+      "lat": 55.59,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "mt-bold",
+      "title": "Mt Bold",
+      "country": "Australia",
+      "lon": 138.71,
+      "lat": -35.12,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "mueggelsee",
+      "title": "Lake M\u00fcggelsee",
+      "country": "Germany",
+      "lon": 13.65,
+      "lat": 52.43,
+      "type": "lake"
+    },
+    {
+      "specifier": "neuchatel",
+      "title": "Lake Neuch\u00e2tel",
+      "country": "Switzerland",
+      "lon": 6.52,
+      "lat": 46.54,
+      "type": "lake"
+    },
+    {
+      "specifier": "ngoring",
+      "title": "Ngoring",
+      "country": "China",
+      "lon": 97.7,
+      "lat": 34.9,
+      "type": "lake"
+    },
+    {
+      "specifier": "nohipalo-mustjaerv",
+      "title": "Lake Nohipalo Mustj\u00e4rv",
+      "country": "Estonia",
+      "lon": 27.34,
+      "lat": 57.93,
+      "type": "lake"
+    },
+    {
+      "specifier": "nohipalo-valgejaerv",
+      "title": "Lake Nohipalo Valgej\u00e4rv",
+      "country": "Estonia",
+      "lon": 27.35,
+      "lat": 57.94,
+      "type": "lake"
+    },
+    {
+      "specifier": "okauchee",
+      "title": "Okauchee Lake",
+      "country": "USA",
+      "lon": -88.43,
+      "lat": 43.13,
+      "type": "lake"
+    },
+    {
+      "specifier": "paaijarvi",
+      "title": "Lake P\u00e4\u00e4j\u00e4rvi",
+      "country": "Finland",
+      "lon": 25.13,
+      "lat": 61.07,
+      "type": "lake"
+    },
+    {
+      "specifier": "rappbode",
+      "title": "Rappbode Reservoir",
+      "country": "Germany",
+      "lon": 10.89,
+      "lat": 51.74,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "rimov",
+      "title": "Rimov Reservoir",
+      "country": "Czechia",
+      "lon": 14.49,
+      "lat": 48.85,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "rotorua",
+      "title": "Lake Rotorua",
+      "country": "New Zealand",
+      "lon": 176.28,
+      "lat": -38.08,
+      "type": "lake"
+    },
+    {
+      "specifier": "sammamish",
+      "title": "Lake Sammamish",
+      "country": "USA",
+      "lon": -122.1,
+      "lat": 47.59,
+      "type": "lake"
+    },
+    {
+      "specifier": "sau",
+      "title": "Sau Reservoir",
+      "country": "Spain",
+      "lon": 2.4,
+      "lat": 41.97,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "sparkling",
+      "title": "Sparkling Lake",
+      "country": "USA",
+      "lon": -89.7,
+      "lat": 46.01,
+      "type": "lake"
+    },
+    {
+      "specifier": "stechlin",
+      "title": "Lake Stechlin",
+      "country": "Germany",
+      "lon": 13.03,
+      "lat": 53.17,
+      "type": "lake"
+    },
+    {
+      "specifier": "sunapee",
+      "title": "Lake Sunapee",
+      "country": "USA",
+      "lon": -72.5,
+      "lat": 43.23,
+      "type": "lake"
+    },
+    {
+      "specifier": "tahoe",
+      "title": "Lake Tahoe",
+      "country": "USA",
+      "lon": -120.03,
+      "lat": 39.09,
+      "type": "reservoir"
+    },
+    {
+      "specifier": "tarawera",
+      "title": "Lake Tarawera",
+      "country": "New Zealand",
+      "lon": 176.43,
+      "lat": -38.21,
+      "type": "lake"
+    },
+    {
+      "specifier": "taupo",
+      "title": "Lake Taupo",
+      "country": "New Zealand",
+      "lon": 175.89,
+      "lat": -38.8,
+      "type": "lake"
+    },
+    {
+      "specifier": "toolik",
+      "title": "Toolik Lake",
+      "country": "USA",
+      "lon": -149.6,
+      "lat": 68.63,
+      "type": "lake"
+    },
+    {
+      "specifier": "trout-lake",
+      "title": "Trout Lake",
+      "country": "USA",
+      "lon": -89.67,
+      "lat": 46.03,
+      "type": "lake"
+    },
+    {
+      "specifier": "trout-bog",
+      "title": "Trout Bog",
+      "country": "USA",
+      "lon": -89.69,
+      "lat": 46.04,
+      "type": "lake"
+    },
+    {
+      "specifier": "two-sisters",
+      "title": "Two Sisters Lake",
+      "country": "USA",
+      "lon": -89.53,
+      "lat": 45.77,
+      "type": "lake"
+    },
+    {
+      "specifier": "vendyurskoe",
+      "title": "Lake Vendyurskoe",
+      "country": "Russia",
+      "lon": 33.1,
+      "lat": 62.1,
+      "type": "lake"
+    },
+    {
+      "specifier": "vortsjaerv",
+      "title": "lake V\u00f5rtsj\u00e4rv",
+      "country": "Estonia",
+      "lon": 26.01,
+      "lat": 58.31,
+      "type": "lake"
+    },
+    {
+      "specifier": "waahi",
+      "title": "Lake Waahi",
+      "country": "New Zealand",
+      "lon": 175.07,
+      "lat": 37.33,
+      "type": "lake"
+    },
+    {
+      "specifier": "washington",
+      "title": "Lake Washington",
+      "country": "USA",
+      "lon": -122.27,
+      "lat": 47.64,
+      "type": "lake"
+    },
+    {
+      "specifier": "windermere",
+      "title": "Windermere",
+      "country": "United Kingdom",
+      "lon": -2.95,
+      "lat": 54.31,
+      "type": "lake"
+    },
+    {
+      "specifier": "wingra",
+      "title": "Lake Wingra",
+      "country": "USA",
+      "lon": -89.43,
+      "lat": 43.05,
+      "type": "lake"
+    },
+    {
+      "specifier": "zlutice",
+      "title": "Zlutice Reservoir",
+      "country": "Czechia",
+      "lon": 13.11,
+      "lat": 50.09,
+      "type": "reservoir"
     }
   ],
   "time_step": [
@@ -2776,6 +2831,7 @@
         "agriculture",
         "biomes",
         "forestry",
+        "health",
         "lakes_global",
         "lakes_local",
         "marine-fishery_global",
@@ -2787,165 +2843,97 @@
       ]
     }
   ],
-  "dimensions": [
+  "river": [
     {
-      "specifier": "lon",
-      "axis": "X",
-      "units": "degrees_east",
-      "size": 720,
-      "minimum": -179.75,
-      "maximum": 179.75,
-      "standard_name": "longitude",
-      "long_names": [
-        "Longitude",
-        "longitude"
-      ]
+      "specifier": "amazon"
     },
     {
-      "specifier": "lat",
-      "axis": "Y",
-      "units": "degrees_north",
-      "size": 360,
-      "minimum": -89.75,
-      "maximum": 89.75,
-      "standard_name": "latitude",
-      "long_names": [
-        "Latitude",
-        "latitude"
-      ]
+      "specifier": "blue-nile"
     },
     {
-      "specifier": "time",
-      "axis": "T",
-      "standard_name": "time",
-      "long_names": [
-        "time",
-        "time axis",
-        "Time",
-        "Time axis"
-      ],
-      "calenders_daily": [
-        "standard",
-        "proleptic_gregorian",
-        "366_day",
-        "365_day",
-        "360_day"
-      ],
-      "calenders_other": [
-        "360_day"
-      ]
+      "specifier": "danube"
     },
     {
-      "specifier": "depth",
-      "axis": "Z",
-      "standard_name": "depth_below_surface",
-      "long_name": "Depth of Vertical Layer Center Below Surface",
-      "positive": "down",
-      "units": "m"
+      "specifier": "darling"
     },
     {
-      "specifier": "levlak",
-      "axis": "Z",
-      "standard_name": "water_layer",
-      "long_name": "Vertical Water Layer Index",
-      "positive": "down",
-      "units": "1"
+      "specifier": "ganges"
     },
     {
-      "specifier": "solay",
-      "axis": "Z",
-      "standard_name": "soil_level",
-      "long_name": "Hydrological soil levels",
-      "positive": "down",
-      "units": "1"
+      "specifier": "godavari"
     },
     {
-      "specifier": "solth",
-      "axis": "Z",
-      "standard_name": "soil_level",
-      "long_name": "Thermal soil levels",
-      "positive": "down",
-      "units": "m"
+      "specifier": "indus"
     },
     {
-      "specifier": "snowlev",
-      "axis": "Z",
-      "standard_name": "snow_level",
-      "long_name": "Snow levels",
-      "positive": "down",
-      "units": "1"
+      "specifier": "lena"
     },
     {
-      "specifier": "dbhclass",
-      "axis": "Z",
-      "standard_name": "dbhclass",
-      "long_name": "Diameter at breast heigh (DBH) class",
-      "positive": "up",
-      "units": "cm"
+      "specifier": "mackenzie"
     },
     {
-      "specifier": "bnds"
+      "specifier": "mississippi"
+    },
+    {
+      "specifier": "niger"
+    },
+    {
+      "specifier": "pajeu"
+    },
+    {
+      "specifier": "rhine"
+    },
+    {
+      "specifier": "tagus"
+    },
+    {
+      "specifier": "yangtze"
+    },
+    {
+      "specifier": "yellow"
     }
   ],
-  "climate_forcing": [
+  "climate_scenario": [
     {
-      "specifier": "gswp3",
-      "title": "GSWP3",
+      "specifier": "hist",
+      "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
     },
     {
-      "specifier": "gswp3-ewembi",
-      "title": "GSWP3-EWEMBI",
+      "specifier": "fore",
+      "description": "Unsupported climate scenario from Marine-Fishery sector",
       "simulation_rounds": [
         "ISIMIP2a"
       ]
+    }
+  ],
+  "subcategory": [
+    {
+      "specifier": "sealevelrise",
+      "title": "Sealevelrise"
+    }
+  ],
+  "simulation_round": [
+    {
+      "specifier": "ISIMIP2a",
+      "title": "ISIMIP2a simulation round"
     },
     {
-      "specifier": "gswp3-w5e5",
-      "title": "GSWP3-W5E5",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
+      "specifier": "ISIMIP2b",
+      "title": "ISIMIP2b simulation round"
+    }
+  ],
+  "resolution": [
+    {
+      "specifier": "halfdeg"
     },
     {
-      "specifier": "ewembi",
-      "title": "EWEMBI",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
+      "specifier": "5arcmin"
     },
     {
-      "specifier": "princeton",
-      "title": "PGMFD v2.1 (Princeton)",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    },
-    {
-      "specifier": "watch",
-      "title": "WATCH (WFD)",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    },
-    {
-      "specifier": "watch-wfdei",
-      "title": "WATCH-WFDEI",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    },
-    {
-      "specifier": "localclim",
-      "title": "Locally observed weather data",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ],
-      "sectors": [
-        "forestry"
-      ]
+      "specifier": "national"
     }
   ],
   "crop": [
@@ -3046,18 +3034,31 @@
       "title": "Sunflower"
     }
   ],
-  "subcategory": [
-    {
-      "specifier": "sealevelrise",
-      "title": "Sealevelrise"
-    }
-  ],
   "diazotroph_scenario": [
     {
       "specifier": "w-diaz"
     },
     {
       "specifier": "wo-diaz"
+    }
+  ],
+  "bias_adjustment": [
+    {
+      "specifier": "nobc",
+      "description": "No bias correction was performed on the climate data."
+    },
+    {
+      "specifier": "localbc",
+      "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
+      "sectors": [
+        "forestry",
+        "water_regional"
+      ]
+    },
+    {
+      "specifier": "ewembi",
+      "title": "EWEMBI",
+      "description": "Bias-adjusted using the EWEMBI dataset."
     }
   ]
 }

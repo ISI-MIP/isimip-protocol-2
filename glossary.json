@@ -1,1181 +1,206 @@
 {
-  "commit": "4332e18be41d5181c8642ae758a132b72733ec13",
+  "commit": "2dfc1fe76770e1f62c02056ccc918117cbdc6d5f",
   "terms": {
-    "river": {
-      "amazon": {},
-      "blue-nile": {},
-      "danube": {},
-      "darling": {},
-      "ganges": {},
-      "godavari": {},
-      "indus": {},
-      "lena": {},
-      "mackenzie": {},
-      "mississippi": {},
-      "niger": {},
-      "pajeu": {},
-      "rhine": {},
-      "tagus": {},
-      "yangtze": {},
-      "yellow": {}
-    },
-    "sector": {
-      "agriculture": {
-        "title": "Agriculture"
-      },
-      "biodiversity": {
-        "title": "Terrestrial biodiversity"
-      },
-      "biomes": {
-        "title": "Biomes"
-      },
-      "forestry": {
-        "title": "Regional forests"
-      },
-      "health": {
-        "title": "Temperature-related mortality"
-      },
-      "lakes_global": {
-        "title": "Lakes (global)"
-      },
-      "lakes_local": {
-        "title": "Lakes (local)"
-      },
-      "marine-fishery_global": {
-        "title": "Fisheries and Marine Ecosystems (global)"
-      },
-      "marine-fishery_regional": {
-        "title": "Fisheries and Marine Ecosystems (regional)"
-      },
-      "permafrost": {
-        "title": "Permafrost"
-      },
-      "waterborne_diseases": {
-        "title": "Waterborne Diseases"
-      },
-      "water_global": {
-        "title": "Water (global)"
-      },
-      "water_regional": {
-        "title": "Water (regional)"
-      }
-    },
-    "climate_scenario": {
-      "hist": {
-        "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
+    "climate_forcing": {
+      "gswp3": {
+        "title": "GSWP3",
         "simulation_rounds": [
           "ISIMIP2a"
         ]
       },
-      "picontrol": {
-        "description": "Pre-industrial climate and 286ppm CO2 concentration.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "historical": {
-        "description": "Historical climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "rcp26": {
-        "description": "RCP2.6 climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "rcp45": {
-        "description": "RCP4.5 climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ],
-        "periods": [
-          "SecondaryOutputData"
-        ]
-      },
-      "rcp60": {
-        "description": "RCP6.0 climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "rcp85": {
-        "description": "RCP8.5 climate as simulated by the GCMs.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "2005co2": {
-        "description": "CO2 concentration fixed at 2005 levels at 378.81ppm.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "2299rcp26": {
-        "description": "Repeating climate between 2270 and 2299 for additional 200 years up to 2500 (or equilibrium if possible), CO2 fixed at year 2299 levels.",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "fore": {
-        "description": "Unsupported climate scenario from Marine-Fishery sector",
+      "gswp3-ewembi": {
+        "title": "GSWP3-EWEMBI",
         "simulation_rounds": [
           "ISIMIP2a"
         ]
-      }
-    },
-    "forest_stand": {
-      "hyytiala": {
-        "title": "Hyyti\u00e4l\u00e4",
-        "lat": 61.8475,
-        "lon": 24.295,
-        "country": "FI",
-        "type": "Even-aged conifer",
-        "species": [
-          "pisy",
-          "piab"
-        ],
-        "thinning": "below",
-        "comment": "Note that an experimental plot of pine contains a lot of data while footprint of flux tower is larger. Please note that the deciduous admixtures only appear in the data at a later stage and hence do not need to be simulated. Only simulate pine and spruce (no hard-woods) and regenerate as pure pine stand"
       },
-      "peitz": {
-        "title": "Peitz",
-        "lat": 51.9166,
-        "lon": 14.35,
-        "country": "DE",
-        "type": "Even-aged conifer",
-        "species": [
-          "pisy"
-        ],
-        "thinning": "below",
-        "comment": "Managed using a weak thinning from below."
-      },
-      "solling-beech": {
-        "title": "Solling (beech)",
-        "lat": 51.77,
-        "lon": 9.57,
-        "country": "DE",
-        "type": "Even-aged deciduous",
-        "species": [
-          "fasy"
-        ],
-        "thinning": "above",
-        "comment": ""
-      },
-      "solling-spruce": {
-        "title": "Solling (spruce)",
-        "lat": 51.77,
-        "lon": 9.57,
-        "country": "DE",
-        "type": "Even-aged conifer",
-        "species": [
-          "piab "
-        ],
-        "thinning": "below",
-        "comment": ""
-      },
-      "soro": {
-        "title": "Sor\u00f8",
-        "lat": 55.485844,
-        "lon": 11.644616,
-        "country": "DK",
-        "type": "Even-aged deciduous",
-        "species": [
-          "fasy"
-        ],
-        "thinning": "above",
-        "comment": ""
-      },
-      "kroof": {
-        "title": "Kranzberg Roof Project",
-        "lat": 48.25,
-        "lon": 11.4,
-        "country": "DE",
-        "type": "Mixed deciduous and conifers",
-        "species": [
-          "fasy",
-          "piab",
-          "acpl",
-          "lade",
-          "pisy",
-          "quro"
-        ],
-        "thinning": "below",
-        "comment": "Unmanaged/ thinning from below in past 20 years for all species."
-      },
-      "le-bray": {
-        "title": "Le Bray",
-        "lat": 44.71711,
-        "lon": -0.7693,
-        "country": "FR",
-        "type": "Even-aged conifer",
-        "species": [
-          "pipi"
-        ],
-        "thinning": "below",
-        "comment": ""
-      },
-      "collelongo": {
-        "title": "Collelongo",
-        "lat": 41.8494,
-        "lon": 13.5881,
-        "country": "IT",
-        "type": "Even-aged deciduous",
-        "species": [
-          "fasy"
-        ],
-        "thinning": "above",
-        "comment": ""
-      },
-      "bily-kriz": {
-        "title": "B\u00edl\u00fd K\u0159\u00ed\u017e",
-        "lat": 49.3,
-        "lon": 18.32,
-        "country": "CZ",
-        "type": "Even-aged conifer",
-        "species": [
-          "piab"
-        ],
-        "thinning": "below",
-        "comment": ""
-      }
-    },
-    "time_span": {
-      "minimum": {
-        "value": {
-          "ISIMIP2a": 1901,
-          "ISIMIP2b": 1661
-        }
-      },
-      "maximum": {
-        "value": {
-          "ISIMIP2a": 2018,
-          "ISIMIP2b": 2299
-        }
-      },
-      "start_pre-ind": {
-        "value": {
-          "ISIMIP2b": 1661
-        }
-      },
-      "end_pre-ind": {
-        "value": {
-          "ISIMIP2b": 1860
-        }
-      },
-      "start_hist": {
-        "value": {
-          "ISIMIP2a": 1901,
-          "ISIMIP2b": 1861
-        }
-      },
-      "end_hist": {
-        "value": {
-          "ISIMIP2a": {
-            "pgfv2.1": 2012,
-            "gswp3-w5e5": 2016,
-            "gswp3-ewembi": 2016,
-            "gswp3": 2010,
-            "watch": 2001,
-            "watch-wfdei": 2016
-          },
-          "ISIMIP2b": 2005
-        }
-      },
-      "start_fut": {
-        "value": {
-          "ISIMIP2b": 2006
-        }
-      },
-      "end_fut": {
-        "value": {
-          "ISIMIP2b": 2099
-        }
-      },
-      "start_fut-ext": {
-        "value": {
-          "ISIMIP2b": 2100
-        }
-      },
-      "end_fut-ext": {
-        "value": {
-          "ISIMIP2b": 2299
-        }
-      }
-    },
-    "resolution": {
-      "halfdeg": {},
-      "5arcmin": {},
-      "national": {}
-    },
-    "lake_site": {
-      "allequash": {
-        "title": "Allequash Lake",
-        "country": "USA",
-        "lon": -89.62,
-        "lat": 46.04,
-        "type": "lake"
-      },
-      "alqueva": {
-        "title": "Alqueva Reservoir",
-        "country": "Portugal",
-        "lon": -7.49,
-        "lat": 38.2,
-        "type": "reservoir"
-      },
-      "annecy": {
-        "title": "Lake Annecy",
-        "country": "France",
-        "lon": 6.17,
-        "lat": 45.87,
-        "type": "lake"
-      },
-      "annie": {
-        "title": "Lake Annie",
-        "country": "USA",
-        "lon": -81.35,
-        "lat": 27.21,
-        "type": "lake"
-      },
-      "argyle": {
-        "title": "Lake Argyle",
-        "country": "Australia",
-        "lon": 128.68,
-        "lat": -16.31,
-        "type": "reservoir"
-      },
-      "biel": {
-        "title": "Lake Biel",
-        "country": "Switzerland",
-        "lon": 7.16,
-        "lat": 47.08,
-        "type": "lake"
-      },
-      "big-muskellunge": {
-        "title": "Big Muskellunge Lake",
-        "country": "USA",
-        "lon": -89.61,
-        "lat": 46.02,
-        "type": "lake"
-      },
-      "black-oak": {
-        "title": "Black Oak Lake",
-        "country": "USA",
-        "lon": -89.32,
-        "lat": 46.16,
-        "type": "lake"
-      },
-      "bourget": {
-        "title": "Lake Bourget",
-        "country": "France",
-        "lon": 5.86,
-        "lat": 45.76,
-        "type": "lake"
-      },
-      "burley-griffin": {
-        "title": "Lake Burley Griffin",
-        "country": "Australia",
-        "lon": 149.07,
-        "lat": -35.3,
-        "type": "reservoir"
-      },
-      "crystal-lake": {
-        "title": "Crystal Lake",
-        "country": "USA",
-        "lon": -89.61,
-        "lat": 46.0,
-        "type": "lake"
-      },
-      "crystal-bog": {
-        "title": "Crystal Bog",
-        "country": "USA",
-        "lon": -89.61,
-        "lat": 46.01,
-        "type": "lake"
-      },
-      "delavan": {
-        "title": "Delavan Lake",
-        "country": "USA",
-        "lon": -88.6,
-        "lat": 42.61,
-        "type": "lake"
-      },
-      "dickie": {
-        "title": "Dickie Lake",
-        "country": "Canada",
-        "lon": -79.09,
-        "lat": 45.15,
-        "type": "lake"
-      },
-      "eagle": {
-        "title": "Eagle Lake",
-        "country": "Canada",
-        "lon": -76.7,
-        "lat": 44.68,
-        "type": "lake"
-      },
-      "ekoln": {
-        "title": "Ekoln basin of M\u00e4laren",
-        "country": "Sweden",
-        "lon": 17.62,
-        "lat": 59.75,
-        "type": "lake"
-      },
-      "erken": {
-        "title": "Lake Erken",
-        "country": "Sweden",
-        "lon": 18.63,
-        "lat": 59.84,
-        "type": "lake"
-      },
-      "esthwaite-water": {
-        "title": "Esthwaite Water",
-        "country": "United Kingdom",
-        "lon": -2.99,
-        "lat": 54.37,
-        "type": "lake"
-      },
-      "falling-creek": {
-        "title": "Falling Creek Reservoir",
-        "country": "USA",
-        "lon": -79.84,
-        "lat": 37.31,
-        "type": "reservoir"
-      },
-      "feeagh": {
-        "title": "Lake Feeagh",
-        "country": "Ireland",
-        "lon": -9.5,
-        "lat": 53.9,
-        "type": "lake"
-      },
-      "fish": {
-        "title": "Fish Lake",
-        "country": "USA",
-        "lon": -89.65,
-        "lat": 43.29,
-        "type": "lake"
-      },
-      "geneva": {
-        "title": "Lake Geneva",
-        "country": "France/Switzerland",
-        "lon": 6.59,
-        "lat": 46.45,
-        "type": "lake"
-      },
-      "great": {
-        "title": "Great Pond",
-        "country": "USA",
-        "lon": -69.89,
-        "lat": 44.53,
-        "type": "lake"
-      },
-      "green": {
-        "title": "Green Lake",
-        "country": "USA",
-        "lon": -89.0,
-        "lat": 43.81,
-        "type": "lake"
-      },
-      "harp": {
-        "title": "Harp Lake",
-        "country": "Canada",
-        "lon": -79.13,
-        "lat": 45.38,
-        "type": "lake"
-      },
-      "kilpisjarvi": {
-        "title": "Kilpisj\u00e4rvi",
-        "country": "Finland",
-        "lon": 20.77,
-        "lat": 69.03,
-        "type": "lake"
-      },
-      "kinneret": {
-        "title": "Lake Kinneret",
-        "country": "Israel",
-        "lon": 35.35,
-        "lat": 32.49,
-        "type": "lake"
-      },
-      "kivu": {
-        "title": "Lake Kivu",
-        "country": "Rwanda/DR Congo",
-        "lon": 29.24,
-        "lat": -1.73,
-        "type": "lake"
-      },
-      "klicava": {
-        "title": "Klicava Reservoir",
-        "country": "Czechia",
-        "lon": 13.93,
-        "lat": 50.07,
-        "type": "reservoir"
-      },
-      "kuivajarvi": {
-        "title": "Lake Kuivajarvi",
-        "country": "Finland",
-        "lon": 23.51,
-        "lat": 60.47,
-        "type": "lake"
-      },
-      "langtjern": {
-        "title": "Lake Langtjern",
-        "country": "Norway",
-        "lon": 9.73,
-        "lat": 60.37,
-        "type": "lake"
-      },
-      "laramie": {
-        "title": "Laramie Lake",
-        "country": "USA",
-        "lon": -105.84,
-        "lat": 40.62,
-        "type": "lake"
-      },
-      "lower-zurich": {
-        "title": "Lower Lake Zurich",
-        "country": "Switzerland",
-        "lon": 8.58,
-        "lat": 47.28,
-        "type": "lake"
-      },
-      "mendota": {
-        "title": "Lake Mendota",
-        "country": "USA",
-        "lon": -89.41,
-        "lat": 43.1,
-        "type": "lake"
-      },
-      "monona": {
-        "title": "Lake Monona",
-        "country": "USA",
-        "lon": -89.36,
-        "lat": 43.06,
-        "type": "lake"
-      },
-      "mozhaysk": {
-        "title": "Mozhaysk reservoir",
-        "country": "Russia",
-        "lon": 35.82,
-        "lat": 55.59,
-        "type": "reservoir"
-      },
-      "mt-bold": {
-        "title": "Mt Bold",
-        "country": "Australia",
-        "lon": 138.71,
-        "lat": -35.12,
-        "type": "reservoir"
-      },
-      "mueggelsee": {
-        "title": "Lake M\u00fcggelsee",
-        "country": "Germany",
-        "lon": 13.65,
-        "lat": 52.43,
-        "type": "lake"
-      },
-      "neuchatel": {
-        "title": "Lake Neuch\u00e2tel",
-        "country": "Switzerland",
-        "lon": 6.52,
-        "lat": 46.54,
-        "type": "lake"
-      },
-      "ngoring": {
-        "title": "Ngoring",
-        "country": "China",
-        "lon": 97.7,
-        "lat": 34.9,
-        "type": "lake"
-      },
-      "nohipalo-mustjaerv": {
-        "title": "Lake Nohipalo Mustj\u00e4rv",
-        "country": "Estonia",
-        "lon": 27.34,
-        "lat": 57.93,
-        "type": "lake"
-      },
-      "nohipalo-valgejaerv": {
-        "title": "Lake Nohipalo Valgej\u00e4rv",
-        "country": "Estonia",
-        "lon": 27.35,
-        "lat": 57.94,
-        "type": "lake"
-      },
-      "okauchee": {
-        "title": "Okauchee Lake",
-        "country": "USA",
-        "lon": -88.43,
-        "lat": 43.13,
-        "type": "lake"
-      },
-      "paaijarvi": {
-        "title": "Lake P\u00e4\u00e4j\u00e4rvi",
-        "country": "Finland",
-        "lon": 25.13,
-        "lat": 61.07,
-        "type": "lake"
-      },
-      "rappbode": {
-        "title": "Rappbode Reservoir",
-        "country": "Germany",
-        "lon": 10.89,
-        "lat": 51.74,
-        "type": "reservoir"
-      },
-      "rimov": {
-        "title": "Rimov Reservoir",
-        "country": "Czechia",
-        "lon": 14.49,
-        "lat": 48.85,
-        "type": "reservoir"
-      },
-      "rotorua": {
-        "title": "Lake Rotorua",
-        "country": "New Zealand",
-        "lon": 176.28,
-        "lat": -38.08,
-        "type": "lake"
-      },
-      "sammamish": {
-        "title": "Lake Sammamish",
-        "country": "USA",
-        "lon": -122.1,
-        "lat": 47.59,
-        "type": "lake"
-      },
-      "sau": {
-        "title": "Sau Reservoir",
-        "country": "Spain",
-        "lon": 2.4,
-        "lat": 41.97,
-        "type": "reservoir"
-      },
-      "sparkling": {
-        "title": "Sparkling Lake",
-        "country": "USA",
-        "lon": -89.7,
-        "lat": 46.01,
-        "type": "lake"
-      },
-      "stechlin": {
-        "title": "Lake Stechlin",
-        "country": "Germany",
-        "lon": 13.03,
-        "lat": 53.17,
-        "type": "lake"
-      },
-      "sunapee": {
-        "title": "Lake Sunapee",
-        "country": "USA",
-        "lon": -72.5,
-        "lat": 43.23,
-        "type": "lake"
-      },
-      "tahoe": {
-        "title": "Lake Tahoe",
-        "country": "USA",
-        "lon": -120.03,
-        "lat": 39.09,
-        "type": "reservoir"
-      },
-      "tarawera": {
-        "title": "Lake Tarawera",
-        "country": "New Zealand",
-        "lon": 176.43,
-        "lat": -38.21,
-        "type": "lake"
-      },
-      "taupo": {
-        "title": "Lake Taupo",
-        "country": "New Zealand",
-        "lon": 175.89,
-        "lat": -38.8,
-        "type": "lake"
-      },
-      "toolik": {
-        "title": "Toolik Lake",
-        "country": "USA",
-        "lon": -149.6,
-        "lat": 68.63,
-        "type": "lake"
-      },
-      "trout-lake": {
-        "title": "Trout Lake",
-        "country": "USA",
-        "lon": -89.67,
-        "lat": 46.03,
-        "type": "lake"
-      },
-      "trout-bog": {
-        "title": "Trout Bog",
-        "country": "USA",
-        "lon": -89.69,
-        "lat": 46.04,
-        "type": "lake"
-      },
-      "two-sisters": {
-        "title": "Two Sisters Lake",
-        "country": "USA",
-        "lon": -89.53,
-        "lat": 45.77,
-        "type": "lake"
-      },
-      "vendyurskoe": {
-        "title": "Lake Vendyurskoe",
-        "country": "Russia",
-        "lon": 33.1,
-        "lat": 62.1,
-        "type": "lake"
-      },
-      "vortsjaerv": {
-        "title": "lake V\u00f5rtsj\u00e4rv",
-        "country": "Estonia",
-        "lon": 26.01,
-        "lat": 58.31,
-        "type": "lake"
-      },
-      "waahi": {
-        "title": "Lake Waahi",
-        "country": "New Zealand",
-        "lon": 175.07,
-        "lat": 37.33,
-        "type": "lake"
-      },
-      "washington": {
-        "title": "Lake Washington",
-        "country": "USA",
-        "lon": -122.27,
-        "lat": 47.64,
-        "type": "lake"
-      },
-      "windermere": {
-        "title": "Windermere",
-        "country": "United Kingdom",
-        "lon": -2.95,
-        "lat": 54.31,
-        "type": "lake"
-      },
-      "wingra": {
-        "title": "Lake Wingra",
-        "country": "USA",
-        "lon": -89.43,
-        "lat": 43.05,
-        "type": "lake"
-      },
-      "zlutice": {
-        "title": "Zlutice Reservoir",
-        "country": "Czechia",
-        "lon": 13.11,
-        "lat": 50.09,
-        "type": "reservoir"
-      }
-    },
-    "model": {
-      "3d-cmcc-cnr-bgc": {
-        "title": "3D-CMCC-CNR-BGC"
-      },
-      "3d-cmcc-fem": {
-        "title": "3D-CMCC-FEM"
-      },
-      "3pg": {
-        "title": "3PG"
-      },
-      "3pgn-bw": {
-        "title": "3PGN-BW"
-      },
-      "4c": {
-        "title": "4C"
-      },
-      "albm": {
-        "title": "ALBM"
-      },
-      "air2water4par": {
-        "title": "air2water4par"
-      },
-      "air2water6par": {
-        "title": "air2water6par"
-      },
-      "apecosm": {
-        "title": "APECOSM"
-      },
-      "atlantis": {
-        "title": "Atlantis"
-      },
-      "atlantis_se-australia": {
-        "title": "Atlantis_se-australia"
-      },
-      "basfor": {
-        "title": "BASFOR"
-      },
-      "bioscen15-mem-gam": {
-        "title": "BioScen15-MEM-GAM"
-      },
-      "bioscen15-mem-gbm": {
-        "title": "BioScen15-MEM-GBM"
-      },
-      "bioscen15-sdm-gam": {
-        "title": "BioScen15-SDM-GAM"
-      },
-      "bioscen15-sdm-gbm": {
-        "title": "BioScen15-SDM-GBM"
-      },
-      "boats": {
-        "title": "BOATS"
-      },
-      "caraib": {
-        "title": "CARAIB"
-      },
-      "cgms-wofost": {
-        "title": "CGMS-WOFOST"
-      },
-      "clm-crop": {
-        "title": "CLM-Crop"
-      },
-      "clm40": {
-        "title": "CLM40"
-      },
-      "clm45": {
-        "title": "CLM45"
-      },
-      "clm50": {
-        "title": "CLM50"
-      },
-      "cwatm": {
-        "title": "CWatM"
-      },
-      "dbem": {
-        "title": "DBEM"
-      },
-      "dbh": {
-        "title": "DBH"
-      },
-      "dbpm": {
-        "title": "DBPM"
-      },
-      "dlem": {
-        "title": "DLEM"
-      },
-      "ecomag": {
-        "title": "ECOMAG"
-      },
-      "ecoocean": {
-        "title": "EcoOcean"
-      },
-      "epic-boku": {
-        "title": "EPIC-BOKU"
-      },
-      "epic-boku-br": {
-        "title": "EPIC-BOKU-BR"
-      },
-      "epic-boku-hg": {
-        "title": "EPIC-BOKU-HG"
-      },
-      "epic-boku-pe": {
-        "title": "EPIC-BOKU-PE"
-      },
-      "epic-boku-pt": {
-        "title": "EPIC-BOKU-PT"
-      },
-      "epic-iiasa": {
-        "title": "EPIC-IIASA"
-      },
-      "epic-tamu": {
-        "title": "EPIC-TAMU"
-      },
-      "ewe": {
-        "title": "EwE"
-      },
-      "ewe_adriatic-sea": {
-        "title": "EwE_adriatic-sea"
-      },
-      "ewe_baltic-sea": {
-        "title": "EwE_baltic-sea"
-      },
-      "ewe_cook-strait": {
-        "title": "EwE_cook-strait"
-      },
-      "ewe_east-bass-strait": {
-        "title": "EwE_east-bass-strait"
-      },
-      "ewe_med-glob": {
-        "title": "EwE_med-glob"
-      },
-      "ewe_north-sea": {
-        "title": "EwE_north-sea"
-      },
-      "ewe_nw-med-sea": {
-        "title": "EwE_nw-med-sea"
-      },
-      "forclim": {
-        "title": "ForClim"
-      },
-      "gepic": {
-        "title": "GEPIC"
-      },
-      "gepic-br": {
-        "title": "GEPIC-BR"
-      },
-      "gepic-p": {
-        "title": "GEPIC-P"
-      },
-      "gepic-pm": {
-        "title": "GEPIC-PM"
-      },
-      "gepic-pt": {
-        "title": "GEPI-PT"
-      },
-      "glm": {
-        "title": "GLM"
-      },
-      "gotilwaplus": {
-        "title": "GOTILWAplus"
-      },
-      "gotm": {
-        "title": "GOTM"
-      },
-      "flake-igb": {
-        "title": "FLake-IGB"
-      },
-      "formind": {
-        "title": "FORMIND"
-      },
-      "h08": {
-        "title": "H08"
-      },
-      "hbv-iww": {
-        "title": "HBV-IWW"
-      },
-      "hbv-jlu": {
-        "title": "HBV-JLU"
-      },
-      "hbv-pik": {
-        "title": "HBV-PIK"
-      },
-      "hbv-cma": {
-        "title": "HBV-CMA"
-      },
-      "hwmid-humidex": {
-        "title": "HWMId-humidex",
-        "products": [
-          "DerivedOutputData"
+      "gswp3-w5e5": {
+        "title": "GSWP3-W5E5",
+        "simulation_rounds": [
+          "ISIMIP2a"
         ]
       },
-      "hymod-jlu": {
-        "title": "HYMOD-JLU"
-      },
-      "hymod-ufz": {
-        "title": "HYMOD-UFZ"
-      },
-      "hype": {
-        "title": "HYPE"
-      },
-      "iapras-dss": {
-        "title": "IAPRAS-DSS"
-      },
-      "jules-b1": {
-        "title": "JULES-B1"
-      },
-      "jules-w1": {
-        "title": "JULES-W1"
-      },
-      "jules-es-55": {
-        "title": "JULES-ES-55"
-      },
-      "ke-tg-meanfield": {
-        "title": "KE-TG-meanfield",
-        "products": [
-          "DerivedOutputData"
+      "ewembi": {
+        "title": "EWEMBI",
+        "simulation_rounds": [
+          "ISIMIP2a"
         ]
       },
-      "lake": {
-        "title": "LAKE"
+      "princeton": {
+        "title": "PGMFD v2.1 (Princeton)",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ]
       },
-      "landscape-dndc": {
-        "title": "Landscape-DNDC"
+      "watch": {
+        "title": "WATCH (WFD)",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ]
       },
-      "lpj-guess": {
-        "title": "LPJ-GUESS"
+      "watch-wfdei": {
+        "title": "WATCH-WFDEI",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ]
       },
-      "lpjml": {
-        "title": "LPJmL"
+      "localclim": {
+        "title": "Locally observed weather data",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ],
+        "sectors": [
+          "forestry"
+        ]
       },
-      "macroecological": {
-        "title": "MACROECOLOGICAL"
+      "gfdl-reanalysis": {
+        "title": "GFDL Reanalysis",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ],
+        "sectors": [
+          "marine-fishery_regional",
+          "marine-fishery_global"
+        ]
       },
-      "matsiro": {
-        "title": "MATSIRO"
+      "key-run": {
+        "title": "Input data self-provided by Marine-Fishery sector and not supported by ISIMIP2 protocol.",
+        "simulation_rounds": [
+          "ISIMIP2a"
+        ],
+        "sectors": [
+          "marine-fishery_regional",
+          "marine-fishery_global"
+        ]
       },
-      "mhm": {
-        "title": "mHM"
+      "gfdl-esm2m": {
+        "title": "GFDL-ESM2M",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
       },
-      "mpi-hm": {
-        "title": "MPI-HM"
+      "hadgem2-es": {
+        "title": "HadGEM2-ES",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
       },
-      "mylake": {
-        "title": "MyLake"
+      "ipsl-cm5a-lr": {
+        "title": "IPSL-CM5A-LR",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
       },
-      "orchidee": {
-        "title": "ORCHIDEE"
+      "miroc5": {
+        "title": "MIROC5",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
       },
-      "orchidee-crop": {
-        "title": "ORCHIDEE-Crop"
-      },
-      "orchidee-dgvm": {
-        "title": "ORCHIDEE-DGVM"
-      },
-      "osmose": {
-        "title": "OSMOSE"
-      },
-      "osmose_humboldt-n": {
-        "title": "OSMOSE_humboldt-n"
-      },
-      "papsim": {
-        "title": "pAPSIM"
-      },
-      "papsim-pm": {
-        "title": "pAPSIM-PM"
-      },
-      "pcr-globwb": {
-        "title": "PCR-GLOBWB"
-      },
-      "pdssat": {
-        "title": "pDSSAT"
-      },
-      "pdssat-pt": {
-        "title": "pDSSAT-PT"
-      },
-      "pegasus": {
-        "title": "PEGASUS"
-      },
-      "pepic": {
-        "title": "PEPIC"
-      },
-      "prebas": {
-        "title": "PREBAS"
-      },
-      "prysbi2": {
-        "title": "PRYSBI2"
-      },
-      "salem": {
-        "title": "SALEM"
-      },
-      "sibyla": {
-        "title": "SIBYLA"
-      },
-      "simstrat": {
-        "title": "Simstrat"
-      },
-      "simstrat-uog": {
-        "title": "SIMSTRAT-UoG"
-      },
-      "swap": {
-        "title": "SWAP"
-      },
-      "swat-cma": {
-        "title": "SWAT-CMA"
-      },
-      "swat-iitgn": {
-        "title": "SWAT-IITGN"
-      },
-      "swat-sggw": {
-        "title": "SWAT-SGGW"
-      },
-      "swat-tamu": {
-        "title": "SWAT-TAMU"
-      },
-      "swat-ufz": {
-        "title": "SWAT-UFZ"
-      },
-      "swat-uottawa": {
-        "title": "SWAT-uOttawa"
-      },
-      "swat-vub": {
-        "title": "SWAT-VUB"
-      },
-      "swbm": {
-        "title": "SWBM"
-      },
-      "swim-cma": {
-        "title": "SWIM-CMA"
-      },
-      "swim-nve": {
-        "title": "SWIM-NVE"
-      },
-      "swim-nve-v2": {
-        "title": "SWIM-NVE-v2"
-      },
-      "swim-pik": {
-        "title": "SWIM-PIK"
-      },
-      "vegas": {
-        "title": "VEGAS"
-      },
-      "vic": {
-        "title": "VIC"
-      },
-      "vic-cma": {
-        "title": "VIC-CMA"
-      },
-      "vic-hhu": {
-        "title": "VIC-HHU"
-      },
-      "vic-iitgn": {
-        "title": "VIC-IITGN"
-      },
-      "vic-lake": {
-        "title": "VIC-LAKE"
-      },
-      "vic-nve": {
-        "title": "VIC-NVE"
-      },
-      "vic-nve-v2": {
-        "title": "VIC-NVE-v2"
-      },
-      "vip": {
-        "title": "VIP"
-      },
-      "visit": {
-        "title": "VISIT"
-      },
-      "watergap2": {
-        "title": "WaterGAP2"
-      },
-      "watergap2-2isimip2a": {
-        "title": "WaterGAP22ISIMIP2a"
-      },
-      "watergap2-2c": {
-        "title": "WaterGAP2-2c"
-      },
-      "watergap3": {
-        "title": "WaterGAP3"
-      },
-      "ways": {
-        "title": "WAYS"
-      },
-      "wbd": {
-        "title": "WBD"
-      },
-      "web-dhm-s": {
-        "title": "WEB-DHM-S"
-      },
-      "mizer": {
-        "title": "Mizer"
+      "cesm1-bgc": {
+        "title": "CESM1-BGC",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
       }
     },
-    "simulation_round": {
-      "ISIMIP2a": {
-        "title": "ISIMIP2a simulation round"
+    "soc_scenario": {
+      "nosoc": {
+        "description": "Naturalized - without human impacts on river flow."
       },
-      "ISIMIP2b": {
-        "title": "ISIMIP2b simulation round"
+      "pressoc": {
+        "description": "Constant human impacts - present-day (year-2000) dams and water use."
+      },
+      "varsoc": {
+        "description": "Time-varying human impacts - time-varying historical dam construction and water use."
+      },
+      "nat": {
+        "description": "Natural vegetation reference run."
+      },
+      "2005soc": {
+        "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
+      },
+      "1860soc": {
+        "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
+      },
+      "histsoc": {
+        "description": "Varying historical land use, nitrogen deposition and fertilizer input."
+      },
+      "rcp26soc": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
+      },
+      "rcp60soc": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
+      },
+      "rcp85soc": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5."
+      },
+      "2100rcp26soc": {
+        "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
+      },
+      "ssp1soc": {
+        "description": "Varying society according to SSP1 in terms of population and GDP. (in Health sector)"
+      },
+      "ssp2soc": {
+        "description": "Varying society according to SSP2 in terms of population and GDP. (in Health sector)"
+      },
+      "ssp3soc": {
+        "description": "Varying society according to SSP3 in terms of population and GDP. (in Health sector)"
+      },
+      "ssp4soc": {
+        "description": "Varying society according to SSP4 in terms of population and GDP. (in Health sector)"
+      },
+      "ssp5soc": {
+        "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
+      },
+      "rcp26socbe": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy. (in Forestry sector)"
+      },
+      "rcp60socbe": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy. (in Forestry sector)"
+      },
+      "rcp85socbe": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy. (in Forestry sector)"
+      },
+      "rcp26socbeb": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+      },
+      "rcp60socbeb": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+      },
+      "rcp85socbeb": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+      },
+      "rcp26sochwp": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+      },
+      "rcp60sochwp": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+      },
+      "rcp85sochwp": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+      },
+      "rcp26soca": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+      },
+      "rcp60soca": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+      },
+      "rcp85soca": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+      },
+      "rcp26socam": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+      },
+      "rcp60socam": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+      },
+      "rcp85socam": {
+        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+      },
+      "2005socsite": {
+        "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input. In addition, model usually plants the same tree species again or allows for regeneration of the same species. (in Forestry sector)"
       }
-    },
-    "acidification_type": {
-      "oa": {},
-      "no-oa": {}
     },
     "river_basin": {
       "alton": {
@@ -1496,208 +521,420 @@
         "river_specifier": "yellow"
       }
     },
-    "fishing_type": {
-      "fishing": {},
-      "no-fishing": {}
+    "period": {
+      "future": {
+        "title": "Future",
+        "description": "Future simulation period."
+      },
+      "historical": {
+        "title": "Historical",
+        "description": "Historical simulation period."
+      },
+      "pre-industrial": {
+        "title": "Pre-industrial",
+        "description": "Pre-industrial simulation period."
+      },
+      "future_extended": {
+        "title": "Future (extended)",
+        "description": "Future (extended) simulation period."
+      }
     },
     "region": {
       "global": {
         "title": "Global simulation"
       }
     },
-    "ocean_region": {
-      "north-sea": {
-        "title": "North Sea",
-        "north": 62.5,
-        "west": -4.5,
-        "south": 50.5,
-        "east": 9.5
-      },
-      "baltic-sea": {
-        "title": "Baltic Sea",
-        "north": 64.5,
-        "west": 15.5,
-        "south": 55.5,
-        "east": 23.5
-      },
-      "nw-med-sea": {
-        "title": "North-west Meditteranean",
-        "north": 43.5,
-        "west": -1.5,
-        "south": 36.5,
-        "east": 6.5
-      },
-      "adriatic-sea": {
-        "title": "Adriatic Sea",
-        "north": 45.5,
-        "west": 11.5,
-        "south": 39.5,
-        "east": 20.5
-      },
-      "med-glob": {
-        "title": "Mediterranean Sea",
-        "north": 45.5,
-        "west": -6.5,
-        "south": 29.5,
-        "east": 35.5
-      },
-      "se-australia": {
-        "title": "South-East Australia",
-        "north": -23.5,
-        "west": 120.5,
-        "south": -47.5,
-        "east": 170.5
-      },
-      "east-bass-strait": {
-        "title": "Eastern Bass Strait",
-        "north": -37.5,
-        "west": 145.5,
-        "south": -41.5,
-        "east": 151.5
-      },
-      "cook-strait": {
-        "title": "Cook Strait",
-        "north": -40.5,
-        "west": 174.5,
-        "south": -46.5,
-        "east": 179.5
-      },
-      "humboldt-n": {
-        "title": "North Humboldt Sea",
-        "north": 6.5,
-        "west": -93.5,
-        "south": -20.5,
-        "east": -69.5
-      },
-      "hawaii": {
-        "title": "Hawaii",
-        "north": 0.0,
-        "west": 0.0,
-        "south": 0.0,
-        "east": 0.0
-      },
-      "benguela": {
-        "title": "Benguela Current",
-        "north": 0.0,
-        "west": 0.0,
-        "south": 0.0,
-        "east": 0.0
-      }
-    },
-    "irrigation": {
-      "firr": {
-        "title": "Full irrigation",
+    "disease": {
+      "shigella": {
+        "title": "Shigella",
         "sectors": [
-          "agriculture"
+          "waterborne_diseases"
         ]
       },
-      "cirr": {
-        "title": "Constrained irrigation",
+      "campylobacter": {
+        "title": "Campylobacter",
         "sectors": [
-          "water_global",
-          "water_regional"
+          "waterborne_diseases"
         ]
       },
-      "noirr": {
-        "title": "No irrigation (rainfed land)"
+      "cholera": {
+        "title": "Cholera",
+        "sectors": [
+          "waterborne_diseases"
+        ]
+      },
+      "cryptosporidium": {
+        "title": "Cryptosporidium",
+        "sectors": [
+          "waterborne_diseases"
+        ]
+      },
+      "epecoli": {
+        "title": "Epecoli",
+        "sectors": [
+          "waterborne_diseases"
+        ]
+      },
+      "etecoli": {
+        "title": "Etecoli",
+        "sectors": [
+          "waterborne_diseases"
+        ]
+      },
+      "norovirus": {
+        "title": "Norovirus",
+        "sectors": [
+          "waterborne_diseases"
+        ]
+      },
+      "rotavirus": {
+        "title": "Rotavirus",
+        "sectors": [
+          "waterborne_diseases"
+        ]
+      },
+      "salmonella": {
+        "title": "Salmonella",
+        "sectors": [
+          "waterborne_diseases"
+        ]
+      },
+      "typhoid": {
+        "title": "Typhoid",
+        "sectors": [
+          "waterborne_diseases"
+        ]
       }
     },
-    "soc_scenario": {
-      "nosoc": {
-        "description": "Naturalized - without human impacts on river flow."
+    "product": {
+      "OutputData": {
+        "title": "Output Data"
       },
-      "pressoc": {
-        "description": "Constant human impacts - present-day (year-2000) dams and water use."
+      "SecondaryOutputData": {
+        "title": "Secondary Output Data"
       },
-      "varsoc": {
-        "description": "Time-varying human impacts - time-varying historical dam construction and water use."
+      "DerivedOutputData": {
+        "title": "Derived Output Data"
+      }
+    },
+    "publication": {
+      "lange2020": {
+        "path_specifier": "Lange2020",
+        "title": "Lange et al. 2020",
+        "doi": "https://doi.org/10.1029/2020EF001616"
+      }
+    },
+    "forest_stand": {
+      "hyytiala": {
+        "title": "Hyyti\u00e4l\u00e4",
+        "lat": 61.8475,
+        "lon": 24.295,
+        "country": "FI",
+        "type": "Even-aged conifer",
+        "species": [
+          "pisy",
+          "piab"
+        ],
+        "thinning": "below",
+        "comment": "Note that an experimental plot of pine contains a lot of data while footprint of flux tower is larger. Please note that the deciduous admixtures only appear in the data at a later stage and hence do not need to be simulated. Only simulate pine and spruce (no hard-woods) and regenerate as pure pine stand"
       },
-      "nat": {
-        "description": "Natural vegetation reference run."
+      "peitz": {
+        "title": "Peitz",
+        "lat": 51.9166,
+        "lon": 14.35,
+        "country": "DE",
+        "type": "Even-aged conifer",
+        "species": [
+          "pisy"
+        ],
+        "thinning": "below",
+        "comment": "Managed using a weak thinning from below."
       },
-      "2005soc": {
-        "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input."
+      "solling-beech": {
+        "title": "Solling (beech)",
+        "lat": 51.77,
+        "lon": 9.57,
+        "country": "DE",
+        "type": "Even-aged deciduous",
+        "species": [
+          "fasy"
+        ],
+        "thinning": "above",
+        "comment": ""
       },
-      "1860soc": {
-        "description": "Constant pre-industrial (1860) land use, nitrogen deposition, and fertilizer input."
+      "solling-spruce": {
+        "title": "Solling (spruce)",
+        "lat": 51.77,
+        "lon": 9.57,
+        "country": "DE",
+        "type": "Even-aged conifer",
+        "species": [
+          "piab "
+        ],
+        "thinning": "below",
+        "comment": ""
       },
-      "histsoc": {
-        "description": "Varying historical land use, nitrogen deposition and fertilizer input."
+      "soro": {
+        "title": "Sor\u00f8",
+        "lat": 55.485844,
+        "lon": 11.644616,
+        "country": "DK",
+        "type": "Even-aged deciduous",
+        "species": [
+          "fasy"
+        ],
+        "thinning": "above",
+        "comment": ""
       },
-      "rcp26soc": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6."
+      "kroof": {
+        "title": "Kranzberg Roof Project",
+        "lat": 48.25,
+        "lon": 11.4,
+        "country": "DE",
+        "type": "Mixed deciduous and conifers",
+        "species": [
+          "fasy",
+          "piab",
+          "acpl",
+          "lade",
+          "pisy",
+          "quro"
+        ],
+        "thinning": "below",
+        "comment": "Unmanaged/ thinning from below in past 20 years for all species."
       },
-      "rcp60soc": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0."
+      "le-bray": {
+        "title": "Le Bray",
+        "lat": 44.71711,
+        "lon": -0.7693,
+        "country": "FR",
+        "type": "Even-aged conifer",
+        "species": [
+          "pipi"
+        ],
+        "thinning": "below",
+        "comment": ""
       },
-      "rcp85soc": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5."
+      "collelongo": {
+        "title": "Collelongo",
+        "lat": 41.8494,
+        "lon": 13.5881,
+        "country": "IT",
+        "type": "Even-aged deciduous",
+        "species": [
+          "fasy"
+        ],
+        "thinning": "above",
+        "comment": ""
       },
-      "2100rcp26soc": {
-        "description": "Land use, nitrogen deposition and fertilizer input fixed at year 2100 levels according to RCP2.6 in 2100."
+      "bily-kriz": {
+        "title": "B\u00edl\u00fd K\u0159\u00ed\u017e",
+        "lat": 49.3,
+        "lon": 18.32,
+        "country": "CZ",
+        "type": "Even-aged conifer",
+        "species": [
+          "piab"
+        ],
+        "thinning": "below",
+        "comment": ""
+      }
+    },
+    "dimensions": {
+      "lon": {
+        "axis": "X",
+        "units": "degrees_east",
+        "size": {
+          "marine-fishery_global": 360,
+          "other": 720
+        },
+        "minimum": {
+          "marine-fishery_global": -179.5,
+          "other": -179.75
+        },
+        "maximum": {
+          "marine-fishery_global": 179.5,
+          "other": 179.75
+        },
+        "standard_name": "longitude",
+        "long_names": [
+          "Longitude",
+          "longitude"
+        ]
       },
-      "ssp1soc": {
-        "description": "Varying society according to SSP1 in terms of population and GDP. (in Health sector)"
+      "lat": {
+        "axis": "Y",
+        "units": "degrees_north",
+        "size": {
+          "marine-fishery_global": 180,
+          "other": 360
+        },
+        "minimum": {
+          "marine-fishery_global": -89.5,
+          "other": -89.75
+        },
+        "maximum": {
+          "marine-fishery_global": 89.5,
+          "other": 89.75
+        },
+        "standard_name": "latitude",
+        "long_names": [
+          "Latitude",
+          "latitude"
+        ]
       },
-      "ssp2soc": {
-        "description": "Varying society according to SSP2 in terms of population and GDP. (in Health sector)"
+      "time": {
+        "axis": "T",
+        "standard_name": "time",
+        "long_names": [
+          "time",
+          "time axis",
+          "Time",
+          "Time axis"
+        ],
+        "calenders_daily": [
+          "standard",
+          "proleptic_gregorian",
+          "366_day",
+          "365_day",
+          "360_day"
+        ],
+        "calenders_other": [
+          "360_day"
+        ]
       },
-      "ssp3soc": {
-        "description": "Varying society according to SSP3 in terms of population and GDP. (in Health sector)"
+      "depth": {
+        "axis": "Z",
+        "standard_name": "depth_below_surface",
+        "long_name": "Depth of Vertical Layer Center Below Surface",
+        "positive": "down",
+        "units": "m"
       },
-      "ssp4soc": {
-        "description": "Varying society according to SSP4 in terms of population and GDP. (in Health sector)"
+      "levlak": {
+        "axis": "Z",
+        "standard_name": "water_layer",
+        "long_name": "Vertical Water Layer Index",
+        "positive": "down",
+        "units": "1"
       },
-      "ssp5soc": {
-        "description": "Varying society according to SSP5 in terms of population and GDP. (in Health sector)"
+      "solay": {
+        "axis": "Z",
+        "standard_name": "soil_level",
+        "long_name": "Hydrological soil levels",
+        "positive": "down",
+        "units": "1"
       },
-      "rcp26socbe": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy. (in Forestry sector)"
+      "solth": {
+        "axis": "Z",
+        "standard_name": "soil_level",
+        "long_name": "Thermal soil levels",
+        "positive": "down",
+        "units": "m"
       },
-      "rcp60socbe": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy. (in Forestry sector)"
+      "snowlev": {
+        "axis": "Z",
+        "standard_name": "snow_level",
+        "long_name": "Snow levels",
+        "positive": "down",
+        "units": "1"
       },
-      "rcp85socbe": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy. (in Forestry sector)"
+      "dbhclass": {
+        "axis": "Z",
+        "standard_name": "dbhclass",
+        "long_name": "Diameter at breast heigh (DBH) class",
+        "positive": "up",
+        "units": "cm"
       },
-      "rcp26socbeb": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+      "bnds": {}
+    },
+    "identifier": {
+      "acidification_type": {
+        "title": "Acidification type"
       },
-      "rcp60socbeb": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+      "bias_adjustment": {
+        "title": "Bias adjustment"
       },
-      "rcp85socbeb": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize bioenergy-biomass in leBray site. (in Forestry sector)"
+      "climate_forcing": {
+        "title": "Climate forcing"
       },
-      "rcp26sochwp": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+      "climate_scenario": {
+        "title": "Climate scenario"
       },
-      "rcp60sochwp": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+      "crop": {
+        "title": "Crop type"
       },
-      "rcp85sochwp": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize harvested wood products. (in Forestry sector)"
+      "diazotroph_scenario": {
+        "title": "Diazotroph scenario"
       },
-      "rcp26soca": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+      "fishing_type": {
+        "title": "Fishing type"
       },
-      "rcp60soca": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+      "forest_stand": {
+        "title": "Forest stand",
+        "location": true
       },
-      "rcp85soca": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted forest. (in Forestry sector)"
+      "frequency": {
+        "title": "Temporal resolution"
       },
-      "rcp26socam": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP2.6. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+      "irrigation": {
+        "title": "Irrigation"
       },
-      "rcp60socam": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP6.0. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+      "lake_site": {
+        "title": "lake site",
+        "location": true
       },
-      "rcp85socam": {
-        "description": "Varying land use, water abstraction, nitrogen deposition and fertilizer input according to SSP2 and RCP8.5. Future forest managed to maximize a multifunctional, adapted scenario in solling-beech with focus on admixingnative species. (in Forestry sector)"
+      "ocean_region": {
+        "title": "Ocean region",
+        "location": true
       },
-      "2005socsite": {
-        "description": "Fixed year-2005 land use, nitrogen deposition and fertilizer input. In addition, model usually plants the same tree species again or allows for regeneration of the same species. (in Forestry sector)"
+      "period": {
+        "title": "Period"
+      },
+      "product": {
+        "title": "Data product"
+      },
+      "region": {
+        "title": "Region"
+      },
+      "resolution": {
+        "title": "Spatial resolution"
+      },
+      "river_basin": {
+        "title": "River basin",
+        "location": true
+      },
+      "river": {
+        "title": "River"
+      },
+      "sector": {
+        "title": "Sector"
+      },
+      "sens_scenario": {
+        "title": "Sensitivity scenario"
+      },
+      "simulation_round": {
+        "title": "Simulation round"
+      },
+      "soc_dataset": {
+        "title": "Socio-economic dataset"
+      },
+      "species": {
+        "title": "Species"
+      },
+      "time_span": {
+        "title": "Time span"
+      },
+      "time_step": {
+        "title": "Time step"
+      },
+      "variable": {
+        "title": "Variable"
+      },
+      "disease": {
+        "title": "Disease"
+      },
+      "sealevelrise_contrib": {
+        "title": "Sealevelrise contribution"
       }
     },
     "species": {
@@ -3540,86 +2777,81 @@
         ],
         "standard_name": "population_fraction_exposed_to_wildfire",
         "units": "1"
-      }
-    },
-    "product": {
-      "OutputData": {
-        "title": "Output Data"
       },
-      "SecondaryOutputData": {
-        "title": "Secondary Output Data"
-      },
-      "DerivedOutputData": {
-        "title": "Derived Output Data"
-      }
-    },
-    "publication": {
-      "lange2020": {
-        "path_specifier": "Lange2020",
-        "title": "Lange et al. 2020",
-        "doi": "https://doi.org/10.1029/2020EF001616"
-      }
-    },
-    "disease": {
-      "shigella": {
-        "title": "Shigella",
+      "an-tot-cold": {
+        "long_name": "Number of deaths attributable to cold in age group x",
+        "products": [
+          "OutputData"
+        ],
         "sectors": [
-          "waterborne_diseases"
-        ]
+          "health"
+        ],
+        "units": "Total number of deaths"
       },
-      "campylobacter": {
-        "title": "Campylobacter",
+      "an-tot-heat": {
+        "long_name": "Number of deaths attributable to heat in age group x",
+        "extension": [
+          "<age-group>"
+        ],
+        "products": [
+          "OutputData"
+        ],
         "sectors": [
-          "waterborne_diseases"
-        ]
+          "health"
+        ],
+        "units": "Total number of deaths"
       },
-      "cholera": {
-        "title": "Cholera",
+      "an-rate-cold": {
+        "long_name": "Death rate attributable to cold in age group x",
+        "extension": [
+          "<ages>"
+        ],
+        "products": [
+          "OutputData"
+        ],
         "sectors": [
-          "waterborne_diseases"
-        ]
+          "health"
+        ],
+        "units": "Deaths per 100 000 population"
       },
-      "cryptosporidium": {
-        "title": "Cryptosporidium",
+      "an-rate-heat": {
+        "long_name": "Death rate attributable to heat in age group x",
+        "extension": [
+          "<ages>"
+        ],
+        "products": [
+          "OutputData"
+        ],
         "sectors": [
-          "waterborne_diseases"
-        ]
+          "health"
+        ],
+        "units": "Deaths per 100 000 population"
       },
-      "epecoli": {
-        "title": "Epecoli",
+      "af-cold": {
+        "long_name": "Attributable fraction (cold) in age group x",
+        "extension": [
+          "<age-group>"
+        ],
+        "products": [
+          "OutputData"
+        ],
         "sectors": [
-          "waterborne_diseases"
-        ]
+          "health"
+        ],
+        "units": "%"
       },
-      "etecoli": {
-        "title": "Etecoli",
+      "af-heat": {
+        "long_name": "Attributable fraction (heat) in age group x",
+        "extension": [
+          "<age-group>"
+        ],
+        "products": [
+          "OutputData"
+        ],
         "sectors": [
-          "waterborne_diseases"
-        ]
-      },
-      "norovirus": {
-        "title": "Norovirus",
-        "sectors": [
-          "waterborne_diseases"
-        ]
-      },
-      "rotavirus": {
-        "title": "Rotavirus",
-        "sectors": [
-          "waterborne_diseases"
-        ]
-      },
-      "salmonella": {
-        "title": "Salmonella",
-        "sectors": [
-          "waterborne_diseases"
-        ]
-      },
-      "typhoid": {
-        "title": "Typhoid",
-        "sectors": [
-          "waterborne_diseases"
-        ]
+          "health"
+        ],
+        "units": "%"
       }
     },
     "sens_scenario": {
@@ -3643,128 +2875,1069 @@
         ]
       }
     },
-    "bias_adjustment": {
-      "nobc": {
-        "description": "No bias correction was performed on the climate data."
+    "time_span": {
+      "minimum": {
+        "value": {
+          "ISIMIP2a": 1901,
+          "ISIMIP2b": 1661
+        }
       },
-      "localbc": {
-        "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
+      "maximum": {
+        "value": {
+          "ISIMIP2a": 2018,
+          "ISIMIP2b": 2299
+        }
+      },
+      "start_pre-ind": {
+        "value": {
+          "ISIMIP2b": 1661
+        }
+      },
+      "end_pre-ind": {
+        "value": {
+          "ISIMIP2b": 1860
+        }
+      },
+      "start_hist": {
+        "value": {
+          "ISIMIP2a": 1901,
+          "ISIMIP2b": 1861
+        }
+      },
+      "end_hist": {
+        "value": {
+          "ISIMIP2a": {
+            "pgfv2.1": 2012,
+            "gswp3-w5e5": 2016,
+            "gswp3-ewembi": 2016,
+            "gswp3": 2010,
+            "watch": 2001,
+            "watch-wfdei": 2016
+          },
+          "ISIMIP2b": 2005
+        }
+      },
+      "start_fut": {
+        "value": {
+          "ISIMIP2b": 2006
+        }
+      },
+      "end_fut": {
+        "value": {
+          "ISIMIP2b": 2099
+        }
+      },
+      "start_fut-ext": {
+        "value": {
+          "ISIMIP2b": 2100
+        }
+      },
+      "end_fut-ext": {
+        "value": {
+          "ISIMIP2b": 2299
+        }
+      }
+    },
+    "fishing_type": {
+      "fishing": {},
+      "no-fishing": {}
+    },
+    "acidification_type": {
+      "oa": {},
+      "no-oa": {}
+    },
+    "sector": {
+      "agriculture": {
+        "title": "Agriculture"
+      },
+      "biodiversity": {
+        "title": "Terrestrial biodiversity"
+      },
+      "biomes": {
+        "title": "Biomes"
+      },
+      "forestry": {
+        "title": "Regional forests"
+      },
+      "health": {
+        "title": "Temperature-related mortality"
+      },
+      "lakes_global": {
+        "title": "Lakes (global)"
+      },
+      "lakes_local": {
+        "title": "Lakes (local)"
+      },
+      "marine-fishery_global": {
+        "title": "Fisheries and Marine Ecosystems (global)"
+      },
+      "marine-fishery_regional": {
+        "title": "Fisheries and Marine Ecosystems (regional)"
+      },
+      "permafrost": {
+        "title": "Permafrost"
+      },
+      "waterborne_diseases": {
+        "title": "Waterborne Diseases"
+      },
+      "water_global": {
+        "title": "Water (global)"
+      },
+      "water_regional": {
+        "title": "Water (regional)"
+      }
+    },
+    "model": {
+      "3d-cmcc-cnr-bgc": {
+        "title": "3D-CMCC-CNR-BGC"
+      },
+      "3d-cmcc-fem": {
+        "title": "3D-CMCC-FEM"
+      },
+      "3pg": {
+        "title": "3PG"
+      },
+      "3pgn-bw": {
+        "title": "3PGN-BW"
+      },
+      "4c": {
+        "title": "4C"
+      },
+      "albm": {
+        "title": "ALBM"
+      },
+      "air2water4par": {
+        "title": "air2water4par"
+      },
+      "air2water6par": {
+        "title": "air2water6par"
+      },
+      "apecosm": {
+        "title": "APECOSM"
+      },
+      "atlantis": {
+        "title": "Atlantis"
+      },
+      "atlantis_se-australia": {
+        "title": "Atlantis_se-australia"
+      },
+      "basfor": {
+        "title": "BASFOR"
+      },
+      "bioscen15-mem-gam": {
+        "title": "BioScen15-MEM-GAM"
+      },
+      "bioscen15-mem-gbm": {
+        "title": "BioScen15-MEM-GBM"
+      },
+      "bioscen15-sdm-gam": {
+        "title": "BioScen15-SDM-GAM"
+      },
+      "bioscen15-sdm-gbm": {
+        "title": "BioScen15-SDM-GBM"
+      },
+      "boats": {
+        "title": "BOATS"
+      },
+      "caraib": {
+        "title": "CARAIB"
+      },
+      "cgms-wofost": {
+        "title": "CGMS-WOFOST"
+      },
+      "clm-crop": {
+        "title": "CLM-Crop"
+      },
+      "clm40": {
+        "title": "CLM40"
+      },
+      "clm45": {
+        "title": "CLM45"
+      },
+      "clm50": {
+        "title": "CLM50"
+      },
+      "cwatm": {
+        "title": "CWatM"
+      },
+      "dbem": {
+        "title": "DBEM"
+      },
+      "dbh": {
+        "title": "DBH"
+      },
+      "dbpm": {
+        "title": "DBPM"
+      },
+      "dlem": {
+        "title": "DLEM"
+      },
+      "ecomag": {
+        "title": "ECOMAG"
+      },
+      "ecoocean": {
+        "title": "EcoOcean"
+      },
+      "epic-boku": {
+        "title": "EPIC-BOKU"
+      },
+      "epic-boku-br": {
+        "title": "EPIC-BOKU-BR"
+      },
+      "epic-boku-hg": {
+        "title": "EPIC-BOKU-HG"
+      },
+      "epic-boku-pe": {
+        "title": "EPIC-BOKU-PE"
+      },
+      "epic-boku-pt": {
+        "title": "EPIC-BOKU-PT"
+      },
+      "epic-iiasa": {
+        "title": "EPIC-IIASA"
+      },
+      "epic-tamu": {
+        "title": "EPIC-TAMU"
+      },
+      "ewe": {
+        "title": "EwE"
+      },
+      "ewe_adriatic-sea": {
+        "title": "EwE_adriatic-sea"
+      },
+      "ewe_baltic-sea": {
+        "title": "EwE_baltic-sea"
+      },
+      "ewe_cook-strait": {
+        "title": "EwE_cook-strait"
+      },
+      "ewe_east-bass-strait": {
+        "title": "EwE_east-bass-strait"
+      },
+      "ewe_med-glob": {
+        "title": "EwE_med-glob"
+      },
+      "ewe_north-sea": {
+        "title": "EwE_north-sea"
+      },
+      "ewe_nw-med-sea": {
+        "title": "EwE_nw-med-sea"
+      },
+      "forclim": {
+        "title": "ForClim"
+      },
+      "gepic": {
+        "title": "GEPIC"
+      },
+      "gepic-br": {
+        "title": "GEPIC-BR"
+      },
+      "gepic-p": {
+        "title": "GEPIC-P"
+      },
+      "gepic-pm": {
+        "title": "GEPIC-PM"
+      },
+      "gepic-pt": {
+        "title": "GEPI-PT"
+      },
+      "glm": {
+        "title": "GLM"
+      },
+      "gotilwaplus": {
+        "title": "GOTILWAplus"
+      },
+      "gotm": {
+        "title": "GOTM"
+      },
+      "flake-igb": {
+        "title": "FLake-IGB"
+      },
+      "formind": {
+        "title": "FORMIND"
+      },
+      "h08": {
+        "title": "H08"
+      },
+      "hbv-iww": {
+        "title": "HBV-IWW"
+      },
+      "hbv-jlu": {
+        "title": "HBV-JLU"
+      },
+      "hbv-pik": {
+        "title": "HBV-PIK"
+      },
+      "hbv-cma": {
+        "title": "HBV-CMA"
+      },
+      "hwmid-humidex": {
+        "title": "HWMId-humidex",
+        "products": [
+          "DerivedOutputData"
+        ]
+      },
+      "hymod-jlu": {
+        "title": "HYMOD-JLU"
+      },
+      "hymod-ufz": {
+        "title": "HYMOD-UFZ"
+      },
+      "hype": {
+        "title": "HYPE"
+      },
+      "iapras-dss": {
+        "title": "IAPRAS-DSS"
+      },
+      "jules-b1": {
+        "title": "JULES-B1"
+      },
+      "jules-w1": {
+        "title": "JULES-W1"
+      },
+      "jules-es-55": {
+        "title": "JULES-ES-55"
+      },
+      "ke-tg-meanfield": {
+        "title": "KE-TG-meanfield",
+        "products": [
+          "DerivedOutputData"
+        ]
+      },
+      "lake": {
+        "title": "LAKE"
+      },
+      "landscape-dndc": {
+        "title": "Landscape-DNDC"
+      },
+      "lpj-guess": {
+        "title": "LPJ-GUESS"
+      },
+      "lpjml": {
+        "title": "LPJmL"
+      },
+      "macroecological": {
+        "title": "MACROECOLOGICAL"
+      },
+      "matsiro": {
+        "title": "MATSIRO"
+      },
+      "mhm": {
+        "title": "mHM"
+      },
+      "mpi-hm": {
+        "title": "MPI-HM"
+      },
+      "mylake": {
+        "title": "MyLake"
+      },
+      "orchidee": {
+        "title": "ORCHIDEE"
+      },
+      "orchidee-crop": {
+        "title": "ORCHIDEE-Crop"
+      },
+      "orchidee-dgvm": {
+        "title": "ORCHIDEE-DGVM"
+      },
+      "osmose": {
+        "title": "OSMOSE"
+      },
+      "osmose_humboldt-n": {
+        "title": "OSMOSE_humboldt-n"
+      },
+      "papsim": {
+        "title": "pAPSIM"
+      },
+      "papsim-pm": {
+        "title": "pAPSIM-PM"
+      },
+      "pcr-globwb": {
+        "title": "PCR-GLOBWB"
+      },
+      "pdssat": {
+        "title": "pDSSAT"
+      },
+      "pdssat-pt": {
+        "title": "pDSSAT-PT"
+      },
+      "pegasus": {
+        "title": "PEGASUS"
+      },
+      "pepic": {
+        "title": "PEPIC"
+      },
+      "prebas": {
+        "title": "PREBAS"
+      },
+      "prysbi2": {
+        "title": "PRYSBI2"
+      },
+      "salem": {
+        "title": "SALEM"
+      },
+      "sibyla": {
+        "title": "SIBYLA"
+      },
+      "simstrat": {
+        "title": "Simstrat"
+      },
+      "simstrat-uog": {
+        "title": "SIMSTRAT-UoG"
+      },
+      "swap": {
+        "title": "SWAP"
+      },
+      "swat-cma": {
+        "title": "SWAT-CMA"
+      },
+      "swat-iitgn": {
+        "title": "SWAT-IITGN"
+      },
+      "swat-sggw": {
+        "title": "SWAT-SGGW"
+      },
+      "swat-tamu": {
+        "title": "SWAT-TAMU"
+      },
+      "swat-ufz": {
+        "title": "SWAT-UFZ"
+      },
+      "swat-uottawa": {
+        "title": "SWAT-uOttawa"
+      },
+      "swat-vub": {
+        "title": "SWAT-VUB"
+      },
+      "swbm": {
+        "title": "SWBM"
+      },
+      "swim-cma": {
+        "title": "SWIM-CMA"
+      },
+      "swim-nve": {
+        "title": "SWIM-NVE"
+      },
+      "swim-nve-v2": {
+        "title": "SWIM-NVE-v2"
+      },
+      "swim-pik": {
+        "title": "SWIM-PIK"
+      },
+      "vegas": {
+        "title": "VEGAS"
+      },
+      "vic": {
+        "title": "VIC"
+      },
+      "vic-cma": {
+        "title": "VIC-CMA"
+      },
+      "vic-hhu": {
+        "title": "VIC-HHU"
+      },
+      "vic-iitgn": {
+        "title": "VIC-IITGN"
+      },
+      "vic-lake": {
+        "title": "VIC-LAKE"
+      },
+      "vic-nve": {
+        "title": "VIC-NVE"
+      },
+      "vic-nve-v2": {
+        "title": "VIC-NVE-v2"
+      },
+      "vip": {
+        "title": "VIP"
+      },
+      "visit": {
+        "title": "VISIT"
+      },
+      "watergap2": {
+        "title": "WaterGAP2"
+      },
+      "watergap2-2isimip2a": {
+        "title": "WaterGAP22ISIMIP2a"
+      },
+      "watergap2-2c": {
+        "title": "WaterGAP2-2c"
+      },
+      "watergap3": {
+        "title": "WaterGAP3"
+      },
+      "ways": {
+        "title": "WAYS"
+      },
+      "wbd": {
+        "title": "WBD"
+      },
+      "web-dhm-s": {
+        "title": "WEB-DHM-S"
+      },
+      "mizer": {
+        "title": "Mizer"
+      }
+    },
+    "irrigation": {
+      "firr": {
+        "title": "Full irrigation",
         "sectors": [
-          "forestry",
+          "agriculture"
+        ]
+      },
+      "cirr": {
+        "title": "Constrained irrigation",
+        "sectors": [
+          "water_global",
           "water_regional"
         ]
       },
-      "ewembi": {
-        "title": "EWEMBI",
-        "description": "Bias-adjusted using the EWEMBI dataset."
+      "noirr": {
+        "title": "No irrigation (rainfed land)"
       }
     },
-    "period": {
-      "future": {
-        "title": "Future",
-        "description": "Future simulation period."
+    "ocean_region": {
+      "north-sea": {
+        "title": "North Sea",
+        "north": 62.5,
+        "west": -4.5,
+        "south": 50.5,
+        "east": 9.5
       },
-      "historical": {
-        "title": "Historical",
-        "description": "Historical simulation period."
+      "baltic-sea": {
+        "title": "Baltic Sea",
+        "north": 64.5,
+        "west": 15.5,
+        "south": 55.5,
+        "east": 23.5
       },
-      "pre-industrial": {
-        "title": "Pre-industrial",
-        "description": "Pre-industrial simulation period."
+      "nw-med-sea": {
+        "title": "North-west Meditteranean",
+        "north": 43.5,
+        "west": -1.5,
+        "south": 36.5,
+        "east": 6.5
       },
-      "future_extended": {
-        "title": "Future (extended)",
-        "description": "Future (extended) simulation period."
+      "adriatic-sea": {
+        "title": "Adriatic Sea",
+        "north": 45.5,
+        "west": 11.5,
+        "south": 39.5,
+        "east": 20.5
+      },
+      "med-glob": {
+        "title": "Mediterranean Sea",
+        "north": 45.5,
+        "west": -6.5,
+        "south": 29.5,
+        "east": 35.5
+      },
+      "se-australia": {
+        "title": "South-East Australia",
+        "north": -23.5,
+        "west": 120.5,
+        "south": -47.5,
+        "east": 170.5
+      },
+      "east-bass-strait": {
+        "title": "Eastern Bass Strait",
+        "north": -37.5,
+        "west": 145.5,
+        "south": -41.5,
+        "east": 151.5
+      },
+      "cook-strait": {
+        "title": "Cook Strait",
+        "north": -40.5,
+        "west": 174.5,
+        "south": -46.5,
+        "east": 179.5
+      },
+      "humboldt-n": {
+        "title": "North Humboldt Sea",
+        "north": 6.5,
+        "west": -93.5,
+        "south": -20.5,
+        "east": -69.5
+      },
+      "hawaii": {
+        "title": "Hawaii",
+        "north": 0.0,
+        "west": 0.0,
+        "south": 0.0,
+        "east": 0.0
+      },
+      "benguela": {
+        "title": "Benguela Current",
+        "north": 0.0,
+        "west": 0.0,
+        "south": 0.0,
+        "east": 0.0
       }
     },
-    "identifier": {
-      "acidification_type": {
-        "title": "Acidification type"
+    "lake_site": {
+      "allequash": {
+        "title": "Allequash Lake",
+        "country": "USA",
+        "lon": -89.62,
+        "lat": 46.04,
+        "type": "lake"
       },
-      "bias_adjustment": {
-        "title": "Bias adjustment"
+      "alqueva": {
+        "title": "Alqueva Reservoir",
+        "country": "Portugal",
+        "lon": -7.49,
+        "lat": 38.2,
+        "type": "reservoir"
       },
-      "climate_forcing": {
-        "title": "Climate forcing"
+      "annecy": {
+        "title": "Lake Annecy",
+        "country": "France",
+        "lon": 6.17,
+        "lat": 45.87,
+        "type": "lake"
       },
-      "climate_scenario": {
-        "title": "Climate scenario"
+      "annie": {
+        "title": "Lake Annie",
+        "country": "USA",
+        "lon": -81.35,
+        "lat": 27.21,
+        "type": "lake"
       },
-      "crop": {
-        "title": "Crop type"
+      "argyle": {
+        "title": "Lake Argyle",
+        "country": "Australia",
+        "lon": 128.68,
+        "lat": -16.31,
+        "type": "reservoir"
       },
-      "diazotroph_scenario": {
-        "title": "Diazotroph scenario"
+      "biel": {
+        "title": "Lake Biel",
+        "country": "Switzerland",
+        "lon": 7.16,
+        "lat": 47.08,
+        "type": "lake"
       },
-      "fishing_type": {
-        "title": "Fishing type"
+      "big-muskellunge": {
+        "title": "Big Muskellunge Lake",
+        "country": "USA",
+        "lon": -89.61,
+        "lat": 46.02,
+        "type": "lake"
       },
-      "forest_stand": {
-        "title": "Forest stand",
-        "location": true
+      "black-oak": {
+        "title": "Black Oak Lake",
+        "country": "USA",
+        "lon": -89.32,
+        "lat": 46.16,
+        "type": "lake"
       },
-      "frequency": {
-        "title": "Temporal resolution"
+      "bourget": {
+        "title": "Lake Bourget",
+        "country": "France",
+        "lon": 5.86,
+        "lat": 45.76,
+        "type": "lake"
       },
-      "irrigation": {
-        "title": "Irrigation"
+      "burley-griffin": {
+        "title": "Lake Burley Griffin",
+        "country": "Australia",
+        "lon": 149.07,
+        "lat": -35.3,
+        "type": "reservoir"
       },
-      "lake_site": {
-        "title": "lake site",
-        "location": true
+      "crystal-lake": {
+        "title": "Crystal Lake",
+        "country": "USA",
+        "lon": -89.61,
+        "lat": 46.0,
+        "type": "lake"
       },
-      "ocean_region": {
-        "title": "Ocean region",
-        "location": true
+      "crystal-bog": {
+        "title": "Crystal Bog",
+        "country": "USA",
+        "lon": -89.61,
+        "lat": 46.01,
+        "type": "lake"
       },
-      "period": {
-        "title": "Period"
+      "delavan": {
+        "title": "Delavan Lake",
+        "country": "USA",
+        "lon": -88.6,
+        "lat": 42.61,
+        "type": "lake"
       },
-      "product": {
-        "title": "Data product"
+      "dickie": {
+        "title": "Dickie Lake",
+        "country": "Canada",
+        "lon": -79.09,
+        "lat": 45.15,
+        "type": "lake"
       },
-      "region": {
-        "title": "Region"
+      "eagle": {
+        "title": "Eagle Lake",
+        "country": "Canada",
+        "lon": -76.7,
+        "lat": 44.68,
+        "type": "lake"
       },
-      "resolution": {
-        "title": "Spatial resolution"
+      "ekoln": {
+        "title": "Ekoln basin of M\u00e4laren",
+        "country": "Sweden",
+        "lon": 17.62,
+        "lat": 59.75,
+        "type": "lake"
       },
-      "river_basin": {
-        "title": "River basin",
-        "location": true
+      "erken": {
+        "title": "Lake Erken",
+        "country": "Sweden",
+        "lon": 18.63,
+        "lat": 59.84,
+        "type": "lake"
       },
-      "river": {
-        "title": "River"
+      "esthwaite-water": {
+        "title": "Esthwaite Water",
+        "country": "United Kingdom",
+        "lon": -2.99,
+        "lat": 54.37,
+        "type": "lake"
       },
-      "sector": {
-        "title": "Sector"
+      "falling-creek": {
+        "title": "Falling Creek Reservoir",
+        "country": "USA",
+        "lon": -79.84,
+        "lat": 37.31,
+        "type": "reservoir"
       },
-      "sens_scenario": {
-        "title": "Sensitivity scenario"
+      "feeagh": {
+        "title": "Lake Feeagh",
+        "country": "Ireland",
+        "lon": -9.5,
+        "lat": 53.9,
+        "type": "lake"
       },
-      "simulation_round": {
-        "title": "Simulation round"
+      "fish": {
+        "title": "Fish Lake",
+        "country": "USA",
+        "lon": -89.65,
+        "lat": 43.29,
+        "type": "lake"
       },
-      "soc_dataset": {
-        "title": "Socio-economic dataset"
+      "geneva": {
+        "title": "Lake Geneva",
+        "country": "France/Switzerland",
+        "lon": 6.59,
+        "lat": 46.45,
+        "type": "lake"
       },
-      "species": {
-        "title": "Species"
+      "great": {
+        "title": "Great Pond",
+        "country": "USA",
+        "lon": -69.89,
+        "lat": 44.53,
+        "type": "lake"
       },
-      "time_span": {
-        "title": "Time span"
+      "green": {
+        "title": "Green Lake",
+        "country": "USA",
+        "lon": -89.0,
+        "lat": 43.81,
+        "type": "lake"
       },
-      "time_step": {
-        "title": "Time step"
+      "harp": {
+        "title": "Harp Lake",
+        "country": "Canada",
+        "lon": -79.13,
+        "lat": 45.38,
+        "type": "lake"
       },
-      "variable": {
-        "title": "Variable"
+      "kilpisjarvi": {
+        "title": "Kilpisj\u00e4rvi",
+        "country": "Finland",
+        "lon": 20.77,
+        "lat": 69.03,
+        "type": "lake"
       },
-      "disease": {
-        "title": "Disease"
+      "kinneret": {
+        "title": "Lake Kinneret",
+        "country": "Israel",
+        "lon": 35.35,
+        "lat": 32.49,
+        "type": "lake"
       },
-      "sealevelrise_contrib": {
-        "title": "Sealevelrise contribution"
+      "kivu": {
+        "title": "Lake Kivu",
+        "country": "Rwanda/DR Congo",
+        "lon": 29.24,
+        "lat": -1.73,
+        "type": "lake"
+      },
+      "klicava": {
+        "title": "Klicava Reservoir",
+        "country": "Czechia",
+        "lon": 13.93,
+        "lat": 50.07,
+        "type": "reservoir"
+      },
+      "kuivajarvi": {
+        "title": "Lake Kuivajarvi",
+        "country": "Finland",
+        "lon": 23.51,
+        "lat": 60.47,
+        "type": "lake"
+      },
+      "langtjern": {
+        "title": "Lake Langtjern",
+        "country": "Norway",
+        "lon": 9.73,
+        "lat": 60.37,
+        "type": "lake"
+      },
+      "laramie": {
+        "title": "Laramie Lake",
+        "country": "USA",
+        "lon": -105.84,
+        "lat": 40.62,
+        "type": "lake"
+      },
+      "lower-zurich": {
+        "title": "Lower Lake Zurich",
+        "country": "Switzerland",
+        "lon": 8.58,
+        "lat": 47.28,
+        "type": "lake"
+      },
+      "mendota": {
+        "title": "Lake Mendota",
+        "country": "USA",
+        "lon": -89.41,
+        "lat": 43.1,
+        "type": "lake"
+      },
+      "monona": {
+        "title": "Lake Monona",
+        "country": "USA",
+        "lon": -89.36,
+        "lat": 43.06,
+        "type": "lake"
+      },
+      "mozhaysk": {
+        "title": "Mozhaysk reservoir",
+        "country": "Russia",
+        "lon": 35.82,
+        "lat": 55.59,
+        "type": "reservoir"
+      },
+      "mt-bold": {
+        "title": "Mt Bold",
+        "country": "Australia",
+        "lon": 138.71,
+        "lat": -35.12,
+        "type": "reservoir"
+      },
+      "mueggelsee": {
+        "title": "Lake M\u00fcggelsee",
+        "country": "Germany",
+        "lon": 13.65,
+        "lat": 52.43,
+        "type": "lake"
+      },
+      "neuchatel": {
+        "title": "Lake Neuch\u00e2tel",
+        "country": "Switzerland",
+        "lon": 6.52,
+        "lat": 46.54,
+        "type": "lake"
+      },
+      "ngoring": {
+        "title": "Ngoring",
+        "country": "China",
+        "lon": 97.7,
+        "lat": 34.9,
+        "type": "lake"
+      },
+      "nohipalo-mustjaerv": {
+        "title": "Lake Nohipalo Mustj\u00e4rv",
+        "country": "Estonia",
+        "lon": 27.34,
+        "lat": 57.93,
+        "type": "lake"
+      },
+      "nohipalo-valgejaerv": {
+        "title": "Lake Nohipalo Valgej\u00e4rv",
+        "country": "Estonia",
+        "lon": 27.35,
+        "lat": 57.94,
+        "type": "lake"
+      },
+      "okauchee": {
+        "title": "Okauchee Lake",
+        "country": "USA",
+        "lon": -88.43,
+        "lat": 43.13,
+        "type": "lake"
+      },
+      "paaijarvi": {
+        "title": "Lake P\u00e4\u00e4j\u00e4rvi",
+        "country": "Finland",
+        "lon": 25.13,
+        "lat": 61.07,
+        "type": "lake"
+      },
+      "rappbode": {
+        "title": "Rappbode Reservoir",
+        "country": "Germany",
+        "lon": 10.89,
+        "lat": 51.74,
+        "type": "reservoir"
+      },
+      "rimov": {
+        "title": "Rimov Reservoir",
+        "country": "Czechia",
+        "lon": 14.49,
+        "lat": 48.85,
+        "type": "reservoir"
+      },
+      "rotorua": {
+        "title": "Lake Rotorua",
+        "country": "New Zealand",
+        "lon": 176.28,
+        "lat": -38.08,
+        "type": "lake"
+      },
+      "sammamish": {
+        "title": "Lake Sammamish",
+        "country": "USA",
+        "lon": -122.1,
+        "lat": 47.59,
+        "type": "lake"
+      },
+      "sau": {
+        "title": "Sau Reservoir",
+        "country": "Spain",
+        "lon": 2.4,
+        "lat": 41.97,
+        "type": "reservoir"
+      },
+      "sparkling": {
+        "title": "Sparkling Lake",
+        "country": "USA",
+        "lon": -89.7,
+        "lat": 46.01,
+        "type": "lake"
+      },
+      "stechlin": {
+        "title": "Lake Stechlin",
+        "country": "Germany",
+        "lon": 13.03,
+        "lat": 53.17,
+        "type": "lake"
+      },
+      "sunapee": {
+        "title": "Lake Sunapee",
+        "country": "USA",
+        "lon": -72.5,
+        "lat": 43.23,
+        "type": "lake"
+      },
+      "tahoe": {
+        "title": "Lake Tahoe",
+        "country": "USA",
+        "lon": -120.03,
+        "lat": 39.09,
+        "type": "reservoir"
+      },
+      "tarawera": {
+        "title": "Lake Tarawera",
+        "country": "New Zealand",
+        "lon": 176.43,
+        "lat": -38.21,
+        "type": "lake"
+      },
+      "taupo": {
+        "title": "Lake Taupo",
+        "country": "New Zealand",
+        "lon": 175.89,
+        "lat": -38.8,
+        "type": "lake"
+      },
+      "toolik": {
+        "title": "Toolik Lake",
+        "country": "USA",
+        "lon": -149.6,
+        "lat": 68.63,
+        "type": "lake"
+      },
+      "trout-lake": {
+        "title": "Trout Lake",
+        "country": "USA",
+        "lon": -89.67,
+        "lat": 46.03,
+        "type": "lake"
+      },
+      "trout-bog": {
+        "title": "Trout Bog",
+        "country": "USA",
+        "lon": -89.69,
+        "lat": 46.04,
+        "type": "lake"
+      },
+      "two-sisters": {
+        "title": "Two Sisters Lake",
+        "country": "USA",
+        "lon": -89.53,
+        "lat": 45.77,
+        "type": "lake"
+      },
+      "vendyurskoe": {
+        "title": "Lake Vendyurskoe",
+        "country": "Russia",
+        "lon": 33.1,
+        "lat": 62.1,
+        "type": "lake"
+      },
+      "vortsjaerv": {
+        "title": "lake V\u00f5rtsj\u00e4rv",
+        "country": "Estonia",
+        "lon": 26.01,
+        "lat": 58.31,
+        "type": "lake"
+      },
+      "waahi": {
+        "title": "Lake Waahi",
+        "country": "New Zealand",
+        "lon": 175.07,
+        "lat": 37.33,
+        "type": "lake"
+      },
+      "washington": {
+        "title": "Lake Washington",
+        "country": "USA",
+        "lon": -122.27,
+        "lat": 47.64,
+        "type": "lake"
+      },
+      "windermere": {
+        "title": "Windermere",
+        "country": "United Kingdom",
+        "lon": -2.95,
+        "lat": 54.31,
+        "type": "lake"
+      },
+      "wingra": {
+        "title": "Lake Wingra",
+        "country": "USA",
+        "lon": -89.43,
+        "lat": 43.05,
+        "type": "lake"
+      },
+      "zlutice": {
+        "title": "Zlutice Reservoir",
+        "country": "Czechia",
+        "lon": 13.11,
+        "lat": 50.09,
+        "type": "reservoir"
       }
     },
     "time_step": {
@@ -3806,6 +3979,7 @@
           "agriculture",
           "biomes",
           "forestry",
+          "health",
           "lakes_global",
           "lakes_local",
           "marine-fishery_global",
@@ -3836,215 +4010,106 @@
         ]
       }
     },
-    "dimensions": {
-      "lon": {
-        "axis": "X",
-        "units": "degrees_east",
-        "size": {
-          "marine-fishery_global": 360,
-          "other": 720
-        },
-        "minimum": {
-          "marine-fishery_global": -179.5,
-          "other": -179.75
-        },
-        "maximum": {
-          "marine-fishery_global": 179.5,
-          "other": 179.75
-        },
-        "standard_name": "longitude",
-        "long_names": [
-          "Longitude",
-          "longitude"
-        ]
-      },
-      "lat": {
-        "axis": "Y",
-        "units": "degrees_north",
-        "size": {
-          "marine-fishery_global": 180,
-          "other": 360
-        },
-        "minimum": {
-          "marine-fishery_global": -89.5,
-          "other": -89.75
-        },
-        "maximum": {
-          "marine-fishery_global": 89.5,
-          "other": 89.75
-        },
-        "standard_name": "latitude",
-        "long_names": [
-          "Latitude",
-          "latitude"
-        ]
-      },
-      "time": {
-        "axis": "T",
-        "standard_name": "time",
-        "long_names": [
-          "time",
-          "time axis",
-          "Time",
-          "Time axis"
-        ],
-        "calenders_daily": [
-          "standard",
-          "proleptic_gregorian",
-          "366_day",
-          "365_day",
-          "360_day"
-        ],
-        "calenders_other": [
-          "360_day"
-        ]
-      },
-      "depth": {
-        "axis": "Z",
-        "standard_name": "depth_below_surface",
-        "long_name": "Depth of Vertical Layer Center Below Surface",
-        "positive": "down",
-        "units": "m"
-      },
-      "levlak": {
-        "axis": "Z",
-        "standard_name": "water_layer",
-        "long_name": "Vertical Water Layer Index",
-        "positive": "down",
-        "units": "1"
-      },
-      "solay": {
-        "axis": "Z",
-        "standard_name": "soil_level",
-        "long_name": "Hydrological soil levels",
-        "positive": "down",
-        "units": "1"
-      },
-      "solth": {
-        "axis": "Z",
-        "standard_name": "soil_level",
-        "long_name": "Thermal soil levels",
-        "positive": "down",
-        "units": "m"
-      },
-      "snowlev": {
-        "axis": "Z",
-        "standard_name": "snow_level",
-        "long_name": "Snow levels",
-        "positive": "down",
-        "units": "1"
-      },
-      "dbhclass": {
-        "axis": "Z",
-        "standard_name": "dbhclass",
-        "long_name": "Diameter at breast heigh (DBH) class",
-        "positive": "up",
-        "units": "cm"
-      },
-      "bnds": {}
+    "river": {
+      "amazon": {},
+      "blue-nile": {},
+      "danube": {},
+      "darling": {},
+      "ganges": {},
+      "godavari": {},
+      "indus": {},
+      "lena": {},
+      "mackenzie": {},
+      "mississippi": {},
+      "niger": {},
+      "pajeu": {},
+      "rhine": {},
+      "tagus": {},
+      "yangtze": {},
+      "yellow": {}
     },
-    "climate_forcing": {
-      "gswp3": {
-        "title": "GSWP3",
+    "climate_scenario": {
+      "hist": {
+        "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
         "simulation_rounds": [
           "ISIMIP2a"
         ]
       },
-      "gswp3-ewembi": {
-        "title": "GSWP3-EWEMBI",
+      "picontrol": {
+        "description": "Pre-industrial climate and 286ppm CO2 concentration.",
         "simulation_rounds": [
-          "ISIMIP2a"
+          "ISIMIP2b"
         ]
       },
-      "gswp3-w5e5": {
-        "title": "GSWP3-W5E5",
+      "historical": {
+        "description": "Historical climate as simulated by the GCMs.",
         "simulation_rounds": [
-          "ISIMIP2a"
+          "ISIMIP2b"
         ]
       },
-      "ewembi": {
-        "title": "EWEMBI",
+      "rcp26": {
+        "description": "RCP2.6 climate as simulated by the GCMs.",
         "simulation_rounds": [
-          "ISIMIP2a"
+          "ISIMIP2b"
         ]
       },
-      "princeton": {
-        "title": "PGMFD v2.1 (Princeton)",
+      "rcp45": {
+        "description": "RCP4.5 climate as simulated by the GCMs.",
         "simulation_rounds": [
-          "ISIMIP2a"
-        ]
-      },
-      "watch": {
-        "title": "WATCH (WFD)",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ]
-      },
-      "watch-wfdei": {
-        "title": "WATCH-WFDEI",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ]
-      },
-      "localclim": {
-        "title": "Locally observed weather data",
-        "simulation_rounds": [
-          "ISIMIP2a"
+          "ISIMIP2b"
         ],
-        "sectors": [
-          "forestry"
+        "periods": [
+          "SecondaryOutputData"
         ]
       },
-      "gfdl-reanalysis": {
-        "title": "GFDL Reanalysis",
+      "rcp60": {
+        "description": "RCP6.0 climate as simulated by the GCMs.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "rcp85": {
+        "description": "RCP8.5 climate as simulated by the GCMs.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "2005co2": {
+        "description": "CO2 concentration fixed at 2005 levels at 378.81ppm.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "2299rcp26": {
+        "description": "Repeating climate between 2270 and 2299 for additional 200 years up to 2500 (or equilibrium if possible), CO2 fixed at year 2299 levels.",
+        "simulation_rounds": [
+          "ISIMIP2b"
+        ]
+      },
+      "fore": {
+        "description": "Unsupported climate scenario from Marine-Fishery sector",
         "simulation_rounds": [
           "ISIMIP2a"
-        ],
-        "sectors": [
-          "marine-fishery_regional",
-          "marine-fishery_global"
-        ]
-      },
-      "key-run": {
-        "title": "Input data self-provided by Marine-Fishery sector and not supported by ISIMIP2 protocol.",
-        "simulation_rounds": [
-          "ISIMIP2a"
-        ],
-        "sectors": [
-          "marine-fishery_regional",
-          "marine-fishery_global"
-        ]
-      },
-      "gfdl-esm2m": {
-        "title": "GFDL-ESM2M",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "hadgem2-es": {
-        "title": "HadGEM2-ES",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "ipsl-cm5a-lr": {
-        "title": "IPSL-CM5A-LR",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "miroc5": {
-        "title": "MIROC5",
-        "simulation_rounds": [
-          "ISIMIP2b"
-        ]
-      },
-      "cesm1-bgc": {
-        "title": "CESM1-BGC",
-        "simulation_rounds": [
-          "ISIMIP2b"
         ]
       }
+    },
+    "subcategory": {
+      "sealevelrise": {
+        "title": "Sealevelrise"
+      }
+    },
+    "simulation_round": {
+      "ISIMIP2a": {
+        "title": "ISIMIP2a simulation round"
+      },
+      "ISIMIP2b": {
+        "title": "ISIMIP2b simulation round"
+      }
+    },
+    "resolution": {
+      "halfdeg": {},
+      "5arcmin": {},
+      "national": {}
     },
     "crop": {
       "whe": {
@@ -4120,14 +4185,25 @@
         "title": "Sunflower"
       }
     },
-    "subcategory": {
-      "sealevelrise": {
-        "title": "Sealevelrise"
-      }
-    },
     "diazotroph_scenario": {
       "w-diaz": {},
       "wo-diaz": {}
+    },
+    "bias_adjustment": {
+      "nobc": {
+        "description": "No bias correction was performed on the climate data."
+      },
+      "localbc": {
+        "description": "Local data from weather stations used for the bias-correction in e.g. the forest sector.",
+        "sectors": [
+          "forestry",
+          "water_regional"
+        ]
+      },
+      "ewembi": {
+        "title": "EWEMBI",
+        "description": "Bias-adjusted using the EWEMBI dataset."
+      }
     }
   }
 }

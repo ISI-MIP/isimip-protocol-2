@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/lakes_global.json",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/health.json",
   "commit": "2dfc1fe76770e1f62c02056ccc918117cbdc6d5f",
   "type": "object",
   "required": [
@@ -15,7 +15,6 @@
         "bias_adjustment",
         "climate_scenario",
         "soc_scenario",
-        "sens_scenario",
         "variable",
         "region",
         "time_step"
@@ -102,40 +101,12 @@
         "variable": {
           "type": "string",
           "enum": [
-            "latentheatf",
-            "do",
-            "sedheatf",
-            "bottemp",
-            "pp",
-            "buoyancyfrequency",
-            "extcoeff",
-            "watertemp",
-            "sensheatf",
-            "tpd",
-            "lwup",
-            "zoobio",
-            "pn",
-            "turbdiffheat",
-            "surftemp",
-            "swup",
-            "snowtemp",
-            "tp",
-            "tdn",
-            "albedo",
-            "momf",
-            "chl",
-            "thermodepth",
-            "phytobio",
-            "icethick",
-            "icetemp",
-            "tn",
-            "lakeicefrac",
-            "ice",
-            "doc",
-            "snowthick",
-            "strat",
-            "lakeheatf",
-            "si"
+            "an-rate-cold",
+            "an-rate-heat",
+            "af-cold",
+            "an-tot-cold",
+            "af-heat",
+            "an-tot-heat"
           ]
         },
         "region": {
@@ -147,10 +118,7 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
-            "daily",
-            "annual",
-            "seasonal"
+            "annual"
           ]
         },
         "start_year": {

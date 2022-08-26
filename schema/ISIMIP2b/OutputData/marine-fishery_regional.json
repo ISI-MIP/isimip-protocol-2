@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_regional.json",
-  "commit": "4332e18be41d5181c8642ae758a132b72733ec13",
+  "commit": "2dfc1fe76770e1f62c02056ccc918117cbdc6d5f",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,66 +25,66 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
+            "hadgem2-es",
             "cesm1-bgc",
-            "ipsl-cm5a-lr",
-            "gfdl-esm2m",
             "miroc5",
-            "hadgem2-es"
+            "ipsl-cm5a-lr",
+            "gfdl-esm2m"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "nobc"
+            "nobc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp45",
-            "rcp60",
             "2005co2",
-            "2299rcp26",
             "picontrol",
-            "rcp85",
             "historical",
-            "rcp26"
+            "2299rcp26",
+            "rcp85",
+            "rcp26",
+            "rcp45",
+            "rcp60"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
+            "b10cm",
             "b30cm-bendet",
             "tla",
-            "tpb",
-            "b30cm",
+            "tc30cm",
             "tcb",
             "tc10cm",
-            "bcom",
-            "b10cm",
-            "b10cm-pelpred",
-            "b30cm-pelpred",
-            "tc",
             "tsb",
+            "b10cm-pelpred",
             "b10cm-bendet",
-            "tc30cm"
+            "tpb",
+            "tc",
+            "b30cm-pelpred",
+            "b30cm",
+            "bcom"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "benguela",
-            "med-glob",
+            "humboldt-n",
+            "adriatic-sea",
+            "cook-strait",
             "north-sea",
             "east-bass-strait",
-            "humboldt-n",
-            "cook-strait",
-            "adriatic-sea",
-            "baltic-sea",
-            "nw-med-sea",
+            "se-australia",
             "hawaii",
-            "se-australia"
+            "baltic-sea",
+            "benguela",
+            "nw-med-sea",
+            "med-glob"
           ]
         },
         "time_step": {
