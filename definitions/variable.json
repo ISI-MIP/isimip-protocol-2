@@ -1986,5 +1986,89 @@
     "specifier": "pew",
     "standard_name": "population_fraction_exposed_to_wildfire",
     "units": "1"
+  },
+  {
+    "long_name": "Number of deaths attributable to cold in age group",
+    "extension": [
+      "<ages>"
+    ],
+    "products": [
+      "OutputData"
+    ],
+    "sectors": [
+      "health"
+    ],
+    "specifier": "an-tot-cold",
+    "units": "Total number of deaths"
+  },
+  {
+    "long_name": "Number of deaths attributable to heat in age group",
+    "extension": [
+      "<ages>"
+    ],
+    "products": [
+      "OutputData"
+    ],
+    "sectors": [
+      "health"
+    ],
+    "specifier": "an-tot-heat",
+    "units": "Total number of deaths"
+  },
+  {
+    "long_name": "Death rate attributable to cold in age group",
+    "extension": [
+      "<ages>"
+    ],
+    "products": [
+      "OutputData"
+    ],
+    "sectors": [
+      "health"
+    ],
+    "specifier": "an-rate-cold",
+    "units": "Deaths per 100 000 population"
+  },
+  {
+    "long_name": "Death rate attributable to heat in age group",
+    "extension": [
+      "<ages>"
+    ],
+    "products": [
+      "OutputData"
+    ],
+    "sectors": [
+      "health"
+    ],
+    "specifier": "an-rate-heat",
+    "units": "Deaths per 100 000 population"
+  },
+  {
+    "long_name": "Attributable fraction (cold) in age group",
+    "extension": [
+      "<ages>"
+    ],
+    "products": [
+      "OutputData"
+    ],
+    "sectors": [
+      "health"
+    ],
+    "specifier": "af-cold",
+    "units": "%"
+  },
+  {
+    "long_name": "Attributable fraction (heat) in age group",
+    "extension": [
+      "<ages>"
+    ],
+    "products": [
+      "OutputData"
+    ],
+    "sectors": [
+      "health"
+    ],
+    "specifier": "af-heat",
+    "units": "%"
   }
 ]
