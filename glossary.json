@@ -1,5 +1,5 @@
 {
-  "commit": "2dfc1fe76770e1f62c02056ccc918117cbdc6d5f",
+  "commit": "a6000cd2a130a64db611b3fcf19b017e4517b4b0",
   "terms": {
     "climate_forcing": {
       "gswp3": {
@@ -2779,7 +2779,10 @@
         "units": "1"
       },
       "an-tot-cold": {
-        "long_name": "Number of deaths attributable to cold in age group x",
+        "long_name": "Number of deaths attributable to cold in age group",
+        "extension": [
+          "<ages>"
+        ],
         "products": [
           "OutputData"
         ],
@@ -2789,9 +2792,9 @@
         "units": "Total number of deaths"
       },
       "an-tot-heat": {
-        "long_name": "Number of deaths attributable to heat in age group x",
+        "long_name": "Number of deaths attributable to heat in age group",
         "extension": [
-          "<age-group>"
+          "<ages>"
         ],
         "products": [
           "OutputData"
@@ -2802,7 +2805,7 @@
         "units": "Total number of deaths"
       },
       "an-rate-cold": {
-        "long_name": "Death rate attributable to cold in age group x",
+        "long_name": "Death rate attributable to cold in age group",
         "extension": [
           "<ages>"
         ],
@@ -2815,7 +2818,7 @@
         "units": "Deaths per 100 000 population"
       },
       "an-rate-heat": {
-        "long_name": "Death rate attributable to heat in age group x",
+        "long_name": "Death rate attributable to heat in age group",
         "extension": [
           "<ages>"
         ],
@@ -2828,9 +2831,9 @@
         "units": "Deaths per 100 000 population"
       },
       "af-cold": {
-        "long_name": "Attributable fraction (cold) in age group x",
+        "long_name": "Attributable fraction (cold) in age group",
         "extension": [
-          "<age-group>"
+          "<ages>"
         ],
         "products": [
           "OutputData"
@@ -2841,9 +2844,9 @@
         "units": "%"
       },
       "af-heat": {
-        "long_name": "Attributable fraction (heat) in age group x",
+        "long_name": "Attributable fraction (heat) in age group",
         "extension": [
-          "<age-group>"
+          "<ages>"
         ],
         "products": [
           "OutputData"
