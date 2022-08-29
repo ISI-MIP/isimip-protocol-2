@@ -450,6 +450,10 @@
     "title": "SWIM-PIK"
   },
   {
+    "specifier": "trm-tsukuba",
+    "title": "TRM-Tsukuba"
+  },
+  {
     "specifier": "vegas",
     "title": "VEGAS"
   },
