@@ -1,5 +1,5 @@
 {
-  "commit": "a71cf47fbda76e1d156ad8bf1f3e729f4a5df160",
+  "commit": "c1efe22ced8fc20876531e49910062d4640d1c14",
   "climate_forcing": [
     {
       "specifier": "gfdl-esm2m",
@@ -1959,6 +1959,10 @@
     {
       "specifier": "swim-pik",
       "title": "SWIM-PIK"
+    },
+    {
+      "specifier": "trm-tsukuba",
+      "title": "TRM-Tsukuba"
     },
     {
       "specifier": "vegas",
