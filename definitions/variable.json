@@ -1988,7 +1988,10 @@
     "units": "1"
   },
   {
-    "long_name": "Number of deaths attributable to cold in age group x",
+    "long_name": "Number of deaths attributable to cold in age group",
+    "extension": [
+      "<ages>"
+    ],
     "products": [
       "OutputData"
     ],
@@ -1999,9 +2002,9 @@
     "units": "Total number of deaths"
   },
   {
-    "long_name": "Number of deaths attributable to heat in age group x",
+    "long_name": "Number of deaths attributable to heat in age group",
     "extension": [
-      "<age-group>"
+      "<ages>"
     ],
     "products": [
       "OutputData"
@@ -2013,7 +2016,7 @@
     "units": "Total number of deaths"
   },
   {
-    "long_name": "Death rate attributable to cold in age group x",
+    "long_name": "Death rate attributable to cold in age group",
     "extension": [
       "<ages>"
     ],
@@ -2027,7 +2030,7 @@
     "units": "Deaths per 100 000 population"
   },
   {
-    "long_name": "Death rate attributable to heat in age group x",
+    "long_name": "Death rate attributable to heat in age group",
     "extension": [
       "<ages>"
     ],
@@ -2041,9 +2044,9 @@
     "units": "Deaths per 100 000 population"
   },
   {
-    "long_name": "Attributable fraction (cold) in age group x",
+    "long_name": "Attributable fraction (cold) in age group",
     "extension": [
-      "<age-group>"
+      "<ages>"
     ],
     "products": [
       "OutputData"
@@ -2055,9 +2058,9 @@
     "units": "%"
   },
   {
-    "long_name": "Attributable fraction (heat) in age group x",
+    "long_name": "Attributable fraction (heat) in age group",
     "extension": [
-      "<age-group>"
+      "<ages>"
     ],
     "products": [
       "OutputData"
