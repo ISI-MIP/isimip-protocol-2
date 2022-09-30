@@ -1,5 +1,5 @@
 {
-  "commit": "c1efe22ced8fc20876531e49910062d4640d1c14",
+  "commit": "644723ae44b83f3678cfd7f2b0c617e38500256a",
   "identifiers": [
     "simulation_round",
     "product",
@@ -9,6 +9,7 @@
     "climate_scenario",
     "soc_scenario",
     "sens_scenario",
+    "variable",
     "crop",
     "irrigation"
   ]

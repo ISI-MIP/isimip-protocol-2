@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/lakes.json",
-  "commit": "c1efe22ced8fc20876531e49910062d4640d1c14",
+  "commit": "644723ae44b83f3678cfd7f2b0c617e38500256a",
   "type": "object",
   "required": [
     "specifiers"

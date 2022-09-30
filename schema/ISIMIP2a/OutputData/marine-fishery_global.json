@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
-  "commit": "c1efe22ced8fc20876531e49910062d4640d1c14",
+  "commit": "644723ae44b83f3678cfd7f2b0c617e38500256a",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,51 +26,51 @@
           "type": "string",
           "enum": [
             "watch-wfdei",
-            "key-run",
-            "gfdl-reanalysis",
-            "gswp3-w5e5",
-            "gswp3-ewembi",
-            "princeton",
             "watch",
-            "gswp3",
-            "ewembi"
+            "key-run",
+            "gswp3-ewembi",
+            "gfdl-reanalysis",
+            "ewembi",
+            "princeton",
+            "gswp3-w5e5",
+            "gswp3"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "fore",
-            "hist"
+            "hist",
+            "fore"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "b10cm-bendet",
-            "bcom",
-            "bmed",
-            "b30cm-pelpred",
             "tc30cm",
             "tsb",
-            "csmall",
-            "clarge",
-            "tcb",
-            "b10cm-pelpred",
             "cmed",
-            "bsmall",
-            "blarge",
+            "bcom",
             "tc",
-            "tc10cm",
-            "b10cm",
             "b30cm-bendet",
+            "bmed",
             "b30cm",
+            "b30cm-pelpred",
+            "b10cm",
+            "blarge",
+            "b10cm-pelpred",
+            "csmall",
+            "bsmall",
+            "tcb",
+            "b10cm-bendet",
+            "clarge",
+            "tc10cm",
             "tpb"
           ]
         },
@@ -84,8 +84,8 @@
           "type": "string",
           "enum": [
             "monthly",
-            "daily",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {

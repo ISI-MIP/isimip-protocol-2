@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/n-deposition.json",
-  "commit": "c1efe22ced8fc20876531e49910062d4640d1c14",
+  "commit": "644723ae44b83f3678cfd7f2b0c617e38500256a",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,58 +19,58 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
+            "2100rcp26soc",
+            "1860soc",
+            "2005soc",
             "ssp2soc",
-            "2005socsite",
-            "rcp85socbeb",
-            "rcp60socam",
-            "rcp85soca",
+            "ssp3soc",
+            "nat",
             "ssp1soc",
-            "rcp26soca",
-            "rcp85socam",
+            "varsoc",
+            "rcp60soc",
             "rcp60socbe",
+            "rcp26soca",
+            "rcp85soc",
+            "rcp85socam",
+            "rcp60soca",
+            "rcp26socbe",
+            "rcp85socbeb",
+            "ssp5soc",
+            "rcp26socam",
+            "rcp26soc",
+            "rcp85sochwp",
+            "rcp60sochwp",
+            "rcp60socbeb",
+            "rcp60socam",
+            "histsoc",
+            "rcp26sochwp",
+            "2005socsite",
+            "pressoc",
+            "nosoc",
             "rcp85socbe",
             "rcp26socbeb",
-            "rcp26sochwp",
             "ssp4soc",
-            "pressoc",
-            "nat",
-            "rcp60soc",
-            "1860soc",
-            "ssp3soc",
-            "rcp60sochwp",
-            "rcp85soc",
-            "varsoc",
-            "rcp26soc",
-            "2100rcp26soc",
-            "2005soc",
-            "rcp60socbeb",
-            "rcp60soca",
-            "rcp85sochwp",
-            "rcp26socam",
-            "ssp5soc",
-            "nosoc",
-            "histsoc",
-            "rcp26socbe"
+            "rcp85soca"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
+            "national",
             "halfdeg",
-            "5arcmin",
-            "national"
+            "5arcmin"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
-            "3hr",
-            "annual",
             "constant",
-            "30year-mean",
+            "annual",
+            "3hr",
+            "monthly",
+            "daily",
             "seasonal",
-            "daily"
+            "30year-mean"
           ]
         },
         "start_year": {
