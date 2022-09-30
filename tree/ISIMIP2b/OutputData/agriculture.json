@@ -7,6 +7,7 @@
   "climate_scenario",
   "soc_scenario",
   "sens_scenario",
+  "variable",
   "crop",
   "irrigation"
 ]
