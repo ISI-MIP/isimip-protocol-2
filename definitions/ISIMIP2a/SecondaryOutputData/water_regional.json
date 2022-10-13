@@ -1,5 +1,5 @@
 {
-  "commit": "644723ae44b83f3678cfd7f2b0c617e38500256a",
+  "commit": "5c942ce2011cbcfc7e0569521a5bebe2dd018ef6",
   "sens_scenario": [
     {
       "specifier": "default"
@@ -2289,7 +2289,8 @@
   "sector": [
     {
       "specifier": "agriculture",
-      "title": "Agriculture"
+      "title": "Agriculture",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "biodiversity",

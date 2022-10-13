@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/InputData/climate_co2/co2.json",
-  "commit": "644723ae44b83f3678cfd7f2b0c617e38500256a",
+  "commit": "5c942ce2011cbcfc7e0569521a5bebe2dd018ef6",
   "type": "object",
   "required": [
     "specifiers"
@@ -17,8 +17,8 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "hist",
-            "fore"
+            "fore",
+            "hist"
           ]
         },
         "climate_variable": {
@@ -33,13 +33,13 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "constant",
             "annual",
-            "3hr",
             "monthly",
+            "3hr",
             "daily",
             "seasonal",
-            "30year-mean"
+            "30year-mean",
+            "constant"
           ]
         },
         "start_year": {

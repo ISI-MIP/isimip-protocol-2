@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/InputData/landuse_humaninfluences.json",
-  "commit": "644723ae44b83f3678cfd7f2b0c617e38500256a",
+  "commit": "5c942ce2011cbcfc7e0569521a5bebe2dd018ef6",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,38 +19,38 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2100rcp26soc",
-            "1860soc",
-            "2005soc",
-            "ssp2soc",
-            "ssp3soc",
-            "nat",
-            "ssp1soc",
-            "varsoc",
-            "rcp60soc",
-            "rcp60socbe",
-            "rcp26soca",
-            "rcp85soc",
-            "rcp85socam",
-            "rcp60soca",
-            "rcp26socbe",
-            "rcp85socbeb",
-            "ssp5soc",
-            "rcp26socam",
-            "rcp26soc",
-            "rcp85sochwp",
-            "rcp60sochwp",
-            "rcp60socbeb",
-            "rcp60socam",
             "histsoc",
-            "rcp26sochwp",
+            "rcp26soc",
             "2005socsite",
-            "pressoc",
-            "nosoc",
+            "rcp60sochwp",
+            "rcp85soc",
+            "varsoc",
+            "2100rcp26soc",
             "rcp85socbe",
+            "rcp60socbe",
+            "2005soc",
+            "rcp60soc",
+            "pressoc",
             "rcp26socbeb",
+            "rcp85soca",
+            "rcp60soca",
+            "nosoc",
+            "rcp26soca",
+            "rcp26socam",
+            "rcp85sochwp",
+            "rcp85socam",
+            "1860soc",
+            "ssp3soc",
             "ssp4soc",
-            "rcp85soca"
+            "rcp60socbeb",
+            "rcp26socbe",
+            "ssp2soc",
+            "ssp1soc",
+            "ssp5soc",
+            "rcp85socbeb",
+            "nat",
+            "rcp26sochwp",
+            "rcp60socam"
           ]
         },
         "resulution": {
@@ -59,13 +59,13 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "constant",
             "annual",
-            "3hr",
             "monthly",
+            "3hr",
             "daily",
             "seasonal",
-            "30year-mean"
+            "30year-mean",
+            "constant"
           ]
         },
         "start_year": {
