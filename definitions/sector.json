@@ -1,7 +1,11 @@
 [
   {
     "specifier": "agriculture",
-    "title": "Agriculture"
+    "title": "Agriculture",
+    "urls": {
+      "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+      "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+    }
   },
   {
     "specifier": "biodiversity",
