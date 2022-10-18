@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/InputData/climate_co2/climate/HistObs.json",
-  "commit": "5c942ce2011cbcfc7e0569521a5bebe2dd018ef6",
+  "commit": "70e26d1d04d475bee8772d6e66831f64ab199d8b",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,23 +19,23 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3-w5e5",
-            "gfdl-reanalysis",
-            "key-run",
-            "ewembi",
-            "watch",
-            "watch-wfdei",
             "gswp3",
+            "ewembi",
+            "key-run",
             "localclim",
-            "princeton",
-            "gswp3-ewembi"
+            "gswp3-w5e5",
+            "gswp3-ewembi",
+            "watch-wfdei",
+            "gfdl-reanalysis",
+            "watch",
+            "princeton"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "fore",
-            "hist"
+            "hist",
+            "fore"
           ]
         },
         "climate_variable": {
@@ -50,13 +50,13 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
             "monthly",
-            "3hr",
-            "daily",
             "seasonal",
+            "daily",
             "30year-mean",
-            "constant"
+            "constant",
+            "3hr",
+            "annual"
           ]
         },
         "start_year": {

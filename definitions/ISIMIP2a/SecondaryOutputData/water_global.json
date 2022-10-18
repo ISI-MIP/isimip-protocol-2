@@ -1,5 +1,5 @@
 {
-  "commit": "5c942ce2011cbcfc7e0569521a5bebe2dd018ef6",
+  "commit": "70e26d1d04d475bee8772d6e66831f64ab199d8b",
   "sens_scenario": [
     {
       "specifier": "default"
@@ -2681,51 +2681,63 @@
     },
     {
       "specifier": "biodiversity",
-      "title": "Terrestrial biodiversity"
+      "title": "Terrestrial biodiversity",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "biomes",
-      "title": "Biomes"
+      "title": "Biomes",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "forestry",
-      "title": "Regional forests"
+      "title": "Regional forests",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "health",
-      "title": "Temperature-related mortality"
+      "title": "Temperature-related mortality",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "lakes_global",
-      "title": "Lakes (global)"
+      "title": "Lakes (global)",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "lakes_local",
-      "title": "Lakes (local)"
+      "title": "Lakes (local)",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "marine-fishery_global",
-      "title": "Fisheries and Marine Ecosystems (global)"
+      "title": "Fisheries and Marine Ecosystems (global)",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "marine-fishery_regional",
-      "title": "Fisheries and Marine Ecosystems (regional)"
+      "title": "Fisheries and Marine Ecosystems (regional)",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "permafrost",
-      "title": "Permafrost"
+      "title": "Permafrost",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "waterborne_diseases",
-      "title": "Waterborne Diseases"
+      "title": "Waterborne Diseases",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "water_global",
-      "title": "Water (global)"
+      "title": "Water (global)",
+      "urls": "https://www.isimip.org/protocol/2a/"
     },
     {
       "specifier": "water_regional",
-      "title": "Water (regional)"
+      "title": "Water (regional)",
+      "urls": "https://www.isimip.org/protocol/2a/"
     }
   ],
   "simulation_round": [

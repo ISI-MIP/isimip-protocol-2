@@ -1,5 +1,5 @@
 {
-  "commit": "5c942ce2011cbcfc7e0569521a5bebe2dd018ef6",
+  "commit": "70e26d1d04d475bee8772d6e66831f64ab199d8b",
   "terms": {
     "sens_scenario": {
       "default": {},
@@ -3697,40 +3697,88 @@
         }
       },
       "biodiversity": {
-        "title": "Terrestrial biodiversity"
+        "title": "Terrestrial biodiversity",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "biomes": {
-        "title": "Biomes"
+        "title": "Biomes",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "forestry": {
-        "title": "Regional forests"
+        "title": "Regional forests",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "health": {
-        "title": "Temperature-related mortality"
+        "title": "Temperature-related mortality",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "lakes_global": {
-        "title": "Lakes (global)"
+        "title": "Lakes (global)",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "lakes_local": {
-        "title": "Lakes (local)"
+        "title": "Lakes (local)",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "marine-fishery_global": {
-        "title": "Fisheries and Marine Ecosystems (global)"
+        "title": "Fisheries and Marine Ecosystems (global)",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "marine-fishery_regional": {
-        "title": "Fisheries and Marine Ecosystems (regional)"
+        "title": "Fisheries and Marine Ecosystems (regional)",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "permafrost": {
-        "title": "Permafrost"
+        "title": "Permafrost",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "waterborne_diseases": {
-        "title": "Waterborne Diseases"
+        "title": "Waterborne Diseases",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "water_global": {
-        "title": "Water (global)"
+        "title": "Water (global)",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       },
       "water_regional": {
-        "title": "Water (regional)"
+        "title": "Water (regional)",
+        "urls": {
+          "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+          "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+        }
       }
     },
     "simulation_round": {
