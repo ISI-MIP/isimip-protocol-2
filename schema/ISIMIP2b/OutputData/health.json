@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/health.json",
-  "commit": "70e26d1d04d475bee8772d6e66831f64ab199d8b",
+  "commit": "5395e2fbf8eba2ec6d41f9928487bf2a1bd7b1a3",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,87 +26,87 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "miroc5",
-            "cesm1-bgc",
             "ipsl-cm5a-lr",
+            "hadgem2-es",
             "gfdl-esm2m",
-            "hadgem2-es"
+            "cesm1-bgc",
+            "miroc5"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp60",
-            "rcp45",
-            "2005co2",
-            "historical",
             "rcp26",
             "2299rcp26",
+            "historical",
+            "2005co2",
+            "rcp60",
+            "rcp85",
             "picontrol",
-            "rcp85"
+            "rcp45"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "pressoc",
-            "rcp26socam",
-            "rcp60socam",
             "rcp26socbeb",
-            "rcp60soca",
             "rcp60soc",
-            "2005socsite",
-            "2100rcp26soc",
-            "ssp1soc",
-            "varsoc",
-            "nat",
-            "rcp26soc",
-            "rcp26socbe",
-            "rcp26soca",
-            "rcp60socbe",
-            "rcp60sochwp",
-            "rcp26sochwp",
-            "ssp3soc",
-            "rcp85socbe",
-            "rcp60socbeb",
-            "ssp5soc",
-            "rcp85sochwp",
-            "ssp2soc",
-            "rcp85soca",
-            "rcp85socbeb",
             "histsoc",
-            "2005soc",
-            "rcp85socam",
+            "rcp85soca",
+            "rcp85sochwp",
+            "ssp1soc",
             "nosoc",
-            "ssp4soc",
+            "rcp26socam",
+            "rcp85socam",
+            "2005socsite",
+            "rcp60sochwp",
+            "rcp85socbeb",
+            "pressoc",
             "1860soc",
+            "ssp2soc",
+            "rcp26soca",
+            "rcp85socbe",
+            "rcp26soc",
+            "rcp60soca",
+            "2100rcp26soc",
+            "2005soc",
+            "ssp5soc",
+            "rcp60socbeb",
+            "ssp3soc",
+            "rcp26socbe",
+            "rcp60socbe",
+            "ssp4soc",
+            "nat",
+            "rcp26sochwp",
+            "rcp60socam",
+            "varsoc",
             "rcp85soc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "2005co2",
             "co2",
+            "2005co2",
             "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "an-tot-cold",
-            "an-tot-heat",
-            "af-heat",
             "an-rate-cold",
+            "an-tot-heat",
             "af-cold",
-            "an-rate-heat"
+            "an-tot-cold",
+            "an-rate-heat",
+            "af-heat"
           ]
         },
         "region": {
