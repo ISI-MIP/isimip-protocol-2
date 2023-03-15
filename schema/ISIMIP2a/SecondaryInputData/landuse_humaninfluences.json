@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/SecondaryInputData/landuse_humaninfluences.json",
+  "commit": "bc22c1d1e1e185263c3fafa32833e420809762be",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "required": [],
+      "properties": {
+        "soc_dataset": {
+          "type": "string"
+        },
+        "soc_variable": {
+          "type": "string"
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "rcp26socam",
+            "ssp1soc",
+            "rcp26socbe",
+            "1860soc",
+            "rcp60sochwp",
+            "nosoc",
+            "pressoc",
+            "rcp85socbeb",
+            "varsoc",
+            "ssp5soc",
+            "nat",
+            "histsoc",
+            "rcp26soca",
+            "rcp26socbeb",
+            "rcp85soc",
+            "rcp85sochwp",
+            "rcp85socbe",
+            "ssp3soc",
+            "ssp4soc",
+            "rcp26sochwp",
+            "rcp85socam",
+            "2005soc",
+            "rcp60socbe",
+            "2005socsite",
+            "rcp60soca",
+            "rcp85soca",
+            "2100rcp26soc",
+            "ssp2soc",
+            "rcp60soc",
+            "rcp60socam",
+            "rcp60socbeb",
+            "rcp26soc"
+          ]
+        },
+        "resulution": {
+          "type": "string"
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "monthly",
+            "30year-mean",
+            "annual",
+            "constant",
+            "seasonal",
+            "3hr",
+            "daily"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

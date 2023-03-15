@@ -1,5 +1,5 @@
 {
-  "commit": "29b2e90fd425b05d81b32c72405bff71807a2aa6",
+  "commit": "bc22c1d1e1e185263c3fafa32833e420809762be",
   "climate_scenario": [
     {
       "specifier": "picontrol",
@@ -1720,7 +1720,7 @@
   ],
   "resolution": [
     {
-      "specifier": "halfdeg"
+      "specifier": "30arcmin"
     },
     {
       "specifier": "5arcmin"
