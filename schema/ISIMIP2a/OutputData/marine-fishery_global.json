@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
-  "commit": "bc22c1d1e1e185263c3fafa32833e420809762be",
+  "commit": "26c402c371388dbcdcf99e2da07e4ae816a4ba81",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,15 +25,15 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3-ewembi",
-            "watch",
-            "gswp3-w5e5",
-            "gswp3",
-            "ewembi",
-            "watch-wfdei",
             "gfdl-reanalysis",
+            "princeton",
+            "ewembi",
+            "gswp3",
+            "gswp3-ewembi",
+            "watch-wfdei",
             "key-run",
-            "princeton"
+            "watch",
+            "gswp3-w5e5"
           ]
         },
         "bias_adjustment": {
@@ -46,32 +46,32 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "fore",
-            "hist"
+            "hist",
+            "fore"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
+            "csmall",
             "b30cm-bendet",
+            "bsmall",
+            "b30cm-pelpred",
+            "bmed",
+            "b10cm-pelpred",
+            "tc30cm",
+            "tsb",
+            "clarge",
+            "b10cm",
+            "tc",
+            "tcb",
+            "bcom",
             "cmed",
             "b10cm-bendet",
-            "tsb",
-            "csmall",
-            "bmed",
-            "bcom",
-            "clarge",
-            "tpb",
             "blarge",
             "b30cm",
-            "tc30cm",
-            "tcb",
             "tc10cm",
-            "b10cm",
-            "bsmall",
-            "tc",
-            "b10cm-pelpred",
-            "b30cm-pelpred"
+            "tpb"
           ]
         },
         "region": {

@@ -1,5 +1,5 @@
 {
-  "commit": "bc22c1d1e1e185263c3fafa32833e420809762be",
+  "commit": "26c402c371388dbcdcf99e2da07e4ae816a4ba81",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<subcategory>[a-z0-9-]+)/(?P<climate_scenario>[A-Za-z0-9]+)$",
   "dataset": "^(?P<sealevelrise_contrib>[a-z_]+)_(?P<time_step>[a-z0-9-]+)_(?P<climate_forcing>[A-Za-z0-9-]+)_(?P<climate_scenario>[A-Za-z0-9]+)",
   "file": "^(?P<sealevelrise_contrib>[a-z_]+)_(?P<time_step>[a-z0-9-]+)_(?P<climate_forcing>[A-Za-z0-9-]+)_(?P<climate_scenario>[A-Za-z0-9]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.nc4)",

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/waterborne_diseases.json",
-  "commit": "bc22c1d1e1e185263c3fafa32833e420809762be",
+  "commit": "26c402c371388dbcdcf99e2da07e4ae816a4ba81",
   "type": "object",
   "required": [
     "specifiers"
@@ -43,77 +43,77 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp85",
+            "2005co2",
             "rcp26",
             "rcp60",
-            "2005co2",
-            "2299rcp26",
-            "rcp45",
             "historical",
-            "picontrol"
+            "rcp85",
+            "2299rcp26",
+            "picontrol",
+            "rcp45"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "rcp26socam",
-            "ssp1soc",
-            "rcp26socbe",
-            "1860soc",
-            "rcp60sochwp",
-            "nosoc",
-            "pressoc",
-            "rcp85socbeb",
-            "varsoc",
-            "ssp5soc",
-            "nat",
-            "histsoc",
-            "rcp26soca",
-            "rcp26socbeb",
-            "rcp85soc",
-            "rcp85sochwp",
-            "rcp85socbe",
-            "ssp3soc",
-            "ssp4soc",
-            "rcp26sochwp",
-            "rcp85socam",
-            "2005soc",
-            "rcp60socbe",
-            "2005socsite",
-            "rcp60soca",
             "rcp85soca",
-            "2100rcp26soc",
-            "ssp2soc",
-            "rcp60soc",
+            "rcp26sochwp",
+            "rcp85sochwp",
             "rcp60socam",
+            "ssp1soc",
+            "rcp60soca",
+            "rcp60sochwp",
+            "rcp26socbeb",
+            "2100rcp26soc",
+            "rcp26socam",
+            "rcp85soc",
+            "rcp26soca",
+            "rcp26soc",
+            "rcp85socbeb",
+            "ssp4soc",
+            "nat",
+            "rcp60socbe",
+            "ssp2soc",
+            "nosoc",
+            "ssp3soc",
+            "ssp5soc",
+            "rcp85socbe",
+            "rcp26socbe",
+            "rcp85socam",
+            "1860soc",
             "rcp60socbeb",
-            "rcp26soc"
+            "varsoc",
+            "histsoc",
+            "rcp60soc",
+            "2005socsite",
+            "pressoc",
+            "2005soc"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "excess-temp-incidence",
-            "excess-rain-incidence",
-            "excess-temp-prevalence",
-            "excess-temp-mortality",
             "excess-rain-mortality",
-            "excess-rain-prevalence"
+            "excess-temp-mortality",
+            "excess-temp-incidence",
+            "excess-rain-prevalence",
+            "excess-temp-prevalence",
+            "excess-rain-incidence"
           ]
         },
         "disease": {
           "type": "string",
           "enum": [
-            "campylobacter",
-            "epecoli",
-            "typhoid",
-            "cholera",
-            "salmonella",
-            "shigella",
             "etecoli",
-            "norovirus",
+            "cryptosporidium",
+            "epecoli",
+            "shigella",
+            "salmonella",
+            "cholera",
+            "campylobacter",
+            "typhoid",
             "rotavirus",
-            "cryptosporidium"
+            "norovirus"
           ]
         },
         "region": {
