@@ -28,7 +28,14 @@
   {
     "specifier": "start_hist",
     "value": {
-      "ISIMIP2a": 1901,
+        "ISIMIP2a": {
+          "princeton" : 1901,
+          "gswp3-w5e5" : 1901,
+          "gswp3-ewembi" : 1901,
+          "gswp3" : 1901,
+          "watch" : 1901,
+          "watch-wfdei" : 1901
+          },
       "ISIMIP2b": 1861
     }
   },
@@ -36,13 +43,13 @@
     "specifier": "end_hist",
     "value": {
       "ISIMIP2a": {
-	  "pgfv2.1" : 2012,
-	  "gswp3-w5e5" : 2016,
-	  "gswp3-ewembi" : 2016,
-	  "gswp3" : 2010,
-	  "watch" : 2001,
-	  "watch-wfdei" : 2016
-	  },
+          "princeton" : 2012,
+          "gswp3-w5e5" : 2016,
+          "gswp3-ewembi" : 2016,
+          "gswp3" : 2010,
+          "watch" : 2001,
+          "watch-wfdei" : 2016
+          },
       "ISIMIP2b": 2005
     }
   },
