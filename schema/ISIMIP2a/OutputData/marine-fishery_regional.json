@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "26c402c371388dbcdcf99e2da07e4ae816a4ba81",
+  "commit": "f9bb7dda3fc60556d222f94e56281cfb96c483d3",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,21 +26,21 @@
           "type": "string",
           "enum": [
             "gfdl-reanalysis",
-            "princeton",
-            "ewembi",
-            "gswp3",
-            "gswp3-ewembi",
             "watch-wfdei",
+            "gswp3-w5e5",
+            "princeton",
             "key-run",
+            "ewembi",
+            "gswp3-ewembi",
             "watch",
-            "gswp3-w5e5"
+            "gswp3"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "nobc"
+            "nobc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
@@ -53,36 +53,36 @@
         "variable": {
           "type": "string",
           "enum": [
-            "b30cm-bendet",
-            "tsb",
-            "b30cm",
-            "tc10cm",
-            "b10cm-pelpred",
-            "b10cm",
+            "tla",
             "tc30cm",
-            "tc",
+            "tc10cm",
+            "b30cm-bendet",
             "tcb",
-            "bcom",
             "tpb",
+            "b10cm",
             "b30cm-pelpred",
-            "b10cm-bendet",
-            "tla"
+            "b10cm-pelpred",
+            "tsb",
+            "tc",
+            "bcom",
+            "b30cm",
+            "b10cm-bendet"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "north-sea",
-            "cook-strait",
-            "benguela",
-            "hawaii",
-            "adriatic-sea",
-            "east-bass-strait",
-            "nw-med-sea",
             "baltic-sea",
+            "benguela",
             "se-australia",
-            "med-glob",
-            "humboldt-n"
+            "nw-med-sea",
+            "north-sea",
+            "east-bass-strait",
+            "cook-strait",
+            "hawaii",
+            "humboldt-n",
+            "adriatic-sea",
+            "med-glob"
           ]
         },
         "time_step": {

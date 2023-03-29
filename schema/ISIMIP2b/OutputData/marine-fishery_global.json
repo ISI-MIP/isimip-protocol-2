@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_global.json",
-  "commit": "26c402c371388dbcdcf99e2da07e4ae816a4ba81",
+  "commit": "f9bb7dda3fc60556d222f94e56281cfb96c483d3",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,55 +25,55 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gfdl-esm2m",
             "ipsl-cm5a-lr",
             "hadgem2-es",
+            "cesm1-bgc",
             "miroc5",
-            "cesm1-bgc"
+            "gfdl-esm2m"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "nobc"
+            "nobc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "2005co2",
             "rcp26",
-            "rcp60",
-            "historical",
             "rcp85",
-            "2299rcp26",
+            "rcp60",
+            "2005co2",
             "picontrol",
-            "rcp45"
+            "2299rcp26",
+            "rcp45",
+            "historical"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "csmall",
-            "b30cm-bendet",
-            "bsmall",
-            "b30cm-pelpred",
-            "bmed",
-            "b10cm-pelpred",
             "tc30cm",
-            "tsb",
-            "clarge",
-            "b10cm",
-            "tc",
-            "tcb",
-            "bcom",
-            "cmed",
-            "b10cm-bendet",
-            "blarge",
-            "b30cm",
+            "csmall",
             "tc10cm",
-            "tpb"
+            "b10cm",
+            "b30cm-pelpred",
+            "cmed",
+            "b30cm",
+            "blarge",
+            "b30cm-bendet",
+            "tcb",
+            "tpb",
+            "bmed",
+            "bsmall",
+            "tc",
+            "b10cm-pelpred",
+            "tsb",
+            "b10cm-bendet",
+            "clarge",
+            "bcom"
           ]
         },
         "region": {

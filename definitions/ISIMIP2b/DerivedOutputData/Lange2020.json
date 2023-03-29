@@ -1,5 +1,5 @@
 {
-  "commit": "26c402c371388dbcdcf99e2da07e4ae816a4ba81",
+  "commit": "f9bb7dda3fc60556d222f94e56281cfb96c483d3",
   "time_span": [
     {
       "specifier": "minimum",
@@ -828,51 +828,15 @@
     },
     {
       "specifier": "daily",
-      "increment": "days",
-      "sectors": [
-        "biomes",
-        "forestry",
-        "lakes_global",
-        "lakes_local",
-        "marine-fishery_global",
-        "marine-fishery_regional",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ]
+      "increment": "days"
     },
     {
       "specifier": "monthly",
-      "increment": "months",
-      "sectors": [
-        "biomes",
-        "forestry",
-        "lakes_global",
-        "lakes_local",
-        "marine-fishery_global",
-        "marine-fishery_regional",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ]
+      "increment": "days"
     },
     {
       "specifier": "annual",
-      "increment": "years",
-      "sectors": [
-        "agriculture",
-        "biomes",
-        "forestry",
-        "health",
-        "lakes_global",
-        "lakes_local",
-        "marine-fishery_global",
-        "marine-fishery_regional",
-        "permafrost",
-        "waterborne_diseases",
-        "water_global",
-        "water_regional"
-      ]
+      "increment": "days"
     },
     {
       "specifier": "seasonal",
