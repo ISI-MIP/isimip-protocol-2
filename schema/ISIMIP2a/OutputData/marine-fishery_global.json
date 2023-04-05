@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
-  "commit": "f9bb7dda3fc60556d222f94e56281cfb96c483d3",
+  "commit": "03a308cce35eab870794daa4d8b97d3a803f9410",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,15 +25,15 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
+            "gswp3-w5e5",
+            "key-run",
+            "princeton",
+            "watch",
             "gfdl-reanalysis",
             "watch-wfdei",
-            "gswp3-w5e5",
-            "princeton",
-            "key-run",
-            "ewembi",
             "gswp3-ewembi",
-            "watch",
-            "gswp3"
+            "gswp3",
+            "ewembi"
           ]
         },
         "bias_adjustment": {
@@ -53,25 +53,25 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tc30cm",
-            "csmall",
-            "tc10cm",
-            "b10cm",
-            "b30cm-pelpred",
-            "cmed",
-            "b30cm",
-            "blarge",
             "b30cm-bendet",
-            "tcb",
-            "tpb",
-            "bmed",
-            "bsmall",
-            "tc",
-            "b10cm-pelpred",
-            "tsb",
-            "b10cm-bendet",
             "clarge",
-            "bcom"
+            "tsb",
+            "bcom",
+            "b30cm",
+            "tc",
+            "cmed",
+            "tcb",
+            "b10cm-bendet",
+            "tpb",
+            "bsmall",
+            "blarge",
+            "tc30cm",
+            "b30cm-pelpred",
+            "b10cm-pelpred",
+            "b10cm",
+            "tc10cm",
+            "bmed",
+            "csmall"
           ]
         },
         "region": {
@@ -83,8 +83,8 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
             "daily",
+            "monthly",
             "annual"
           ]
         },

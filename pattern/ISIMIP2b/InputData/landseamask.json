@@ -1,5 +1,5 @@
 {
-  "commit": "f9bb7dda3fc60556d222f94e56281cfb96c483d3",
+  "commit": "03a308cce35eab870794daa4d8b97d3a803f9410",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<subcategory>[A-Za-z]+)$",
   "dataset": "^(?P<geo_dataset>[A-Za-z0-9_]+)",
   "file": "^(?P<geo_dataset>[A-Za-z0-9_]+)(.nc4)",

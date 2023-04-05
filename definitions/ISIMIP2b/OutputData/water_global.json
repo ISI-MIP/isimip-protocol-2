@@ -1,5 +1,5 @@
 {
-  "commit": "f9bb7dda3fc60556d222f94e56281cfb96c483d3",
+  "commit": "03a308cce35eab870794daa4d8b97d3a803f9410",
   "time_span": [
     {
       "specifier": "minimum",
@@ -920,6 +920,14 @@
       "axis": "Z",
       "standard_name": "water_layer",
       "long_name": "Vertical Water Layer Index",
+      "positive": "down",
+      "units": "1"
+    },
+    {
+      "specifier": "lev",
+      "axis": "Z",
+      "standard_name": "soil_layer",
+      "long_name": "Vertical Soil Layer Index",
       "positive": "down",
       "units": "1"
     },
