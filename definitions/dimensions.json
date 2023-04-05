@@ -81,6 +81,14 @@
     "units": "1"
   },
   {
+    "specifier": "lev",
+    "axis": "Z",
+    "standard_name": "soil_layer",
+    "long_name": "Vertical Soil Layer Index",
+    "positive": "down",
+    "units": "1"
+  },
+  {
     "specifier": "solay",
     "axis": "Z",
     "standard_name": "soil_level",
