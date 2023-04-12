@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/biodiversity.json",
-  "commit": "03a308cce35eab870794daa4d8b97d3a803f9410",
+  "commit": "946c7a03f63729d8bf0227180b8a4bee8b6b2d49",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,93 +26,93 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3-w5e5",
-            "princeton",
             "watch",
+            "princeton",
             "watch-wfdei",
-            "gswp3-ewembi",
             "gswp3",
+            "gswp3-w5e5",
+            "gswp3-ewembi",
             "ewembi"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "hist",
-            "fore"
+            "fore",
+            "hist"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "rcp26socbe",
-            "nat",
-            "rcp85socam",
-            "pressoc",
-            "rcp85socbeb",
-            "rcp85soca",
-            "ssp1soc",
-            "rcp60soca",
-            "rcp85soc",
             "2100rcp26soc",
-            "ssp2soc",
-            "rcp60soc",
-            "2005soc",
-            "nosoc",
-            "histsoc",
-            "rcp60sochwp",
-            "rcp26soca",
-            "rcp60socbe",
-            "rcp26sochwp",
-            "rcp60socam",
-            "rcp26socbeb",
-            "rcp26soc",
-            "rcp26socam",
-            "1860soc",
-            "ssp5soc",
-            "ssp4soc",
             "ssp3soc",
+            "ssp1soc",
+            "rcp26sochwp",
+            "nosoc",
+            "ssp4soc",
+            "rcp60socbeb",
+            "rcp26socam",
+            "ssp5soc",
+            "rcp85socam",
+            "rcp26socbeb",
             "2005socsite",
+            "rcp60socam",
             "varsoc",
             "rcp85socbe",
+            "2005soc",
+            "rcp26soca",
+            "rcp60socbe",
             "rcp85sochwp",
-            "rcp60socbeb"
+            "pressoc",
+            "histsoc",
+            "nat",
+            "rcp26socbe",
+            "rcp60soca",
+            "rcp85soca",
+            "rcp60soc",
+            "rcp26soc",
+            "1860soc",
+            "rcp60sochwp",
+            "ssp2soc",
+            "rcp85soc",
+            "rcp85socbeb"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "co2const",
-            "noco2",
             "co2",
+            "noco2",
+            "default",
             "2005co2",
-            "default"
+            "co2const"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "endbirdsumprob",
-            "mammalsumprob",
-            "mammalsr",
-            "endmammalsumprob",
-            "mammalprob",
-            "amphibiansumprob",
-            "birdsumprob",
-            "thramphibiansumprob",
-            "endamphibiansumprob",
-            "birdprob",
             "amphibiansr",
+            "endbirdsumprob",
+            "mammalsr",
+            "birdsumprob",
             "birdsr",
+            "endmammalsumprob",
             "thrbirdsumprob",
-            "thrmammalsumprob"
+            "amphibiansumprob",
+            "thrmammalsumprob",
+            "mammalsumprob",
+            "mammalprob",
+            "birdprob",
+            "endamphibiansumprob",
+            "thramphibiansumprob"
           ]
         },
         "region": {
@@ -125,9 +125,9 @@
           "type": "string",
           "enum": [
             "daily",
+            "annual",
             "monthly",
-            "30year-mean",
-            "annual"
+            "30year-mean"
           ]
         },
         "start_year": {
