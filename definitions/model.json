@@ -314,6 +314,10 @@
     "title": "mHM"
   },
   {
+    "specifier": "mizer",
+    "title": "Mizer"
+  },
+  {
     "specifier": "mpi-hm",
     "title": "MPI-HM"
   },
@@ -522,7 +526,11 @@
     "title": "WEB-DHM-S"
   },
   {
-    "specifier": "mizer",
-    "title": "Mizer"
+    "specifier": "web-dhm-sg",
+    "title": "WEB-DHM-SG"
+  },
+  {
+    "specifier": "zoomss",
+    "title": "ZooMSS"
   }
 ]
