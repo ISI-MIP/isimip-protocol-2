@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "946c7a03f63729d8bf0227180b8a4bee8b6b2d49",
+  "commit": "041d46a14ed8b89bc1145d3672d9ab774d63d282",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,14 +25,14 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch",
-            "princeton",
-            "watch-wfdei",
-            "key-run",
-            "gfdl-reanalysis",
-            "gswp3",
             "gswp3-w5e5",
+            "gfdl-reanalysis",
             "gswp3-ewembi",
+            "gswp3",
+            "key-run",
+            "watch-wfdei",
+            "princeton",
+            "watch",
             "ewembi"
           ]
         },
@@ -53,36 +53,36 @@
         "variable": {
           "type": "string",
           "enum": [
-            "b30cm",
             "b30cm-bendet",
-            "tc10cm",
-            "b10cm-pelpred",
-            "tla",
-            "b10cm",
-            "tsb",
             "b30cm-pelpred",
             "tc30cm",
-            "b10cm-bendet",
-            "tpb",
-            "tc",
             "tcb",
-            "bcom"
+            "b30cm",
+            "tpb",
+            "b10cm",
+            "tsb",
+            "tc10cm",
+            "bcom",
+            "tla",
+            "b10cm-pelpred",
+            "b10cm-bendet",
+            "tc"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "east-bass-strait",
-            "benguela",
-            "north-sea",
-            "nw-med-sea",
-            "med-glob",
-            "humboldt-n",
-            "baltic-sea",
             "adriatic-sea",
-            "cook-strait",
+            "hawaii",
+            "north-sea",
+            "med-glob",
+            "nw-med-sea",
+            "baltic-sea",
             "se-australia",
-            "hawaii"
+            "cook-strait",
+            "east-bass-strait",
+            "humboldt-n",
+            "benguela"
           ]
         },
         "time_step": {
