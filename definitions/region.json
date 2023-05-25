@@ -2,5 +2,13 @@
   {
     "specifier": "global",
     "title": "Global simulation"
+  },
+  {
+    "specifier": "finland",
+    "title": "Finland"
+  },
+  {
+    "specifier": "lena",
+    "title": "Lena catchment"
   }
 ]
