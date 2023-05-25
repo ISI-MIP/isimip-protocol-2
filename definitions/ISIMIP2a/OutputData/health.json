@@ -1,5 +1,5 @@
 {
-  "commit": "041d46a14ed8b89bc1145d3672d9ab774d63d282",
+  "commit": "7c73db6dfa4228a04e33ec100dcc987d96d802fd",
   "subcategory": [
     {
       "specifier": "sealevelrise",
@@ -1828,6 +1828,14 @@
     {
       "specifier": "global",
       "title": "Global simulation"
+    },
+    {
+      "specifier": "finland",
+      "title": "Finland"
+    },
+    {
+      "specifier": "lena",
+      "title": "Lena catchment"
     }
   ],
   "time_span": [

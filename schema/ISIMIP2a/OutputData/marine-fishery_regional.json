@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "041d46a14ed8b89bc1145d3672d9ab774d63d282",
+  "commit": "7c73db6dfa4228a04e33ec100dcc987d96d802fd",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,15 +25,15 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3-w5e5",
-            "gfdl-reanalysis",
-            "gswp3-ewembi",
+            "ewembi",
             "gswp3",
-            "key-run",
-            "watch-wfdei",
-            "princeton",
             "watch",
-            "ewembi"
+            "gswp3-w5e5",
+            "key-run",
+            "princeton",
+            "gfdl-reanalysis",
+            "watch-wfdei",
+            "gswp3-ewembi"
           ]
         },
         "bias_adjustment": {
@@ -53,44 +53,44 @@
         "variable": {
           "type": "string",
           "enum": [
-            "b30cm-bendet",
-            "b30cm-pelpred",
-            "tc30cm",
             "tcb",
+            "b10cm",
+            "bcom",
+            "b30cm-bendet",
+            "tc10cm",
+            "b10cm-bendet",
+            "tc30cm",
+            "tc",
+            "b10cm-pelpred",
             "b30cm",
             "tpb",
-            "b10cm",
-            "tsb",
-            "tc10cm",
-            "bcom",
             "tla",
-            "b10cm-pelpred",
-            "b10cm-bendet",
-            "tc"
+            "tsb",
+            "b30cm-pelpred"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "adriatic-sea",
-            "hawaii",
-            "north-sea",
-            "med-glob",
-            "nw-med-sea",
             "baltic-sea",
+            "med-glob",
+            "east-bass-strait",
+            "nw-med-sea",
+            "adriatic-sea",
+            "north-sea",
+            "benguela",
             "se-australia",
             "cook-strait",
-            "east-bass-strait",
-            "humboldt-n",
-            "benguela"
+            "hawaii",
+            "humboldt-n"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
+            "monthly",
             "daily",
-            "annual",
-            "monthly"
+            "annual"
           ]
         },
         "start_year": {
