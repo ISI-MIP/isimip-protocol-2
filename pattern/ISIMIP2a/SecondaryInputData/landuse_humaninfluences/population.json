@@ -1,5 +1,5 @@
 {
-  "commit": "7c73db6dfa4228a04e33ec100dcc987d96d802fd",
+  "commit": "31cb3d24386efed46b1db2c24077f06a2206016b",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<category>[A-Za-z_]+)/(?P<subcategory>[a-z0-9-_]+)/(HYDE)$",
   "dataset": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
   "file": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})-(?P<end_year>\\d{4})(.nc4)",
