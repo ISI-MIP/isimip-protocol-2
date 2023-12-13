@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_global.json",
-  "commit": "31cb3d24386efed46b1db2c24077f06a2206016b",
+  "commit": "71a842b1efc9011c7bece3b7288189f34dd04c07",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,10 +25,10 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "hadgem2-es",
             "gfdl-esm2m",
-            "miroc5",
+            "hadgem2-es",
             "ipsl-cm5a-lr",
+            "miroc5",
             "cesm1-bgc"
           ]
         },
@@ -42,54 +42,54 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp60",
             "picontrol",
-            "rcp85",
-            "rcp45",
-            "2005co2",
-            "2299rcp26",
+            "historical",
             "rcp26",
-            "historical"
+            "2005co2",
+            "rcp45",
+            "rcp60",
+            "rcp85",
+            "2299rcp26"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
             "tc10cm",
+            "b10cm-bendet",
+            "bsmall",
+            "b30cm",
+            "tcb",
+            "bmed",
+            "b30cm-bendet",
+            "tsb",
+            "b10cm-pelpred",
+            "b30cm-pelpred",
+            "csmall",
+            "tpb",
+            "b10cm",
             "clarge",
             "blarge",
-            "tcb",
-            "b30cm-pelpred",
-            "tsb",
-            "tpb",
-            "csmall",
-            "bmed",
-            "b10cm-pelpred",
-            "b10cm-bendet",
-            "b30cm",
-            "tc",
-            "bsmall",
             "tc30cm",
-            "b30cm-bendet",
-            "b10cm",
+            "bcom",
             "cmed",
-            "bcom"
+            "tc"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "lena",
+            "finland",
             "global",
-            "finland"
+            "lena"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "monthly",
-            "annual"
+            "annual",
+            "daily"
           ]
         },
         "start_year": {
