@@ -9,7 +9,7 @@ The output files are found at https://protocol2.isimip.org.
 Setup
 -----
 
-Setup Python3 and Git as explained in the [ISIMIP3 protocol](https://github.com/ISI-MIP/isimip-protocol-3/blob/master/README.md). Pandoc is not needed here. No further Python requirements need to be installed.
+Setup Python3 and Git as explained in the [ISIMIP3 protocol](https://github.com/ISI-MIP/isimip-protocol-3/blob/main/README.md). Pandoc is not needed here. No further Python requirements need to be installed.
 
 
 Build
