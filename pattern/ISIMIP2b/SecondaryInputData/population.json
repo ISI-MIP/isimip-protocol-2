@@ -8,13 +8,13 @@
   "dataset": [
     "(?P<soc_dataset>[a-z0-9-_]+)",
     "(?P<soc_scenario>[a-z0-9]+)",
-    "(?P<resolution>[a-z0-9]+)",
+    "(?P<resolution>[a-z0-9.]+)",
     "(?P<time_step>[a-z]+)"
   ],
   "file": [
     "(?P<soc_dataset>[a-z0-9-_]+)",
     "(?P<soc_scenario>[a-z0-9]+)",
-    "(?P<resolution>[a-z0-9]+)",
+    "(?P<resolution>[a-z0-9.]+)",
     "(?P<time_step>[a-z]+)",
     "(?P<start_year>\\d{4})-(?P<end_year>\\d{4})"
   ],
@@ -28,6 +28,7 @@
   "specifiers_map": {
     "0p5deg": "30arcmin",
     "5min": "5arcmin",
+    "2.5min": "2.5arcmin",
     "countrylevel": "national",
     "population": "pop"
   }
