@@ -1,8 +1,8 @@
 {
-  "commit": "71a842b1efc9011c7bece3b7288189f34dd04c07",
+  "commit": "2ae62bc1422fa60fb3377ad2fb4af210b7d63df0",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<subcategory>[a-z0-9-_]+)/(?P<soc_scenario>[a-z0-9]+)$",
-  "dataset": "^(?P<soc_dataset>[a-z0-9-_]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
-  "file": "^(?P<soc_dataset>[a-z0-9-_]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})-(?P<end_year>\\d{4})(.csv|.nc4)",
+  "dataset": "^(?P<soc_dataset>[a-z0-9-_]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9.]+)_(?P<time_step>[a-z]+)",
+  "file": "^(?P<soc_dataset>[a-z0-9-_]+)_(?P<soc_scenario>[a-z0-9]+)_(?P<resolution>[a-z0-9.]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})-(?P<end_year>\\d{4})(.csv|.nc4)",
   "suffix": [
     ".csv",
     ".nc4"
@@ -13,6 +13,7 @@
   "specifiers_map": {
     "0p5deg": "30arcmin",
     "5min": "5arcmin",
+    "2.5min": "2.5arcmin",
     "countrylevel": "national",
     "population": "pop"
   }
