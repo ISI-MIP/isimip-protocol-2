@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/SecondaryInputData/GCM_atmosphere/biascorrected/global.json",
-  "commit": "2ae62bc1422fa60fb3377ad2fb4af210b7d63df0",
+  "commit": "3fc1b12eade3fe78eafdfa5792d8a6e223dd5820",
   "type": "object",
   "required": [
     "specifiers"
@@ -20,11 +20,11 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "hadgem2-es",
-            "ipsl-cm5a-lr",
-            "cesm1-bgc",
             "miroc5",
-            "gfdl-esm2m"
+            "cesm1-bgc",
+            "hadgem2-es",
+            "gfdl-esm2m",
+            "ipsl-cm5a-lr"
           ]
         },
         "ensemble_member": {
@@ -33,22 +33,22 @@
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "localbc",
             "nobc",
+            "localbc",
             "ewembi"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp60",
-            "picontrol",
-            "rcp45",
-            "rcp85",
-            "historical",
             "rcp26",
+            "rcp45",
+            "2005co2",
+            "rcp85",
             "2299rcp26",
-            "2005co2"
+            "rcp60",
+            "historical",
+            "picontrol"
           ]
         },
         "climate_variable": {
@@ -57,21 +57,21 @@
         "region": {
           "type": "string",
           "enum": [
-            "global",
+            "lena",
             "finland",
-            "lena"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
+            "daily",
             "annual",
-            "constant",
-            "30year-mean",
             "3hr",
+            "constant",
             "seasonal",
-            "monthly",
-            "daily"
+            "30year-mean",
+            "monthly"
           ]
         },
         "start_year": {

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/permafrost.json",
-  "commit": "2ae62bc1422fa60fb3377ad2fb4af210b7d63df0",
+  "commit": "3fc1b12eade3fe78eafdfa5792d8a6e223dd5820",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,11 +27,11 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "hadgem2-es",
-            "ipsl-cm5a-lr",
-            "cesm1-bgc",
             "miroc5",
-            "gfdl-esm2m"
+            "cesm1-bgc",
+            "hadgem2-es",
+            "gfdl-esm2m",
+            "ipsl-cm5a-lr"
           ]
         },
         "bias_adjustment": {
@@ -44,124 +44,124 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp60",
-            "picontrol",
-            "rcp45",
-            "rcp85",
-            "historical",
             "rcp26",
+            "rcp45",
+            "2005co2",
+            "rcp85",
             "2299rcp26",
-            "2005co2"
+            "rcp60",
+            "historical",
+            "picontrol"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "ssp5soc",
-            "2005soc",
-            "nosoc",
-            "rcp60soc",
             "pressoc",
-            "nat",
-            "rcp26sochwp",
+            "rcp26socam",
+            "rcp85soca",
+            "rcp60sochwp",
             "rcp85socbeb",
-            "rcp26soca",
-            "ssp3soc",
-            "rcp85socam",
             "rcp60socam",
             "rcp85sochwp",
+            "rcp26sochwp",
+            "nosoc",
+            "rcp60soc",
+            "rcp85soc",
+            "1860soc",
+            "rcp26socbeb",
+            "nat",
+            "rcp26socbe",
+            "rcp26soc",
+            "ssp4soc",
             "rcp60soca",
+            "2005socsite",
+            "ssp5soc",
+            "ssp2soc",
+            "ssp3soc",
             "rcp85socbe",
+            "rcp60socbeb",
+            "2005soc",
+            "histsoc",
+            "rcp85socam",
+            "2100rcp26soc",
+            "ssp1soc",
             "varsoc",
             "rcp60socbe",
-            "rcp26socam",
-            "2005socsite",
-            "rcp85soc",
-            "2100rcp26soc",
-            "rcp26soc",
-            "rcp85soca",
-            "ssp1soc",
-            "ssp2soc",
-            "1860soc",
-            "rcp26socbe",
-            "ssp4soc",
-            "rcp26socbeb",
-            "rcp60sochwp",
-            "rcp60socbeb",
-            "histsoc"
+            "rcp26soca"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "2005co2",
             "co2",
+            "2005co2",
             "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
+            "cvegag",
+            "swe",
+            "npproot",
             "fireint",
-            "snd",
-            "soilmoistfroz",
-            "soilmoist",
-            "ra",
+            "nppbgwood",
             "nppabovegroundwood",
-            "thawdepth",
             "rh",
             "npp",
-            "nppleaf",
-            "tsl",
-            "nppbgwood",
-            "qs",
-            "csoil",
-            "lai",
-            "npplandleaf",
-            "cvegbg",
-            "gpp",
-            "npproot",
-            "cveg",
-            "burntarea",
-            "cvegag",
-            "fapar",
-            "clitter",
-            "ecoatmflux",
             "npplandroot",
-            "qtot",
+            "burntarea",
+            "qs",
             "nppagwood",
-            "pft",
+            "nppleaf",
+            "fapar",
+            "snd",
+            "cveg",
+            "ecoatmflux",
+            "soilmoist",
+            "thawdepth",
+            "gpp",
             "nppbelowgroundwood",
-            "swe"
+            "cvegbg",
+            "pft",
+            "ra",
+            "qtot",
+            "csoil",
+            "npplandleaf",
+            "tsl",
+            "soilmoistfroz",
+            "lai",
+            "clitter"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "soy",
-            "rye",
-            "sun",
-            "mil",
-            "cas",
-            "sgb",
-            "ric",
-            "ri1",
-            "bar",
-            "ri2",
             "pop",
+            "bar",
             "sug",
-            "euc",
-            "pot",
-            "mai",
-            "mis",
-            "pea",
-            "cot",
-            "ben",
-            "nut",
             "mgr",
+            "sgb",
+            "nut",
+            "pea",
+            "cas",
             "rap",
+            "cot",
+            "ri1",
+            "mil",
+            "ben",
+            "ric",
+            "soy",
             "sor",
-            "whe"
+            "rye",
+            "mai",
+            "pot",
+            "sun",
+            "ri2",
+            "whe",
+            "euc",
+            "mis"
           ]
         },
         "irrigation": {
@@ -176,18 +176,18 @@
         "region": {
           "type": "string",
           "enum": [
-            "global",
+            "lena",
             "finland",
-            "lena"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
             "daily",
-            "monthly",
+            "constant",
             "annual",
-            "constant"
+            "monthly"
           ]
         },
         "start_year": {
