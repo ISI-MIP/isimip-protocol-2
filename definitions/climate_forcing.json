@@ -71,7 +71,7 @@
   },
   {
     "specifier": "key-run",
-    "title": "Input data self-provided by Marine-Fishery sector and not supported by ISIMIP2 protocol.",
+    "title": "key run (input data self-provided)",
     "simulation_rounds": [
       "ISIMIP2a"
     ],
