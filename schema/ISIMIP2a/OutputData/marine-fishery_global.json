@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
-  "commit": "3fc1b12eade3fe78eafdfa5792d8a6e223dd5820",
+  "commit": "2b9cb6b7c14347efc2410896033468b49c059c3c",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,15 +25,15 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "princeton",
-            "watch",
             "ewembi",
-            "gswp3",
-            "gswp3-ewembi",
             "key-run",
+            "watch-wfdei",
+            "watch",
+            "princeton",
             "gswp3-w5e5",
+            "gswp3",
             "gfdl-reanalysis",
-            "watch-wfdei"
+            "gswp3-ewembi"
           ]
         },
         "bias_adjustment": {
@@ -46,31 +46,31 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "hist",
-            "fore"
+            "fore",
+            "hist"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "tpb",
             "tc30cm",
-            "cmed",
-            "blarge",
             "tcb",
+            "tsb",
+            "b10cm-bendet",
             "tc",
             "b30cm",
-            "b10cm-bendet",
-            "bcom",
-            "clarge",
-            "tsb",
-            "tc10cm",
-            "bsmall",
-            "b10cm-pelpred",
-            "b30cm-bendet",
-            "bmed",
-            "b10cm",
             "csmall",
+            "tc10cm",
+            "b10cm",
+            "b30cm-bendet",
+            "b10cm-pelpred",
+            "clarge",
+            "blarge",
+            "bmed",
+            "bsmall",
+            "cmed",
+            "bcom",
+            "tpb",
             "b30cm-pelpred"
           ]
         },
@@ -85,9 +85,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "annual",
-            "monthly"
+            "monthly",
+            "daily"
           ]
         },
         "start_year": {

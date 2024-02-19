@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/biodiversity.json",
-  "commit": "3fc1b12eade3fe78eafdfa5792d8a6e223dd5820",
+  "commit": "2b9cb6b7c14347efc2410896033468b49c059c3c",
   "type": "object",
   "required": [
     "specifiers"
@@ -29,9 +29,9 @@
           "enum": [
             "miroc5",
             "cesm1-bgc",
-            "hadgem2-es",
             "gfdl-esm2m",
-            "ipsl-cm5a-lr"
+            "ipsl-cm5a-lr",
+            "hadgem2-es"
           ]
         },
         "bias_adjustment": {
@@ -44,78 +44,78 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp26",
-            "rcp45",
+            "picontrol",
             "2005co2",
-            "rcp85",
-            "2299rcp26",
-            "rcp60",
             "historical",
-            "picontrol"
+            "rcp60",
+            "rcp45",
+            "2299rcp26",
+            "rcp85",
+            "rcp26"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "pressoc",
-            "rcp26socam",
+            "ssp1soc",
+            "2100rcp26soc",
             "rcp85soca",
-            "rcp60sochwp",
-            "rcp85socbeb",
-            "rcp60socam",
-            "rcp85sochwp",
-            "rcp26sochwp",
-            "nosoc",
-            "rcp60soc",
-            "rcp85soc",
-            "1860soc",
-            "rcp26socbeb",
-            "nat",
-            "rcp26socbe",
             "rcp26soc",
-            "ssp4soc",
             "rcp60soca",
             "2005socsite",
-            "ssp5soc",
-            "ssp2soc",
             "ssp3soc",
-            "rcp85socbe",
-            "rcp60socbeb",
-            "2005soc",
-            "histsoc",
-            "rcp85socam",
-            "2100rcp26soc",
-            "ssp1soc",
+            "ssp4soc",
             "varsoc",
+            "rcp85socam",
+            "nat",
+            "ssp2soc",
+            "rcp60socbeb",
+            "rcp85socbe",
+            "rcp26soca",
+            "rcp26socbe",
             "rcp60socbe",
-            "rcp26soca"
+            "rcp60sochwp",
+            "nosoc",
+            "2005soc",
+            "pressoc",
+            "rcp26socbeb",
+            "1860soc",
+            "rcp26sochwp",
+            "rcp85soc",
+            "rcp85socbeb",
+            "histsoc",
+            "rcp85sochwp",
+            "rcp60soc",
+            "rcp60socam",
+            "rcp26socam",
+            "ssp5soc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "co2",
             "2005co2",
+            "co2",
             "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "birdsr",
             "mammalprob",
-            "amphibiansr",
-            "thrmammalsumprob",
+            "thrbirdsumprob",
+            "mammalsumprob",
+            "amphibiansumprob",
+            "birdsumprob",
+            "thramphibiansumprob",
             "endmammalsumprob",
             "endamphibiansumprob",
+            "birdsr",
+            "thrmammalsumprob",
             "endbirdsumprob",
-            "birdsumprob",
-            "birdprob",
-            "amphibiansumprob",
             "mammalsr",
-            "thramphibiansumprob",
-            "thrbirdsumprob",
-            "mammalsumprob"
+            "birdprob",
+            "amphibiansr"
           ]
         },
         "region": {
@@ -129,10 +129,10 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
             "annual",
+            "monthly",
             "30year-mean",
-            "monthly"
+            "daily"
           ]
         },
         "start_year": {
