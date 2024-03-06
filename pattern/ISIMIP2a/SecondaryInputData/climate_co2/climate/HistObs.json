@@ -1,5 +1,5 @@
 {
-  "commit": "2b9cb6b7c14347efc2410896033468b49c059c3c",
+  "commit": "ffaa981c33d43c9f7d57f15994f7c80c15f0355d",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(climate_co2)/(?P<category>[a-z]+)/(?P<subcategory>[A-Za-z]+)/(?P<climate_forcing>[A-Za-z0-9-.]+)$",
   "dataset": "^(?P<climate_variable>[A-Za-z]+)_(?P<climate_forcing>(ewembi))",
   "file": "^(?P<climate_variable>[A-Za-z]+)_(?P<climate_forcing>(ewembi))(_(?P<start_year>\\d{4})_(?P<end_year>\\d{4}))?(.nc4)",
