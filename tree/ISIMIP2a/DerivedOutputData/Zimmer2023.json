@@ -1,0 +1,11 @@
+{
+  "commit": "3c1627938695b62207b8be1fafb3e3ffe304cb53",
+  "identifiers": [
+    "simulation_round",
+    "product",
+    "publication",
+    "model",
+    "climate_forcing",
+    "variable"
+  ]
+}

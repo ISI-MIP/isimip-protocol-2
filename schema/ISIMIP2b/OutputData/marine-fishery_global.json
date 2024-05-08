@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/marine-fishery_global.json",
-  "commit": "ffaa981c33d43c9f7d57f15994f7c80c15f0355d",
+  "commit": "3c1627938695b62207b8be1fafb3e3ffe304cb53",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,55 +25,55 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "cesm1-bgc",
             "gfdl-esm2m",
             "hadgem2-es",
             "ipsl-cm5a-lr",
+            "cesm1-bgc",
             "miroc5"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "nobc",
-            "ewembi"
+            "ewembi",
+            "nobc"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp26",
-            "picontrol",
-            "rcp85",
             "rcp45",
+            "picontrol",
             "rcp60",
-            "2005co2",
+            "rcp85",
+            "2299rcp26",
+            "rcp26",
             "historical",
-            "2299rcp26"
+            "2005co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "tcb",
-            "tc10cm",
-            "bcom",
-            "clarge",
-            "b30cm",
+            "blarge",
+            "cmed",
             "bsmall",
+            "csmall",
+            "tc",
             "tc30cm",
-            "tpb",
             "b30cm-bendet",
             "tsb",
-            "csmall",
-            "b10cm-pelpred",
-            "b10cm-bendet",
-            "cmed",
-            "blarge",
-            "b30cm-pelpred",
+            "b30cm",
             "b10cm",
+            "tpb",
+            "b10cm-bendet",
             "bmed",
-            "tc"
+            "b10cm-pelpred",
+            "clarge",
+            "b30cm-pelpred",
+            "tc10cm",
+            "tcb",
+            "bcom"
           ]
         },
         "region": {
@@ -87,9 +87,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
+            "annual",
             "daily",
-            "annual"
+            "monthly"
           ]
         },
         "start_year": {
