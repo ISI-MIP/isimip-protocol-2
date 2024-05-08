@@ -1,4 +1,14 @@
-all: definitions.py glossary.py pattern.py schema.py tree.py
+all: definitions glossary pattern schema tree
+
+definitions: definitions.py
+
+glossary: glossary.py
+
+pattern: pattern.py
+
+schema: schema.py
+
+tree: tree.py
 
 %.py:
 	python3 build/$@
@@ -6,4 +16,4 @@ all: definitions.py glossary.py pattern.py schema.py tree.py
 clean:
 	rm -r output;
 
-.PHONY: clean
+.PHONY: all definitions glossary pattern schema tree clean

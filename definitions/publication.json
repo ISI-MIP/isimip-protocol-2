@@ -4,5 +4,11 @@
     "path_specifier": "Lange2020",
     "title": "Lange et al. 2020",
     "doi": "https://doi.org/10.1029/2020EF001616"
+  },
+  {
+    "specifier": "Zimmer2023",
+    "path_specifier": "Zimmer2023",
+    "title": "Zimmer et al. 2023",
+    "doi": "https://doi.org/"
   }
 ]

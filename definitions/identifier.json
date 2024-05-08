@@ -114,5 +114,9 @@
   {
     "specifier": "sealevelrise_contrib",
     "title": "Sealevelrise contribution"
+  },
+  {
+    "specifier": "protection_level",
+    "title": "Protection level"
   }
 ]

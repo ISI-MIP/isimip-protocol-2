@@ -2070,5 +2070,19 @@
     ],
     "specifier": "af-heat",
     "units": "%"
+  },
+  {
+    "products": [
+      "DerivedOutputData"
+    ],
+    "specifier": "flddph",
+    "units": ""
+  },
+  {
+    "products": [
+      "DerivedOutputData"
+    ],
+    "specifier": "fldfrc",
+    "units": ""
   }
 ]
