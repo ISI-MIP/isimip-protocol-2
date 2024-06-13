@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/InputData/other.json",
-  "commit": "3c1627938695b62207b8be1fafb3e3ffe304cb53",
+  "commit": "c89d25ae098e8fd383633a7afc8d20b0fe0af1df",
   "type": "object",
   "required": [
     "specifiers"
