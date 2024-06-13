@@ -59,6 +59,10 @@
     "title": "Data product"
   },
   {
+    "specifier": "publication",
+    "title": "Publication"
+  },
+  {
     "specifier": "region",
     "title": "Region"
   },
