@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/biodiversity.json",
-  "commit": "c89d25ae098e8fd383633a7afc8d20b0fe0af1df",
+  "commit": "0d948fc405a24b13b708523ea3efe6ee05c6d27a",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,112 +27,112 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gfdl-esm2m",
-            "cesm1-bgc",
             "hadgem2-es",
+            "ipsl-cm5a-lr",
             "miroc5",
-            "ipsl-cm5a-lr"
+            "cesm1-bgc",
+            "gfdl-esm2m"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "ewembi",
-            "nobc"
+            "nobc",
+            "ewembi"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp45",
-            "rcp26",
+            "rcp60",
             "rcp85",
             "2005co2",
-            "2299rcp26",
-            "picontrol",
+            "rcp26",
             "historical",
-            "rcp60"
+            "picontrol",
+            "2299rcp26",
+            "rcp45"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "rcp60socbe",
-            "rcp60soca",
-            "2005socsite",
-            "rcp60socam",
-            "nosoc",
-            "pressoc",
-            "rcp26socbe",
-            "histsoc",
-            "rcp85socam",
-            "ssp1soc",
-            "rcp26soc",
-            "rcp26sochwp",
-            "rcp60socbeb",
-            "rcp60sochwp",
-            "varsoc",
-            "rcp85soc",
             "rcp26socam",
-            "rcp85socbeb",
+            "2100rcp26soc",
+            "rcp26soc",
+            "rcp60socam",
+            "rcp85socam",
             "rcp26soca",
-            "2005soc",
-            "rcp26socbeb",
-            "nat",
             "1860soc",
-            "ssp4soc",
-            "ssp3soc",
-            "ssp5soc",
-            "rcp60soc",
-            "ssp2soc",
+            "2005soc",
             "rcp85soca",
-            "rcp85sochwp",
+            "rcp60socbeb",
+            "ssp2soc",
+            "rcp85soc",
+            "ssp1soc",
+            "histsoc",
+            "pressoc",
+            "nosoc",
+            "rcp60socbe",
             "rcp85socbe",
-            "2100rcp26soc"
+            "ssp5soc",
+            "rcp85sochwp",
+            "rcp26sochwp",
+            "rcp60soc",
+            "rcp60soca",
+            "ssp3soc",
+            "varsoc",
+            "rcp60sochwp",
+            "ssp4soc",
+            "2005socsite",
+            "rcp26socbeb",
+            "rcp26socbe",
+            "nat",
+            "rcp85socbeb"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
             "co2",
-            "2005co2"
+            "2005co2",
+            "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "amphibiansr",
-            "mammalsumprob",
             "endbirdsumprob",
-            "thrbirdsumprob",
-            "birdprob",
-            "birdsumprob",
-            "thramphibiansumprob",
-            "mammalsr",
-            "amphibiansumprob",
             "thrmammalsumprob",
-            "mammalprob",
-            "endmammalsumprob",
+            "thramphibiansumprob",
+            "mammalsumprob",
             "endamphibiansumprob",
-            "birdsr"
+            "endmammalsumprob",
+            "birdsr",
+            "mammalprob",
+            "thrbirdsumprob",
+            "mammalsr",
+            "amphibiansr",
+            "birdprob",
+            "amphibiansumprob",
+            "birdsumprob"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "lena",
             "global",
-            "finland"
+            "finland",
+            "lena"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
+            "daily",
             "30year-mean",
             "annual",
-            "monthly",
-            "daily"
+            "monthly"
           ]
         },
         "start_year": {
