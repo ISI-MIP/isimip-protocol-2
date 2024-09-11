@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/waterborne_diseases.json",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/labour.json",
   "commit": "b25f25be8cef5d2d20d997693177400c6002f780",
   "type": "object",
   "required": [
@@ -8,6 +8,7 @@
   ],
   "properties": {
     "specifiers": {
+      "type": "object",
       "required": [
         "model",
         "climate_forcing",
@@ -15,7 +16,7 @@
         "climate_scenario",
         "soc_scenario",
         "variable",
-        "disease",
+        "inoutdoor",
         "region",
         "time_step"
       ],
@@ -90,31 +91,24 @@
             "ssp3soc"
           ]
         },
+        "sens_scenario": {
+          "type": "string",
+          "enum": [
+            "default",
+            "2005co2",
+            "co2"
+          ]
+        },
         "variable": {
           "type": "string",
           "enum": [
-            "excess-rain-prevalence",
-            "excess-temp-incidence",
-            "excess-rain-incidence",
-            "excess-temp-prevalence",
-            "excess-temp-mortality",
-            "excess-rain-mortality"
+            "ls",
+            "el",
+            "lp"
           ]
         },
-        "disease": {
-          "type": "string",
-          "enum": [
-            "norovirus",
-            "epecoli",
-            "campylobacter",
-            "cryptosporidium",
-            "cholera",
-            "etecoli",
-            "salmonella",
-            "shigella",
-            "rotavirus",
-            "typhoid"
-          ]
+        "inoutdoor": {
+          "type": "string"
         },
         "region": {
           "type": "string",

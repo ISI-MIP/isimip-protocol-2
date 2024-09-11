@@ -2,52 +2,38 @@
   "commit": "b25f25be8cef5d2d20d997693177400c6002f780",
   "climate_forcing": [
     {
-      "specifier": "gswp3",
-      "title": "GSWP3",
+      "specifier": "gfdl-esm2m",
+      "title": "GFDL-ESM2M",
       "simulation_rounds": [
-        "ISIMIP2a"
+        "ISIMIP2b"
       ]
     },
     {
-      "specifier": "gswp3-ewembi",
-      "title": "GSWP3-EWEMBI",
+      "specifier": "hadgem2-es",
+      "title": "HadGEM2-ES",
       "simulation_rounds": [
-        "ISIMIP2a"
+        "ISIMIP2b"
       ]
     },
     {
-      "specifier": "gswp3-w5e5",
-      "title": "GSWP3-W5E5",
+      "specifier": "ipsl-cm5a-lr",
+      "title": "IPSL-CM5A-LR",
       "simulation_rounds": [
-        "ISIMIP2a"
+        "ISIMIP2b"
       ]
     },
     {
-      "specifier": "ewembi",
-      "title": "EWEMBI",
+      "specifier": "miroc5",
+      "title": "MIROC5",
       "simulation_rounds": [
-        "ISIMIP2a"
+        "ISIMIP2b"
       ]
     },
     {
-      "specifier": "princeton",
-      "title": "PGMFD v2.1 (Princeton)",
+      "specifier": "cesm1-bgc",
+      "title": "CESM1-BGC",
       "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    },
-    {
-      "specifier": "watch",
-      "title": "WATCH (WFD)",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    },
-    {
-      "specifier": "watch-wfdei",
-      "title": "WATCH-WFDEI",
-      "simulation_rounds": [
-        "ISIMIP2a"
+        "ISIMIP2b"
       ]
     }
   ],
@@ -127,72 +113,72 @@
     {
       "specifier": "agriculture",
       "title": "Agriculture",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "biodiversity",
       "title": "Terrestrial biodiversity",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "biomes",
       "title": "Biomes",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "forestry",
       "title": "Regional forests",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "health",
       "title": "Temperature-related mortality",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "lakes_global",
       "title": "Lakes (global)",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "lakes_local",
       "title": "Lakes (local)",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "marine-fishery_global",
       "title": "Fisheries and Marine Ecosystems (global)",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "marine-fishery_regional",
       "title": "Fisheries and Marine Ecosystems (regional)",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "permafrost",
       "title": "Permafrost",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "waterborne_diseases",
       "title": "Waterborne Diseases",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "water_global",
       "title": "Water (global)",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "water_regional",
       "title": "Water (regional)",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     },
     {
       "specifier": "labour",
       "title": "Labour",
-      "urls": "https://www.isimip.org/protocol/2a/"
+      "urls": "https://www.isimip.org/protocol/2b/"
     }
   ],
   "sens_scenario": [
@@ -206,20 +192,6 @@
     {
       "specifier": "2005co2",
       "description": "Sensitivity experiment with CO2 concentration fixed at 2005 levels at 378.81ppm."
-    },
-    {
-      "specifier": "noco2",
-      "description": "Sensitivity experiment: only applies to models that take CO2 into account. CO2 concentration fixed at present-day value, i.e. run with transient historical CO2 up to the year 2000 and keep CO2 fixed at 369ppm thereafter.",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
-    },
-    {
-      "specifier": "co2const",
-      "description": "Keep CO2 concentration constant at 1971 level. For spin-up, use time-varying, historical CO2 concentration until 1970.",
-      "simulation_rounds": [
-        "ISIMIP2a"
-      ]
     }
   ],
   "soc_scenario": [
@@ -360,310 +332,46 @@
   ],
   "variable": [
     {
-      "sectors": [
-        "lakes_global",
-        "lakes_local",
-        "biomes"
+      "long_name": "Changes in Effective Labour",
+      "extension": [
+        "<inoutdoor>"
       ],
-      "specifier": "albedo",
-      "units": "1"
+      "products": [
+        "OutputData"
+      ],
+      "sectors": [
+        "labour"
+      ],
+      "specifier": "el",
+      "units": "%"
     },
     {
-      "long_name": "Temperature of Lake Bottom Water",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
+      "long_name": "Changes in Labour Productivity",
+      "extension": [
+        "<inoutdoor>"
       ],
-      "specifier": "bottemp",
-      "units": "K"
+      "products": [
+        "OutputData"
+      ],
+      "sectors": [
+        "labour"
+      ],
+      "specifier": "lp",
+      "units": "%"
     },
     {
-      "long_name": "Buoyancy frequency",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
+      "long_name": "Changes in Labour Supply",
+      "extension": [
+        "<inoutdoor>"
       ],
-      "specifier": "buoyancyfrequency",
-      "units": "s-2"
-    },
-    {
-      "long_name": "Lake Ice Cover",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
+      "products": [
+        "OutputData"
       ],
-      "specifier": "ice",
-      "units": "1"
-    },
-    {
-      "long_name": "Ice Thickness",
       "sectors": [
-        "lakes_global",
-        "lakes_local"
+        "labour"
       ],
-      "specifier": "icethick",
-      "units": "m"
-    },
-    {
-      "long_name": "Ice Temperature at Upper Surface",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "icetemp",
-      "units": "K"
-    },
-    {
-      "long_name": "Downward Heat Flux at Lake-Atmosphere Interface",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "lakeheatf",
-      "units": "W m-2"
-    },
-    {
-      "long_name": "Turbulent Diffusivity of Heat",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "turbdiffheat",
-      "units": "m2 s-1"
-    },
-    {
-      "long_name": "Latent Heat Flux at Lake-Atmosphere Interface",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "latentheatf",
-      "units": "W m-2"
-    },
-    {
-      "long_name": "Lake Layer Ice Mass Fraction",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "lakeicefrac",
-      "units": "1"
-    },
-    {
-      "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "lwup",
-      "units": "W m-2"
-    },
-    {
-      "long_name": "Momentum Flux at Lake-Atmosphere Interface",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "momf",
-      "units": "kg m-1 s-2"
-    },
-    {
-      "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "sedheatf",
-      "units": "W m-2"
-    },
-    {
-      "long_name": "Chlorophyll Concentration",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "chl",
-      "units": "g-3 m-3"
-    },
-    {
-      "long_name": "Phytoplankton Functional Group Biomass",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "phytobio",
-      "units": "mole m-3 as carbon"
-    },
-    {
-      "long_name": "Zooplankton Biomass",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "zoobio",
-      "units": "mole m-3 as carbon"
-    },
-    {
-      "long_name": "Total Phosphorus",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "tp",
-      "units": "mole m-3"
-    },
-    {
-      "long_name": "Particulate Phosphorus",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "pp",
-      "units": "mole m-3"
-    },
-    {
-      "long_name": "Total Dissolved Phosphorus",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "tpd",
-      "units": "mole m-3"
-    },
-    {
-      "long_name": "Total Nitrogen",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "tn",
-      "units": "mole m-3"
-    },
-    {
-      "long_name": "Particulate Nitrogen",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "pn",
-      "units": "mole m-3"
-    },
-    {
-      "long_name": "Total Dissolved Nitrogen",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "tdn",
-      "units": "mole m-3"
-    },
-    {
-      "long_name": "Dissolved Oxygen",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "do",
-      "units": "mole m-3"
-    },
-    {
-      "long_name": "Dissolved Organic Carbon",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "doc",
-      "units": "mole m-3"
-    },
-    {
-      "long_name": "Dissolved Silica",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "si",
-      "units": "mole m-3"
-    },
-    {
-      "long_name": "Buoyancy Frequency",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "buoyancyfrequency",
-      "units": "s-2"
-    },
-    {
-      "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "sensheatf",
-      "units": "W m-2"
-    },
-    {
-      "long_name": "Snow Temperature at Upper Surface",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "snowtemp",
-      "units": "K"
-    },
-    {
-      "long_name": "Snow Thickness",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "snowthick",
-      "units": "m"
-    },
-    {
-      "long_name": "Thermal Stratification",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "strat",
-      "units": "1"
-    },
-    {
-      "long_name": "Temperature of Lake Surface Water",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "surftemp",
-      "units": "K"
-    },
-    {
-      "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "swup",
-      "units": "W m-2"
-    },
-    {
-      "long_name": "Depth of Thermocline",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "thermodepth",
-      "units": "m"
-    },
-    {
-      "long_name": "Temperature of Lake Water",
-      "sectors": [
-        "lakes_global",
-        "lakes_local"
-      ],
-      "specifier": "watertemp",
-      "units": "K"
+      "specifier": "ls",
+      "units": "%"
     }
   ],
   "river_basin": [
@@ -1164,17 +872,62 @@
   ],
   "climate_scenario": [
     {
-      "specifier": "hist",
-      "description": "Observed climate and CO\u2082 forcing used for model evaluation and the detection and attribution task.",
+      "specifier": "picontrol",
+      "description": "Pre-industrial climate and 286ppm CO2 concentration.",
       "simulation_rounds": [
-        "ISIMIP2a"
+        "ISIMIP2b"
       ]
     },
     {
-      "specifier": "fore",
-      "description": "Unsupported climate scenario from Marine-Fishery sector",
+      "specifier": "historical",
+      "description": "Historical climate as simulated by the GCMs.",
       "simulation_rounds": [
-        "ISIMIP2a"
+        "ISIMIP2b"
+      ]
+    },
+    {
+      "specifier": "rcp26",
+      "description": "RCP2.6 climate as simulated by the GCMs.",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ]
+    },
+    {
+      "specifier": "rcp45",
+      "description": "RCP4.5 climate as simulated by the GCMs.",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ],
+      "periods": [
+        "SecondaryOutputData"
+      ]
+    },
+    {
+      "specifier": "rcp60",
+      "description": "RCP6.0 climate as simulated by the GCMs.",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ]
+    },
+    {
+      "specifier": "rcp85",
+      "description": "RCP8.5 climate as simulated by the GCMs.",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ]
+    },
+    {
+      "specifier": "2005co2",
+      "description": "CO2 concentration fixed at 2005 levels at 378.81ppm.",
+      "simulation_rounds": [
+        "ISIMIP2b"
+      ]
+    },
+    {
+      "specifier": "2299rcp26",
+      "description": "Repeating climate between 2270 and 2299 for additional 200 years up to 2500 (or equilibrium if possible), CO2 fixed at year 2299 levels.",
+      "simulation_rounds": [
+        "ISIMIP2b"
       ]
     }
   ],
@@ -2773,69 +2526,43 @@
   "time_span": [
     {
       "specifier": "minimum",
-      "value": 1901
+      "value": 1661
     },
     {
       "specifier": "maximum",
-      "value": 2018
+      "value": 2299
     },
     {
       "specifier": "start_pre-ind",
-      "value": {
-        "ISIMIP2b": 1661
-      }
+      "value": 1661
     },
     {
       "specifier": "end_pre-ind",
-      "value": {
-        "ISIMIP2b": 1860
-      }
+      "value": 1860
     },
     {
       "specifier": "start_hist",
-      "value": {
-        "princeton": 1901,
-        "gswp3-w5e5": 1901,
-        "gswp3-ewembi": 1901,
-        "gswp3": 1901,
-        "watch": 1901,
-        "watch-wfdei": 1901
-      }
+      "value": 1861
     },
     {
       "specifier": "end_hist",
-      "value": {
-        "princeton": 2012,
-        "gswp3-w5e5": 2016,
-        "gswp3-ewembi": 2016,
-        "gswp3": 2010,
-        "watch": 2001,
-        "watch-wfdei": 2016
-      }
+      "value": 2005
     },
     {
       "specifier": "start_fut",
-      "value": {
-        "ISIMIP2b": 2006
-      }
+      "value": 2006
     },
     {
       "specifier": "end_fut",
-      "value": {
-        "ISIMIP2b": 2099
-      }
+      "value": 2099
     },
     {
       "specifier": "start_fut-ext",
-      "value": {
-        "ISIMIP2b": 2100
-      }
+      "value": 2100
     },
     {
       "specifier": "end_fut-ext",
-      "value": {
-        "ISIMIP2b": 2299
-      }
+      "value": 2299
     }
   ],
   "ocean_region": [

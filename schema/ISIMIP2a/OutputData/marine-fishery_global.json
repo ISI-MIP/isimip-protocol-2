@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_global.json",
-  "commit": "0d948fc405a24b13b708523ea3efe6ee05c6d27a",
+  "commit": "b25f25be8cef5d2d20d997693177400c6002f780",
   "type": "object",
   "required": [
     "specifiers"
@@ -25,15 +25,15 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3",
-            "watch",
-            "gswp3-w5e5",
             "princeton",
-            "ewembi",
-            "gfdl-reanalysis",
             "key-run",
+            "watch",
+            "gswp3",
+            "gswp3-w5e5",
+            "gfdl-reanalysis",
+            "gswp3-ewembi",
             "watch-wfdei",
-            "gswp3-ewembi"
+            "ewembi"
           ]
         },
         "bias_adjustment": {
@@ -46,32 +46,32 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "fore",
-            "hist"
+            "hist",
+            "fore"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
             "b10cm-pelpred",
-            "b10cm",
-            "csmall",
-            "tpb",
-            "bmed",
-            "b30cm",
-            "tc",
-            "cmed",
-            "b30cm-bendet",
-            "tc10cm",
             "tc30cm",
-            "b10cm-bendet",
+            "b30cm-bendet",
+            "tpb",
+            "tc",
+            "csmall",
             "bcom",
+            "tc10cm",
+            "b30cm",
+            "blarge",
             "bsmall",
             "tcb",
+            "cmed",
             "tsb",
             "clarge",
-            "blarge",
-            "b30cm-pelpred"
+            "b30cm-pelpred",
+            "b10cm-bendet",
+            "bmed",
+            "b10cm"
           ]
         },
         "region": {
@@ -85,9 +85,9 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
+            "monthly",
             "annual",
-            "monthly"
+            "daily"
           ]
         },
         "start_year": {
