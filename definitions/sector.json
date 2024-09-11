@@ -102,5 +102,13 @@
       "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
       "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
     }
+  },
+  {
+    "specifier": "labour",
+    "title": "Labour",
+    "urls": {
+      "ISIMIP2a": "https://www.isimip.org/protocol/2a/",
+      "ISIMIP2b": "https://www.isimip.org/protocol/2b/"
+    }
   }
 ]

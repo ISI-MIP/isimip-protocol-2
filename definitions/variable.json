@@ -2103,5 +2103,47 @@
     ],
     "specifier": "fldfrc",
     "units": ""
+  },
+  {
+    "long_name": "Changes in Effective Labour",
+    "extension": [
+      "<inoutdoor>"
+    ],
+    "products": [
+      "OutputData"
+    ],
+    "sectors": [
+      "labour"
+    ],
+    "specifier": "el",
+    "units": "%"
+  },
+  {
+    "long_name": "Changes in Labour Productivity",
+    "extension": [
+      "<inoutdoor>"
+    ],
+    "products": [
+      "OutputData"
+    ],
+    "sectors": [
+      "labour"
+    ],
+    "specifier": "lp",
+    "units": "%"
+  },
+  {
+    "long_name": "Changes in Labour Supply",
+    "extension": [
+      "<inoutdoor>"
+    ],
+    "products": [
+      "OutputData"
+    ],
+    "sectors": [
+      "labour"
+    ],
+    "specifier": "ls",
+    "units": "%"
   }
 ]
