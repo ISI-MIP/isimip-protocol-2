@@ -1,5 +1,5 @@
 {
-  "commit": "e970b7159e96491f5a83db0cbb4ceb1ee075dae3",
+  "commit": "58d7c488996af78714582fe8a12dfb96274a2ba5",
   "climate_forcing": [
     {
       "specifier": "gswp3",
@@ -870,13 +870,15 @@
       "valid_min": 250.0
     },
     {
+      "long_name": "Broadleaf to Needleleaf Index",
       "products": [
         "SecondaryOutputData"
       ],
       "sectors": [
         "biomes"
       ],
-      "specifier": "needle-index"
+      "specifier": "needle-index",
+      "units": "none"
     }
   ],
   "river_basin": [
