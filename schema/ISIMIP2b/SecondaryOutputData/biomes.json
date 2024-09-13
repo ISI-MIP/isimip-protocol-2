@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/OutputData/health.json",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/SecondaryOutputData/biomes.json",
   "commit": "513a022ab7729bee10e1e3064a6ee16d252c3c37",
   "type": "object",
   "required": [
@@ -15,6 +15,7 @@
         "bias_adjustment",
         "climate_scenario",
         "soc_scenario",
+        "sens_scenario",
         "variable",
         "region",
         "time_step"
@@ -101,12 +102,93 @@
         "variable": {
           "type": "string",
           "enum": [
-            "an-rate-cold",
-            "an-tot-cold",
-            "af-cold",
-            "af-heat",
-            "an-rate-heat",
-            "an-tot-heat"
+            "npplandleaf",
+            "gpp",
+            "cwood",
+            "potevap",
+            "cvegag",
+            "clitter",
+            "evap",
+            "rainf",
+            "npp",
+            "swe",
+            "burntarea",
+            "npproot",
+            "lai",
+            "albedo",
+            "soilmoist",
+            "intercep",
+            "pft",
+            "snd",
+            "dis",
+            "tsl",
+            "nppleaf",
+            "esoil",
+            "nppbgwood",
+            "nppbelowgroundwood",
+            "soilmoistfroz",
+            "fireint",
+            "somcfire",
+            "trans",
+            "firefrac",
+            "qtot",
+            "fapar",
+            "nppabovegroundwood",
+            "qsb",
+            "croot",
+            "ra",
+            "rr",
+            "needle-index",
+            "cleaf",
+            "qs",
+            "cvegbg",
+            "cveg",
+            "pft2storeys",
+            "rh",
+            "ecoatmflux",
+            "npplandroot",
+            "thawdepth",
+            "csoil",
+            "tslmax",
+            "nppagwood"
+          ]
+        },
+        "pft": {
+          "type": "string"
+        },
+        "crop": {
+          "type": "string",
+          "enum": [
+            "cot",
+            "mai",
+            "mil",
+            "rap",
+            "pop",
+            "pea",
+            "ben",
+            "mis",
+            "soy",
+            "cas",
+            "euc",
+            "sug",
+            "sor",
+            "sun",
+            "whe",
+            "nut",
+            "pot",
+            "mgr",
+            "bar",
+            "ric",
+            "ri1",
+            "ri2",
+            "sgb",
+            "rye"
+          ]
+        },
+        "irrigation": {
+          "type": "string",
+          "enum": [
+            "noirr"
           ]
         },
         "region": {
@@ -121,6 +203,7 @@
           "type": "string",
           "enum": [
             "daily",
+            "constant",
             "annual",
             "monthly"
           ]

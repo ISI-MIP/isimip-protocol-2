@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/marine-fishery_regional.json",
-  "commit": "b25f25be8cef5d2d20d997693177400c6002f780",
+  "commit": "513a022ab7729bee10e1e3064a6ee16d252c3c37",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,13 +26,13 @@
           "type": "string",
           "enum": [
             "princeton",
-            "key-run",
+            "watch-wfdei",
+            "gswp3-ewembi",
+            "gfdl-reanalysis",
             "watch",
             "gswp3",
+            "key-run",
             "gswp3-w5e5",
-            "gfdl-reanalysis",
-            "gswp3-ewembi",
-            "watch-wfdei",
             "ewembi"
           ]
         },
@@ -53,44 +53,44 @@
         "variable": {
           "type": "string",
           "enum": [
-            "b10cm-pelpred",
-            "tc",
-            "tc10cm",
+            "b30cm",
             "tcb",
             "tc30cm",
-            "b30cm",
-            "bcom",
-            "tla",
-            "tsb",
-            "b30cm-bendet",
             "b30cm-pelpred",
-            "b10cm-bendet",
             "tpb",
-            "b10cm"
+            "tla",
+            "tc10cm",
+            "bcom",
+            "b10cm",
+            "b10cm-bendet",
+            "b30cm-bendet",
+            "b10cm-pelpred",
+            "tc",
+            "tsb"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
             "north-sea",
+            "humboldt-n",
             "cook-strait",
-            "benguela",
+            "baltic-sea",
             "se-australia",
             "hawaii",
-            "adriatic-sea",
-            "baltic-sea",
+            "benguela",
             "nw-med-sea",
-            "humboldt-n",
+            "east-bass-strait",
             "med-glob",
-            "east-bass-strait"
+            "adriatic-sea"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
+            "daily",
             "annual",
-            "daily"
+            "monthly"
           ]
         },
         "start_year": {

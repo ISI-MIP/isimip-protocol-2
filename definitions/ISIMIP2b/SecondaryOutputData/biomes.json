@@ -1,5 +1,5 @@
 {
-  "commit": "b25f25be8cef5d2d20d997693177400c6002f780",
+  "commit": "513a022ab7729bee10e1e3064a6ee16d252c3c37",
   "climate_forcing": [
     {
       "specifier": "gfdl-esm2m",
@@ -840,6 +840,15 @@
       "units": "K",
       "valid_max": 320.0,
       "valid_min": 250.0
+    },
+    {
+      "products": [
+        "SecondaryOutputData"
+      ],
+      "sectors": [
+        "biomes"
+      ],
+      "specifier": "needle-index"
     }
   ],
   "river_basin": [

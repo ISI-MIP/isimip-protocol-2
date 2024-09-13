@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/SecondaryInputData/GCM_atmosphere/biascorrected/global.json",
-  "commit": "b25f25be8cef5d2d20d997693177400c6002f780",
+  "commit": "513a022ab7729bee10e1e3064a6ee16d252c3c37",
   "type": "object",
   "required": [
     "specifiers"
@@ -20,11 +20,11 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ipsl-cm5a-lr",
-            "gfdl-esm2m",
-            "cesm1-bgc",
             "hadgem2-es",
-            "miroc5"
+            "miroc5",
+            "cesm1-bgc",
+            "gfdl-esm2m",
+            "ipsl-cm5a-lr"
           ]
         },
         "ensemble_member": {
@@ -33,22 +33,22 @@
         "bias_adjustment": {
           "type": "string",
           "enum": [
+            "localbc",
             "nobc",
-            "ewembi",
-            "localbc"
+            "ewembi"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "rcp45",
-            "2299rcp26",
-            "picontrol",
-            "historical",
-            "rcp60",
             "rcp85",
-            "2005co2",
-            "rcp26"
+            "2299rcp26",
+            "rcp45",
+            "rcp26",
+            "historical",
+            "picontrol",
+            "rcp60",
+            "2005co2"
           ]
         },
         "climate_variable": {
@@ -57,21 +57,21 @@
         "region": {
           "type": "string",
           "enum": [
-            "global",
+            "lena",
             "finland",
-            "lena"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
-            "seasonal",
-            "daily",
             "annual",
-            "30year-mean",
+            "monthly",
             "3hr",
-            "constant"
+            "daily",
+            "30year-mean",
+            "constant",
+            "seasonal"
           ]
         },
         "start_year": {
