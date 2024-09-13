@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2b/InputData/landseamask.json",
-  "commit": "58d7c488996af78714582fe8a12dfb96274a2ba5",
+  "commit": "26a77d91300da4fab223899606a01ee629054d52",
   "type": "object",
   "required": [
     "specifiers"
