@@ -2145,5 +2145,16 @@
     ],
     "specifier": "ls",
     "units": "%"
+  },
+  {
+    "long_name": "Broadleaf to Needleleaf Index",
+    "products": [
+      "SecondaryOutputData"
+    ],
+    "sectors": [
+      "biomes"
+    ],
+    "specifier": "needle-index",
+    "units": "none"
   }
 ]
