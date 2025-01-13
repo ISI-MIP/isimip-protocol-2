@@ -301,7 +301,7 @@
     "sectors": [
       "marine-fishery_global"
     ],
-    "specifier": "blarge",
+    "specifier": "b-large",
     "units": "g C m-2"
   },
   {
@@ -362,7 +362,7 @@
     "sectors": [
       "marine-fishery_global"
     ],
-    "specifier": "clarge",
+    "specifier": "c-large",
     "units": "g m-2"
   },
   {
