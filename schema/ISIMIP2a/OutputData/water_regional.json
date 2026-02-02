@@ -51,7 +51,7 @@
         "river": {
           "type": "string"
         },
-        "river_basin": {
+        "station": {
           "type": "string"
         },
         "time_step": {

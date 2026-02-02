@@ -71,8 +71,8 @@
     "title": "Spatial resolution"
   },
   {
-    "specifier": "river_basin",
-    "title": "River basin",
+    "specifier": "station",
+    "title": "Station",
     "location": true
   },
   {
