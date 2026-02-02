@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP2a/OutputData/agriculture.json",
-  "commit": "bd3bc36d8152ca4db22531e40b8e9e1acf4842e9",
+  "commit": "deea3b6d2efcbb82fda4462a5f5ef45cb6dd732a",
   "type": "object",
   "required": [
     "specifiers"
@@ -28,13 +28,13 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "watch-wfdei",
             "gswp3-w5e5",
-            "princeton",
-            "watch",
             "gswp3-ewembi",
+            "ewembi",
+            "princeton",
             "gswp3",
-            "ewembi"
+            "watch",
+            "watch-wfdei"
           ]
         },
         "bias_adjustment": {
@@ -47,8 +47,8 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "fore",
-            "hist"
+            "hist",
+            "fore"
           ]
         },
         "harmonization": {
@@ -59,49 +59,49 @@
           "enum": [
             "sco2",
             "gsrsds",
-            "matyyear",
-            "sn2o",
-            "initr",
-            "aet",
-            "plantyear",
-            "gsprcp",
-            "pirrww",
             "biom",
+            "pirrww",
+            "yield",
             "anthday",
-            "leach",
-            "sumt",
+            "gsprcp",
             "matyday",
+            "plantyear",
             "plantday",
-            "yield"
+            "sumt",
+            "initr",
+            "sn2o",
+            "leach",
+            "matyyear",
+            "aet"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "sun",
-            "pot",
-            "ric",
-            "rap",
-            "cot",
-            "pea",
-            "sug",
             "pop",
-            "rye",
+            "mgr",
             "ben",
+            "mis",
+            "pea",
+            "sun",
             "ri2",
-            "mil",
-            "mai",
-            "sgb",
-            "sor",
+            "soy",
             "whe",
             "ri1",
-            "nut",
-            "mgr",
-            "euc",
+            "ric",
+            "rye",
+            "sgb",
             "cas",
-            "soy",
-            "mis",
-            "bar"
+            "sug",
+            "nut",
+            "bar",
+            "pot",
+            "sor",
+            "euc",
+            "mil",
+            "rap",
+            "cot",
+            "mai"
           ]
         },
         "irrigation": {
@@ -114,18 +114,18 @@
         "region": {
           "type": "string",
           "enum": [
-            "global",
             "lena",
-            "finland"
+            "finland",
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
+            "daily",
             "monthly",
-            "seasonal",
             "annual",
-            "daily"
+            "seasonal"
           ]
         },
         "start_year": {
